@@ -1,0 +1,8 @@
+E:\ThucHanh\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe
+E:\ThucHanh\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.pdb
+E:\ThucHanh\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\ResolveAssemblyReference.cache
+E:\ThucHanh\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
+E:\ThucHanh\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
+E:\ThucHanh\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb
+E:\ThucHanh\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\GamesSnake.Form1.resources
+E:\ThucHanh\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\GamesSnake.Properties.Resources.resources

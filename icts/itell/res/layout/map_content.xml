@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:padding="5dip"
+    android:layout_gravity="top"
+    android:id="@+id/map_ll_title"
+    android:background="@drawable/map_border_bg" >
+    <com.icts.control.SwipListView
+        android:id="@+id/map_lv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/line"
+        android:fadingEdge="none"
+        android:visibility="gone"
+        android:layoutAnimation="@anim/layout_bottom_to_top_slide"
+        android:persistentDrawingCache="animation|scrolling"
+        android:scrollbarThumbVertical="@drawable/scrollbar_y"
+        android:scrollingCache="false" />
+
+        <LinearLayout
+            android:id="@+id/map_ll_mapview"
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_height="fill_parent">
+        </LinearLayout>
+   <!--  <com.google.android.maps.MapView 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map_mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" 
+        android:visibility="visible"
+        android:apiKey="0jVjLo-RWwGlWNl72HroGg2QKZTz7uSU6dQXfuw" />  -->   
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimens62"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens50"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/tab_bar" >
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewTabScanner"
+        android:layout_width="@dimen/dimens100"
+        android:layout_height="@dimen/dimens62"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:src="@drawable/_button_scanner" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimens50"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="@dimen/_dimens12"
+        android:layout_toLeftOf="@+id/imageViewTabScanner"
+        android:layout_weight="0.38" >
+
+        <ImageView
+            android:id="@+id/imgShop"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tvuong_tab_click"
+            android:gravity="center"
+            android:padding="0dip"
+            android:src="@drawable/shop_button" />
+
+        <ImageView
+            android:id="@+id/imgCoupon"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tvuong_tab_click"
+            android:padding="0dip"
+            android:src="@drawable/coupon_button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimens50"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/_dimens12"
+        android:layout_toRightOf="@+id/imageViewTabScanner"
+        android:layout_weight="0.38" >
+
+        <ImageView
+            android:id="@+id/imgNews"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/tvuong_tab_click"
+            android:padding="0dip"
+            android:src="@drawable/new_button" />
+
+        <ImageView
+            android:id="@+id/imgSearch"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tvuong_tab_click"
+            android:padding="0dip"
+            android:src="@drawable/search_button" />
+
+    </LinearLayout>
+
+</RelativeLayout>

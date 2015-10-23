@@ -1,0 +1,188 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.caferhythm.csn"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:icon="@drawable/logo_114"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <activity
+            android:name=".activity.FlashScreenActivity"
+            android:label="@string/title_activity_main"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.Entry02Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.Seiri01Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.TestRssReader"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.SPtop01Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.DateChosingActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.AnteiseiChosingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.SeirisyukiChosingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.DataChosingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.PrivacyPolicyActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                
+                <category android:name="android.intent.category.DEFAULT" />
+                
+                <action android:name="android.intent.action.VIEW" />
+                
+                <data android:scheme="caferhythm.privacy_policy" />
+            
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.UseInformationActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                
+                <category android:name="android.intent.category.DEFAULT" />
+                
+                <action android:name="android.intent.action.VIEW" />
+                
+                <data android:scheme="caferhythm.use_info" />
+            
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Sp04Activity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".activity.MyPageActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.SP01Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.TemperatureInputActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.Sp05Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".calender.CalendarViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.Sp07Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".calender.CalenderListViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.BuildAlarmActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.HelpActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.HelpContent01Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.HelpContent02Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.HelpContent03Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.HelpContent06Activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.MailAdressSettingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.CalendarContentActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <receiver android:name=".services.TimeAlarm" >
+        </receiver>
+
+        <activity
+            android:name=".activity.ConfirmAlarmActivity"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".activity.CloneBuildAlarmActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.BuildAlarmActivity2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.ConfirmAlarmActivity2"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <receiver android:name=".services.TimeAlarm2" >
+        </receiver>
+        <activity android:name=".activity.WakeupActivity"></activity>
+    </application>
+
+</manifest>

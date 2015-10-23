@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/date_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens50"
+        android:background="@drawable/date_top" >
+
+        <Button
+            android:id="@+id/date_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimens40"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimens10"
+            android:background="@drawable/tvuong_button_cancelclick" />
+
+        <Button
+            android:id="@+id/date_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimens40"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimens10"
+            android:background="@drawable/tvuong_button_okclick" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens200"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/wheel"
+        android:gravity="center" >
+
+        <com.vn.icts.wendy.view.CustomWheelView
+            android:id="@+id/month"
+            android:layout_width="@dimen/dimens150"
+            android:layout_height="@dimen/dimens150" />
+
+        <com.vn.icts.wendy.view.CustomWheelView
+            android:id="@+id/day"
+            android:layout_width="@dimen/dimens50"
+            android:layout_height="@dimen/dimens150" />
+
+        <com.vn.icts.wendy.view.CustomWheelView
+            android:id="@+id/year"
+            android:layout_width="@dimen/dimens70"
+            android:layout_height="@dimen/dimens150" />
+    </LinearLayout>
+
+</LinearLayout>

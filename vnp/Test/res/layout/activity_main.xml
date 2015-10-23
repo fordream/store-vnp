@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/id1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@drawable/a1_18_iphone_buy_haike1i" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@drawable/sideber_cat_iphosne" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <com.example.test.ViewExample
+        android:id="@+id/viewExample1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.example.test.ViewExample>
+
+    <com.ict.library.view.ResizeTextView
+        android:id="@+id/resize"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="#123456"
+        android:gravity="center"
+        android:text="hihi" >
+    </com.ict.library.view.ResizeTextView>
+
+    <com.ict.library.view.HeaderView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.ict.library.view.HeaderView>
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, IBookActivity!</string>
+    <string name="app_name">biBook</string>
+    <string name="url_download_book">http://ibook.vvn.vn/service/download_book_mobile/%d</string>
+    <string name="url_view_book">http://ibook.vvn.vn/service/book_info/%d</string>
+    <string name="url_view_all">http://ibook.vvn.vn/book/all</string>
+    <string name="url_view_categories">http://ibook.vvn.vn/service/get_categories</string>
+    <string name="cancel">Hủy</string>
+    <string name="download">Tải xuống</string>
+    <string name="OK">OK</string>
+    <string name="message_download_completed">Đã download xong</string>
+    <string name="message_book_exist">Sách này bạn đã down rồi. \nXin chọn sách khác</string>
+    <string name="path_to_category">/SmartBook/%d</string>
+    <string name="path_to_book">/SmartBook/%1$d/%2$d</string>
+    <string name="path_to_text_folder">/SmartBook/%1$d/%2$d/Texts</string>
+    <string name="path_to_image_folder">/SmartBook/%1$d/%2$d/Pictures</string>
+    <string name="path_to_sound_folder">/SmartBook/%1$d/%2$d/Sounds</string>
+    <string name="path_to_text">/Texts/PageInfo%d.txt</string>
+    <string name="path_to_sound">/Sounds/sound_%1$d_%2$d.wav</string>
+    <string name="path_to_picture">/Pictures/Page%3$d.jpg</string>
+    <string name="path_to_cover">Pictures/Cover.jpg</string>
+    <string name="path_to_covericon">/SmartBook/%1$d/%2$d/Pictures/CoverIcon.jpg</string>
+	<string name="message_download_failed">Xảy ra lỗi khi download.\nLàm ơn thử lại.</string>
+	<string name="message_confirm_del">Bạn có muốn xóa book này?</string>
+	<string name="message_no_internet">Kết nối internet bị lỗi</string>
+	<string name="message_name_null">Chưa nhập tên sách.</string>
+	<string name="categories">Sách giáo khoa,Ngoại ngữ,Truyện,Thiên nhiên,Khoa học,Khác,
+	</string>
+	<string name="trangbia">Trang bìa</string>
+	<string name="trang">Trang </string>
+	<color name="black">#000000</color>
+	<color name="unenable">#99837837</color>
+</resources>

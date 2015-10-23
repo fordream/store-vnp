@@ -1,0 +1,163 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* GardenSummer */ = {
+		activeExec = 0;
+		executables = (
+			C42319FD141E729100334F31 /* GardenSummer */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Distribution;
+		activeExecutable = C42319FD141E729100334F31 /* GardenSummer */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* GardenSummer */;
+		codeSenseManager = C4231A2C141E72A900334F31 /* Code sense */;
+		executables = (
+			C42319FD141E729100334F31 /* GardenSummer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1350,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1310,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 337544725;
+			PBXWorkspaceStateSaveDate = 337544725;
+		};
+		perUserProjectItems = {
+			C4231A43141E81B000334F31 /* PBXBookmark */ = C4231A43141E81B000334F31 /* PBXBookmark */;
+			C4602043141E82770030DC9F /* PlistBookmark */ = C4602043141E82770030DC9F /* PlistBookmark */;
+			C469A196141E866D00CCBFDA /* PBXTextBookmark */ = C469A196141E866D00CCBFDA /* PBXTextBookmark */;
+			C469A19E141E8D7800CCBFDA /* PlistBookmark */ = C469A19E141E8D7800CCBFDA /* PlistBookmark */;
+		};
+		sourceControlManager = C4231A2B141E72A900334F31 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	C42319FD141E729100334F31 /* GardenSummer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = GardenSummer;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	C4231A2B141E72A900334F31 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C4231A2C141E72A900334F31 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C4231A43141E81B000334F31 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FC9A951B141E3BD8006D4F9D /* icon.png */;
+	};
+	C4602043141E82770030DC9F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* GardenSummer-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/hero/Desktop/SpringGarden-V1.0/GardenSummerFree/GardenSummer-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	C469A196141E866D00CCBFDA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC2C18291409EE8000B36073 /* PlayerController.m */;
+		name = "PlayerController.m: 47";
+		rLen = 0;
+		rLoc = 1211;
+		rType = 0;
+		vrLen = 1424;
+		vrLoc = 335;
+	};
+	C469A19E141E8D7800CCBFDA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* GardenSummer-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/hero/Desktop/SpringGarden-V1.0/GardenSummerFree/GardenSummer-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	FC2C18291409EE8000B36073 /* PlayerController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1528, 9958}}";
+			sepNavSelRange = "{1211, 0}";
+			sepNavVisRange = "{335, 1424}";
+		};
+	};
+}

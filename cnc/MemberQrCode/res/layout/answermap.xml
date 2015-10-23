@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@+id/LinearLayout1"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/bg2">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="10dip" android:layout_weight="100">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff"
+                android:textSize="14dip"
+                android:textStyle="bold"
+                android:typeface="serif" />
+        </LinearLayout>
+
+        <com.google.android.maps.MapView
+            android:id="@+id/mapview2"
+            android:layout_width="fill_parent"
+            android:layout_height="900dip"
+            android:apiKey="0JLIr0Wo25-2hJg-aQgYgzE9TDJU4BgyjeYPvQw"
+            android:clickable="true"
+            android:enabled="true" android:layout_weight="900">
+        </com.google.android.maps.MapView>
+
+    </LinearLayout>
+	<!-- Zoom -->
+	<LinearLayout android:id="@+id/zoom"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true" android:layout_width="fill_parent"
+		android:layout_height="50dip" />
+	<!-- Mac "0JLIr0Wo25-2hJg-aQgYgzE9TDJU4BgyjeYPvQw" -->
+	<!--win 0JLIr0Wo25-0R7HlrZgDcEzTix9K08laYUC78yA -->
+</RelativeLayout>

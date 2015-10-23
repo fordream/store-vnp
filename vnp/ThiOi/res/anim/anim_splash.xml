@@ -1,0 +1,17 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"  id="selected"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/splash01"
+        android:duration="300">
+    </item>
+    <item
+        android:drawable="@drawable/splash02"
+        android:duration="300">
+    </item>
+    <item
+        android:drawable="@drawable/splash03"
+        android:duration="300">
+    </item>
+
+</animation-list>

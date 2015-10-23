@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.com.vnp.shortheart"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk
+        android:maxSdkVersion="14"
+        android:minSdkVersion="4"
+        android:targetSdkVersion="4" />
+
+    <application
+        android:icon="@drawable/icon1"
+        android:label="@string/app_name" android:name=".service.Mapplication">
+        <activity
+            android:name="HeartHunterSplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.com.vnp.shortheart.CaoThuBongBongScreen"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyTheme" >
+        </activity>
+        <activity
+            android:name="org.com.vnp.shortheart.MenuScreen"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyTheme" >
+        </activity>
+        <service android:name=".service.Mservice"></service>
+    </application>
+
+</manifest>

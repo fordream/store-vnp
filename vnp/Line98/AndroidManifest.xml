@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.vnpgame.line98" android:versionCode="1"
+	android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="4" />
+
+	<application android:icon="@drawable/icon2" android:label="@string/app_name">
+		<activity android:label="@string/app_name"
+			android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+			android:name=".splash.activity.Line98Screen"
+			android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+			android:screenOrientation="landscape">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+				<category android:name="android.intent.category.HOME"/>
+			</intent-filter>
+		</activity>
+		<activity android:name="com.vnpgame.undersea.play.activity.Play3Screen" android:screenOrientation="landscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+		<activity android:name="com.vnpgame.undersea.nextlevel.activity.NextLevelScreen" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale" android:screenOrientation="landscape" android:theme="@style/MyTheme"></activity>
+		<activity android:name="com.vnpgame.undersea.lostgame.activity.LostGameScreen" android:theme="@style/MyTheme" android:screenOrientation="landscape"></activity>
+		<activity android:screenOrientation="landscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="com.vnpgame.undersea.score.activity.ScoreScreen" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale">
+			<intent-filter>
+				<category android:name="android.intent.category.HOME"/>
+			</intent-filter>
+		</activity>
+		<activity android:name="com.vnpgame.undersea.option.OptionScreen" android:screenOrientation="landscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+		<activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:screenOrientation="landscape" android:name="MenuActivity"></activity>
+	</application>
+</manifest>

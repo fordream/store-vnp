@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<RelativeLayout android:layout_height="0dip"
+		android:id="@+id/relativeLayout1" android:layout_width="fill_parent"
+		android:background="@drawable/top">
+		<Button android:layout_width="wrap_content" android:id="@+id/button1"
+			android:layout_height="wrap_content" android:layout_centerVertical="true"
+			android:layout_alignParentLeft="true" android:background="@drawable/btnback"
+			android:layout_marginLeft="10dip" />
+		<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="TextView"
+			android:layout_marginLeft="53dp" android:layout_centerInParent="true"
+			android:textColor="@color/color_white" android:textStyle="bold"
+			android:typeface="serif" />
+		<Button android:id="@+id/button2" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_alignParentRight="true"
+			android:layout_centerVertical="true" 
+			android:layout_marginRight="20dip"></Button>
+	</RelativeLayout>
+	<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@android:id/tabhost" android:paddingTop="@dimen/tab_space_top"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<RelativeLayout android:id="@+id/relativeLayout2"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<LinearLayout android:id="@+id/linearLayout1"
+				android:layout_width="fill_parent" android:layout_alignParentLeft="true"
+				android:layout_alignParentBottom="true" android:layout_height="55dip">
+				<TabWidget android:id="@android:id/tabs"
+					android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:id="@+id/linearLayout2" android:layout_alignParentTop="true"
+				android:layout_alignParentLeft="true"
+				android:layout_alignParentRight="true" android:layout_above="@+id/linearLayout1">
+				<RelativeLayout android:id="@+id/tab_relative_layout"
+					android:layout_width="fill_parent" android:layout_height="fill_parent">
+					<FrameLayout android:id="@android:id/tabcontent"
+						android:layout_width="fill_parent" android:layout_height="fill_parent"
+						android:layout_below="@android:id/tabs" />
+				</RelativeLayout>
+			</LinearLayout>
+		</RelativeLayout>
+	</TabHost>
+</LinearLayout>

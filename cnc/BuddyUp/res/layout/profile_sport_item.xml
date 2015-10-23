@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:padding="5dip">
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/LinearLayout02" android:layout_height="wrap_content">
+        <TextView android:layout_width="100dip" android:textAppearance="?android:attr/textAppearanceSmall" android:typeface="serif" android:textColor="@color/color_back" android:layout_weight="1" android:layout_height="wrap_content" android:text="Sport Name : " android:id="@+id/TextView05" android:textSize="14dip"></TextView>
+        <TextView android:layout_width="180dip" android:textAppearance="?android:attr/textAppearanceSmall" android:typeface="serif" android:textSize="14dip" android:textColor="@color/color_back" android:layout_weight="1" android:layout_height="wrap_content" android:text="Golf" android:id="@+id/profille_sport_item_tVSportName" android:background="@drawable/profile_sport_gold" android:gravity="center_vertical" android:paddingLeft="5dip" android:paddingRight="5dip"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:gravity="center_vertical" android:layout_marginBottom="5dip" android:layout_marginTop="5dip">
+        <TextView android:layout_width="100dip" android:textAppearance="?android:attr/textAppearanceSmall" android:typeface="serif" android:textColor="@color/color_back" android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/TextView03" android:text="Skill Level : " android:textSize="14dip"></TextView>
+        <TextView android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="180dp" android:paddingLeft="5dip" android:id="@+id/profille_sport_item_spSkillLevel" android:background="@drawable/profile_sport_gold" android:gravity="center_vertical" android:typeface="serif" android:textSize="14dip" android:textColor="@color/color_back" android:text="Bginner"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content">
+        <TextView android:layout_width="100dip" android:textAppearance="?android:attr/textAppearanceSmall" android:typeface="serif" android:textColor="@color/color_back" android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/TextView01" android:text="Philosophy : " android:layout_marginBottom="5dip" android:layout_marginTop="5dip" android:textSize="14dip"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout2" android:layout_height="wrap_content">
+        <TextView android:layout_width="180dp" android:layout_weight="1" android:layout_height="wrap_content" android:paddingLeft="5dip" android:id="@+id/profille_sport_item_spPhilosophy" android:background="@drawable/profile_sport_train" android:gravity="center_vertical" android:textColor="@color/color_back" android:textSize="14dip" android:typeface="serif" android:text="None of these."></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/LinearLayout03" android:layout_height="wrap_content">
+        <TextView android:layout_width="100dip" android:textAppearance="?android:attr/textAppearanceSmall" android:typeface="serif" android:textColor="@color/color_back" android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/TextView02" android:text="Times (Press on an orange box to make it unavaiable)" android:layout_marginTop="10dip" android:layout_marginBottom="5dip" android:textSize="13dip"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/profile_sport_item_llTimes" android:layout_width="fill_parent">
+        <com.cnc.buddyup.views.profile.ProfileSportDayItemView android:layout_height="wrap_content" android:id="@+id/profile_sport_item__day1" android:layout_width="fill_parent"></com.cnc.buddyup.views.profile.ProfileSportDayItemView>
+        <com.cnc.buddyup.views.profile.ProfileSportDayItemView android:layout_height="wrap_content" android:id="@+id/profile_sport_item__day2" android:layout_width="fill_parent"></com.cnc.buddyup.views.profile.ProfileSportDayItemView>
+        <com.cnc.buddyup.views.profile.ProfileSportDayItemView android:layout_height="wrap_content" android:id="@+id/profile_sport_item__day3" android:layout_width="fill_parent"></com.cnc.buddyup.views.profile.ProfileSportDayItemView>
+        <com.cnc.buddyup.views.profile.ProfileSportDayItemView android:layout_height="wrap_content" android:id="@+id/profile_sport_item__day4" android:layout_width="fill_parent"></com.cnc.buddyup.views.profile.ProfileSportDayItemView>
+        <com.cnc.buddyup.views.profile.ProfileSportDayItemView android:layout_height="wrap_content" android:id="@+id/profile_sport_item__day5" android:layout_width="fill_parent"></com.cnc.buddyup.views.profile.ProfileSportDayItemView>
+        <com.cnc.buddyup.views.profile.ProfileSportDayItemView android:layout_height="wrap_content" android:id="@+id/profile_sport_item__day6" android:layout_width="fill_parent"></com.cnc.buddyup.views.profile.ProfileSportDayItemView>
+        <com.cnc.buddyup.views.profile.ProfileSportDayItemView android:id="@+id/profile_sport_item__day7" android:layout_height="wrap_content" android:layout_width="fill_parent"></com.cnc.buddyup.views.profile.ProfileSportDayItemView>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout3" android:layout_height="wrap_content" android:gravity="center_horizontal">
+        <Button android:background="@drawable/btn_indicator" android:layout_width="wrap_content" android:text="Submit" android:layout_height="wrap_content" android:id="@+id/profille_sport_item_btnSubmit" android:visibility="gone"></Button>
+    </LinearLayout>
+    
+</LinearLayout>

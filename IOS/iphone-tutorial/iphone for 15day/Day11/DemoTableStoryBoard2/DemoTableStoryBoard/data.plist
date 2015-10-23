@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>fullName</key>
+		<string>John Lenon</string>
+		<key>notes</key>
+		<string>He is a singer</string>
+		<key>photo</key>
+		<string>johnlenon.jpg</string>
+	</dict>
+	<dict>
+        <key>fullName</key>
+		<string>Barak Obama</string>
+		<key>notes</key>
+		<string>He is a president</string>
+		<key>photo</key>
+		<string>obama.jpg</string>
+    </dict>
+    <dict>
+        <key>fullName</key>
+		<string>Trịnh Minh Cường</string>
+		<key>notes</key>
+		<string>He is a developer</string>
+		<key>photo</key>
+		<string>cuong.jpg</string>
+    </dict>
+</array>
+</plist>

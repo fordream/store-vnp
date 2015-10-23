@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_root"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_header" >
+
+        <TextView
+            android:id="@+id/setting_title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/setting_title"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize_title_bar" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fadingEdge="none"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:padding="0dp" >
+
+                <RelativeLayout
+                    android:id="@+id/thumbnail_region"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true" >
+
+                    <!--
+					<ImageView android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_centerInParent="true" android:background="@drawable/bg_thumbnail" />
+
+					<ImageView android:id="@+id/account_info_avatar"
+						android:layout_width="75dp" android:layout_height="75dp"
+						android:layout_centerInParent="true" android:background="@drawable/ic_user_default" />
+                    -->
+
+                    <ImageView
+                        android:id="@+id/account_info_avatar"
+                        android:layout_width="@dimen/album_cover_width"
+                        android:layout_height="@dimen/album_cover_height"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="1dp"
+                        android:background="@drawable/bg_thumbnail"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_user_default" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/account_info_full_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_left_default"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/thumbnail_region"
+                    android:singleLine="true"
+                    android:text="Ha Duy Tuan"
+                    android:textColor="#cccccc"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/account_info_phone_number"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/account_info_full_name"
+                    android:layout_marginLeft="@dimen/margin_left_default"
+                    android:layout_marginTop="3dp"
+                    android:layout_toRightOf="@id/thumbnail_region"
+                    android:singleLine="true"
+                    android:text="0970746383"
+                    android:textColor="#8a8a8a"
+                    android:textSize="@dimen/textsize_small" />
+
+                <Button
+                    android:id="@+id/upload_avatar_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/thumbnail_region"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="-25dp"
+                    android:layout_toRightOf="@+id/thumbnail_region"
+                    android:background="@drawable/selector_button_up" >
+                </Button>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_header_divider" />
+
+            <RelativeLayout
+                android:id="@+id/account_info_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_item_height"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector_listview_setting_first" >
+
+                <TextView
+                    android:id="@+id/setting_screen_package_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:paddingLeft="@dimen/padding_default"
+                    android:text="@string/account_setting"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#333333" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/ic_listview_arrow"
+                    android:paddingRight="@dimen/padding_default" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/friend_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_item_height"
+                android:background="@drawable/selector_listview_setting_middle" >
+
+                <TextView
+                    android:id="@+id/setting_screen_unsubscribe_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:paddingLeft="@dimen/padding_default"
+                    android:text="@string/friends"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/listview_first_text" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/ic_listview_arrow"
+                    android:paddingRight="@dimen/padding_default" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setting_screen_logout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_item_height"
+                android:background="@drawable/selector_listview_setting_last" >
+
+                <TextView
+                    android:id="@+id/setting_screen_logout_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:paddingLeft="@dimen/padding_default"
+                    android:text="@string/setting_account_logout"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/listview_first_text" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/ic_listview_arrow"
+                    android:paddingRight="@dimen/padding_default" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_item_height"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector_listview_setting_first" >
+
+                <TextView
+                    android:id="@+id/setting_screen_offline_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:paddingLeft="@dimen/padding_default"
+                    android:text="@string/setting_configuration_offline_mode"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/listview_first_text" />
+
+                <CheckBox
+                    android:id="@+id/setting_screen_offline_checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:button="@drawable/selector_checkbox_download" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_item_height"
+                android:background="@drawable/selector_listview_setting_middle" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:paddingLeft="@dimen/padding_default"
+                    android:text="@string/download_via_3g"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/listview_first_text" />
+
+                <CheckBox
+                    android:id="@+id/checkbox_download_via_3g"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:button="@drawable/selector_checkbox_download"
+                    android:checked="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_item_height"
+                android:background="@drawable/selector_listview_setting_last" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:paddingLeft="@dimen/padding_default"
+                    android:text="@string/music_quality"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/listview_first_text" />
+
+                <TextView
+                    android:id="@+id/setting_screen_music_quality_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:paddingRight="@dimen/padding_default"
+                    android:text="Bình thường"
+                    android:textColor="#0099cc"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_item_height"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector_listview_setting_first" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:paddingLeft="@dimen/padding_default"
+                    android:text="@string/used_memory"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/listview_first_text" />
+
+                <TextView
+                    android:id="@+id/setting_screen_used_memory_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:paddingRight="@dimen/padding_default"
+                    android:text="1024 GB"
+                    android:textColor="#0099cc"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_item_height"
+                android:background="@drawable/selector_listview_setting_middle" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:paddingLeft="@dimen/padding_default"
+                    android:text="@string/allowed_memory"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/listview_first_text" />
+
+                <TextView
+                    android:id="@+id/setting_screen_total_memory_percent_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:paddingRight="@dimen/padding_default"
+                    android:text="50%"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/listview_first_text" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_item_height"
+                android:background="@drawable/selector_listview_setting_last" >
+
+                <SeekBar
+                    android:id="@+id/setting_screen_total_memory_seekbar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginRight="80dp"
+                    android:indeterminateDrawable="@drawable/drawable_seekbar_setting"
+                    android:maxHeight="10dp"
+                    android:minHeight="10dp"
+                    android:progressDrawable="@drawable/drawable_seekbar_setting"
+                    android:thumb="@drawable/bg_seekbar_thumb"
+                    android:thumbOffset="1dp" />
+
+                <TextView
+                    android:id="@+id/setting_screen_total_memory_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="1024 GB"
+                    android:textColor="@color/listview_first_text"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/setting_screen_total_memory_max_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:text="1024 GB"
+                    android:textColor="@color/listview_first_text"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/clear_downloaded_music_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_item_height"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector_button_clear_downloaded_music" >
+
+                <TextView
+                    android:id="@+id/setting_screen_clear_memory_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:paddingLeft="@dimen/padding_default"
+                    android:text="@string/delete_downloaded_music"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/listview_first_text" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="5dp" >
+
+                <TextView
+                    android:id="@+id/setting_screen_copyright_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:paddingLeft="@dimen/padding_default"
+                    android:text="@string/app_version"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#999999" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:paddingLeft="@dimen/padding_default"
+                    android:text="@string/app_powered"
+                    android:textColor="#666666"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="10dp" >
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

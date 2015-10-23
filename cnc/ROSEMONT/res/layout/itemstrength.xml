@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="400dip"
+        android:layout_weight="400"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout03"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_weight="100"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:layout_weight="300"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout05"
+                android:layout_width="10dip"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout04"
+                android:layout_width="310dip"
+                android:layout_height="match_parent"
+                android:layout_weight="310"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout07"
+                    android:layout_width="300dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="300"
+                    android:orientation="vertical" >
+
+                    <org.com.cnc.rosemont.views.TextFitTextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/color_back" android:textSize="20dip" android:textStyle="bold" android:typeface="serif"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout06"
+                    android:layout_width="10dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_weight="100"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

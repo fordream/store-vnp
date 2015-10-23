@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:id="@+id/chat_ll_title"
+    android:background="@drawable/chat_bg_top_bar" >
+    <TextView 
+        android:id="@+id/chat_tv_acc"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        style="@style/ChatTitleTextAppearance"
+        android:text="@string/chat_title"
+        android:layout_centerInParent="true"
+        />
+    <LinearLayout 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dip">
+        <ImageView
+            android:id="@+id/chat_btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chat_back_button_selector"
+            android:layout_marginRight="10dip"
+            />
+         <ImageView
+            android:id="@+id/chat_btn_list"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:background="@drawable/chat_list_button_selector"
+            />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dip">
+        <ImageView
+            android:id="@+id/chat_btn_stamp_store"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:background="@drawable/chat_cart_button_selector"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

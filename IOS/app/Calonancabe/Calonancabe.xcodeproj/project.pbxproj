@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		86442CDA1438AEAB005E7382 /* gunnormal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86442CD91438AEAB005E7382 /* gunnormal.mp3 */; };
+		86442CF714392AED005E7382 /* Charactor.m in Sources */ = {isa = PBXBuildFile; fileRef = 86442CF614392AED005E7382 /* Charactor.m */; };
+		86442CFA14392BFF005E7382 /* ActactType.m in Sources */ = {isa = PBXBuildFile; fileRef = 86442CF914392BFF005E7382 /* ActactType.m */; };
+		864720061438120E00DDCF53 /* checkhang.png in Resources */ = {isa = PBXBuildFile; fileRef = 864720051438120E00DDCF53 /* checkhang.png */; };
+		8647200C1438137D00DDCF53 /* ca1.png in Resources */ = {isa = PBXBuildFile; fileRef = 864720091438137D00DDCF53 /* ca1.png */; };
+		8647200D1438137D00DDCF53 /* ca2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8647200A1438137D00DDCF53 /* ca2.png */; };
+		8647200E1438137D00DDCF53 /* ca3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8647200B1438137D00DDCF53 /* ca3.png */; };
+		8647201C1438153E00DDCF53 /* Phoint1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8647201B1438153E00DDCF53 /* Phoint1.m */; };
+		8647204A143818A000DDCF53 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86472049143818A000DDCF53 /* SystemConfiguration.framework */; };
+		86472058143818CE00DDCF53 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86472057143818CE00DDCF53 /* GameKit.framework */; };
+		86472069143819CC00DDCF53 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 86472068143819CC00DDCF53 /* libsqlite3.dylib */; };
+		8647212F14381EF300DDCF53 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8647212E14381EF300DDCF53 /* QuartzCore.framework */; };
+		86472171143833F600DDCF53 /* taungam1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8647216F143833F600DDCF53 /* taungam1.png */; };
+		86472172143833F600DDCF53 /* taungam2.png in Resources */ = {isa = PBXBuildFile; fileRef = 86472170143833F600DDCF53 /* taungam2.png */; };
+		86472179143840F600DDCF53 /* map1.png in Resources */ = {isa = PBXBuildFile; fileRef = 86472178143840F600DDCF53 /* map1.png */; };
+		864721CE14384C4600DDCF53 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 864721CD14384C4600DDCF53 /* Common.m */; };
+		864721FC1438579000DDCF53 /* bom.png in Resources */ = {isa = PBXBuildFile; fileRef = 864721FB1438579000DDCF53 /* bom.png */; };
+		864722521438629700DDCF53 /* tomahoc.png in Resources */ = {isa = PBXBuildFile; fileRef = 864722511438629700DDCF53 /* tomahoc.png */; };
+		864722721438678B00DDCF53 /* dan.png in Resources */ = {isa = PBXBuildFile; fileRef = 864722711438678B00DDCF53 /* dan.png */; };
+		864722BB143875FD00DDCF53 /* cavang.png in Resources */ = {isa = PBXBuildFile; fileRef = 864722BA143875FD00DDCF53 /* cavang.png */; };
+		864722CB1438778A00DDCF53 /* menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 864722CA1438778A00DDCF53 /* menu.mp3 */; };
+		868E412114372C7500CB54CC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 868E412014372C7500CB54CC /* icon.png */; };
+		868E412E14372D0100CB54CC /* PlayScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 868E412C14372D0100CB54CC /* PlayScreen.m */; };
+		868E412F14372D0100CB54CC /* PlayScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 868E412D14372D0100CB54CC /* PlayScreen.xib */; };
+		868E415A1437305300CB54CC /* CommonMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 868E41591437305300CB54CC /* CommonMusic.m */; };
+		868E415D143730B000CB54CC /* background1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 868E415C143730B000CB54CC /* background1.mp3 */; };
+		868E41731437328700CB54CC /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868E41721437328700CB54CC /* CoreAudio.framework */; };
+		868E4179143732BB00CB54CC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868E4178143732BB00CB54CC /* AVFoundation.framework */; };
+		868FCC8714367D6E005559CB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 868FCC8514367D6E005559CB /* RootViewController.m */; };
+		868FCC8814367D6E005559CB /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 868FCC8614367D6E005559CB /* RootViewController.xib */; };
+		868FCC9214367D90005559CB /* CalonancabeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 868FCC9014367D90005559CB /* CalonancabeAppDelegate.m */; };
+		868FCC9314367D90005559CB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 868FCC9114367D90005559CB /* MainWindow.xib */; };
+		868FCC9A14367DD3005559CB /* MenuScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 868FCC9814367DD3005559CB /* MenuScreen.m */; };
+		868FCC9B14367DD3005559CB /* MenuScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 868FCC9914367DD3005559CB /* MenuScreen.xib */; };
+		868FCCD8143684C3005559CB /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 868FCCD6143684C3005559CB /* menu.png */; };
+		868FCCD9143684C3005559CB /* Calonancabe-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 868FCCD7143684C3005559CB /* Calonancabe-Info.plist */; };
+		868FCCE1143688D3005559CB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 868FCCE0143688D3005559CB /* Default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* Calonancabe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calonancabe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* Calonancabe_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calonancabe_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86442CD91438AEAB005E7382 /* gunnormal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gunnormal.mp3; sourceTree = "<group>"; };
+		86442CF514392AED005E7382 /* Charactor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Charactor.h; sourceTree = "<group>"; };
+		86442CF614392AED005E7382 /* Charactor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Charactor.m; sourceTree = "<group>"; };
+		86442CF814392BFF005E7382 /* ActactType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActactType.h; sourceTree = "<group>"; };
+		86442CF914392BFF005E7382 /* ActactType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActactType.m; sourceTree = "<group>"; };
+		864720051438120E00DDCF53 /* checkhang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkhang.png; sourceTree = "<group>"; };
+		864720091438137D00DDCF53 /* ca1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ca1.png; sourceTree = "<group>"; };
+		8647200A1438137D00DDCF53 /* ca2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ca2.png; sourceTree = "<group>"; };
+		8647200B1438137D00DDCF53 /* ca3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ca3.png; sourceTree = "<group>"; };
+		8647201A1438153E00DDCF53 /* Phoint1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phoint1.h; sourceTree = "<group>"; };
+		8647201B1438153E00DDCF53 /* Phoint1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Phoint1.m; sourceTree = "<group>"; };
+		86472049143818A000DDCF53 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		86472057143818CE00DDCF53 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		86472068143819CC00DDCF53 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		8647212E14381EF300DDCF53 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8647216F143833F600DDCF53 /* taungam1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taungam1.png; sourceTree = "<group>"; };
+		86472170143833F600DDCF53 /* taungam2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taungam2.png; sourceTree = "<group>"; };
+		86472178143840F600DDCF53 /* map1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map1.png; sourceTree = "<group>"; };
+		864721CC14384C4600DDCF53 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		864721CD14384C4600DDCF53 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		864721FB1438579000DDCF53 /* bom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bom.png; sourceTree = "<group>"; };
+		864722511438629700DDCF53 /* tomahoc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tomahoc.png; sourceTree = "<group>"; };
+		864722711438678B00DDCF53 /* dan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dan.png; sourceTree = "<group>"; };
+		864722BA143875FD00DDCF53 /* cavang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cavang.png; sourceTree = "<group>"; };
+		864722CA1438778A00DDCF53 /* menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = menu.mp3; sourceTree = "<group>"; };
+		868E412014372C7500CB54CC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		868E412B14372D0100CB54CC /* PlayScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayScreen.h; sourceTree = "<group>"; };
+		868E412C14372D0100CB54CC /* PlayScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayScreen.m; sourceTree = "<group>"; };
+		868E412D14372D0100CB54CC /* PlayScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayScreen.xib; sourceTree = "<group>"; };
+		868E41581437305300CB54CC /* CommonMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMusic.h; sourceTree = "<group>"; };
+		868E41591437305300CB54CC /* CommonMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMusic.m; sourceTree = "<group>"; };
+		868E415C143730B000CB54CC /* background1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background1.mp3; sourceTree = "<group>"; };
+		868E41721437328700CB54CC /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		868E4178143732BB00CB54CC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		868FCC8414367D6E005559CB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		868FCC8514367D6E005559CB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		868FCC8614367D6E005559CB /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		868FCC8F14367D90005559CB /* CalonancabeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalonancabeAppDelegate.h; sourceTree = "<group>"; };
+		868FCC9014367D90005559CB /* CalonancabeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalonancabeAppDelegate.m; sourceTree = "<group>"; };
+		868FCC9114367D90005559CB /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		868FCC9714367DD3005559CB /* MenuScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScreen.h; sourceTree = "<group>"; };
+		868FCC9814367DD3005559CB /* MenuScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuScreen.m; sourceTree = "<group>"; };
+		868FCC9914367DD3005559CB /* MenuScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuScreen.xib; sourceTree = "<group>"; };
+		868FCCD6143684C3005559CB /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		868FCCD7143684C3005559CB /* Calonancabe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Calonancabe-Info.plist"; sourceTree = "<group>"; };
+		868FCCE0143688D3005559CB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				868E41731437328700CB54CC /* CoreAudio.framework in Frameworks */,
+				868E4179143732BB00CB54CC /* AVFoundation.framework in Frameworks */,
+				8647204A143818A000DDCF53 /* SystemConfiguration.framework in Frameworks */,
+				86472058143818CE00DDCF53 /* GameKit.framework in Frameworks */,
+				86472069143819CC00DDCF53 /* libsqlite3.dylib in Frameworks */,
+				8647212F14381EF300DDCF53 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				86442CF414392ADD005E7382 /* control */,
+				868FCC7F14367CC6005559CB /* common */,
+				868FCC7E14367CB8005559CB /* main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Calonancabe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				868FCCD3143684C3005559CB /* Resoures */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* Calonancabe_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				868E41721437328700CB54CC /* CoreAudio.framework */,
+				868E4178143732BB00CB54CC /* AVFoundation.framework */,
+				86472049143818A000DDCF53 /* SystemConfiguration.framework */,
+				86472057143818CE00DDCF53 /* GameKit.framework */,
+				86472068143819CC00DDCF53 /* libsqlite3.dylib */,
+				8647212E14381EF300DDCF53 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86442CF414392ADD005E7382 /* control */ = {
+			isa = PBXGroup;
+			children = (
+				86442CF514392AED005E7382 /* Charactor.h */,
+				86442CF614392AED005E7382 /* Charactor.m */,
+				86442CF814392BFF005E7382 /* ActactType.h */,
+				86442CF914392BFF005E7382 /* ActactType.m */,
+			);
+			path = control;
+			sourceTree = "<group>";
+		};
+		864720041438120E00DDCF53 /* play */ = {
+			isa = PBXGroup;
+			children = (
+				864722BA143875FD00DDCF53 /* cavang.png */,
+				864722711438678B00DDCF53 /* dan.png */,
+				864722511438629700DDCF53 /* tomahoc.png */,
+				864721FB1438579000DDCF53 /* bom.png */,
+				86472178143840F600DDCF53 /* map1.png */,
+				8647216F143833F600DDCF53 /* taungam1.png */,
+				86472170143833F600DDCF53 /* taungam2.png */,
+				864720091438137D00DDCF53 /* ca1.png */,
+				8647200A1438137D00DDCF53 /* ca2.png */,
+				8647200B1438137D00DDCF53 /* ca3.png */,
+				864720051438120E00DDCF53 /* checkhang.png */,
+			);
+			path = play;
+			sourceTree = "<group>";
+		};
+		868E412A14372CF200CB54CC /* play */ = {
+			isa = PBXGroup;
+			children = (
+				868E412B14372D0100CB54CC /* PlayScreen.h */,
+				868E412C14372D0100CB54CC /* PlayScreen.m */,
+				868E412D14372D0100CB54CC /* PlayScreen.xib */,
+			);
+			path = play;
+			sourceTree = "<group>";
+		};
+		868E415B1437307500CB54CC /* musics */ = {
+			isa = PBXGroup;
+			children = (
+				86442CD91438AEAB005E7382 /* gunnormal.mp3 */,
+				864722CA1438778A00DDCF53 /* menu.mp3 */,
+				868E415C143730B000CB54CC /* background1.mp3 */,
+			);
+			path = musics;
+			sourceTree = "<group>";
+		};
+		868FCC7E14367CB8005559CB /* main */ = {
+			isa = PBXGroup;
+			children = (
+				868E412A14372CF200CB54CC /* play */,
+				868FCC9614367DC2005559CB /* menu */,
+				868FCC8314367D6E005559CB /* root */,
+				868FCC8014367CDF005559CB /* delagate */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		868FCC7F14367CC6005559CB /* common */ = {
+			isa = PBXGroup;
+			children = (
+				868E41581437305300CB54CC /* CommonMusic.h */,
+				868E41591437305300CB54CC /* CommonMusic.m */,
+				8647201A1438153E00DDCF53 /* Phoint1.h */,
+				8647201B1438153E00DDCF53 /* Phoint1.m */,
+				864721CC14384C4600DDCF53 /* Common.h */,
+				864721CD14384C4600DDCF53 /* Common.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		868FCC8014367CDF005559CB /* delagate */ = {
+			isa = PBXGroup;
+			children = (
+				868FCC8F14367D90005559CB /* CalonancabeAppDelegate.h */,
+				868FCC9014367D90005559CB /* CalonancabeAppDelegate.m */,
+				868FCC9114367D90005559CB /* MainWindow.xib */,
+			);
+			path = delagate;
+			sourceTree = "<group>";
+		};
+		868FCC8314367D6E005559CB /* root */ = {
+			isa = PBXGroup;
+			children = (
+				868FCC8414367D6E005559CB /* RootViewController.h */,
+				868FCC8514367D6E005559CB /* RootViewController.m */,
+				868FCC8614367D6E005559CB /* RootViewController.xib */,
+			);
+			path = root;
+			sourceTree = "<group>";
+		};
+		868FCC9614367DC2005559CB /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				868FCC9714367DD3005559CB /* MenuScreen.h */,
+				868FCC9814367DD3005559CB /* MenuScreen.m */,
+				868FCC9914367DD3005559CB /* MenuScreen.xib */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		868FCCD3143684C3005559CB /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
+				868E415B1437307500CB54CC /* musics */,
+				868FCCD4143684C3005559CB /* images */,
+				868FCCD7143684C3005559CB /* Calonancabe-Info.plist */,
+			);
+			path = Resoures;
+			sourceTree = "<group>";
+		};
+		868FCCD4143684C3005559CB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				864720041438120E00DDCF53 /* play */,
+				868FCCDF143688D3005559CB /* default */,
+				868FCCD5143684C3005559CB /* menu */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		868FCCD5143684C3005559CB /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				868FCCD6143684C3005559CB /* menu.png */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		868FCCDF143688D3005559CB /* default */ = {
+			isa = PBXGroup;
+			children = (
+				868E412014372C7500CB54CC /* icon.png */,
+				868FCCE0143688D3005559CB /* Default.png */,
+			);
+			path = default;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Calonancabe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Calonancabe" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calonancabe;
+			productName = Calonancabe;
+			productReference = 1D6058910D05DD3D006BFB54 /* Calonancabe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Calonancabe" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Calonancabe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868FCC8814367D6E005559CB /* RootViewController.xib in Resources */,
+				868FCC9314367D90005559CB /* MainWindow.xib in Resources */,
+				868FCC9B14367DD3005559CB /* MenuScreen.xib in Resources */,
+				868FCCD8143684C3005559CB /* menu.png in Resources */,
+				868FCCD9143684C3005559CB /* Calonancabe-Info.plist in Resources */,
+				868FCCE1143688D3005559CB /* Default.png in Resources */,
+				868E412114372C7500CB54CC /* icon.png in Resources */,
+				868E412F14372D0100CB54CC /* PlayScreen.xib in Resources */,
+				868E415D143730B000CB54CC /* background1.mp3 in Resources */,
+				864720061438120E00DDCF53 /* checkhang.png in Resources */,
+				8647200C1438137D00DDCF53 /* ca1.png in Resources */,
+				8647200D1438137D00DDCF53 /* ca2.png in Resources */,
+				8647200E1438137D00DDCF53 /* ca3.png in Resources */,
+				86472171143833F600DDCF53 /* taungam1.png in Resources */,
+				86472172143833F600DDCF53 /* taungam2.png in Resources */,
+				86472179143840F600DDCF53 /* map1.png in Resources */,
+				864721FC1438579000DDCF53 /* bom.png in Resources */,
+				864722521438629700DDCF53 /* tomahoc.png in Resources */,
+				864722721438678B00DDCF53 /* dan.png in Resources */,
+				864722BB143875FD00DDCF53 /* cavang.png in Resources */,
+				864722CB1438778A00DDCF53 /* menu.mp3 in Resources */,
+				86442CDA1438AEAB005E7382 /* gunnormal.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				868FCC8714367D6E005559CB /* RootViewController.m in Sources */,
+				868FCC9214367D90005559CB /* CalonancabeAppDelegate.m in Sources */,
+				868FCC9A14367DD3005559CB /* MenuScreen.m in Sources */,
+				868E412E14372D0100CB54CC /* PlayScreen.m in Sources */,
+				868E415A1437305300CB54CC /* CommonMusic.m in Sources */,
+				8647201C1438153E00DDCF53 /* Phoint1.m in Sources */,
+				864721CE14384C4600DDCF53 /* Common.m in Sources */,
+				86442CF714392AED005E7382 /* Charactor.m in Sources */,
+				86442CFA14392BFF005E7382 /* ActactType.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Calonancabe_Prefix.pch;
+				INFOPLIST_FILE = "Calonancabe-Info.plist";
+				PRODUCT_NAME = Calonancabe;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Calonancabe_Prefix.pch;
+				INFOPLIST_FILE = "Calonancabe-Info.plist";
+				PRODUCT_NAME = Calonancabe;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Calonancabe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Calonancabe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

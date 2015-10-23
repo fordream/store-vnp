@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/profile_bg"
+    android:orientation="vertical" >
+    <LinearLayout android:id="@+id/linearLayout1" android:orientation="vertical" android:background="@drawable/sign_top" android:layout_width="fill_parent" android:layout_height="50dip">
+        <RelativeLayout android:id="@+id/relativeLayout1" android:paddingLeft="10dip" android:paddingRight="10dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="15dip" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@color/color_back" android:typeface="serif" android:text="@string/my_profile" android:textStyle="bold" android:layout_centerVertical="true" android:id="@+id/commonETHearder"></TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/profile_bg"
+        android:orientation="vertical" android:layout_below="@+id/linearLayout1">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/profile_bg"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:padding="10dip" >
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout15"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout13"
+                            android:layout_width="100dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical" >
+
+                            <TextView
+                                android:id="@+id/TextView05"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="User Name : "
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/bg_back"
+                                android:textSize="15dip"
+                                android:typeface="serif" >
+                            </TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout14"
+                            android:layout_width="180dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1" >
+
+                            <TextView
+                                android:id="@+id/profileTVName"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Karaked"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/bg_back"
+                                android:textSize="14dip"
+                                android:typeface="serif" >
+                            </TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout12"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip" >
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout10"
+                            android:layout_width="100dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical" >
+
+                            <TextView
+                                android:id="@+id/TextView04"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right|center_vertical"
+                                android:text="First Name : "
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/bg_back"
+                                android:textSize="15dip"
+                                android:typeface="serif" >
+                            </TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout11"
+                            android:layout_width="180dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1" >
+
+                            <EditText
+                                android:id="@+id/profileEtFirstName"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/bget"
+                                android:paddingLeft="5dip"
+                                android:paddingRight="5dip"
+                                android:singleLine="true"
+                                android:textColor="@color/color_back"
+                                android:textSize="14dip"
+                                android:typeface="serif" >
+
+                                <requestFocus>
+                                </requestFocus>
+                            </EditText>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout09"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout07"
+                            android:layout_width="100dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical" >
+
+                            <TextView
+                                android:id="@+id/TextView03"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right|center_vertical"
+                                android:text="Email : "
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/bg_back"
+                                android:textSize="15dip"
+                                android:typeface="serif" >
+                            </TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout08"
+                            android:layout_width="180dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1" >
+
+                            <EditText
+                                android:id="@+id/profileEtEmail"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/bget"
+                                android:paddingLeft="5dip"
+                                android:paddingRight="5dip"
+                                android:singleLine="true"
+                                android:textColor="@color/color_back"
+                                android:textSize="14dip"
+                                android:typeface="serif" >
+                            </EditText>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout06"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip" >
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout04"
+                            android:layout_width="100dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical" >
+
+                            <TextView
+                                android:id="@+id/TextView02"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Age : "
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/bg_back"
+                                android:textSize="15dip"
+                                android:typeface="serif" >
+                            </TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout05"
+                            android:layout_width="180dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1" >
+
+                            <TextView
+                                android:id="@+id/profileSpAge"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/profile_view_myprofile_age"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dip"
+                                android:textColor="@color/color_back"
+                                android:textSize="14dip"
+                                android:typeface="serif" >
+                            </TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout03"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout01"
+                            android:layout_width="100dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical" >
+
+                            <TextView
+                                android:id="@+id/TextView01"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Postal Code : "
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/bg_back"
+                                android:textSize="15dip"
+                                android:typeface="serif" >
+                            </TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout02"
+                            android:layout_width="180dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1" >
+
+                            <EditText
+                                android:id="@+id/profileEtPostCode"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/bget"
+                                android:paddingLeft="5dip"
+                                android:paddingRight="5dip"
+                                android:singleLine="true"
+                                android:textColor="@color/color_back"
+                                android:textSize="14dip"
+                                android:typeface="serif" >
+                            </EditText>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip" >
+
+                        <LinearLayout
+                            android:id="@+id/linearLayout2"
+                            android:layout_width="100dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical" >
+
+                            <TextView
+                                android:id="@+id/textView1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Country : "
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/bg_back"
+                                android:textSize="15dip"
+                                android:typeface="serif" >
+                            </TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linearLayout3"
+                            android:layout_width="180dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1" >
+
+                            <TextView
+                                android:id="@+id/profileSpContry"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/profile_view_myprofile_country"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dip"
+                                android:textColor="@color/color_back"
+                                android:textSize="14dip"
+                                android:typeface="serif" >
+                            </TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout19"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" android:layout_marginBottom="5dip">
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout21"
+                            android:layout_width="100dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical" >
+
+                            <TextView
+                                android:id="@+id/TextView07"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/password"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/bg_back"
+                                android:textSize="15dip"
+                                android:typeface="serif" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout20"
+                            android:layout_width="180dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1" >
+
+                            <EditText
+                                android:id="@+id/EditText02"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/bget"
+                                android:paddingLeft="5dip"
+                                android:paddingRight="5dip"
+                                android:singleLine="true"
+                                android:textColor="@color/color_back"
+                                android:textSize="14dip"
+                                android:typeface="serif" android:inputType="textPassword"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout16"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout18"
+                            android:layout_width="100dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical" >
+
+                            <TextView
+                                android:id="@+id/TextView06"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/repassword"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@color/bg_back"
+                                android:textSize="15dip"
+                                android:typeface="serif" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout17"
+                            android:layout_width="180dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1" >
+
+                            <EditText
+                                android:id="@+id/EditText01"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/bget"
+                                android:paddingLeft="5dip"
+                                android:paddingRight="5dip"
+                                android:singleLine="true"
+                                android:textColor="@color/color_back"
+                                android:textSize="14dip"
+                                android:typeface="serif" android:inputType="textPassword"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dip"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Modify Information on : "
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/bg_back"
+                            android:textSize="14dip"
+                            android:typeface="serif" >
+                        </TextView>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dip"
+                        android:layout_marginTop="10dip" >
+
+                        <Button
+                            android:id="@+id/profilebtnSports"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@drawable/profile_btnsport" >
+                        </Button>
+
+                        <Button
+                            android:id="@+id/profileBtnorther"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/profilebtnSports"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@drawable/profile_btnorther" >
+                        </Button>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+
+                        <Button
+                            android:id="@+id/profileBtnUpdate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@drawable/profile_btnupdate" >
+                        </Button>
+
+                        <Button
+                            android:id="@+id/profileBtnDelete"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@drawable/profile_btndelete" >
+                        </Button>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.cnc.buddyup.common.views.LoadingView
+        android:id="@+id/loadingView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </com.cnc.buddyup.common.views.LoadingView>
+
+</RelativeLayout>

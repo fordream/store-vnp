@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants" >
+
+    <RelativeLayout
+        android:id="@+id/icon_holder"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="5dp" >
+
+        <ImageView
+            android:id="@+id/friend_avatar"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/setting_friend_img_description" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_Subscribed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/selector_button_find_friend_facebook_subscribes"
+        android:text="@string/subscribse"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_small" />
+
+    <LinearLayout
+        android:id="@+id/second_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/icon_holder"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/friend_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="-3dp"
+            android:maxLength="25"
+            android:singleLine="true"
+            android:text="@string/setting_friend_friend_name"
+            android:textColor="#333333"
+            android:textSize="@dimen/textsize_default" />
+
+        <TextView
+            android:id="@+id/friend_playlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_marginTop="2dp"
+            android:singleLine="true"
+            android:text="@string/setting_friend_number_playlist"
+            android:textColor="#333333"
+            android:textSize="@dimen/textsize_small" />
+
+        <Button
+            android:id="@+id/btn_Subscribed_below"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/selector_button_find_friend_facebook_subscribes"
+            android:text="@string/subscribse"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_small" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/chkSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/selector_checkbox_download"
+        android:button="@null" />
+
+</RelativeLayout>

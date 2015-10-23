@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/org.vnp.vas"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:background="@drawable/indicator" >
+
+    <TextView
+        android:id="@+id/headerview_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="17sp" />
+
+</RelativeLayout>

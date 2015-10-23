@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Orbz">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\User\Desktop\Orbz1795179172004\Orbz.sln">
+</Property><Property Name="User Options File" Value="C:\Documents and Settings\User\Desktop\Orbz1795179172004\Orbz.suo">
+</Property><Property Name="Date" Value="Monday, October 04, 2010">
+</Property><Property Name="Time" Value="10:25 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Orbz.sln" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\Orbz.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Orbz.suo" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\Orbz.suo">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="Orbz.csproj" Description="Project file successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\Orbz.csproj">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="Orbz.csproj.user" Description="Project user file successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\Orbz.csproj.user">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="DrawingSurface.cs" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\DrawingSurface.cs">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="GameGrid.cs" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\GameGrid.cs">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="GameState.cs" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\GameState.cs">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="Orbz.cs" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\Orbz.cs">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="Sound.cs" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\Sound.cs">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="SubUnit.cs" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\SubUnit.cs">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="Unit.cs" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\Unit.cs">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="gfx\blue.bmp" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\gfx\blue.bmp">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="gfx\green.bmp" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\gfx\green.bmp">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="gfx\grey.bmp" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\gfx\grey.bmp">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="gfx\purple.bmp" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\gfx\purple.bmp">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="gfx\red.bmp" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\gfx\red.bmp">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="gfx\yellow.bmp" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\gfx\yellow.bmp">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="DrawingSurface.resx" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\DrawingSurface.resx">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="Orbz.resx" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\Orbz.resx">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="snd\1" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\snd\1">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="snd\2" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\snd\2">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="snd\3" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\snd\3">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="snd\4" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\snd\4">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="snd\5" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\snd\5">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="snd\6" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\snd\6">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="snd\7" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\snd\7">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="snd\bloop" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\snd\bloop">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="snd\gameover" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\snd\gameover">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="snd\p" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\snd\p">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="snd\p2" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\snd\p2">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="snd\p3" Description="File successfully backed up as C:\Documents and Settings\User\Desktop\Orbz1795179172004\Backup\snd\p3">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="Orbz.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Orbz" Source="Orbz.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Orbz.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Orbz.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Orbz" Source="Orbz.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

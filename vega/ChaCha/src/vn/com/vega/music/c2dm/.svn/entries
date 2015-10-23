@@ -1,0 +1,40 @@
+8
+
+dir
+7488
+svn://222.255.28.110/svn/vega/client/MusicClient/trunk/android/MusicClient/src/vn/com/vega/music/c2dm
+svn://222.255.28.110/svn/vega
+
+
+
+2012-03-12T04:00:17.697470Z
+6056
+tuanhd
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8fba6426-021e-4735-92e4-bd083e00f8f0
+
+C2DMReceiver.java
+file
+
+
+
+
+2012-04-03T06:57:44.343750Z
+43cc0c5dce655740272a9b77630fbbca
+2012-03-12T04:00:17.697470Z
+6056
+tuanhd
+

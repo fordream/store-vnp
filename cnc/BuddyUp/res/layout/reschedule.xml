@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="@drawable/profile_bg">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:padding="20dip">
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout16" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView32" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="Name :" android:layout_width="120dip"></TextView>
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView33" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="Krared"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout14" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView28" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="@string/sport" android:layout_width="120dip"></TextView>
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView29" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="Golf"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout13" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView26" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="Date : " android:layout_width="120dip"></TextView>
+            <EditText android:typeface="serif" android:textSize="14dip" android:id="@+id/EditText1" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="09:00 AM" android:background="@drawable/rescheduleet1" android:paddingRight="5dip" android:paddingLeft="5dip"></EditText>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout12" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView24" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="Time :" android:layout_width="120dip"></TextView>
+            <EditText android:typeface="serif" android:textSize="14dip" android:id="@+id/EditText1" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="Touch to view" android:background="@drawable/rescheduleet1" android:paddingLeft="5dip" android:paddingRight="5dip"></EditText>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout03" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView01" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="120dip" android:textColor="@color/color_back" android:layout_weight="1" android:text="Flexibility :"></TextView>
+            <TextView android:typeface="serif" android:textColor="@color/sss" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:textSize="14dip" android:layout_width="180dip" android:id="@+id/TextView1" android:layout_weight="1" android:gravity="center_vertical" android:background="@drawable/rescheduleetsp" android:text="Very Flexibility" android:paddingLeft="5dip"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout11" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView22" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="Location :" android:layout_width="120dip"></TextView>
+            <EditText android:typeface="serif" android:textSize="14dip" android:id="@+id/EditText1" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="..." android:background="@drawable/rescheduleet1" android:paddingLeft="5dip" android:paddingRight="5dip"></EditText>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout10" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView20" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="Address :" android:layout_width="120dip"></TextView>
+            <EditText android:typeface="serif" android:textSize="14dip" android:id="@+id/EditText1" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="..." android:background="@drawable/rescheduleet1" android:paddingLeft="5dip" android:paddingRight="5dip"></EditText>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout09" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView18" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="@string/spec" android:layout_width="270dip"></TextView>
+            <EditText android:typeface="serif" android:textSize="14dip" android:id="@+id/EditText1" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="..." android:background="@drawable/rescheduleet2" android:paddingLeft="5dip" android:paddingRight="5dip"></EditText>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:orientation="vertical">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView04" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="Message :" android:layout_width="fill_parent"></TextView>
+            <EditText android:typeface="serif" android:textSize="14dip" android:id="@+id/EditText1" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/sss" android:layout_weight="1" android:layout_width="fill_parent" android:text="@string/text" android:paddingLeft="10dip" android:paddingTop="5dip" android:background="@drawable/rescheduleet3" android:gravity="top" android:lines="5"></EditText>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:orientation="vertical">
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:id="@+id/RelativeLayout1" android:layout_height="wrap_content" android:layout_marginTop="10dip" android:layout_marginBottom="20dip">
+            <Button android:background="@drawable/btnreschedule" android:id="@+id/button2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"></Button>
+        </RelativeLayout>
+    </LinearLayout>
+    
+</ScrollView>

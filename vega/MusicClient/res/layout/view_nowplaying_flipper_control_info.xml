@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/first11"
+        layout="@layout/view_nowplaying_flipper_control" >
+    </include>
+
+    <include
+        android:id="@+id/first12"
+        layout="@layout/view_nowplaying_flipper_info" >
+    </include>
+
+</ViewFlipper>

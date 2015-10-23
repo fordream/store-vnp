@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:orientation="horizontal" android:layout_height="fill_parent">
+    <LinearLayout android:id="@+id/LinearLayout11" android:layout_weight="1" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <ImageView android:background="@drawable/play1" android:id="@+id/ImageView12" android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout10" android:layout_weight="1" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <ImageView android:background="@drawable/play1" android:id="@+id/ImageView10" android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout09" android:layout_weight="1" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <ImageView android:background="@drawable/play1" android:id="@+id/ImageView09" android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout08" android:layout_weight="1" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <ImageView android:background="@drawable/play1" android:id="@+id/ImageView08" android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout07" android:layout_weight="1" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <ImageView android:background="@drawable/play1" android:id="@+id/ImageView07" android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout06" android:layout_weight="1" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <ImageView android:background="@drawable/play1" android:id="@+id/ImageView06" android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout05" android:layout_weight="1" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <ImageView android:background="@drawable/play1" android:id="@+id/ImageView05" android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout04" android:layout_weight="1" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <ImageView android:background="@drawable/play1" android:id="@+id/ImageView04" android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout03" android:layout_weight="1" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <ImageView android:background="@drawable/play1" android:id="@+id/ImageView03" android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout02" android:layout_weight="1" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <ImageView android:background="@drawable/play1" android:id="@+id/ImageView02" android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout01" android:layout_weight="1" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <ImageView android:background="@drawable/play1" android:id="@+id/ImageView01" android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="fill_parent" android:layout_weight="1" android:orientation="vertical" android:layout_width="fill_parent">
+        <ImageView android:background="@drawable/play1" android:id="@+id/ImageView11" android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+    </LinearLayout>
+    
+</LinearLayout>

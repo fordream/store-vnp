@@ -1,0 +1,24 @@
+//
+//  RestClient.h
+//  DatabaseExample
+//
+//  Created by Truong Vuong on 10/14/12.
+//  Copyright 2012 Hung Yen. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "KeyValue.h"
+
+@interface RestClient : NSObject {
+	NSString *server;
+	// method is POST, GET, DELETE, PUT
+	NSString *method;
+	
+	NSArray *params;
+	NSArray *headers;
+}
+
+-(RestClient*)init:(NSString*)_method;
+-(void) addHeader :(NSString*)key value: (NSString*)value;
+-(void) addParams :(NSString*)key value: (NSString*)value;
+@end

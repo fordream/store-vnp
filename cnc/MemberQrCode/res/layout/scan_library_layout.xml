@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"	
+    android:gravity="center_vertical"
+    >
+	<LinearLayout 	android:orientation="vertical"
+    				android:layout_width="fill_parent"
+    				android:layout_height="100px"	
+    				android:gravity="center_horizontal"
+    >
+		<ImageButton	android:id="@+id/button_browser"
+						android:layout_x="430px"
+						android:layout_y="219px"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:scaleType="center"
+						android:background="@drawable/browser"
+		/>
+		<TextView	android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:text="BROWSER FILE"
+		/>
+	</LinearLayout>
+	<LinearLayout 	android:orientation="vertical"
+    				android:layout_width="fill_parent"
+    				android:layout_height="wrap_content"	
+    				android:gravity="center_horizontal"
+    >
+		<ImageButton	android:id="@+id/button_next"
+						android:layout_x="430px"
+						android:layout_y="219px"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:scaleType="center"
+						android:background="@drawable/next"
+		/>
+		<TextView	android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:text="NEXT STEP TO DECODE"
+		/>
+	</LinearLayout>
+	<LinearLayout 	android:orientation="vertical"
+    				android:layout_width="fill_parent"
+    				android:layout_height="100px"	
+    				android:gravity="center_horizontal"
+    >
+		<ImageButton	android:id="@+id/button_setting_phone"
+						android:layout_x="430px"
+						android:layout_y="219px"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:scaleType="center"
+						android:background="@drawable/setting"
+		/>
+		<TextView	android:id="@+id/text_setting_phone"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:text="SETTING YOUR PHONE NUMBER"
+		/>
+	</LinearLayout>
+	
+</LinearLayout>

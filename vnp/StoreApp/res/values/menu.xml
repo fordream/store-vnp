@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu">
+        <item >Quán Ăn</item>
+        <item >plan</item>
+        <item >Sách</item>
+    </string-array>
+    
+</resources>

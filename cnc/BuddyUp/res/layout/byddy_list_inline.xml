@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="@drawable/bgbuddy">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/sign_top"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" android:layout_centerInParent="true" android:gravity="center" android:hapticFeedbackEnabled="true">
+
+                <TextView
+                    android:id="@+id/commonETHearder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/color_back"
+                    android:textSize="15dip"
+                    android:textStyle="bold"
+                    android:typeface="serif" android:text="Cobund"/>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/activity1" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/commonbtnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/sign_btn_back" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout05"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/TextView09"
+                    android:layout_width="200dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="Philosophy  : "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/color_back"
+                    android:textSize="14dip"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/TextView08"
+                    android:layout_width="180dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Do - Make ab effort."
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/color_back"
+                    android:textSize="14dip"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout04"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/TextView07"
+                    android:layout_width="200dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="Skill : "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/color_back"
+                    android:textSize="14dip"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/TextView06"
+                    android:layout_width="180dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Advanced"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/color_back"
+                    android:textSize="14dip"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="200dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="Skill Rating by Others : "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/color_back"
+                    android:textSize="14dip"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/TextView04"
+                    android:layout_width="180dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Note Rate"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/color_back"
+                    android:textSize="14dip"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout03"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip" >
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="200dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="Availability : "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/color_back"
+                    android:textSize="14dip"
+                    android:typeface="serif" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout7"
+                    android:layout_width="180dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.cnc.buddyup.common.views.SheduleWeekendView
+                android:id="@+id/sheduleWeekendView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip" >
+            </com.cnc.buddyup.common.views.SheduleWeekendView>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/profille_sport_item_btnSubmit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_indicator"
+                    android:text="Submit"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*Click on a time shedule an activity."
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/color_back"
+                    android:textSize="14dip"
+                    android:textStyle="italic"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buddy_footer" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+    
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/bg_start_page">
+
+	<LinearLayout android:layout_centerInParent="true"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<TextView android:layout_width="wrap_content" android:id="@+id/text_1"
+			android:textColor="@color/white" android:layout_gravity="center_horizontal"
+			android:layout_height="wrap_content" android:text="Kho nhạc chất lượng cập nhật liên tục" />
+		<TextView android:layout_width="wrap_content" android:id="@+id/text_2"
+			android:textColor="@color/white"
+			android:layout_gravity="center_horizontal" android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:text="Dễ dàng chia sẻ nhạc qua Facebook, Email, SMS" />
+		<TextView android:layout_width="wrap_content" android:id="@+id/text_3"
+			android:textColor="@color/white"
+			android:layout_gravity="center_horizontal" android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:text="Đồng bộ kho nhạc về điện thoại để nghe offline" />
+		<TextView android:layout_width="wrap_content" android:id="@+id/text_4"
+			android:textColor="@color/white"
+			android:layout_gravity="center_horizontal" android:layout_height="wrap_content"
+			android:layout_marginTop="5dp" android:text="Hỗ trợ tải nhạc nhanh thuận tiên" />
+	</LinearLayout>
+
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:gravity="center_horizontal"
+		android:layout_alignParentBottom="true" android:layout_marginBottom="50dp"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<Button android:layout_width="wrap_content"
+			android:id="@+id/start_page_login_btn"
+			android:layout_height="wrap_content" android:textColor="#333333"
+			android:background="@drawable/selector_button_start_page"
+			android:text="Đăng nhập" />
+		<Button android:layout_width="wrap_content"
+			android:layout_marginLeft="10dp" android:layout_height="wrap_content"
+			android:id="@+id/start_page_reg_btn"
+			android:textColor="#333333" 
+			android:background="@drawable/selector_button_start_page" android:text="Đăng ký" />
+	</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+   <ImageView 
+       
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:background="@drawable/loading"
+       />
+    
+   <com.loopj.android.image.SmartImageView
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:id="@+id/photo_image_id"
+       />
+  
+   <ImageView 
+       android:id="@+id/img_temp"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       />
+	<RelativeLayout
+	    android:id="@+id/top_bar_id"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:background="@drawable/photo_detail_bar_bg"
+	    >
+	    <ImageView
+	        android:id="@+id/top_id"
+	        android:layout_width="100dp"
+	        android:layout_height="40dp"
+	        android:background="@drawable/back_buttn_news_photos"
+	        android:layout_marginLeft="20dp"
+	        android:layout_centerVertical="true"
+	        />
+	    
+	  
+	    <ImageView
+	        android:id="@+id/photos_id"
+	        android:layout_width="100dp"
+	        android:layout_height="40dp"
+	        android:background="@drawable/photo_buttn_news_photos"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="20dp"
+	        android:layout_centerVertical="true"
+	        />
+	</RelativeLayout>
+</RelativeLayout>

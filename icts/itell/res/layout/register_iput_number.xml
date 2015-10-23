@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="25dip"
+        android:orientation="vertical"
+        android:paddingLeft="7dip"
+        android:paddingRight="7dip" >
+
+        <TextView
+            android:id="@+id/register_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="ダウンロードありがとうございます！"
+            android:textColor="@android:color/black"
+            android:textSize="13dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/register_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dip"
+            android:text="iTellのご利用には、初回登録が必要です"
+            android:textColor="@android:color/black"
+            android:textSize="13dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/register_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="電話番号を入力してください"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/register_tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="25dip"
+            android:layout_marginTop="3dip"
+            android:text="電話番号は登録のために必要ですが、公開はされません"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/register_iput_editText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:focusable="true"
+                android:gravity="center_horizontal"
+                android:hint="12345678"
+                android:lines="1"
+                android:phoneNumber="true"
+                android:selectAllOnFocus="true"
+                android:singleLine="true" />
+
+            <ImageView
+                android:id="@+id/regis_input_txtConfirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/first_2_img"
+                android:text="@string/regis_confirm"
+                android:textColor="@android:color/black"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/regis_iput_btnOk"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/button_net"
+            android:text="送信" />
+    </LinearLayout>
+
+</LinearLayout>

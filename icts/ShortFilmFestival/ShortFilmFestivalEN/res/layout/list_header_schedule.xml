@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="54dip"
+    android:background="@drawable/table_tit_bg"
+    android:orientation="horizontal"
+    android:weightSum="1.0" >
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="54dip"
+        android:layout_weight=".333"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="EVENT"
+            android:textColor="#3e2b1a"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="8dip"
+            android:layout_height="15dip"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/txt_title"
+            android:background="@drawable/arrange_arrow" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="1dip"
+        android:layout_height="54dip"
+        android:background="@drawable/table_tit_divider" />
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="54dip"
+        android:layout_weight=".333"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="DATE"
+            android:textColor="#3e2b1a"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="8dip"
+            android:layout_height="15dip"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/txt_date"
+            android:background="@drawable/arrange_arrow" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="1dip"
+        android:layout_height="54dip"
+        android:background="@drawable/table_tit_divider" />
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="54dip"
+        android:layout_weight=".333"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/txt_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="TIME"
+            android:textColor="#3e2b1a"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="8dip"
+            android:layout_height="15dip"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/txt_time"
+            android:background="@drawable/arrange_arrow" />
+    </RelativeLayout>
+
+</LinearLayout>

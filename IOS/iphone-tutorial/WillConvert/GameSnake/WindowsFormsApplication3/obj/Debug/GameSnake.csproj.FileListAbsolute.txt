@@ -1,0 +1,16 @@
+E:\ThucHanh\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe
+E:\ThucHanh\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.pdb
+E:\ThucHanh\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\ResolveAssemblyReference.cache
+E:\ThucHanh\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\GamesSnake.Form1.resources
+E:\ThucHanh\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\GamesSnake.Properties.Resources.resources
+E:\ThucHanh\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\GameSnake.csproj.GenerateResource.Cache
+E:\ThucHanh\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
+E:\ThucHanh\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb
+C:\Documents and Settings\Admin\Desktop\GameSnake\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
+C:\Documents and Settings\Admin\Desktop\GameSnake\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb
+C:\Documents and Settings\Admin\Desktop\GameSnake\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe
+C:\Documents and Settings\Admin\Desktop\GameSnake\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.pdb
+C:\Documents and Settings\Admin\Desktop\GameSnake\WindowsFormsApplication3\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Desktop\GameSnake\WindowsFormsApplication3\obj\Debug\GamesSnake.Form1.resources
+C:\Documents and Settings\Admin\Desktop\GameSnake\WindowsFormsApplication3\obj\Debug\GamesSnake.Properties.Resources.resources
+C:\Documents and Settings\Admin\Desktop\GameSnake\WindowsFormsApplication3\obj\Debug\GameSnake.csproj.GenerateResource.Cache

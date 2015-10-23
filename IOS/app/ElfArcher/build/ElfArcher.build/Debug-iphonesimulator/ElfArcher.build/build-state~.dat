@@ -1,0 +1,264 @@
+TElfArcher
+v7
+r0
+t337794904.977890
+cCheck dependencies
+cProcessInfoPlistFile /Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/Info.plist ElfArcher-Info.plist
+cCompileXIB /Users/tvuong1pc/Desktop/ElfArcher/MainWindow.xib
+cCompileXIB /Users/tvuong1pc/Desktop/ElfArcher/RootViewController.xib
+cProcessPCH /var/folders/ZA/ZAuHCqoLGcuy1-blJzuBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ElfArcher_Prefix-hgzsflmoshfewmexocssvnwucfhx/ElfArcher_Prefix.pch.gch ElfArcher_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/Objects-normal/i386/main.o /Users/tvuong1pc/Desktop/ElfArcher/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/Objects-normal/i386/ElfArcherAppDelegate.o /Users/tvuong1pc/Desktop/ElfArcher/Classes/ElfArcherAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/Objects-normal/i386/RootViewController.o /Users/tvuong1pc/Desktop/ElfArcher/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/ElfArcher normal i386
+cGenerateDSYMFile /Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app.dSYM /Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/ElfArcher
+cTouch /Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Users/tvuong1pc/Desktop/ElfArcher/Classes/ElfArcherAppDelegate.h
+c000000004E721FD200000000000001D9
+t1316102098
+s473
+i<UIKit/UIKit.h>
+
+N/Users/tvuong1pc/Desktop/ElfArcher/Classes/ElfArcherAppDelegate.m
+c000000004E721FD20000000000000AAF
+t1316102098
+s2735
+i"ElfArcherAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/tvuong1pc/Desktop/ElfArcher/Classes/RootViewController.h
+c000000004E721FD200000000000000ED
+t1316102098
+s237
+i<UIKit/UIKit.h>
+
+N/Users/tvuong1pc/Desktop/ElfArcher/Classes/RootViewController.m
+c000000004E721FD200000000000010C5
+t1316102098
+s4293
+i"RootViewController.h"
+
+N/Users/tvuong1pc/Desktop/ElfArcher/ElfArcher_Prefix.pch
+c000000004E721FD20000000000000144
+t1316102098
+s324
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/tvuong1pc/Desktop/ElfArcher/MainWindow.xib
+c000000004E721FD20000000000005FFC
+t1316102098
+s24572
+
+N/Users/tvuong1pc/Desktop/ElfArcher/RootViewController.xib
+c000000004E721FD20000000000004454
+t1316102098
+s17492
+
+N/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app
+t1316102104
+s238
+
+N/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app.dSYM
+t1316102104
+s102
+
+N/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/ElfArcher
+t1316102104
+s18044
+
+N/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/Info.plist
+t1316102103
+s599
+
+N/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/MainWindow.nib
+t1316102103
+s1511
+
+N/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/PkgInfo
+t1316102103
+s8
+
+N/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/RootViewController.nib
+t1316102103
+s979
+
+N/Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/Objects-normal/i386/ElfArcher.LinkFileList
+c000000004E721FD7000000000000018C
+t1316102103
+s396
+
+N/Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/Objects-normal/i386/ElfArcherAppDelegate.o
+t1316102104
+s52704
+
+N/Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/Objects-normal/i386/RootViewController.o
+t1316102104
+s41152
+
+N/Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/Objects-normal/i386/main.o
+t1316102104
+s6296
+
+N/Users/tvuong1pc/Desktop/ElfArcher/main.m
+c000000004E721FD2000000000000016B
+t1316102098
+s363
+i<UIKit/UIKit.h>
+
+N/var/folders/ZA/ZAuHCqoLGcuy1-blJzuBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ElfArcher_Prefix-hgzsflmoshfewmexocssvnwucfhx/ElfArcher_Prefix.pch.gch
+t1316102104
+s10360536
+
+NElfArcher-Info.plist
+c000000004E721FD2000000000000038D
+t1316102098
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies337794903#337794903#0(0"0(0#1#0"2437873600#0"0#
+
+CCompileC build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/Objects-normal/i386/ElfArcherAppDelegate.o /Users/tvuong1pc/Desktop/ElfArcher/Classes/ElfArcherAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337794904.759228
+e337794904.877377
+r1
+xCompileC
+xbuild/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/Objects-normal/i386/ElfArcherAppDelegate.o
+x/Users/tvuong1pc/Desktop/ElfArcher/Classes/ElfArcherAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/tvuong1pc/Desktop/ElfArcher/Classes/ElfArcherAppDelegate.m337794904#337794904#0(0"0(0#0#65"/Users/tvuong1pc/Desktop/ElfArcher/Classes/ElfArcherAppDelegate.m2437873600#1950"    cd /Users/tvuong1pc/Desktop/ElfArcher    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/ElfArcher-generated-files.hmap -I/Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/ElfArcher-own-target-headers.hmap -I/Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/ElfArcher-all-target-headers.hmap -iquote /Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/ElfArcher-project-headers.hmap -F/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator -I/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/include -I/Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/DerivedSources/i386 -I/Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/DerivedSources -include /var/folders/ZA/ZAuHCqoLGcuy1-blJzuBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ElfArcher_Prefix-hgzsflmoshfewmexocssvnwucfhx/ElfArcher_Prefix.pch -c /Users/tvuong1pc/Desktop/ElfArcher/Classes/ElfArcherAppDelegate.m -o /Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/Objects-normal/i386/ElfArcherAppDelegate.o0#
+
+CCompileC build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/Objects-normal/i386/RootViewController.o /Users/tvuong1pc/Desktop/ElfArcher/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337794904.830404
+e337794904.918847
+r1
+xCompileC
+xbuild/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/Objects-normal/i386/RootViewController.o
+x/Users/tvuong1pc/Desktop/ElfArcher/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/tvuong1pc/Desktop/ElfArcher/Classes/RootViewController.m337794904#337794904#0(0"0(0#0#63"/Users/tvuong1pc/Desktop/ElfArcher/Classes/RootViewController.m2437873600#1946"    cd /Users/tvuong1pc/Desktop/ElfArcher    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/ElfArcher-generated-files.hmap -I/Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/ElfArcher-own-target-headers.hmap -I/Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/ElfArcher-all-target-headers.hmap -iquote /Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/ElfArcher-project-headers.hmap -F/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator -I/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/include -I/Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/DerivedSources/i386 -I/Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/DerivedSources -include /var/folders/ZA/ZAuHCqoLGcuy1-blJzuBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ElfArcher_Prefix-hgzsflmoshfewmexocssvnwucfhx/ElfArcher_Prefix.pch -c /Users/tvuong1pc/Desktop/ElfArcher/Classes/RootViewController.m -o /Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/Objects-normal/i386/main.o /Users/tvuong1pc/Desktop/ElfArcher/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s337794904.757797
+e337794904.830264
+r1
+xCompileC
+xbuild/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/Objects-normal/i386/main.o
+x/Users/tvuong1pc/Desktop/ElfArcher/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/tvuong1pc/Desktop/ElfArcher/main.m337794904#337794904#0(0"0(0#0#41"/Users/tvuong1pc/Desktop/ElfArcher/main.m2437873600#1910"    cd /Users/tvuong1pc/Desktop/ElfArcher    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/ElfArcher-generated-files.hmap -I/Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/ElfArcher-own-target-headers.hmap -I/Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/ElfArcher-all-target-headers.hmap -iquote /Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/ElfArcher-project-headers.hmap -F/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator -I/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/include -I/Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/DerivedSources/i386 -I/Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/DerivedSources -include /var/folders/ZA/ZAuHCqoLGcuy1-blJzuBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ElfArcher_Prefix-hgzsflmoshfewmexocssvnwucfhx/ElfArcher_Prefix.pch -c /Users/tvuong1pc/Desktop/ElfArcher/main.m -o /Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/tvuong1pc/Desktop/ElfArcher/MainWindow.xib
+s337794903.261782
+e337794903.862299
+r1
+xCompileXIB
+x/Users/tvuong1pc/Desktop/ElfArcher/MainWindow.xib
+o2011-09-15 22:55:03.803 Interface Builder Cocoa Touch Tool[2343:1903] CFPreferences: user home directory at file://localhost/Users/tvuong1pc/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@25"CompileXIB MainWindow.xib337794903#337794903#0(243"2011-09-15 22:55:03.803 Interface Builder Cocoa Touch Tool[2343:1903] CFPreferences: user home directory at file://localhost/Users/tvuong1pc/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#49"/Users/tvuong1pc/Desktop/ElfArcher/MainWindow.xib2437873600#560"    cd /Users/tvuong1pc/Desktop/ElfArcher    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/MainWindow.nib /Users/tvuong1pc/Desktop/ElfArcher/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/tvuong1pc/Desktop/ElfArcher/RootViewController.xib
+s337794903.262767
+e337794903.855190
+r1
+xCompileXIB
+x/Users/tvuong1pc/Desktop/ElfArcher/RootViewController.xib
+o2011-09-15 22:55:03.785 Interface Builder Cocoa Touch Tool[2342:1903] CFPreferences: user home directory at file://localhost/Users/tvuong1pc/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@33"CompileXIB RootViewController.xib337794903#337794903#0(243"2011-09-15 22:55:03.785 Interface Builder Cocoa Touch Tool[2342:1903] CFPreferences: user home directory at file://localhost/Users/tvuong1pc/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#57"/Users/tvuong1pc/Desktop/ElfArcher/RootViewController.xib2437873600#576"    cd /Users/tvuong1pc/Desktop/ElfArcher    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/RootViewController.nib /Users/tvuong1pc/Desktop/ElfArcher/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app.dSYM /Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/ElfArcher
+s337794904.952511
+e337794904.973608
+r1
+xGenerateDSYMFile
+x/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app.dSYM
+x/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/ElfArcher
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/ElfArcher.app.dSYM build/Debug-iphonesimulator/ElfArcher.app/ElfArcher337794904#337794904#0(0"0(0#0#86"/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/ElfArcher2437873600#377"    cd /Users/tvuong1pc/Desktop/ElfArcher    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/ElfArcher -o /Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app.dSYM0#
+
+CLd /Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/ElfArcher normal i386
+s337794904.918973
+e337794904.952364
+r1
+xLd
+x/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/ElfArcher
+xnormal
+xi386
+lSLF07#2@91"Link /Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/ElfArcher337794904#337794904#0(0"0(0#0#0"2437873600#890"    cd /Users/tvuong1pc/Desktop/ElfArcher    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator -F/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator -filelist /Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/Objects-normal/i386/ElfArcher.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/ElfArcher0#
+
+CProcessInfoPlistFile /Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/Info.plist ElfArcher-Info.plist
+s337794903.257592
+e337794903.261671
+r1
+xProcessInfoPlistFile
+x/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/Info.plist
+xElfArcher-Info.plist
+lSLF07#2@28"Process ElfArcher-Info.plist337794903#337794903#0(0"0(0#0#55"/Users/tvuong1pc/Desktop/ElfArcher/ElfArcher-Info.plist2437873600#473"    cd /Users/tvuong1pc/Desktop/ElfArcher    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ElfArcher-Info.plist -genpkginfo /Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app/Info.plist0#
+
+CProcessPCH /var/folders/ZA/ZAuHCqoLGcuy1-blJzuBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ElfArcher_Prefix-hgzsflmoshfewmexocssvnwucfhx/ElfArcher_Prefix.pch.gch ElfArcher_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s337794903.862458
+e337794904.757604
+r1
+xProcessPCH
+x/var/folders/ZA/ZAuHCqoLGcuy1-blJzuBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ElfArcher_Prefix-hgzsflmoshfewmexocssvnwucfhx/ElfArcher_Prefix.pch.gch
+xElfArcher_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile ElfArcher_Prefix.pch337794903#337794904#0(0"0(0#0#55"/Users/tvuong1pc/Desktop/ElfArcher/ElfArcher_Prefix.pch2437873600#1804"    cd /Users/tvuong1pc/Desktop/ElfArcher    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/ElfArcher-generated-files.hmap -I/Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/ElfArcher-own-target-headers.hmap -I/Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/ElfArcher-all-target-headers.hmap -iquote /Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/ElfArcher-project-headers.hmap -F/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator -I/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/include -I/Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/DerivedSources/i386 -I/Users/tvuong1pc/Desktop/ElfArcher/build/ElfArcher.build/Debug-iphonesimulator/ElfArcher.build/DerivedSources -c /Users/tvuong1pc/Desktop/ElfArcher/ElfArcher_Prefix.pch -o /var/folders/ZA/ZAuHCqoLGcuy1-blJzuBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ElfArcher_Prefix-hgzsflmoshfewmexocssvnwucfhx/ElfArcher_Prefix.pch.gch0#
+
+CTouch /Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app
+s337794904.973727
+e337794904.977827
+r1
+xTouch
+x/Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app
+lSLF07#2@82"Touch /Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app337794904#337794904#0(0"0(0#0#0"2437873600#272"    cd /Users/tvuong1pc/Desktop/ElfArcher    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/tvuong1pc/Desktop/ElfArcher/build/Debug-iphonesimulator/ElfArcher.app0#
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<color name="now_playing_title">#4C4C4C</color>
+
+	<color name="text_color">#cccccc</color>
+	<color name="subtitle_text_color">#999999</color>
+	<color name="app_bg">#4e4e4e</color>
+	<color name="listitem_bg">#4e4e4e</color>
+	<color name="dockina_bg">#e2e2e2</color>
+	<color name="setting_section_title_bg">#363636</color>
+	<color name="black">#000000</color>
+	<color name="white">#ffffff</color>
+	<color name="nowplaying_toolbar_bg">#363636</color>
+	<color name="listview_first_text">#333333</color>
+	<color name="listview_second_text">#333333</color>
+	<color name="listview_second_text_extra">#666666</color>
+	<color name="popup_title_bg">#070707</color>
+	<color name="popup_bg">#e2e2e2</color>
+	<color name="popup_divider">#cbcbcb</color>
+	<color name="listview_row_normal">#bfbfbf</color>
+	<color name="listview_row_focus">#ebebeb</color>
+	
+	<color name="listview_song_title_color">#333333</color>
+	<color name="listview_song_info_firt">#3C3C3C</color>
+	<color name="listview_song_info_second">#666666</color>
+	
+	
+	<color name="listview_dialog_normal">#e2e2e2</color>
+	<color name="listview_dialog_focus">#0099cc</color>
+</resources>

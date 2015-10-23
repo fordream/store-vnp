@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <org.com.cnc.rosemont.views.HeaderDetailView
+            android:id="@+id/headerView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </org.com.cnc.rosemont.views.HeaderDetailView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="700dip"
+        android:layout_weight="7"
+        android:background="@drawable/bgproductdetail2"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="131dip"
+            android:layout_weight="131"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout15"
+                android:layout_width="match_parent"
+                android:layout_height="131dip"
+                android:layout_weight="131"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout17"
+                    android:layout_width="10dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="10"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout16"
+                    android:layout_width="600dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="600"
+                    android:orientation="horizontal" android:gravity="bottom">
+
+                    <TextView
+                        android:id="@+id/tvNameProductDetail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Large Text"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/color_1"
+                        android:textStyle="bold" android:ellipsize="end" android:paddingRight="10dip"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout14"
+                android:layout_width="match_parent"
+                android:layout_height="125dip"
+                android:layout_weight="125"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:layout_weight="60"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout06"
+                android:layout_width="12dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="12"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout05"
+                android:layout_width="197dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="197"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btnCertificate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_one" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout04"
+                android:layout_width="16dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="16"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout03"
+                android:layout_width="197dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="197"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btnSummary"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_one" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout02"
+                android:layout_width="14dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="14"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="197dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="197"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btnDosage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_one" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout10"
+                android:layout_width="15dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="15"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="485dip"
+            android:layout_weight="485"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout08"
+                android:layout_width="10dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="10"
+                android:orientation="horizontal" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout07"
+                android:layout_width="700dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="700"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout10"
+                    android:layout_width="650dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="650"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout11"
+                        android:layout_width="match_parent"
+                        android:layout_height="10dip"
+                        android:layout_weight="10"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout11"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="200"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout13"
+                            android:layout_width="match_parent"
+                            android:layout_height="300dip"
+                            android:layout_weight="300"
+                            android:orientation="vertical" >
+
+                            <ListView
+                                android:id="@+id/listView1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:cacheColorHint="#00000000"
+                                android:fadingEdge="vertical"
+                                android:fastScrollEnabled="true" >
+                            </ListView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout12"
+                            android:layout_width="match_parent"
+                            android:layout_height="10dip"
+                            android:layout_weight="10"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout09"
+                    android:layout_width="10dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="10"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:layout_weight="60"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout8"
+                android:layout_width="428dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="428"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnReportAdverse"
+                android:layout_width="197dip"
+                android:layout_height="match_parent"
+                android:layout_weight="197"
+                android:background="@drawable/btn_one" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout9"
+                android:layout_width="15dip"
+                android:layout_height="match_parent"
+                android:layout_weight="15"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="8dip"
+            android:layout_weight="8"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

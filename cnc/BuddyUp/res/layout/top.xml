@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:background="@drawable/left_top"></ImageView>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ImageView01" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:background="@drawable/right_top"></ImageView>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ImageView02" android:layout_alignParentTop="true" android:layout_toLeftOf="@+id/ImageView01" android:layout_toRightOf="@+id/imageView1" android:background="@drawable/center_top"></ImageView>
+    
+</RelativeLayout>

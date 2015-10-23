@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="@drawable/profile_bg">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/LinearLayout09" >
+
+        <LinearLayout android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:padding="10dip">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/linearLayout1">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:id="@+id/LinearLayout07">
+                    <TextView android:layout_height="wrap_content" android:textColor="@color/color_back" android:typeface="serif" android:id="@+id/TextView07" android:textSize="14dip" android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall" android:textStyle="bold" android:text="Name of Group" android:layout_width="100dip"></TextView>
+                    <TextView android:layout_width="180dip" android:layout_height="wrap_content" android:text="Inline Sketing" android:singleLine="true" android:textColor="@color/color_back" android:paddingRight="5dip" android:typeface="monospace" android:id="@+id/TextViewname" android:textSize="14dip" android:layout_weight="1" android:paddingLeft="5dip" android:textStyle="bold"></TextView>
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="10dip" android:id="@+id/LinearLayout08" android:layout_marginBottom="10dip">
+                    <TextView android:layout_width="90dip" android:layout_height="wrap_content" android:text="Group type" android:textColor="@color/color_back" android:typeface="serif" android:id="@+id/TextView09" android:textSize="14dip" android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall" android:textStyle="bold"></TextView>
+                    <TextView android:background="@drawable/creategroupetsp" android:layout_width="180dip" android:layout_height="wrap_content" android:textColor="@color/color_back" android:paddingRight="5dip" android:typeface="monospace" android:id="@+id/TextView08" android:gravity="center_vertical" android:textSize="14dip" android:layout_weight="1" android:paddingLeft="5dip" android:text="Private"></TextView>
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="5dip" android:id="@+id/LinearLayout06" android:layout_marginBottom="5dip">
+                    <TextView android:layout_width="90dip" android:layout_height="wrap_content" android:text="Date formed" android:textColor="@color/color_back" android:typeface="serif" android:id="@+id/TextView06" android:textSize="14dip" android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall" android:textStyle="bold"></TextView>
+                    <TextView android:layout_width="180dip" android:layout_height="wrap_content" android:text="10/20/2011" android:textColor="@color/color_back" android:paddingRight="5dip" android:typeface="monospace" android:id="@+id/TextView1" android:gravity="center_vertical" android:textSize="14dip" android:layout_weight="1" android:paddingLeft="5dip" android:textStyle="bold"></TextView>
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="5dip" android:id="@+id/LinearLayout05" android:layout_marginBottom="5dip">
+                    <TextView android:layout_width="90dip" android:layout_height="wrap_content" android:text="Statement of Purposer :" android:textColor="@color/color_back" android:typeface="serif" android:id="@+id/TextView05" android:textSize="14dip" android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall" android:textStyle="bold"></TextView>
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="5dip" android:id="@+id/LinearLayout04" android:layout_marginBottom="5dip">
+                    <TextView android:layout_width="180dip" android:layout_height="wrap_content" android:text="Minimum Skill" android:textColor="@color/color_back" android:typeface="serif" android:id="@+id/TextView04" android:textSize="14dip" android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall" android:textStyle="bold"></TextView>
+                    <TextView android:background="@drawable/creategroupetsp" android:layout_width="180dip" android:layout_height="wrap_content" android:textColor="@color/color_back" android:paddingRight="5dip" android:typeface="monospace" android:id="@+id/TextView3" android:gravity="center_vertical" android:textSize="14dip" android:layout_weight="1" android:paddingLeft="5dip" android:text="Beginner"></TextView>
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:id="@+id/LinearLayout03">
+                    <TextView android:layout_width="180dip" android:layout_height="wrap_content" android:text="Maximum Members" android:textColor="@color/color_back" android:typeface="serif" android:id="@+id/TextView03" android:textSize="14dip" android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall" android:textStyle="bold"></TextView>
+                    <EditText android:layout_width="180dip" android:id="@+id/EditText03" android:layout_height="wrap_content" android:background="@drawable/creategroupet2" android:paddingRight="5dip" android:singleLine="true" android:textColor="@color/color_back" android:paddingLeft="5dip" android:typeface="monospace" android:textSize="14dip" android:layout_weight="1" android:text="10">
+                        <requestFocus></requestFocus>
+                    </EditText>
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="5dip" android:id="@+id/LinearLayout02" android:layout_marginBottom="5dip">
+                    <TextView android:layout_width="180dip" android:layout_height="wrap_content" android:text="Maximum Distance" android:textColor="@color/color_back" android:typeface="serif" android:id="@+id/TextView02" android:textSize="14dip" android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall" android:textStyle="bold"></TextView>
+                    <EditText android:layout_width="180dip" android:id="@+id/EditText02" android:layout_height="wrap_content" android:background="@drawable/creategroupet2" android:paddingRight="5dip" android:singleLine="true" android:textColor="@color/color_back" android:paddingLeft="5dip" android:typeface="monospace" android:textSize="14dip" android:layout_weight="1" android:text="10"></EditText>
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:id="@+id/LinearLayout01">
+                    <TextView android:layout_width="90dip" android:layout_height="wrap_content" android:text="Memmbers" android:textColor="@color/color_back" android:layout_marginBottom="5dip" android:typeface="serif" android:layout_marginTop="5dip" android:id="@+id/TextView01" android:textSize="14dip" android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceSmall" android:textStyle="bold"></TextView>
+                    <EditText android:layout_width="180dip" android:id="@+id/EditText01" android:layout_height="wrap_content" android:paddingBottom="5dip" android:background="@drawable/groupdetailet1" android:paddingRight="5dip" android:textColor="@color/color_back" android:paddingLeft="5dip" android:typeface="monospace" android:maxLines="7" android:gravity="top" android:textSize="14dip" android:layout_weight="1" android:paddingTop="5dip" android:text="@string/aaa"></EditText>
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10dip" android:gravity="center_horizontal" android:id="@+id/linearLayout3">
+                    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/Button02" android:background="@drawable/groupdetailbtnaddnumber"></Button>
+                    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dip" android:layout_marginLeft="5dip" android:id="@+id/Button01" android:background="@drawable/groupdetailbtnwithdraw"></Button>
+                    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/button1" android:background="@drawable/groupdetailbtndisband"></Button>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout09"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/sign_top"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip" >
+
+            <TextView
+                android:id="@+id/commonETHearder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/color_back"
+                android:textSize="15dip"
+                android:textStyle="bold"
+                android:typeface="serif" android:text="@string/group_detail"/>
+
+            <Button
+                android:id="@+id/commonbtnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/sign_btn_back" />
+
+            <Button
+                android:id="@+id/commonBtnAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/commonbtnBack"
+                android:background="@drawable/groupdetailbtnsave" />
+        </RelativeLayout>
+    </LinearLayout>
+    
+</RelativeLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="vertical" 
+        android:paddingBottom="2dip">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/chat_title"
+            android:textStyle="bold"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20dip" />
+         <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/line" />
+    </LinearLayout>
+    
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="10dip"
+            android:gravity="left"
+            android:layout_marginTop="5dip"
+            android:text="@string/chat_available_time"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/chat_text_size_title" />
+         <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/line" />
+    </LinearLayout>
+
+    <!-- Remain time -->
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5dip"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal" 
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/chat_remain"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/chat_text_size_remain_time"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dip"
+            android:gravity="left"
+            android:text="3"
+            android:textColor="@android:color/darker_gray"
+            android:id="@+id/chat_time_hour"
+            android:textSize="@dimen/chat_text_size_remain_time" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dip"
+            android:gravity="left"
+            android:text="@string/chat_time"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/chat_text_size_remain_time" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dip"
+            android:gravity="left"
+            android:text="00"
+            android:textColor="@android:color/darker_gray"
+            android:id="@+id/chat_time_minute"
+            android:textSize="@dimen/chat_text_size_remain_time" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:paddingLeft="2dip"
+            android:gravity="left"
+            android:text="@string/chat_time_minute"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/chat_text_size_remain_time" />
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dip"
+            android:gravity="left"
+            android:text="00"
+            android:textColor="@android:color/darker_gray"
+            android:id="@+id/chat_time_second"
+            android:textSize="@dimen/chat_text_size_remain_time" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dip"
+            android:gravity="left"
+            android:text="@string/chat_time_second"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/chat_text_size_remain_time" />
+    </LinearLayout>
+    
+     <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/chat_img_time_reset"
+            android:layout_marginRight="15dip"
+            android:layout_centerVertical="true"
+            android:background="@drawable/reset" />
+    </RelativeLayout>
+     <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/line" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="10dip"
+            android:gravity="left"
+            android:layout_marginTop="5dip"
+            android:text="@string/chat_chating"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/chat_text_size_title" />
+         <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/line" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dip"
+        android:orientation="horizontal" >
+        <ListView
+	        android:id="@+id/chat_chatlist"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:cacheColorHint="#00000000"
+	        android:divider="@drawable/line"
+	        android:fadingEdge="none"
+	        android:layoutAnimation="@anim/layout_bottom_to_top_slide"
+	        android:persistentDrawingCache="animation|scrolling"
+	        android:scrollbarThumbVertical="@drawable/scrollbar_y"
+	        android:scrollingCache="false" />
+    </LinearLayout>
+
+</LinearLayout>

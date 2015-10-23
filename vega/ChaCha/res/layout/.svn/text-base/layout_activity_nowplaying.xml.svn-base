@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_root" >
+
+    <RelativeLayout
+        android:id="@+id/top_region"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/topbar_height"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_header"
+        android:padding="2dp" >
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/selector_button_back"
+            android:paddingBottom="1dp"
+            android:paddingLeft="1dp"
+            android:text="@string/previous"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/back_btn"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title_song_txt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:maxWidth="200dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="Song name"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/title_artist_txt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:maxWidth="200dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="Artist name"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                android:textStyle="bold" >
+            </TextView>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ViewFlipper
+        android:id="@+id/flipper_control_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_region" >
+
+        <include
+            android:id="@+id/first1"
+            layout="@layout/view_nowplaying_flipper_control" >
+        </include>
+
+        <include
+            android:id="@+id/second1"
+            layout="@layout/view_nowplaying_flipper_list" >
+        </include>
+    </ViewFlipper>
+
+</RelativeLayout>

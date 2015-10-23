@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.vn.icts.wendy.view.TopBarView
+        android:id="@+id/setting_gender_topBarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </com.vn.icts.wendy.view.TopBarView>
+
+    <RadioGroup
+        android:id="@+id/settingGender_radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <RadioButton
+            android:id="@+id/RadioButton01"
+            android:layout_width="@dimen/dimens300"
+            android:layout_height="@dimen/dimens50"
+            android:layout_marginBottom="@dimen/dimens10"
+            android:layout_marginTop="@dimen/dimens30"
+            android:background="@drawable/tvuong_button_setting_selected"
+            android:button="@drawable/transfer"
+            android:checked="true"
+            android:drawableRight="@drawable/tvuong_checkbox_male_female"
+            android:paddingLeft="@dimen/dimens10"
+            android:paddingRight="@dimen/dimens10"
+            android:text="@string/male"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp15" />
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="@dimen/dimens300"
+            android:layout_height="@dimen/dimens50"
+            android:background="@drawable/tvuong_button_setting_selected"
+            android:button="@drawable/transfer"
+            android:drawableRight="@drawable/tvuong_checkbox_male_female"
+            android:paddingLeft="@dimen/dimens10"
+            android:paddingRight="@dimen/dimens10"
+            android:text="@string/female"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp15" />
+
+    </RadioGroup>
+
+</LinearLayout>

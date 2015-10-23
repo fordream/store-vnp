@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent" android:background="#ffffff" android:layout_height="60dip">
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:text="@string/offer_information" android:layout_centerVertical="true" android:id="@+id/tVAddress" android:textColor="#717171" android:textSize="12dip" android:typeface="serif" android:layout_alignParentLeft="true" android:layout_marginLeft="20dip" android:layout_toLeftOf="@+id/button001" android:maxLines="2"></TextView>
+        <ImageView android:layout_width="wrap_content" android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_centerVertical="true" android:background="@drawable/call_item" android:layout_marginRight="-20dip" android:layout_alignParentRight="true"></ImageView>
+        <TextView android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:text="TextView" android:layout_height="wrap_content" android:layout_toRightOf="@+id/imageView1" android:id="@+id/tVNumberCall" android:layout_centerVertical="true"></TextView>
+
+        <Button
+            android:id="@+id/button001"
+            android:layout_width="106dip"
+            android:layout_height="35dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="10dip"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:background="@drawable/call_indicator" >
+</Button>
+        <LinearLayout android:id="@+id/linearLayout1" android:background="@drawable/line" android:orientation="vertical" android:layout_height="1dip" android:layout_width="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"></LinearLayout>
+    </RelativeLayout>
+    
+</LinearLayout>

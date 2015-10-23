@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llheader"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgheader"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:weightSum="27" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgheaderdetail1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:weightSum="27" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="190dip"
+            android:layout_weight="19" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="19" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout02"
+                    android:layout_width="30dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:paddingLeft="10dip" >
+
+                    <ImageButton
+                        android:id="@+id/btnBack"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="#00000000"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/btn_back_indicator"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout01"
+                    android:layout_width="140dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="140"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout05"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dip"
+                        android:layout_weight="300"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout06"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dip"
+                            android:layout_weight="100" >
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout04"
+                            android:layout_width="match_parent"
+                            android:layout_height="270dip"
+                            android:layout_weight="270" >
+
+                            <LinearLayout
+                                android:id="@+id/LinearLayout07"
+                                android:layout_width="1000dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1000" >
+
+                                <LinearLayout
+                                    android:id="@+id/LinearLayout09"
+                                    android:layout_width="40dip"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="40" android:layout_marginRight="5dp">
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/LinearLayout08"
+                                    android:layout_width="250dip"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="250" >
+
+                                    <LinearLayout
+                                        android:id="@+id/llNextLeft"
+                                        android:layout_width="80dip"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="80"
+                                        android:background="@drawable/btnnextleft">
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:id="@+id/LinearLayout10"
+                                        android:layout_width="590dip"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="590" >
+
+                                        <LinearLayout
+                                            android:id="@+id/LinearLayout13"
+                                            android:layout_width="600dip"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="600" >
+
+                                            <LinearLayout
+                                                android:id="@+id/LinearLayout15"
+                                                android:layout_width="580dip"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="590">
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:id="@+id/LinearLayout14"
+                                                android:layout_width="600dip"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="600" >
+
+                                                <TextView
+                                                    android:id="@+id/textView1"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:gravity="center_vertical"
+                                                    android:textAppearance="?android:attr/textAppearanceLarge" android:ellipsize="end" android:lines="1" android:textColor="@color/color_detail_product" android:text="50mg/5ml" android:typeface="serif" android:textSize="25sp"/>
+                                            </LinearLayout>
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:id="@+id/llnextRight"
+                                            android:layout_width="80dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="80"
+                                            android:background="@drawable/btnnextright" >
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/linearLayout4"
+                                android:layout_width="30dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="30" >
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dip"
+                        android:layout_weight="100" >
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout03"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

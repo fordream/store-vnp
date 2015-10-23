@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>optionName</key>
+		<string>Airplane Mode</string>
+		<key>mode</key>
+		<string>2</string>
+		<key>photo</key>
+		<string>airplane.png</string>
+	</dict>
+	<dict>
+		<key>optionName</key>
+		<string>Wi-Fi</string>
+		<key>mode</key>
+		<string>3</string>
+		<key>photo</key>
+		<string>wifi.png</string>
+	</dict>
+	<dict>
+		<key>optionName</key>
+		<string>Notifications</string>
+		<key>mode</key>
+		<string>1</string>
+		<key>photo</key>
+		<string>notification.png</string>
+	</dict>
+	<dict>
+		<key>optionName</key>
+		<string>Location Services</string>
+		<key>mode</key>
+		<string>3</string>
+		<key>photo</key>
+		<string>location.png</string>
+	</dict>
+	<dict>
+		<key>optionName</key>
+		<string>Carrier</string>
+		<key>mode</key>
+		<string>3</string>
+		<key>photo</key>
+		<string>carrier.jpeg</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,294 @@
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\bin\Debug\dean.exe
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\bin\Debug\dean.pdb
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\obj\Debug\ResolveAssemblyReference.cache
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\obj\Debug\dean.Form1.resources
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\obj\Debug\dean.Properties.Resources.resources
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\obj\Debug\dean.csproj.GenerateResource.Cache
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\obj\Debug\dean.exe
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\obj\Debug\dean.pdb
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\bin\Debug\Interop.WMPLib.dll
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\bin\Debug\AxInterop.WMPLib.dll
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\obj\Debug\Interop.WMPLib.dll
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\obj\Debug\AxInterop.WMPLib.dll
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\obj\Debug\dean.csproj.ResolveComReference.cache
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\bin\Debug\ImageButton.dll
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\bin\Debug\Renderers.dll
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\bin\Debug\Renderers.pdb
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\bin\Debug\ImageButton.pdb
+C:\Users\Quang\Desktop\dean\dean\obj\Debug\Interop.WMPLib.dll
+C:\Users\Quang\Desktop\dean\dean\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Quang\Desktop\dean\dean\obj\Debug\dean.csproj.ResolveComReference.cache
+C:\Users\Quang\Desktop\dean\dean\obj\Debug\dean.exe
+C:\Users\Quang\Desktop\dean\dean\obj\Debug\dean.pdb
+C:\Users\Quang\Desktop\dean\dean\bin\Debug\dean.exe
+C:\Users\Quang\Desktop\dean\dean\bin\Debug\dean.pdb
+C:\Users\Quang\Desktop\dean\dean\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\Quang\Desktop\dean\dean\bin\Debug\Renderers.pdb
+C:\Users\Quang\Desktop\dean\dean\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\Quang\Desktop\dean\dean\bin\Debug\ImageButton.pdb
+C:\Users\Quang\Desktop\dean\dean\bin\Debug\Interop.WMPLib.dll
+C:\Users\Quang\Desktop\dean\dean\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Quang\Desktop\dean\dean\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Quang\Desktop\dean\dean\obj\Debug\dean.Form1.resources
+C:\Users\Quang\Desktop\dean\dean\obj\Debug\dean.Properties.Resources.resources
+C:\Users\Quang\Desktop\dean\dean\obj\Debug\zap.VISTA_Track.resources
+C:\Users\Quang\Desktop\dean\dean\obj\Debug\dean.csproj.GenerateResource.Cache
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\obj\Debug\zap.VISTA_Track.resources
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\obj\Debug\Interop.ShockwaveFlashObjects.dll
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\bin\Debug\Interop.ShockwaveFlashObjects.dll
+D:\Learning\Lap trinh C for Win\detai\cuoiky\dean\dean\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\Learning\Lap trinh C for Win\detai\dean\dean\obj\Debug\Interop.ShockwaveFlashObjects.dll
+D:\Learning\Lap trinh C for Win\detai\dean\dean\obj\Debug\Interop.WMPLib.dll
+D:\Learning\Lap trinh C for Win\detai\dean\dean\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\Learning\Lap trinh C for Win\detai\dean\dean\obj\Debug\AxInterop.WMPLib.dll
+D:\Learning\Lap trinh C for Win\detai\dean\dean\obj\Debug\dean.csproj.ResolveComReference.cache
+D:\Learning\Lap trinh C for Win\detai\dean\dean\obj\Debug\dean.exe
+D:\Learning\Lap trinh C for Win\detai\dean\dean\obj\Debug\dean.pdb
+D:\Learning\Lap trinh C for Win\detai\dean\dean\bin\Debug\dean.exe
+D:\Learning\Lap trinh C for Win\detai\dean\dean\bin\Debug\dean.pdb
+D:\Learning\Lap trinh C for Win\detai\dean\dean\bin\Debug\Renderers.pdb
+D:\Learning\Lap trinh C for Win\detai\dean\dean\bin\Debug\ImageButton.pdb
+D:\Learning\Lap trinh C for Win\detai\dean\dean\bin\Debug\Interop.ShockwaveFlashObjects.dll
+D:\Learning\Lap trinh C for Win\detai\dean\dean\bin\Debug\Interop.WMPLib.dll
+D:\Learning\Lap trinh C for Win\detai\dean\dean\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+D:\Learning\Lap trinh C for Win\detai\dean\dean\bin\Debug\AxInterop.WMPLib.dll
+D:\Learning\Lap trinh C for Win\detai\dean\dean\obj\Debug\ResolveAssemblyReference.cache
+D:\Learning\Lap trinh C for Win\detai\dean\dean\obj\Debug\dean.Form1.resources
+D:\Learning\Lap trinh C for Win\detai\dean\dean\obj\Debug\dean.Properties.Resources.resources
+D:\Learning\Lap trinh C for Win\detai\dean\dean\obj\Debug\zap.VISTA_Track.resources
+D:\Learning\Lap trinh C for Win\detai\dean\dean\obj\Debug\dean.csproj.GenerateResource.Cache
+C:\Documents and Settings\Windows XP\Desktop\dean\dean\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean\dean\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean\dean\obj\Debug\dean.csproj.ResolveComReference.cache
+C:\Documents and Settings\Windows XP\Desktop\dean\dean\obj\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\dean\dean\obj\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean\dean\bin\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\dean\dean\bin\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean\dean\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean\dean\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean\dean\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Windows XP\Desktop\dean\dean\obj\Debug\dean.Form1.resources
+C:\Documents and Settings\Windows XP\Desktop\dean\dean\obj\Debug\dean.Properties.Resources.resources
+C:\Documents and Settings\Windows XP\Desktop\dean\dean\obj\Debug\zap.VISTA_Track.resources
+C:\Documents and Settings\Windows XP\Desktop\dean\dean\obj\Debug\dean.csproj.GenerateResource.Cache
+C:\Documents and Settings\Windows XP\Desktop\Must Read\dean\dean\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Documents and Settings\Windows XP\Desktop\Must Read\dean\dean\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\Must Read\dean\dean\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Documents and Settings\Windows XP\Desktop\Must Read\dean\dean\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\Must Read\dean\dean\obj\Debug\dean.csproj.ResolveComReference.cache
+C:\Documents and Settings\Windows XP\Desktop\Must Read\dean\dean\obj\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\Must Read\dean\dean\obj\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\Must Read\dean\dean\bin\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\Must Read\dean\dean\bin\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\Must Read\dean\dean\bin\Debug\Renderers.pdb
+C:\Documents and Settings\Windows XP\Desktop\Must Read\dean\dean\bin\Debug\ImageButton.pdb
+C:\Documents and Settings\Windows XP\Desktop\Must Read\dean\dean\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Documents and Settings\Windows XP\Desktop\Must Read\dean\dean\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\Must Read\dean\dean\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Documents and Settings\Windows XP\Desktop\Must Read\dean\dean\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\Must Read\dean\dean\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Windows XP\Desktop\Must Read\dean\dean\obj\Debug\dean.Form1.resources
+C:\Documents and Settings\Windows XP\Desktop\Must Read\dean\dean\obj\Debug\dean.Properties.Resources.resources
+C:\Documents and Settings\Windows XP\Desktop\Must Read\dean\dean\obj\Debug\zap.VISTA_Track.resources
+C:\Documents and Settings\Windows XP\Desktop\Must Read\dean\dean\obj\Debug\dean.csproj.GenerateResource.Cache
+D:\Learning\Lap trinh C for Win\detai\cuoiky\sao luu\dean2\dean\obj\Debug\Interop.WMPLib.dll
+D:\Learning\Lap trinh C for Win\detai\cuoiky\sao luu\dean2\dean\obj\Debug\AxInterop.WMPLib.dll
+D:\Learning\Lap trinh C for Win\detai\cuoiky\sao luu\dean2\dean\obj\Debug\dean.csproj.ResolveComReference.cache
+D:\Learning\Lap trinh C for Win\detai\cuoiky\sao luu\dean2\dean\obj\Debug\dean.exe
+D:\Learning\Lap trinh C for Win\detai\cuoiky\sao luu\dean2\dean\obj\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean2\dean\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean2\dean\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean2\dean\obj\Debug\dean.csproj.ResolveComReference.cache
+C:\Documents and Settings\Windows XP\Desktop\dean2\dean\obj\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\dean2\dean\obj\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean2\dean\bin\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\dean2\dean\bin\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean2\dean\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean2\dean\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean2\dean\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Windows XP\Desktop\dean2\dean\obj\Debug\dean.Form1.resources
+C:\Documents and Settings\Windows XP\Desktop\dean2\dean\obj\Debug\dean.Properties.Resources.resources
+C:\Documents and Settings\Windows XP\Desktop\dean2\dean\obj\Debug\zap.VISTA_Track.resources
+C:\Documents and Settings\Windows XP\Desktop\dean2\dean\obj\Debug\dean.csproj.GenerateResource.Cache
+C:\Documents and Settings\Windows XP\Desktop\dean3\dean\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean3\dean\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean3\dean\obj\Debug\dean.csproj.ResolveComReference.cache
+C:\Documents and Settings\Windows XP\Desktop\dean3\dean\obj\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\dean3\dean\obj\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean3\dean\bin\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\dean3\dean\bin\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean3\dean\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean3\dean\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean3\dean\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Windows XP\Desktop\dean3\dean\obj\Debug\dean.Form1.resources
+C:\Documents and Settings\Windows XP\Desktop\dean3\dean\obj\Debug\dean.Properties.Resources.resources
+C:\Documents and Settings\Windows XP\Desktop\dean3\dean\obj\Debug\zap.VISTA_Track.resources
+C:\Documents and Settings\Windows XP\Desktop\dean3\dean\obj\Debug\dean.csproj.GenerateResource.Cache
+C:\Documents and Settings\Windows XP\Desktop\dean4\dean\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean4\dean\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean4\dean\obj\Debug\dean.csproj.ResolveComReference.cache
+C:\Documents and Settings\Windows XP\Desktop\dean4\dean\obj\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\dean4\dean\obj\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean4\dean\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Windows XP\Desktop\dean4\dean\obj\Debug\dean.Form1.resources
+C:\Documents and Settings\Windows XP\Desktop\dean4\dean\obj\Debug\dean.Properties.Resources.resources
+C:\Documents and Settings\Windows XP\Desktop\dean4\dean\obj\Debug\zap.VISTA_Track.resources
+C:\Documents and Settings\Windows XP\Desktop\dean4\dean\obj\Debug\dean.csproj.GenerateResource.Cache
+C:\Documents and Settings\Windows XP\Desktop\dean4\dean\bin\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\dean4\dean\bin\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean4\dean\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean4\dean\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean5\dean\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean5\dean\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean5\dean\obj\Debug\dean.csproj.ResolveComReference.cache
+C:\Documents and Settings\Windows XP\Desktop\dean5\dean\obj\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\dean5\dean\obj\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean5\dean\bin\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\dean5\dean\bin\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean5\dean\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean5\dean\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean5\dean\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Windows XP\Desktop\dean5\dean\obj\Debug\dean.Form1.resources
+C:\Documents and Settings\Windows XP\Desktop\dean5\dean\obj\Debug\dean.Properties.Resources.resources
+C:\Documents and Settings\Windows XP\Desktop\dean5\dean\obj\Debug\zap.VISTA_Track.resources
+C:\Documents and Settings\Windows XP\Desktop\dean5\dean\obj\Debug\dean.csproj.GenerateResource.Cache
+C:\Documents and Settings\Windows XP\Desktop\dean6\dean\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean6\dean\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean6\dean\obj\Debug\dean.csproj.ResolveComReference.cache
+C:\Documents and Settings\Windows XP\Desktop\dean6\dean\obj\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\dean6\dean\obj\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean6\dean\bin\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\dean6\dean\bin\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean6\dean\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean6\dean\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean6\dean\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Windows XP\Desktop\dean6\dean\obj\Debug\dean.Form1.resources
+C:\Documents and Settings\Windows XP\Desktop\dean6\dean\obj\Debug\dean.Properties.Resources.resources
+C:\Documents and Settings\Windows XP\Desktop\dean6\dean\obj\Debug\zap.VISTA_Track.resources
+C:\Documents and Settings\Windows XP\Desktop\dean6\dean\obj\Debug\dean.csproj.GenerateResource.Cache
+C:\Documents and Settings\Windows XP\Desktop\dean7\dean\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean7\dean\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean7\dean\obj\Debug\dean.csproj.ResolveComReference.cache
+C:\Documents and Settings\Windows XP\Desktop\dean7\dean\obj\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\dean7\dean\obj\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean7\dean\bin\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\dean7\dean\bin\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean7\dean\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean7\dean\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean7\dean\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Windows XP\Desktop\dean7\dean\obj\Debug\dean.Form1.resources
+C:\Documents and Settings\Windows XP\Desktop\dean7\dean\obj\Debug\dean.Properties.Resources.resources
+C:\Documents and Settings\Windows XP\Desktop\dean7\dean\obj\Debug\zap.VISTA_Track.resources
+C:\Documents and Settings\Windows XP\Desktop\dean7\dean\obj\Debug\dean.csproj.GenerateResource.Cache
+D:\Learning\Lap trinh C for Win\dean7\dean\obj\Debug\Interop.WMPLib.dll
+D:\Learning\Lap trinh C for Win\dean7\dean\obj\Debug\AxInterop.WMPLib.dll
+D:\Learning\Lap trinh C for Win\dean7\dean\obj\Debug\dean.csproj.ResolveComReference.cache
+D:\Learning\Lap trinh C for Win\dean7\dean\obj\Debug\dean.exe
+D:\Learning\Lap trinh C for Win\dean7\dean\obj\Debug\dean.pdb
+D:\Learning\Lap trinh C for Win\dean7\dean\obj\Debug\ResolveAssemblyReference.cache
+D:\Learning\Lap trinh C for Win\dean7\dean\obj\Debug\dean.Form1.resources
+D:\Learning\Lap trinh C for Win\dean7\dean\obj\Debug\dean.Properties.Resources.resources
+D:\Learning\Lap trinh C for Win\dean7\dean\obj\Debug\zap.VISTA_Track.resources
+D:\Learning\Lap trinh C for Win\dean7\dean\obj\Debug\dean.csproj.GenerateResource.Cache
+D:\Learning\Lap trinh C for Win\dean7\dean\bin\Debug\dean.exe
+D:\Learning\Lap trinh C for Win\dean7\dean\bin\Debug\dean.pdb
+D:\Learning\Lap trinh C for Win\dean7\dean\bin\Debug\Interop.WMPLib.dll
+D:\Learning\Lap trinh C for Win\dean7\dean\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Quang\Desktop\dean712\dean\obj\Debug\Interop.WMPLib.dll
+C:\Users\Quang\Desktop\dean712\dean\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Quang\Desktop\dean712\dean\obj\Debug\dean.csproj.ResolveComReference.cache
+C:\Users\Quang\Desktop\dean712\dean\obj\Debug\dean.exe
+C:\Users\Quang\Desktop\dean712\dean\obj\Debug\dean.pdb
+C:\Users\Quang\Desktop\dean712\dean\bin\Debug\dean.exe
+C:\Users\Quang\Desktop\dean712\dean\bin\Debug\dean.pdb
+C:\Users\Quang\Desktop\dean712\dean\bin\Debug\Interop.WMPLib.dll
+C:\Users\Quang\Desktop\dean712\dean\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Quang\Desktop\dean712\dean\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Quang\Desktop\dean712\dean\obj\Debug\dean.Form1.resources
+C:\Users\Quang\Desktop\dean712\dean\obj\Debug\dean.Properties.Resources.resources
+C:\Users\Quang\Desktop\dean712\dean\obj\Debug\zap.VISTA_Track.resources
+C:\Users\Quang\Desktop\dean712\dean\obj\Debug\dean.csproj.GenerateResource.Cache
+C:\Documents and Settings\Windows XP\Desktop\dean712\dean\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean712\dean\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean712\dean\obj\Debug\dean.csproj.ResolveComReference.cache
+C:\Documents and Settings\Windows XP\Desktop\dean712\dean\obj\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\dean712\dean\obj\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean712\dean\bin\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\dean712\dean\bin\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean712\dean\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean712\dean\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean712\dean\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Windows XP\Desktop\dean712\dean\obj\Debug\dean.Form1.resources
+C:\Documents and Settings\Windows XP\Desktop\dean712\dean\obj\Debug\dean.Properties.Resources.resources
+C:\Documents and Settings\Windows XP\Desktop\dean712\dean\obj\Debug\zap.VISTA_Track.resources
+C:\Documents and Settings\Windows XP\Desktop\dean712\dean\obj\Debug\dean.csproj.GenerateResource.Cache
+C:\Documents and Settings\Windows XP\Desktop\dean712\dean\obj\Debug\dean.exe.licenses
+C:\Documents and Settings\Windows XP\Desktop\dean(quan trong)\dean\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean(quan trong)\dean\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean(quan trong)\dean\obj\Debug\dean.csproj.ResolveComReference.cache
+C:\Documents and Settings\Windows XP\Desktop\dean(quan trong)\dean\obj\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\dean(quan trong)\dean\obj\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean(quan trong)\dean\bin\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\dean(quan trong)\dean\bin\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean(quan trong)\dean\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean(quan trong)\dean\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean(quan trong)\dean\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Windows XP\Desktop\dean(quan trong)\dean\obj\Debug\dean.Form1.resources
+C:\Documents and Settings\Windows XP\Desktop\dean(quan trong)\dean\obj\Debug\dean.Properties.Resources.resources
+C:\Documents and Settings\Windows XP\Desktop\dean(quan trong)\dean\obj\Debug\zap.VISTA_Track.resources
+C:\Documents and Settings\Windows XP\Desktop\dean(quan trong)\dean\obj\Debug\dean.csproj.GenerateResource.Cache
+C:\Documents and Settings\Windows XP\Desktop\dean(quan trong)\dean\obj\Debug\dean.exe.licenses
+C:\Documents and Settings\Windows XP\Desktop\dean(quan trong)\dean\obj\Debug\dean.thongtin.resources
+C:\Documents and Settings\Windows XP\Desktop\dean(hoantat)\dean\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean(hoantat)\dean\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean(hoantat)\dean\obj\Debug\dean.csproj.ResolveComReference.cache
+C:\Documents and Settings\Windows XP\Desktop\dean(hoantat)\dean\obj\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\dean(hoantat)\dean\obj\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean(hoantat)\dean\bin\Debug\dean.exe
+C:\Documents and Settings\Windows XP\Desktop\dean(hoantat)\dean\bin\Debug\dean.pdb
+C:\Documents and Settings\Windows XP\Desktop\dean(hoantat)\dean\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean(hoantat)\dean\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Windows XP\Desktop\dean(hoantat)\dean\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Windows XP\Desktop\dean(hoantat)\dean\obj\Debug\dean.Form1.resources
+C:\Documents and Settings\Windows XP\Desktop\dean(hoantat)\dean\obj\Debug\dean.Properties.Resources.resources
+C:\Documents and Settings\Windows XP\Desktop\dean(hoantat)\dean\obj\Debug\zap.VISTA_Track.resources
+C:\Documents and Settings\Windows XP\Desktop\dean(hoantat)\dean\obj\Debug\dean.thongtin.resources
+C:\Documents and Settings\Windows XP\Desktop\dean(hoantat)\dean\obj\Debug\dean.csproj.GenerateResource.Cache
+C:\Documents and Settings\Windows XP\Desktop\dean(hoantat)\dean\obj\Debug\dean.exe.licenses
+C:\Users\Quang\Desktop\dean(hoantat)\dean\obj\Debug\Interop.WMPLib.dll
+C:\Users\Quang\Desktop\dean(hoantat)\dean\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Quang\Desktop\dean(hoantat)\dean\obj\Debug\dean.csproj.ResolveComReference.cache
+C:\Users\Quang\Desktop\dean(hoantat)\dean\obj\Debug\dean.exe
+C:\Users\Quang\Desktop\dean(hoantat)\dean\obj\Debug\dean.pdb
+C:\Users\Quang\Desktop\dean(hoantat)\dean\bin\Debug\dean.exe
+C:\Users\Quang\Desktop\dean(hoantat)\dean\bin\Debug\dean.pdb
+C:\Users\Quang\Desktop\dean(hoantat)\dean\bin\Debug\Interop.WMPLib.dll
+C:\Users\Quang\Desktop\dean(hoantat)\dean\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Quang\Desktop\dean(hoantat)\dean\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Quang\Desktop\dean(hoantat)\dean\obj\Debug\dean.Form1.resources
+C:\Users\Quang\Desktop\dean(hoantat)\dean\obj\Debug\dean.Properties.Resources.resources
+C:\Users\Quang\Desktop\dean(hoantat)\dean\obj\Debug\zap.VISTA_Track.resources
+C:\Users\Quang\Desktop\dean(hoantat)\dean\obj\Debug\dean.thongtin.resources
+C:\Users\Quang\Desktop\dean(hoantat)\dean\obj\Debug\dean.csproj.GenerateResource.Cache
+C:\Users\hnsunflower1807\Desktop\Source_C#\Media player\dean(hoantat)\dean\obj\Debug\Interop.WMPLib.dll
+C:\Users\hnsunflower1807\Desktop\Source_C#\Media player\dean(hoantat)\dean\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\hnsunflower1807\Desktop\Source_C#\Media player\dean(hoantat)\dean\obj\Debug\dean.csproj.ResolveComReference.cache
+C:\Users\hnsunflower1807\Desktop\Source_C#\Media player\dean(hoantat)\dean\obj\Debug\dean.exe
+C:\Users\hnsunflower1807\Desktop\Source_C#\Media player\dean(hoantat)\dean\obj\Debug\dean.pdb
+C:\Users\hnsunflower1807\Desktop\Source_C#\Media player\dean(hoantat)\dean\bin\Debug\dean.exe
+C:\Users\hnsunflower1807\Desktop\Source_C#\Media player\dean(hoantat)\dean\bin\Debug\dean.pdb
+C:\Users\hnsunflower1807\Desktop\Source_C#\Media player\dean(hoantat)\dean\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\hnsunflower1807\Desktop\Source_C#\Media player\dean(hoantat)\dean\bin\Debug\Interop.WMPLib.dll
+C:\Users\hnsunflower1807\Desktop\Source_C#\Media player\dean(hoantat)\dean\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\hnsunflower1807\Desktop\Source_C#\Media player\dean(hoantat)\dean\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\hnsunflower1807\Desktop\Source_C#\Media player\dean(hoantat)\dean\obj\Debug\dean.Form1.resources
+C:\Users\hnsunflower1807\Desktop\Source_C#\Media player\dean(hoantat)\dean\obj\Debug\dean.Properties.Resources.resources
+C:\Users\hnsunflower1807\Desktop\Source_C#\Media player\dean(hoantat)\dean\obj\Debug\zap.VISTA_Track.resources
+C:\Users\hnsunflower1807\Desktop\Source_C#\Media player\dean(hoantat)\dean\obj\Debug\dean.thongtin.resources
+C:\Users\hnsunflower1807\Desktop\Source_C#\Media player\dean(hoantat)\dean\obj\Debug\dean.csproj.GenerateResource.Cache
+D:\Learn\Data\C#\Source_C#\Media player\dean(hoantat)\dean\obj\Debug\Interop.WMPLib.dll
+D:\Learn\Data\C#\Source_C#\Media player\dean(hoantat)\dean\obj\Debug\AxInterop.WMPLib.dll
+D:\Learn\Data\C#\Source_C#\Media player\dean(hoantat)\dean\obj\Debug\dean.csproj.ResolveComReference.cache
+D:\Learn\Data\C#\Source_C#\Media player\dean(hoantat)\dean\obj\Debug\dean.exe
+D:\Learn\Data\C#\Source_C#\Media player\dean(hoantat)\dean\obj\Debug\dean.pdb

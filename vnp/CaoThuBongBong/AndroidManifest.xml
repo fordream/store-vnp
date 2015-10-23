@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.com.vnp.caothubongbong"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="4" />
+    <supports-screens android:anyDensity="true" android:resizeable="true" android:normalScreens="true" android:largeScreens="true" android:smallScreens="true"/>
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" 
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        >
+        <activity
+            android:name="Splash"
+            android:screenOrientation="landscape"
+             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="CaothubongbongActivity" android:screenOrientation="landscape" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"></activity>
+        <activity android:name="MenuActivity" android:screenOrientation="landscape" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"></activity>
+    </application>
+
+</manifest>

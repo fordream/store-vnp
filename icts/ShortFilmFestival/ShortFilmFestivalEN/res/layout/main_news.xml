@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#EFEFEF"
+	android:gravity="center"
+	>
+  <FrameLayout 
+      xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center"
+      >
+     <!--  <ScrollView 
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          >
+           -->
+	     <fragment
+			class="com.icts.shortfilmfestival.detailfragment.NewsDetail"
+			android:layout_marginTop="-2dp"
+			android:id="@+id/detail_fragment"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" 
+			android:gravity="center"
+		/>
+     <!-- </ScrollView> -->
+	<fragment
+		class="com.icts.shortfilmfestival.fragment.NewsFragment"
+		android:layout_marginTop="-2dp"
+		android:id="@+id/tabs_fragment"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_gravity="center"
+		android:gravity="center"
+		/>
+	 
+	</FrameLayout>
+</LinearLayout>

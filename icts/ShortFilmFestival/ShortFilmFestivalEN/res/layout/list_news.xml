@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#EFEFEF"
+    android:gravity="left|center_vertical"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/imgleft"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal" 
+        >
+		<LinearLayout 
+		    android:id="@+id/layout_image_id"
+		    android:layout_marginTop="7dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@color/news_title"
+            android:layout_gravity="center"
+		    >
+        <com.loopj.android.image.SmartImageView
+            android:id="@+id/thumbnail_id"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp" 
+            
+            />
+		</LinearLayout>
+        <ImageView
+            android:layout_toRightOf="@+id/layout_image_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/arrow_news" 
+            />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imgleft"
+        android:gravity="left|center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/datetimetext_id"
+            android:layout_width="fill_parent"
+            android:layout_height="15dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:paddingLeft="17dp"
+            android:textColor="@color/news_date"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/titletext_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/datetimetext_id"
+            android:gravity="left"
+            android:paddingLeft="17dp"
+            android:textColor="@color/news_title"
+            android:maxLines="2"
+            android:ellipsize="marquee"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/contenttext_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titletext_id"
+            android:layout_marginBottom="7dp"
+            android:gravity="left"
+            android:paddingLeft="17dp"
+            android:textColor="@color/news_content"
+            android:maxLines="2"
+            android:ellipsize="marquee"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

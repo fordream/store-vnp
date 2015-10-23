@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/relativeLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/include2"
+            android:layout_below="@+id/include1"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="150dip" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="150dip"
+                    android:layout_height="fill_parent"
+                    android:gravity="top|center_horizontal"
+                    android:orientation="vertical" android:layout_weight="150">
+
+                    <ImageView
+                        android:id="@+id/imgProduct"
+                        android:layout_width="90dip"
+                        android:layout_height="80dip"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="150dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="10dip"
+                    android:orientation="vertical" android:layout_weight="150">
+
+                    <TextView
+                        android:id="@+id/tVProductName"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/product_name"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/text_item_product"
+                        android:textSize="15dip"
+                        android:textStyle="bold"
+                        android:typeface="serif" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tVLaboratoryName"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/laboratory_name"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/text_item_lab"
+                        android:textSize="13dip"
+                        android:textStyle="bold"
+                        android:typeface="serif" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/tVPriceFromTo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/price_example"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/text_item_price"
+                        android:textSize="14dip"
+                        android:textStyle="bold"
+                        android:typeface="serif" >
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" android:layout_marginTop="20dip">
+
+                <RelativeLayout
+                    android:id="@+id/rlOffersProduct"
+                    android:layout_width="fill_parent"
+                    android:layout_height="41dip"
+                    android:background="@drawable/bgconfiguration1indicator" >
+
+                    <ImageButton
+                        android:id="@+id/imgOffersNext"
+                        android:layout_width="10dip"
+                        android:layout_height="10dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dip"
+                        android:background="@drawable/next" >
+                    </ImageButton>
+
+                    <TextView
+                        android:id="@+id/tVCountOffersProducts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dip"
+                        android:layout_marginRight="5dip"
+                        android:text="@string/value0"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/text_product_number"
+                        android:textSize="14dip"
+                        android:textStyle="bold" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/tVCountOffersProducts"
+                        android:text="@string/offers"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/text_prouct_offer"
+                        android:textSize="14dip"
+                        android:textStyle="bold" >
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlSimilarsProduct"
+                    android:layout_width="fill_parent"
+                    android:layout_height="41dip"
+                    android:background="@drawable/bgconfiguration2indicator" >
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignTop="@+id/textView3"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dip"
+                        android:text="@string/similars_products"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/text_prouct_offer"
+                        android:textSize="14dip"
+                        android:textStyle="bold" >
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/imgSimilarsProducts"
+                        android:layout_width="10dip"
+                        android:layout_height="10dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dip"
+                        android:background="@drawable/next" >
+                    </ImageButton>
+
+                    <TextView
+                        android:id="@+id/tVCountSilarsProducts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dip"
+                        android:layout_toLeftOf="@+id/imgSimilarsProducts"
+                        android:text="0"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/text_product_number"
+                        android:textSize="12dip"
+                        android:textStyle="bold" >
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlGenericProducts"
+                    android:layout_width="fill_parent"
+                    android:layout_height="41dip"
+                    android:background="@drawable/bgconfiguration3indicator" >
+
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dip"
+                        android:text="@string/generic_products"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/text_prouct_offer"
+                        android:textSize="14dip"
+                        android:textStyle="bold" >
+                    </TextView>
+
+                    <ImageButton
+                        android:id="@+id/imgGenericProducts"
+                        android:layout_width="10dip"
+                        android:layout_height="10dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dip"
+                        android:background="@drawable/next" >
+                    </ImageButton>
+
+                    <TextView
+                        android:id="@+id/tVCountGenericproducts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dip"
+                        android:layout_toLeftOf="@+id/imgGenericProducts"
+                        android:text="0"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/text_product_number"
+                        android:textSize="12dip"
+                        android:textStyle="bold" >
+                    </TextView>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

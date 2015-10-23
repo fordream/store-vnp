@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Line98MenuActivity!</string>
+    <string name="app_name">Line98Pro</string>
+    <string name="top_score">Top Scores</string>
+    <string name="setting">Setting</string>
+    <string name="newgame">New Game</string>
+
+</resources>

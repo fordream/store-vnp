@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2733CF3C-02DC-41E5-8602-305DD9D73386}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>dean</RootNamespace>
+    <AssemblyName>dean</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=8.0.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\tham khao\hieu ung\hieu ung Office2007\8.0\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Win32, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Win32.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralValidation.cs" />
+    <Compile Include="ham.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SkinTrackbar.resx">
+      <DependentUpon>SkinTrackbar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="thongtin.resx">
+      <DependentUpon>thongtin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SkinTrackbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SkinTrackbar.Designer.cs">
+      <DependentUpon>SkinTrackbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="thongtin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="thongtin.Designer.cs">
+      <DependentUpon>thongtin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tkonline.cs">
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mute copy copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\muted copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next copy copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause copy 2 copy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop copy copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_click.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_hover.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_nomal.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banshee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bottom.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fullscreen_click.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fullscreen_hover.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fullscreen_nomal.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\library.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loop_click.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loop_hover.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loop_off.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loop_on.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_click.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_hover.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_nomal.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movie_track_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\music16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mute_click.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mute_hover.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mute_nomal.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mute_off_click.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mute_off_hover.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mute_off_nomal.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next_click.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next_hover.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next_nomal.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nowplaying.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause_click.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause_hover.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause_nomal.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play_click.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play_hover.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play_nomal.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\savepass16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shuffer_off.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shuffer_off_click.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shuffer_off_hover.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shuffer_on.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shuffer_on_click.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shuffer_on_hover.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound_track_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop_click.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop_hover.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop_nomal.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop_off.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop_on_click.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop_on_hover.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop_on_nomal.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TRACK_Thumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\danhsach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timkiem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\danhsach1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trogiup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timkiem1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nen1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nen2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nenmoi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nenlv.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\untitled.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lv1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lv2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

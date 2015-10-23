@@ -1,0 +1,141 @@
+// !$*UTF8*$!
+{
+	04DD873D1384FAC600A4CFCB /* example2_tableView */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = example2_tableView;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	04DD875A1384FAE600A4CFCB /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	04DD875B1384FAE600A4CFCB /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	04DD87D4138508A600A4CFCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* example2_tableViewAppDelegate.h */;
+		name = "example2_tableViewAppDelegate.h: 17";
+		rLen = 0;
+		rLoc = 372;
+		rType = 0;
+		vrLen = 514;
+		vrLoc = 0;
+	};
+	04DD87D91385093200A4CFCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* example2_tableViewAppDelegate.m */;
+		name = "example2_tableViewAppDelegate.m: 60";
+		rLen = 0;
+		rLoc = 1918;
+		rType = 0;
+		vrLen = 1415;
+		vrLoc = 282;
+	};
+	04DD885B13850E2700A4CFCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* example2_tableViewAppDelegate.m */;
+		name = "example2_tableViewAppDelegate.m: 62";
+		rLen = 0;
+		rLoc = 1998;
+		rType = 0;
+		vrLen = 1417;
+		vrLoc = 1098;
+	};
+	1D3623240D0F684500981E51 /* example2_tableViewAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1166, 477}}";
+			sepNavSelRange = "{372, 0}";
+			sepNavVisRange = "{0, 514}";
+		};
+	};
+	1D3623250D0F684500981E51 /* example2_tableViewAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1456}}";
+			sepNavSelRange = "{1998, 0}";
+			sepNavVisRange = "{1098, 1417}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* example2_tableView */ = {
+		activeExec = 0;
+		executables = (
+			04DD873D1384FAC600A4CFCB /* example2_tableView */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 04DD873D1384FAC600A4CFCB /* example2_tableView */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* example2_tableView */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* example2_tableView */,
+		);
+		codeSenseManager = 04DD875B1384FAE600A4CFCB /* Code sense */;
+		executables = (
+			04DD873D1384FAC600A4CFCB /* example2_tableView */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					961,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 327486995;
+			PBXWorkspaceStateSaveDate = 327486995;
+		};
+		perUserProjectItems = {
+			04DD87D4138508A600A4CFCB /* PBXTextBookmark */ = 04DD87D4138508A600A4CFCB /* PBXTextBookmark */;
+			04DD87D91385093200A4CFCB /* PBXTextBookmark */ = 04DD87D91385093200A4CFCB /* PBXTextBookmark */;
+			04DD885B13850E2700A4CFCB /* PBXTextBookmark */ = 04DD885B13850E2700A4CFCB /* PBXTextBookmark */;
+		};
+		sourceControlManager = 04DD875A1384FAE600A4CFCB /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

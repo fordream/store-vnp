@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgpaer"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/newDetail_topbar"
+            android:layout_marginLeft="@dimen/dimens10"
+            android:layout_marginRight="@dimen/dimens10"
+            android:layout_marginTop="@dimen/_dimens12"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/dimens10" >
+
+            <TextView
+                android:id="@+id/new_detail_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens10"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#525151"
+                android:textSize="@dimen/sp22" />
+
+            <com.ict.library.view.CustomImageView
+                android:id="@+id/newDetailAvatar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimens10"
+                android:layout_marginTop="@dimen/dimens10"
+                android:src="@drawable/ad_bg" >
+
+            </com.ict.library.view.CustomImageView>
+
+            <TextView
+                android:id="@+id/new_detail_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimens10"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#525151"
+                android:textSize="@dimen/sp15" />
+
+        </LinearLayout>
+
+        <com.vn.icts.wendy.view.TopBarView
+            android:id="@+id/newDetail_topbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </com.vn.icts.wendy.view.TopBarView>
+    </RelativeLayout>
+
+</ScrollView>

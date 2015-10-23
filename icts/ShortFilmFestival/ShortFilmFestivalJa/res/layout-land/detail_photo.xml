@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+   <ImageView 
+       
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:background="@drawable/loading"
+       />
+    
+   <com.loopj.android.image.SmartImageViewPhoto
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_centerInParent="true"
+       android:id="@+id/photo_image_id"
+       />
+  
+   <ImageView 
+       android:id="@+id/img_temp"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       />
+	<RelativeLayout
+	    android:id="@+id/top_bar_id"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/photo_detail_bar_bg"
+	    >
+	    <ImageView
+	        android:id="@+id/top_id"
+	        android:layout_width="50dp"
+	        android:layout_height="40dp"
+	        android:background="@drawable/photo_detail_top_buttn"
+	        android:layout_marginLeft="20dp"
+	        android:layout_centerVertical="true"
+	        />
+	    
+	    <TextView
+	        android:id="@+id/categoty_id"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:textStyle="bold"
+	        android:textSize="20sp"
+	        />
+	     <ImageView
+	        android:id="@+id/google_id"
+	        android:layout_width="35dp"
+	        android:layout_height="40dp"
+	        android:background="@drawable/photo_detail_google_buttn"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="140dp"
+	        android:layout_centerVertical="true"
+	        />
+	    
+	    <ImageView
+	        android:id="@+id/twitter_id"
+	        android:layout_width="35dp"
+	        android:layout_height="40dp"
+	        android:background="@drawable/photo_detail_flickr_buttn"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="80dp"
+	        android:layout_centerVertical="true"
+	        />
+	    <ImageView
+	        android:id="@+id/facebook_id"
+	        android:layout_width="35dp"
+	        android:layout_height="40dp"
+	        android:background="@drawable/photo_detail_face_buttn"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="20dp"
+	        android:layout_centerVertical="true"
+	        />
+	</RelativeLayout>
+	
+	<RelativeLayout
+	    android:id="@+id/bottom_bar_id"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom = "true"
+	    android:layout_marginBottom="20dp"
+	    >
+	    
+	    <TextView
+	        android:id="@+id/caption_id"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:maxLines = "1"
+	        android:textSize="15sp"
+	        />
+	</RelativeLayout>
+</RelativeLayout>

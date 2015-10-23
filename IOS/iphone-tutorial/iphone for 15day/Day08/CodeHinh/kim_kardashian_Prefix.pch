@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'kim_kardashian' target in the 'kim_kardashian' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#EFEFEF"
+	>
+<LinearLayout
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:background="@drawable/info_tab_bg"
+   >
+   <ImageView 
+       android:id="@+id/update_list_id"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/update_icon"
+	    android:layout_marginLeft ="10dp"
+	    android:layout_gravity="center_vertical"
+       />
+   <TextView
+	    android:id="@+id/date_update_id"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_gravity="center_vertical"
+	    />
+   
+	
+</LinearLayout>
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    >
+	<LinearLayout 
+	    android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="#EFEFEF"
+		>
+		
+	    <LinearLayout
+		    android:id="@+id/layout_all_id"
+		    android:layout_width="fill_parent"
+		    android:layout_height="52dp"
+		    android:background="@drawable/tab_bg_inactive"
+		    >
+		    <TextView
+		        android:id="@+id/all_title_id"
+		        android:layout_marginLeft="30dp"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="20sp"
+		        android:textStyle="bold"
+		        android:text="All"
+		        android:textColor="@color/news_title"
+		        android:layout_gravity="center_vertical"
+		        />
+		    
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:id="@+id/layout_gridview_all_id"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:background="#EFEFEF"
+		    >
+			 <GridView
+		        android:id="@+id/gridview_all_id"
+		        android:layout_width="fill_parent"
+		        android:columnWidth="40dp"
+		        android:gravity="center"
+		        android:horizontalSpacing="10dp"
+		        android:numColumns="5"
+		        android:stretchMode="columnWidth"
+		        android:verticalSpacing="10dp"
+		        android:layout_height="0dp"
+	        /> 
+		</LinearLayout>
+
+	  <LinearLayout
+	      android:id="@+id/layout_festival_id"
+	      android:layout_width="fill_parent"
+	      android:layout_height="52dp"
+	      android:background="@drawable/tab_bg_inactive" >
+
+		    <TextView
+		        android:id="@+id/festival_title_id"
+		        android:layout_marginLeft="30dp"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="20sp"
+		        android:textStyle="bold"
+		        android:text="Festival"
+		        android:textColor="@color/news_title"
+		        android:layout_gravity="center_vertical"
+		        />
+		    
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:id="@+id/layout_gridview_festival_id"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:background="#EFEFEF"
+		    >
+			 <GridView
+		        android:id="@+id/gridview_festival_id"
+		        android:layout_width="fill_parent"
+		        android:columnWidth="40dp"
+		        android:gravity="center"
+		        android:horizontalSpacing="10dp"
+		        android:numColumns="5"
+		        android:stretchMode="columnWidth"
+		        android:verticalSpacing="10dp"
+		        android:layout_height="0dp"
+	        /> 
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:id="@+id/layout_biz_id"
+		    android:layout_width="fill_parent"
+		    android:layout_height="52dp"
+		    android:background="@drawable/tab_bg_inactive"
+		    >
+		    <TextView
+		        android:id="@+id/biz_title_id"
+		        android:layout_marginLeft="30dp"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="20sp"
+		        android:textStyle="bold"
+		        android:text="Biz"
+		        android:textColor="@color/news_title"
+		        android:layout_gravity="center_vertical"
+		        />
+		    
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:id="@+id/layout_gridview_biz_id"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:background="#EFEFEF"
+		    >
+			 <GridView
+		        android:id="@+id/gridview_biz_id"
+		        android:layout_width="fill_parent"
+		        android:columnWidth="40dp"
+		        android:gravity="center"
+		        android:horizontalSpacing="10dp"
+		        android:numColumns="5"
+		        android:stretchMode="columnWidth"
+		        android:verticalSpacing="10dp" 
+		        android:layout_height="0dp"
+	        /> 
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:id="@+id/layout_lounge_id"
+		    android:layout_width="fill_parent"
+		    android:layout_height="52dp"
+		    android:background="@drawable/tab_bg_inactive"
+		    >
+		    <TextView
+		        android:id="@+id/lounge_title_id"
+		        android:layout_marginLeft="30dp"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="20sp"
+		        android:textStyle="bold"
+		        android:text="Lougne"
+		        android:textColor="@color/news_title"
+		        android:layout_gravity="center_vertical"
+		        />
+		    
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:id="@+id/layout_gridview_lounge_id"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:background="#EFEFEF"
+		    >
+			 <GridView
+		        android:id="@+id/gridview_lounge_id"
+		        android:layout_width="fill_parent"
+		        android:columnWidth="40dp"
+		        android:gravity="center"
+		        android:horizontalSpacing="10dp"
+		        android:numColumns="5"
+		        android:stretchMode="columnWidth"
+		        android:verticalSpacing="10dp" 
+		        android:layout_height="0dp"
+	        /> 
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:id="@+id/layout_theater_id"
+		    android:layout_width="fill_parent"
+		    android:layout_height="52dp"
+		    android:background="@drawable/tab_bg_inactive"
+		    >
+		    <TextView
+		        android:id="@+id/theater_title_id"
+		        android:layout_marginLeft="30dp"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="20sp"
+		        android:textStyle="bold"
+		        android:text="Theater"
+		        android:textColor="@color/news_title"
+		        android:layout_gravity="center_vertical"
+		        />
+		    
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:id="@+id/layout_gridview_theater_id"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:background="#EFEFEF"
+		    >
+			 <GridView
+		        android:id="@+id/gridview_theater_id"
+		        android:layout_width="fill_parent"
+		        android:columnWidth="40dp"
+		        android:gravity="center"
+		        android:horizontalSpacing="10dp"
+		        android:numColumns="5"
+		        android:stretchMode="columnWidth"
+		        android:verticalSpacing="10dp" 
+		        android:layout_height="0dp"
+	        /> 
+		</LinearLayout>
+	</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

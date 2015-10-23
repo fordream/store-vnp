@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+        <org.com.cnc.rosemont.views.HeaderView
+            android:id="@+id/headerView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </org.com.cnc.rosemont.views.HeaderView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="700dip"
+        android:layout_weight="7"
+        android:background="@drawable/bgadverse"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="250dip"
+            android:orientation="vertical" android:layout_weight="250">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="72dip"
+            android:layout_weight="72"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="180dip"
+            android:layout_weight="180"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="80dip"
+            android:layout_weight="80"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="120dip"
+            android:layout_weight="120"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

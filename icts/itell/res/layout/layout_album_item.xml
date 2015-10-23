@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/album_rl_item_text_right"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:visibility="gone" >
+        <ImageView 
+            android:id="@+id/album_img_delete_item"
+            android:src="@drawable/delete_left_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+        <TextView
+             android:id="@+id/album_tv_preview_item"
+              android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              android:layout_centerVertical="true"
+              android:gravity="right"
+              android:layout_marginRight="10dip"
+              android:textColor="@android:color/darker_gray"
+              android:text="@string/profile_album_text"
+              android:textSize="22dip"
+               />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="listviewitemup" 
+        android:id="@+id/album_ll_image_item">
+
+        <ImageView
+            android:id="@+id/imgTimestamp"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:scaleType="fitXY" />
+         <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" />
+ 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/inner_tab_border"
+            android:orientation="vertical" />
+    </RelativeLayout>
+
+</RelativeLayout>

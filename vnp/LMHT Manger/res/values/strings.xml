@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LMHTManager</string>
+
+    <string-array name="lan">
+        <item>Đường trên</item>
+        <item>Đường giữa</item>
+        <item>Đường dưới AD</item>
+        <item>Đường dưới support</item>
+        <item>Đường rừng</item>
+    </string-array>
+
+</resources>

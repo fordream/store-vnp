@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/sign_top"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <TextView
+            android:id="@+id/commonETHearder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/option_information"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/color_back"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+
+        <Button
+            android:id="@+id/commonbtnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/sign_btn_back" >
+        </Button>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/relativeLayout1"
+        android:background="@drawable/bg_login" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:text="Sex : "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/bg_back"
+                    android:textSize="14dip"
+                    android:typeface="serif" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/profileoptioninformationSPSex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/profile_option_sex"
+                    android:gravity="center"
+                    android:paddingRight="20dip"
+                    android:text="Fmale"
+                    android:textColor="@color/color_back"
+                    android:textSize="14dip"
+                    android:typeface="serif" >
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:text="Description of yourself : "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/bg_back"
+                android:textSize="14dip"
+                android:typeface="serif" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/profileoptioninformationETDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/profile_option_des"
+                android:gravity="top"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:paddingTop="5dip"
+                android:textColor="@color/color_back"
+                android:textSize="14dip"
+                android:typeface="serif" >
+
+                <requestFocus>
+                </requestFocus>
+            </EditText>
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:text="Comments : "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/bg_back"
+                android:textSize="14dip"
+                android:typeface="serif" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/profileoptioninformationETComments"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/profile_option_con"
+                android:gravity="top"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:paddingTop="5dip"
+                android:textColor="@color/color_back"
+                android:textSize="14dip"
+                android:typeface="serif" >
+            </EditText>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/profileoptioninformationBtnSubmit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/profile_option_submit"
+                    android:typeface="serif" >
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.cnc.buddyup.common.views.LoadingView
+        android:id="@+id/loadingView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true" >
+
+    </com.cnc.buddyup.common.views.LoadingView>
+
+</RelativeLayout>

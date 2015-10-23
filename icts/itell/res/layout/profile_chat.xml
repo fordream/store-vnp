@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/profile_rl_chat"
+        android:tag="1"
+        android:layout_marginTop="10dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_desc"
+        android:layout_centerInParent="true">
+        <RelativeLayout 
+            android:id="@+id/profile_text"
+            android:tag="profile_back"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:background="@drawable/list_outer_tab_4">
+            <TextView
+                  android:layout_height="wrap_content"
+                  android:layout_width="fill_parent"
+                  android:layout_centerVertical="true"
+                  android:gravity="left"
+                  android:layout_marginRight="10dip"
+                  android:layout_marginLeft="10dip"
+                  android:text="CHAT"
+                  android:textSize="22dip"
+                   />
+        </RelativeLayout>
+        <LinearLayout 
+             android:tag="item_move"
+             android:layout_marginRight="8dip"
+             android:layout_marginLeft="8dip"
+             android:duplicateParentState="true"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:background="@drawable/list_inner_tab_4">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dip"
+                android:src="@drawable/profile_chat_bubble_icon" />
+    
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dip"
+                android:src="@drawable/profile_chat_text" />
+        </LinearLayout>
+    </RelativeLayout>
+

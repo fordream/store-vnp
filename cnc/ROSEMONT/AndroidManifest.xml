@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.com.cnc.rosemont"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/icon512_a"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" android:name="RosemontApplication">
+        <activity
+            android:name=".activity.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.com.cnc.rosemont.activity.CustomTabsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="org.com.cnc.rosemont.activity.HomeActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|fontScale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.com.cnc.rosemont.activity.SearchActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysVisible" >
+        </activity>
+        <activity
+            android:name="org.com.cnc.rosemont.activity.SettingsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.com.cnc.rosemont.activity.CalculatorActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|fontScale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysVisible" >
+        </activity>
+        <activity
+            android:name="org.com.cnc.rosemont.activity.HomeDialogActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" >
+        </activity>
+        <activity
+            android:name="org.com.cnc.rosemont.activity.DialogM1Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" >
+        </activity>
+        <activity
+            android:name="org.com.cnc.rosemont.activity.DialogM2Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" >
+        </activity>
+        <activity
+            android:name="org.com.cnc.rosemont.activity.CloseDialogActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" >
+        </activity>
+        <activity
+            android:name="org.com.cnc.rosemont.activity.ListStrengActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" >
+        </activity>
+        <activity
+            android:name="org.com.cnc.rosemont.activity.ListMgActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" >
+        </activity>
+        <activity
+            android:name="org.com.cnc.rosemont.activity.DialogWarnningActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" >
+        </activity>
+        <activity
+            android:name="org.com.cnc.rosemont.activity.LegalActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.com.cnc.rosemont.activity.AboutActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.com.cnc.rosemont.activity.WebActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.com.cnc.rosemont.activity.DialogWarnningCalculatorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" >
+        </activity>
+        <activity
+            android:name="org.com.cnc.rosemont.activity.HomeDialogNoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" >
+        </activity>
+        <activity
+            android:name="org.com.cnc.rosemont.activity.ProductListActivty"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" >
+        </activity>
+
+        <service
+            android:name="org.com.cnc.rosemont.RosemonService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote" >
+        </service>
+    </application>
+
+</manifest>

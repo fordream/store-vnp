@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp">
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:layout_above="@+id/profile_preview_ok_button">
+	    <ImageView 
+	        android:id="@+id/profile_preview_imageview"
+	        android:layout_centerInParent="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:scaleType="centerCrop"
+	        android:layout_margin="5dp"
+	        />
+    </RelativeLayout>
+    <Button android:id="@+id/profile_preview_ok_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_preview_ok" 
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

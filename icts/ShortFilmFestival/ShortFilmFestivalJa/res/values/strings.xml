@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ShortShortFilmFestivalActivity!</string>
+    <string name="app_name">ShortShorts</string>
+     <string name="tab_news">News</string>
+    <string name="tab_movies">Movies</string>
+     <string name="tab_photos">Photos</string>
+    <string name="tab_apps">Apps</string>
+    
+    <!-- Tab News Child -->
+     <string name="news_tab_festival">Festival</string>
+     <string name="news_tab_biz">Biz</string>
+    <string name="news_tab_lounge">Lounge</string>
+     <string name="news_tab_theater">Theater</string>
+    <string name="news_tab_all">All</string>
+    <string name="title_dialog_facebook">Delete current Facebook connection?</string>
+	<string name="loading_more">Loading More ...</string>
+</resources>

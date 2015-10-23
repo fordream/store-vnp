@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* GardenSpring_HDAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1053}}";
+			sepNavSelRange = "{1926, 0}";
+			sepNavVisRange = "{898, 1397}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* GardenSpring HD */ = {
+		activeExec = 0;
+		executables = (
+			A6FEF558142313BF00151663 /* GardenSpring HD */,
+		);
+	};
+	28D7ACF70DDB3853001CB0EB /* GardenSpring_HDViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 858}}";
+			sepNavSelRange = "{903, 0}";
+			sepNavVisRange = "{255, 1301}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A6FEF558142313BF00151663 /* GardenSpring HD */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* GardenSpring HD */;
+		codeSenseManager = A6FEF586142313C300151663 /* Code sense */;
+		executables = (
+			A6FEF558142313BF00151663 /* GardenSpring HD */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					453,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 337862789;
+			PBXWorkspaceStateSaveDate = 337862789;
+		};
+		perUserProjectItems = {
+			A6FEF5F81423651F00151663 /* PBXTextBookmark */ = A6FEF5F81423651F00151663 /* PBXTextBookmark */;
+			A6FEF5F91423651F00151663 /* PBXTextBookmark */ = A6FEF5F91423651F00151663 /* PBXTextBookmark */;
+			A6FEF5FA1423651F00151663 /* PBXTextBookmark */ = A6FEF5FA1423651F00151663 /* PBXTextBookmark */;
+			A6FEF5FB1423651F00151663 /* PBXTextBookmark */ = A6FEF5FB1423651F00151663 /* PBXTextBookmark */;
+			A6FEF5FC1423651F00151663 /* PBXTextBookmark */ = A6FEF5FC1423651F00151663 /* PBXTextBookmark */;
+			A6FEF5FD1423651F00151663 /* PBXTextBookmark */ = A6FEF5FD1423651F00151663 /* PBXTextBookmark */;
+			A6FEF5FE1423651F00151663 /* PBXTextBookmark */ = A6FEF5FE1423651F00151663 /* PBXTextBookmark */;
+			A6FEF5FF1423651F00151663 /* PBXTextBookmark */ = A6FEF5FF1423651F00151663 /* PBXTextBookmark */;
+			A6FEF6001423651F00151663 /* PBXTextBookmark */ = A6FEF6001423651F00151663 /* PBXTextBookmark */;
+			A6FEF6011423651F00151663 /* PBXTextBookmark */ = A6FEF6011423651F00151663 /* PBXTextBookmark */;
+			A6FEF6021423651F00151663 /* PBXTextBookmark */ = A6FEF6021423651F00151663 /* PBXTextBookmark */;
+			A6FEF6031423651F00151663 /* PBXTextBookmark */ = A6FEF6031423651F00151663 /* PBXTextBookmark */;
+		};
+		sourceControlManager = A6FEF585142313C300151663 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	86F9E9831422379A0046586D /* HelpController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {671, 613}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 299}";
+		};
+	};
+	86F9E9841422379A0046586D /* HelpController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1027}}";
+			sepNavSelRange = "{1332, 0}";
+			sepNavVisRange = "{585, 1389}";
+		};
+	};
+	86F9E9881422379A0046586D /* LevelController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 2041}}";
+			sepNavSelRange = "{1517, 0}";
+			sepNavVisRange = "{562, 1271}";
+		};
+	};
+	86F9E98B1422379A0046586D /* MenuController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {671, 613}}";
+			sepNavSelRange = "{260, 0}";
+			sepNavVisRange = "{0, 780}";
+		};
+	};
+	86F9E98C1422379A0046586D /* MenuController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1794}}";
+			sepNavSelRange = "{1104, 52}";
+			sepNavVisRange = "{372, 1411}";
+		};
+	};
+	86F9E9901422379A0046586D /* MoreAppController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1690}}";
+			sepNavSelRange = "{2722, 0}";
+			sepNavVisRange = "{1952, 1379}";
+		};
+	};
+	86F9E9931422379A0046586D /* PlayerController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 9516}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1168, 1051}";
+		};
+	};
+	86F9E9971422379A0046586D /* SettingController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {671, 613}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 730}";
+		};
+	};
+	86F9E9981422379A0046586D /* SettingController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1950}}";
+			sepNavSelRange = "{1187, 0}";
+			sepNavVisRange = "{366, 1450}";
+		};
+	};
+	A6FEF558142313BF00151663 /* GardenSpring HD */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "GardenSpring HD";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	A6FEF585142313C300151663 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A6FEF586142313C300151663 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A6FEF5F81423651F00151663 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 86F9E98B1422379A0046586D /* MenuController.h */;
+		name = "MenuController.h: 13";
+		rLen = 0;
+		rLoc = 260;
+		rType = 0;
+		vrLen = 780;
+		vrLoc = 0;
+	};
+	A6FEF5F91423651F00151663 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 86F9E98C1422379A0046586D /* MenuController.m */;
+		name = "MenuController.m: 44";
+		rLen = 52;
+		rLoc = 1104;
+		rType = 0;
+		vrLen = 1411;
+		vrLoc = 372;
+	};
+	A6FEF5FA1423651F00151663 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 86F9E9831422379A0046586D /* HelpController.h */;
+		name = "HelpController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 299;
+		vrLoc = 0;
+	};
+	A6FEF5FB1423651F00151663 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 86F9E9841422379A0046586D /* HelpController.m */;
+		name = "HelpController.m: 44";
+		rLen = 0;
+		rLoc = 1332;
+		rType = 0;
+		vrLen = 1389;
+		vrLoc = 585;
+	};
+	A6FEF5FC1423651F00151663 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 86F9E9881422379A0046586D /* LevelController.m */;
+		name = "LevelController.m: 54";
+		rLen = 0;
+		rLoc = 1517;
+		rType = 0;
+		vrLen = 1271;
+		vrLoc = 562;
+	};
+	A6FEF5FD1423651F00151663 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 86F9E9901422379A0046586D /* MoreAppController.m */;
+		name = "MoreAppController.m: 97";
+		rLen = 0;
+		rLoc = 2722;
+		rType = 0;
+		vrLen = 1379;
+		vrLoc = 1952;
+	};
+	A6FEF5FE1423651F00151663 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 86F9E9931422379A0046586D /* PlayerController.m */;
+		name = "PlayerController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1051;
+		vrLoc = 1168;
+	};
+	A6FEF5FF1423651F00151663 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 86F9E9971422379A0046586D /* SettingController.h */;
+		name = "SettingController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 730;
+		vrLoc = 0;
+	};
+	A6FEF6001423651F00151663 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* GardenSpring_HDViewController.m */;
+		name = "GardenSpring_HDViewController.m: 38";
+		rLen = 0;
+		rLoc = 903;
+		rType = 0;
+		vrLen = 1301;
+		vrLoc = 255;
+	};
+	A6FEF6011423651F00151663 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* GardenSpring_HDAppDelegate.m */;
+		name = "GardenSpring_HDAppDelegate.m: 59";
+		rLen = 0;
+		rLoc = 1926;
+		rType = 0;
+		vrLen = 1397;
+		vrLoc = 898;
+	};
+	A6FEF6021423651F00151663 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 86F9E9981422379A0046586D /* SettingController.m */;
+		name = "SettingController.m: 50";
+		rLen = 0;
+		rLoc = 1518;
+		rType = 0;
+		vrLen = 1561;
+		vrLoc = 178;
+	};
+	A6FEF6031423651F00151663 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 86F9E9981422379A0046586D /* SettingController.m */;
+		name = "SettingController.m: 39";
+		rLen = 0;
+		rLoc = 1187;
+		rType = 0;
+		vrLen = 1450;
+		vrLoc = 366;
+	};
+}

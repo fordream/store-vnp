@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="vn.com.vega.chacha" android:versionCode="2"
+	android:versionName="1.1">
+
+	<uses-sdk android:minSdkVersion="7" />
+
+	<application android:icon="@drawable/ic_app" android:label="@string/app_name"
+		android:theme="@android:style/Theme.NoTitleBar" android:debuggable="false">
+
+		<activity android:name="vn.com.vega.music.view.WelcomeActivity" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="vn.com.vega.music.view.LoginActivity" />
+
+
+		<service android:name="vn.com.vega.music.player.MediaService" />
+		<service android:name="vn.com.vega.music.c2dm.C2DMReceiver" />
+		<receiver android:name="com.google.android.c2dm.C2DMBroadcastReceiver"
+			android:permission="com.google.android.c2dm.permission.SEND">
+
+			<intent-filter>
+				<action android:name="com.google.android.c2dm.intent.RECEIVE" />
+				<category android:name="vn.com.vega.chacha" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+				<category android:name="vn.com.vega.chacha" />
+			</intent-filter>
+		</receiver>
+
+
+		<activity android:name="vn.com.vega.music.view.holder.TabHolder"
+			android:screenOrientation="portrait" />
+		<activity android:name="vn.com.vega.music.view.holder.FeatureTabHolder"
+			android:screenOrientation="portrait" />
+		<activity android:name="vn.com.vega.music.view.holder.SearchTabHolder"
+			android:screenOrientation="portrait" />
+		<activity android:name="vn.com.vega.music.view.UserInfoActivity"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name="vn.com.vega.music.view.BillboardInfoActivity"
+			android:screenOrientation="portrait" />
+		<activity android:name="vn.com.vega.music.view.NotifyConfigActivity"
+			android:screenOrientation="portrait" />	
+		<activity android:name="vn.com.vega.music.view.StartPageActivity"
+			android:screenOrientation="portrait" />	
+		<activity android:name="vn.com.vega.music.view.FeatureHomeActivity"
+			android:screenOrientation="portrait" />
+		<activity android:name="vn.com.vega.music.view.ArtistInfoActivity"
+			android:screenOrientation="portrait" />
+		<activity android:name="vn.com.vega.music.view.AlbumInfoActivity"
+			android:screenOrientation="portrait" />
+		<activity android:name="vn.com.vega.music.view.AccConnectingActivity"
+			android:screenOrientation="portrait" />
+		<activity android:name="vn.com.vega.music.view.AccSettingActivity"
+			android:screenOrientation="portrait" />
+		<activity android:name="vn.com.vega.music.view.FindFriendActivity"
+			android:screenOrientation="portrait" />
+		<activity android:name="vn.com.vega.music.view.SearchActivity"
+			android:screenOrientation="portrait" />
+
+		<activity android:name="vn.com.vega.music.view.holder.MyPlaylistStack">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name="vn.com.vega.music.view.MyPlaylistActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name="vn.com.vega.music.view.LocalMusicActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name="vn.com.vega.music.view.LocalMusicDetailActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name="vn.com.vega.music.view.MyPlaylistDetailActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:name="vn.com.vega.music.view.MyPlaylistEditorActivity"
+			android:windowSoftInputMode="stateHidden" />
+		<activity android:name="vn.com.vega.music.view.MyPlaylistSelectorActivity" />
+		<activity android:name="vn.com.vega.music.view.NowPlayingActivity"
+			android:screenOrientation="portrait" />
+
+		<activity android:name="vn.com.vega.music.view.SettingActivity" />
+		<activity android:name="vn.com.vega.music.view.FriendActivity"></activity>
+		<activity android:name="vn.com.vega.music.view.FindUserActivity"></activity>
+		<activity android:name="vn.com.vega.music.view.LoginGmailActivity"></activity>
+		<activity android:name="vn.com.vega.music.view.FindFriendFacebookActivity"></activity>
+		<activity android:name="vn.com.vega.music.view.InviteFriendActivity"></activity>
+
+	</application>
+	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.USE_CREDENTIALS"></uses-permission>
+	<uses-permission android:name="android.permission.GET_ACCOUNTS"></uses-permission>
+	<uses-permission android:name="android.permission.MANAGE_ACCOUNTS"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+	<uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	<permission android:name="com.commonsware.android.c2dm.permission.C2D_MESSAGE"
+		android:protectionLevel="signature" />
+	<uses-permission android:name="com.commonsware.android.c2dm.permission.C2D_MESSAGE" />
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+</manifest>

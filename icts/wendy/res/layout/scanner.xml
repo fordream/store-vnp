@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+
+    <com.ict.library.view.CameraPreview
+        android:id="@+id/scannerCameraPreview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.ict.library.view.CameraPreview>
+
+    <com.vn.icts.wendy.view.WingView
+        android:id="@+id/scannerWingview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.vn.icts.wendy.view.WingView>
+
+    <Button
+        android:id="@+id/shopDetail_btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimens5"
+        android:background="@drawable/tvuong_btn_back_click" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens50"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/scanner_capture"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/scanner_btn_captruer"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimens50"
+            android:background="@drawable/tvuong_button_scanner" />
+
+    </LinearLayout>
+
+</RelativeLayout>

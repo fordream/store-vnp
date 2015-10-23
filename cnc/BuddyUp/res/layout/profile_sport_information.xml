@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/sign_top"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <TextView
+            android:id="@+id/commonETHearder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/sport_information"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/color_back"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:typeface="serif" >
+        </TextView>
+
+        <Button
+            android:id="@+id/commonbtnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/sign_btn_back" >
+        </Button>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/relativeLayout1"
+        android:background="@drawable/bg_login" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <com.cnc.buddyup.views.profile.ProfileSportItemView
+                android:id="@+id/profileSportItemView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+            </com.cnc.buddyup.views.profile.ProfileSportItemView>
+
+            <com.cnc.buddyup.views.profile.ProfileSportItemView
+                android:id="@+id/ProfileSportItemView02"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+            </com.cnc.buddyup.views.profile.ProfileSportItemView>
+
+            <com.cnc.buddyup.views.profile.ProfileSportItemView
+                android:id="@+id/ProfileSportItemView01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+            </com.cnc.buddyup.views.profile.ProfileSportItemView>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.cnc.buddyup.common.views.LoadingView
+        android:id="@+id/loadingView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignTop="@+id/scrollView1" >
+
+    </com.cnc.buddyup.common.views.LoadingView>
+
+</RelativeLayout>

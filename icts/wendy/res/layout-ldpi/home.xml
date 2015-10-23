@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.ict.library.view.CustomImageView
+            android:id="@+id/home_imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/home_morning" />
+
+        <com.vn.icts.wendy.view.TopBarView
+            android:id="@+id/topBarView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </com.vn.icts.wendy.view.TopBarView>
+
+        <LinearLayout
+            android:id="@+id/abcas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/imgNearestShop"
+                android:layout_width="@dimen/dimens200"
+                android:layout_height="@dimen/dimens50"
+                android:layout_marginTop="@dimen/dimens30"
+                android:adjustViewBounds="true"
+                android:background="@drawable/find_shop_button"
+                android:scaleType="fitXY"
+                android:src="@drawable/_button_menu_main_selected" />
+
+            <ImageButton
+                android:id="@+id/imgScanToWinCoupon"
+                android:layout_width="@dimen/dimens200"
+                android:layout_height="@dimen/dimens50"
+                android:layout_marginBottom="@dimen/dimens10"
+                android:layout_marginTop="@dimen/dimens10"
+                android:background="@drawable/scan_coupon_button"
+                android:scaleType="fitXY"
+                android:src="@drawable/_button_menu_main_selected" />
+        </LinearLayout>
+
+        <com.ict.library.view.CustomImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/topBarView1"
+            android:background="@drawable/rip_paper_bg" />
+    </RelativeLayout>
+
+</ScrollView>

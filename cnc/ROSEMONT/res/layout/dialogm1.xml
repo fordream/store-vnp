@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="180dip"
+        android:layout_weight="180"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="140dip"
+        android:layout_weight="140"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout04"
+            android:layout_width="25dip"
+            android:layout_height="match_parent"
+            android:layout_weight="25" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout03"
+            android:layout_width="300dip"
+            android:layout_height="match_parent"
+            android:layout_weight="300"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="86"
+                android:orientation="vertical" android:background="@drawable/dmg1">
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout06"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dip"
+                    android:layout_weight="100"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout05"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:layout_weight="50"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout07"
+                        android:layout_width="102dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="102" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llOk"
+                        android:layout_width="170dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="170" android:background="@drawable/btn_one">
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="100dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="100" >
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dip"
+                    android:layout_weight="10"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="25dip"
+            android:layout_height="match_parent" android:layout_weight="25">
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="180dip"
+        android:orientation="vertical" android:layout_weight="180">
+    </LinearLayout>
+
+</LinearLayout>

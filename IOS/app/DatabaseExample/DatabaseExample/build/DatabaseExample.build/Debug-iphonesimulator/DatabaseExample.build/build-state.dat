@@ -1,0 +1,762 @@
+TDatabaseExample
+v7
+r0
+t371874294.228088
+cCheck dependencies
+cProcessInfoPlistFile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/Info.plist DatabaseExample-Info.plist
+cCompileXIB /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/xib/DatabaseExampleViewController.xib
+cCompileXIB /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/xib/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/DatabaseExample.app/database.sqlite Resources/database/database.sqlite
+cCompileXIB /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/xib/QuartController.xib
+cProcessPCH /var/folders/h3/h3YWWz7BFuOKa21TeAkw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DatabaseExample_Prefix-ezgthwxfskcntvffimepezbxmnvh/DatabaseExample_Prefix.pch.gch DatabaseExample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/main.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DBManager.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/database/DBManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DatabaseExampleAppDelegate.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DatabaseExampleViewController.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/ShareReference.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/database/ShareReference.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/NSLogUtils.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/util/NSLogUtils.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/Helpers.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/util/Helpers.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/QuartController.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/QuartController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/RestClient.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/RestClient.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/KeyValue.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/KeyValue.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/GetResponseXMLFromRequestString.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/GetResponseXMLFromRequestString.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/MBProgressHUD.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/view/MBProgressHUD.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/TBXML.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/DatabaseExample normal i386
+cGenerateDSYMFile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app.dSYM /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/DatabaseExample
+cTouch /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004D5EBEC300000000001340C0
+t1298054851
+s1261760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004D5EBEBB00000000000007D0
+t1298054843
+s2000
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004D54CF7C00000000001C41F0
+t1297403772
+s1851888
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004D5DE869000000000009B020
+t1297999977
+s634912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004D54D0BC000000000005C090
+t1297404092
+s376976
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D54D4200000000000162C50
+t1297404960
+s1453136
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sqlite3.h
+c000000004D54CB5C0000000000045296
+t1297402716
+s283286
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/libsqlite3.0.dylib
+c000000004D54CB720000000000099500
+t1297402738
+s627968
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/libxml2.dylib
+c000000004D54CF30000000000011E3F0
+t1297403696
+s1172464
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/DatabaseExampleAppDelegate.h
+c000000005079266F0000000000000207
+t1350116975
+s519
+i<UIKit/UIKit.h>
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/DatabaseExampleAppDelegate.m
+c000000005079266F0000000000000ACA
+t1350116975
+s2762
+i"DatabaseExampleAppDelegate.h"
+i"DatabaseExampleViewController.h"
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/DatabaseExampleViewController.h
+c000000005079266F00000000000000FE
+t1350116975
+s254
+i<UIKit/UIKit.h>
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/DatabaseExampleViewController.m
+c000000005079266F00000000000005D9
+t1350116975
+s1497
+i"DatabaseExampleViewController.h"
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleAppDelegate.h
+c000000005079266F0000000000000207
+t1350116975
+s519
+i<UIKit/UIKit.h>
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleAppDelegate.m
+c000000005079C2350000000000000ACA
+t1350156853
+s2762
+i"DatabaseExampleAppDelegate.h"
+i"DatabaseExampleViewController.h"
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleViewController.h
+c00000000507A21480000000000000211
+t1350181192
+s529
+i<UIKit/UIKit.h>
+i"DBManager.h"
+i"QuartController.h"
+i"GetResponseXMLFromRequestString.h"
+i"MBProgressHUD.h"
+i"TBXML.h"
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleViewController.m
+c00000000507A226D000000000000129C
+t1350181485
+s4764
+i"DatabaseExampleViewController.h"
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/QuartController.h
+c000000005079CBF40000000000000104
+t1350159348
+s260
+i<UIKit/UIKit.h>
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/QuartController.m
+c000000005079CCE5000000000000068D
+t1350159589
+s1677
+i"QuartController.h"
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/QuartController.xib
+c000000005079C8FA0000000000001868
+t1350158586
+s6248
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/database/DBManager.h
+c000000005079C7EB00000000000001AA
+t1350158315
+s426
+i<Foundation/Foundation.h>
+i"sqlite3.h"
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/database/DBManager.m
+c000000005079C7F400000000000026CD
+t1350158324
+s9933
+i"DBManager.h"
+i"sqlite3.h"
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/database/ShareReference.h
+c000000005079C14500000000000001C2
+t1350156613
+s450
+i<Foundation/Foundation.h>
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/database/ShareReference.m
+c000000005079C78C00000000000003F3
+t1350158220
+s1011
+i"ShareReference.h"
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/KeyValue.h
+c000000005079D0480000000000000180
+t1350160456
+s384
+i<Foundation/Foundation.h>
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/KeyValue.m
+c000000005079D09E0000000000000169
+t1350160542
+s361
+i"KeyValue.h"
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/RestClient.h
+c000000005079D6F100000000000002E2
+t1350162161
+s738
+i<Foundation/Foundation.h>
+i"KeyValue.h"
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/RestClient.m
+c000000005079D6F70000000000000503
+t1350162167
+s1283
+i"RestClient.h"
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/GetResponseXMLFromRequestString.h
+c000000004F8118770000000000000455
+t1333860471
+s1109
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/GetResponseXMLFromRequestString.m
+c000000004F8118870000000000000ABC
+t1333860487
+s2748
+i"GetResponseXMLFromRequestString.h"
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.h
+c000000004E5DFA4500000000000012D1
+t1314781765
+s4817
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m
+c00000000507A21C900000000000046DE
+t1350181321
+s18142
+i"TBXML.h"
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/util/Helpers.h
+c000000005079C8890000000000000161
+t1350158473
+s353
+i<Foundation/Foundation.h>
+i<AVFoundation/AVFoundation.h>
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/util/Helpers.m
+c000000005079C7FD00000000000002FC
+t1350158333
+s764
+i"Helpers.h"
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/util/NSLogUtils.h
+c000000005079C3820000000000000161
+t1350157186
+s353
+i<Foundation/Foundation.h>
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/util/NSLogUtils.m
+c000000005079C38900000000000001AE
+t1350157193
+s430
+i"NSLogUtils.h"
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/view/MBProgressHUD.h
+c000000004E5F07C9000000000000325B
+t1314850761
+s12891
+i<UIKit/UIKit.h>
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/view/MBProgressHUD.m
+c000000004E5F07C90000000000005826
+t1314850761
+s22566
+i"MBProgressHUD.h"
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/DatabaseExample-Info.plist
+c000000005079266F000000000000038D
+t1350116975
+s909
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/DatabaseExampleViewController.xib
+c000000005079266F0000000000001A65
+t1350116975
+s6757
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/DatabaseExample_Prefix.pch
+c000000005079267000000000000000C7
+t1350116976
+s199
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/MainWindow.xib
+c000000005079266F0000000000004E89
+t1350116975
+s20105
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/database/database.sqlite
+c000000004E6EDC160000000000038000
+t1315888150
+s229376
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/xib/DatabaseExampleViewController.xib
+c000000005079CB210000000000004AEB
+t1350159137
+s19179
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/xib/MainWindow.xib
+c000000005079266F0000000000004E89
+t1350116975
+s20105
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/xib/QuartController.xib
+c000000005079C8FA0000000000001868
+t1350158586
+s6248
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DBManager.o
+t1350159145
+s13320
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DatabaseExample.LinkFileList
+c00000000507A2112000000000000087A
+t1350181138
+s2170
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DatabaseExampleAppDelegate.o
+t1350181197
+s53276
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DatabaseExampleViewController.o
+t1350181493
+s51336
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/GetResponseXMLFromRequestString.o
+t1350179721
+s24036
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/Helpers.o
+t1350159146
+s9784
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/KeyValue.o
+t1350160547
+s9112
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/MBProgressHUD.o
+t1350180366
+s120900
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/NSLogUtils.o
+t1350157197
+s8956
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/QuartController.o
+t1350159592
+s41700
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/RestClient.o
+t1350162281
+s16116
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/ShareReference.o
+t1350159146
+s10696
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/TBXML.o
+t1350181329
+s37260
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/main.o
+t1350159144
+s7084
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app
+t1350181494
+s4096
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app.dSYM
+t1350181494
+s0
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/DatabaseExample
+t1350181493
+s113628
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/DatabaseExample-Info.plist
+t1350117509
+s494
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/DatabaseExampleViewController.nib
+t1350159144
+s2501
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/Info.plist
+t1350117379
+s629
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/MainWindow.nib
+t1350117509
+s1697
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/PkgInfo
+t1350117379
+s8
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/QuartController.nib
+t1350159144
+s1231
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/database.sqlite
+t1350117795
+s229376
+
+N/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/main.m
+c000000005079C26F0000000000000221
+t1350156911
+s545
+i<UIKit/UIKit.h>
+i"DBManager.h"
+
+N/var/folders/h3/h3YWWz7BFuOKa21TeAkw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DatabaseExample_Prefix-ezgthwxfskcntvffimepezbxmnvh/DatabaseExample_Prefix.pch.gch
+t1350117381
+s15814064
+
+NDatabaseExample-Info.plist
+c000000005079266F000000000000038D
+t1350116975
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies371874290#371874292#0(0"0(0#1#0"8638591392#0"0#
+
+CCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DBManager.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/database/DBManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s371851944.526224
+e371851945.542080
+r1
+xCompileC
+xbuild/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DBManager.o
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/database/DBManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/database/DBManager.m371851944#371851945#0(0"0(0#0#86"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/database/DBManager.m8617517408#2310"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-generated-files.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-own-target-headers.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-all-target-headers.hmap -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-project-headers.hmap -F/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/include -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources/i386 -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources -include /var/folders/h3/h3YWWz7BFuOKa21TeAkw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DatabaseExample_Prefix-ezgthwxfskcntvffimepezbxmnvh/DatabaseExample_Prefix.pch -c /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/database/DBManager.m -o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DBManager.o0#
+
+CCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DatabaseExampleAppDelegate.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/DatabaseExampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s371810182.039864
+e371810182.315026
+r1
+xCompileC
+xbuild/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DatabaseExampleAppDelegate.o
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/DatabaseExampleAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/DatabaseExampleAppDelegate.m371810182#371810182#0(0"0(0#0#94"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/DatabaseExampleAppDelegate.m8611420288#2335"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-generated-files.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-own-target-headers.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-all-target-headers.hmap -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-project-headers.hmap -F/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/include -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources/i386 -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources -include /var/folders/h3/h3YWWz7BFuOKa21TeAkw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DatabaseExample_Prefix-ezgthwxfskcntvffimepezbxmnvh/DatabaseExample_Prefix.pch -c /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/DatabaseExampleAppDelegate.m -o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DatabaseExampleAppDelegate.o0#
+
+CCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DatabaseExampleAppDelegate.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s371873996.465145
+e371873997.307190
+r1
+xCompileC
+xbuild/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DatabaseExampleAppDelegate.o
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleAppDelegate.m371873996#371873997#0(0"0(0#0#105"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleAppDelegate.m8637081344#2346"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-generated-files.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-own-target-headers.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-all-target-headers.hmap -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-project-headers.hmap -F/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/include -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources/i386 -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources -include /var/folders/h3/h3YWWz7BFuOKa21TeAkw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DatabaseExample_Prefix-ezgthwxfskcntvffimepezbxmnvh/DatabaseExample_Prefix.pch -c /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleAppDelegate.m -o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DatabaseExampleAppDelegate.o0#
+
+CCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DatabaseExampleViewController.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/DatabaseExampleViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s371810182.229904
+e371810182.473329
+r1
+xCompileC
+xbuild/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DatabaseExampleViewController.o
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/DatabaseExampleViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/DatabaseExampleViewController.m371810182#371810182#0(0"0(0#0#97"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/DatabaseExampleViewController.m8603006496#2341"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-generated-files.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-own-target-headers.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-all-target-headers.hmap -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-project-headers.hmap -F/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/include -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources/i386 -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources -include /var/folders/h3/h3YWWz7BFuOKa21TeAkw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DatabaseExample_Prefix-ezgthwxfskcntvffimepezbxmnvh/DatabaseExample_Prefix.pch -c /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/DatabaseExampleViewController.m -o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DatabaseExampleViewController.o0#
+
+CCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DatabaseExampleViewController.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s371874292.200234
+e371874293.046900
+r1
+xCompileC
+xbuild/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DatabaseExampleViewController.o
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleViewController.m: In function '-[DatabaseExampleViewController connection:finishLoadResponseDataFromServer:]':
+o/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleViewController.m:96: warning: unused variable 'userInfo'
+lSLF07#2@116"Compile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleViewController.m371874292#371874293#0(352"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleViewController.m: In function '-[DatabaseExampleViewController connection:finishLoadResponseDataFromServer:]':/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleViewController.m:96: warning: unused variable 'userInfo'1(22@26"Unused variable 'userInfo'371874292#203#149#0(6@108"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleViewController.m371874285#96#0#96#0#19"unused variable '*'0(0#0#108"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleViewController.m8638463136#2352"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-generated-files.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-own-target-headers.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-all-target-headers.hmap -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-project-headers.hmap -F/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/include -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources/i386 -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources -include /var/folders/h3/h3YWWz7BFuOKa21TeAkw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DatabaseExample_Prefix-ezgthwxfskcntvffimepezbxmnvh/DatabaseExample_Prefix.pch -c /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/DatabaseExampleViewController.m -o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DatabaseExampleViewController.o0#
+
+CCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/GetResponseXMLFromRequestString.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/GetResponseXMLFromRequestString.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s371872518.350038
+e371872521.672119
+r1
+xCompileC
+xbuild/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/GetResponseXMLFromRequestString.o
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/GetResponseXMLFromRequestString.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@124"Compile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/GetResponseXMLFromRequestString.m371872518#371872522#0(0"0(0#0#116"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/GetResponseXMLFromRequestString.m8623634176#2362"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-generated-files.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-own-target-headers.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-all-target-headers.hmap -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-project-headers.hmap -F/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/include -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources/i386 -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources -include /var/folders/h3/h3YWWz7BFuOKa21TeAkw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DatabaseExample_Prefix-ezgthwxfskcntvffimepezbxmnvh/DatabaseExample_Prefix.pch -c /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/GetResponseXMLFromRequestString.m -o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/GetResponseXMLFromRequestString.o0#
+
+CCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/Helpers.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/util/Helpers.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s371851945.969027
+e371851946.811681
+r1
+xCompileC
+xbuild/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/Helpers.o
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/util/Helpers.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/util/Helpers.m371851945#371851946#0(0"0(0#0#80"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/util/Helpers.m8609078592#2302"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-generated-files.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-own-target-headers.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-all-target-headers.hmap -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-project-headers.hmap -F/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/include -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources/i386 -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources -include /var/folders/h3/h3YWWz7BFuOKa21TeAkw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DatabaseExample_Prefix-ezgthwxfskcntvffimepezbxmnvh/DatabaseExample_Prefix.pch -c /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/util/Helpers.m -o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/Helpers.o0#
+
+CCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/KeyValue.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/KeyValue.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s371853347.467589
+e371853347.963608
+r1
+xCompileC
+xbuild/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/KeyValue.o
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/KeyValue.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/KeyValue.m371853347#371853347#0(0"0(0#0#87"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/KeyValue.m8615764640#2310"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-generated-files.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-own-target-headers.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-all-target-headers.hmap -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-project-headers.hmap -F/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/include -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources/i386 -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources -include /var/folders/h3/h3YWWz7BFuOKa21TeAkw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DatabaseExample_Prefix-ezgthwxfskcntvffimepezbxmnvh/DatabaseExample_Prefix.pch -c /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/KeyValue.m -o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/KeyValue.o0#
+
+CCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/MBProgressHUD.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/view/MBProgressHUD.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s371873166.199427
+e371873166.637290
+r1
+xCompileC
+xbuild/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/MBProgressHUD.o
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/view/MBProgressHUD.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/view/MBProgressHUD.m371873166#371873166#0(0"0(0#0#86"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/view/MBProgressHUD.m8628393408#2314"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-generated-files.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-own-target-headers.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-all-target-headers.hmap -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-project-headers.hmap -F/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/include -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources/i386 -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources -include /var/folders/h3/h3YWWz7BFuOKa21TeAkw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DatabaseExample_Prefix-ezgthwxfskcntvffimepezbxmnvh/DatabaseExample_Prefix.pch -c /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/view/MBProgressHUD.m -o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/MBProgressHUD.o0#
+
+CCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/NSLogUtils.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/util/NSLogUtils.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s371849997.348783
+e371849997.641397
+r1
+xCompileC
+xbuild/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/NSLogUtils.o
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/util/NSLogUtils.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/util/NSLogUtils.m371849997#371849997#0(0"0(0#0#83"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/util/NSLogUtils.m8617360032#2308"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-generated-files.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-own-target-headers.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-all-target-headers.hmap -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-project-headers.hmap -F/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/include -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources/i386 -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources -include /var/folders/h3/h3YWWz7BFuOKa21TeAkw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DatabaseExample_Prefix-ezgthwxfskcntvffimepezbxmnvh/DatabaseExample_Prefix.pch -c /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/util/NSLogUtils.m -o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/NSLogUtils.o0#
+
+CCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/QuartController.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/QuartController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s371852392.182095
+e371852392.688845
+r1
+xCompileC
+xbuild/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/QuartController.o
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/QuartController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/QuartController.m371852392#371852392#0(0"0(0#0#94"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/QuartController.m8615376736#2324"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-generated-files.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-own-target-headers.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-all-target-headers.hmap -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-project-headers.hmap -F/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/include -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources/i386 -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources -include /var/folders/h3/h3YWWz7BFuOKa21TeAkw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DatabaseExample_Prefix-ezgthwxfskcntvffimepezbxmnvh/DatabaseExample_Prefix.pch -c /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/QuartController.m -o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/QuartController.o0#
+
+CCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/RestClient.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/RestClient.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s371855080.259874
+e371855081.180423
+r1
+xCompileC
+xbuild/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/RestClient.o
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/RestClient.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/RestClient.m: In function '-[RestClient executePOST]':
+o/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/RestClient.m:42: warning: unused variable 'myReturn'
+lSLF07#2@97"Compile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/RestClient.m371855080#371855081#0(262"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/RestClient.m: In function '-[RestClient executePOST]':/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/RestClient.m:42: warning: unused variable 'myReturn'1(22@26"Unused variable 'myReturn'371855080#132#130#0(6@89"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/RestClient.m371854967#42#0#42#0#19"unused variable '*'0(0#0#89"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/RestClient.m8615845248#2314"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-generated-files.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-own-target-headers.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-all-target-headers.hmap -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-project-headers.hmap -F/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/include -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources/i386 -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources -include /var/folders/h3/h3YWWz7BFuOKa21TeAkw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DatabaseExample_Prefix-ezgthwxfskcntvffimepezbxmnvh/DatabaseExample_Prefix.pch -c /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/RestClient.m -o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/RestClient.o0#
+
+CCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/ShareReference.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/database/ShareReference.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s371851945.709069
+e371851946.336683
+r1
+xCompileC
+xbuild/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/ShareReference.o
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/database/ShareReference.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/database/ShareReference.m371851945#371851946#0(0"0(0#0#91"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/database/ShareReference.m8617272032#2320"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-generated-files.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-own-target-headers.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-all-target-headers.hmap -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-project-headers.hmap -F/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/include -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources/i386 -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources -include /var/folders/h3/h3YWWz7BFuOKa21TeAkw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DatabaseExample_Prefix-ezgthwxfskcntvffimepezbxmnvh/DatabaseExample_Prefix.pch -c /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/database/ShareReference.m -o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/ShareReference.o0#
+
+CCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/TBXML.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s371874129.087211
+e371874129.880105
+r1
+xCompileC
+xbuild/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/TBXML.o
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m: In function '-[TBXML initWithXMLFile:fileExtension:]':
+o/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m:127: warning: 'NSData' may not respond to '+dataWithUncompressedContentsOfFile:'
+o/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m:127: warning: (Messages without a matching method signature
+o/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m:127: warning: will be assumed to return 'id' and accept
+o/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m:127: warning: '...' as arguments.)
+o/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m: In function '-[TBXML initWithXMLFile:]':
+o/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m:142: warning: 'NSData' may not respond to '+dataWithUncompressedContentsOfFile:'
+lSLF07#2@98"Compile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m371874129#371874129#0(1048"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m: In function '-[TBXML initWithXMLFile:fileExtension:]':/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m:127: warning: 'NSData' may not respond to '+dataWithUncompressedContentsOfFile:'/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m:127: warning: (Messages without a matching method signature/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m:127: warning: will be assumed to return 'id' and accept/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m:127: warning: '...' as arguments.)/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m: In function '-[TBXML initWithXMLFile:]':/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m:142: warning: 'NSData' may not respond to '+dataWithUncompressedContentsOfFile:'3(22@66"'NSData' may not respond to '+dataWithUncompressedContentsOfFile:'371874129#147#172#0(6@90"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m371874121#127#0#127#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)371874129#319#151#0(6@90"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m371874121#127#0#127#0#0"0(22@66"'NSData' may not respond to '+dataWithUncompressedContentsOfFile:'371874129#876#172#0(6@90"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m371874121#142#0#142#0#26"'*' may not respond to '*'0(0#0#90"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m8637231136#2310"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-generated-files.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-own-target-headers.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-all-target-headers.hmap -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-project-headers.hmap -F/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/include -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources/i386 -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources -include /var/folders/h3/h3YWWz7BFuOKa21TeAkw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DatabaseExample_Prefix-ezgthwxfskcntvffimepezbxmnvh/DatabaseExample_Prefix.pch -c /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/restclient/cutom/TBXML.m -o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/TBXML.o0#
+
+CCompileC build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/main.o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s371851944.483602
+e371851945.003704
+r1
+xCompileC
+xbuild/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/main.o
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/main.m371851944#371851945#0(0"0(0#0#64"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/main.m8618801024#2283"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-generated-files.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-own-target-headers.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-all-target-headers.hmap -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-project-headers.hmap -F/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/include -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources/i386 -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources -include /var/folders/h3/h3YWWz7BFuOKa21TeAkw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DatabaseExample_Prefix-ezgthwxfskcntvffimepezbxmnvh/DatabaseExample_Prefix.pch -c /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/main.m -o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Classes/controller/QuartController.xib
+r0
+
+CCompileXIB /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/DatabaseExampleViewController.xib
+s371810179.948756
+e371810180.785954
+r1
+xCompileXIB
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/DatabaseExampleViewController.xib
+lSLF07#2@44"CompileXIB DatabaseExampleViewController.xib371810179#371810180#0(0"0(0#0#91"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/DatabaseExampleViewController.xib8604398976#673"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/DatabaseExampleViewController.nib /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/DatabaseExampleViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/MainWindow.xib
+s371810179.944814
+e371810180.764897
+r1
+xCompileXIB
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib371810179#371810180#0(0"0(0#0#72"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/MainWindow.xib8605813760#635"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/MainWindow.nib /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/xib/DatabaseExampleViewController.xib
+s371851942.399815
+e371851944.483298
+r1
+xCompileXIB
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/xib/DatabaseExampleViewController.xib
+lSLF07#2@58"CompileXIB Resources/xib/DatabaseExampleViewController.xib371851942#371851944#0(0"0(0#0#105"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/xib/DatabaseExampleViewController.xib8608686112#687"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/DatabaseExampleViewController.nib /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/xib/DatabaseExampleViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/xib/MainWindow.xib
+s371810308.522862
+e371810309.402356
+r1
+xCompileXIB
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/xib/MainWindow.xib
+lSLF07#2@39"CompileXIB Resources/xib/MainWindow.xib371810308#371810309#0(0"0(0#0#86"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/xib/MainWindow.xib8620558464#649"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/MainWindow.nib /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/xib/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/xib/QuartController.xib
+s371851942.408351
+e371851944.418856
+r1
+xCompileXIB
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/xib/QuartController.xib
+lSLF07#2@44"CompileXIB Resources/xib/QuartController.xib371851942#371851944#0(0"0(0#0#91"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/xib/QuartController.xib8607686624#659"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/QuartController.nib /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/xib/QuartController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCopyPlistFile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/DatabaseExample-Info.plist DatabaseExample-Info.plist
+s371810309.402691
+e371810309.470611
+r1
+xCopyPlistFile
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/DatabaseExample-Info.plist
+xDatabaseExample-Info.plist
+lSLF07#2@31"Copy DatabaseExample-Info.plist371810309#371810309#0(0"0(0#0#84"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/DatabaseExample-Info.plist8622146240#447"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 DatabaseExample-Info.plist --outdir /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app0#
+
+CCpResource build/Debug-iphonesimulator/DatabaseExample.app/database.sqlite Resources/database/database.sqlite
+s371810595.197212
+e371810595.335297
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DatabaseExample.app/database.sqlite
+xResources/database/database.sqlite
+lSLF07#2@39"Copy Resources/database/database.sqlite371810595#371810595#0(0"0(0#0#92"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/database/database.sqlite8609560224#557"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/Resources/database/database.sqlite /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app0#
+
+CGenerateDSYMFile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app.dSYM /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/DatabaseExample
+s371874293.286363
+e371874294.217242
+r1
+xGenerateDSYMFile
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app.dSYM
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/DatabaseExample
+lSLF07#2@133"GenerateDSYMFile build/Debug-iphonesimulator/DatabaseExample.app.dSYM build/Debug-iphonesimulator/DatabaseExample.app/DatabaseExample371874293#371874294#0(0"0(0#0#121"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/DatabaseExample8638952224#464"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/DatabaseExample -o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app.dSYM0#
+
+CLd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/DatabaseExample normal i386
+s371874293.047024
+e371874293.286175
+r1
+xLd
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/DatabaseExample
+xnormal
+xi386
+lSLF07#2@126"Link /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/DatabaseExample371874293#371874293#0(0"0(0#0#0"8636663904#1150"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator -F/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator -filelist /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/Objects-normal/i386/DatabaseExample.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -framework AVFoundation -framework CFNetwork -lxml2 -framework MobileCoreServices -framework MessageUI -o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/DatabaseExample0#
+
+CProcessInfoPlistFile /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/Info.plist DatabaseExample-Info.plist
+s371810179.739341
+e371810179.944684
+r1
+xProcessInfoPlistFile
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/Info.plist
+xDatabaseExample-Info.plist
+lSLF07#2@34"Process DatabaseExample-Info.plist371810179#371810180#0(0"0(0#0#84"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/DatabaseExample-Info.plist8607963840#560"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DatabaseExample-Info.plist -genpkginfo /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app/Info.plist0#
+
+CProcessPCH /var/folders/h3/h3YWWz7BFuOKa21TeAkw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DatabaseExample_Prefix-ezgthwxfskcntvffimepezbxmnvh/DatabaseExample_Prefix.pch.gch DatabaseExample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s371810180.786130
+e371810181.954538
+r1
+xProcessPCH
+x/var/folders/h3/h3YWWz7BFuOKa21TeAkw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DatabaseExample_Prefix-ezgthwxfskcntvffimepezbxmnvh/DatabaseExample_Prefix.pch.gch
+xDatabaseExample_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile DatabaseExample_Prefix.pch371810180#371810181#0(0"0(0#0#84"/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/DatabaseExample_Prefix.pch8611130112#2148"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-generated-files.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-own-target-headers.hmap -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-all-target-headers.hmap -iquote /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DatabaseExample-project-headers.hmap -F/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/include -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources/i386 -I/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/DatabaseExample.build/Debug-iphonesimulator/DatabaseExample.build/DerivedSources -c /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/DatabaseExample_Prefix.pch -o /var/folders/h3/h3YWWz7BFuOKa21TeAkw2++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DatabaseExample_Prefix-ezgthwxfskcntvffimepezbxmnvh/DatabaseExample_Prefix.pch.gch0#
+
+CTouch /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app
+s371874294.217506
+e371874294.228011
+r1
+xTouch
+x/Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app
+lSLF07#2@111"Touch /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app371874294#371874294#0(0"0(0#0#0"8629836960#324"    cd /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Volumes/Game/Code/iphone/DatabaseExample/DatabaseExample/build/Debug-iphonesimulator/DatabaseExample.app0#
+

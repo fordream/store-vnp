@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#123456"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header" >
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/header_background"
+        android:layout_width="match_parent"
+        android:layout_height="150dip"
+        android:background="@drawable/header_backgrond"
+        android:orientation="vertical" >
+    </RelativeLayout>
+
+    <com.ict.library.view.ResizeTextView
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:gravity="center"
+        android:text="Vanga"
+        android:textColor="#ffffff" />
+
+    <org.com.vnp.vanga.view.DownloadProgessBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/header"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

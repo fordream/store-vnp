@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip" 
+        
+        >
+
+        <com.loopj.android.image.SmartImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#333333" />
+        <ImageView
+            android:id="@+id/google_ribbon"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/google_plus_ribbon"
+            android:visibility="invisible"
+            />
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:paddingRight="10dp" 
+            android:layout_marginTop="5dp"
+            >
+			<LinearLayout
+			    android:id="@+id/title"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    
+			    >
+	            <TextView
+	                android:id="@+id/title_main"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Tokyo-"
+	                android:textColor="@android:color/black"
+	                android:textSize="11sp"
+	                android:maxLines="1"
+	                android:textStyle="bold" />
+	            
+	            <TextView
+	                android:id="@+id/title_sub"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="Laforet"
+	                android:maxLines="1"
+	                android:marqueeRepeatLimit="marquee_forever"
+	                android:textColor="@android:color/black"
+	                android:textSize="11sp"
+	                android:textStyle="bold" />
+            </LinearLayout>
+             <TextView
+                android:id="@+id/fdata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:text="Title_sub"
+                android:textColor="@android:color/black"
+                android:textSize="9sp"
+                 />
+
+            <TextView
+                android:id="@+id/schedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fdata"
+                android:layout_marginTop="5dp"
+                android:maxLines="6"
+                android:text="Laforet Museum, Harajuku Laforet Harajuku 6th floor, 1-11-6 Jingumae Shibuya-ku, Tokyo"
+                android:textColor="@android:color/black"
+                android:textSize="9sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content" 
+            android:layout_marginTop="10dp"
+            >
+			
+            
+            <RelativeLayout 
+                android:id = "@+id/name_box_id"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/name_box"
+                android:gravity="center"
+                >
+                  <TextView
+                      android:id="@+id/name"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="NAME"
+                      android:textSize="13sp"
+                      android:textStyle="bold"
+                      android:textColor="#8c8c8c"
+                      />
+            </RelativeLayout>
+            <ImageView
+                android:id="@+id/imggoogle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/imgtweet"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/google_buttn" />
+
+            <ImageView
+                android:id="@+id/imgtweet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/imgfacebook"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/tweet_buttn" />
+
+            <ImageView
+                android:id="@+id/imgfacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/like_buttn" />
+            
+            
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_content"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/bg_descrip"
+         >
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dot_line_schedule_detail"
+            />
+        <ImageView
+            android:id="@+id/com1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/com_1"
+            
+            />
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="9sp"
+            />
+		
+        <ImageView
+            android:id="@+id/com2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/coma_2" 
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+           	android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

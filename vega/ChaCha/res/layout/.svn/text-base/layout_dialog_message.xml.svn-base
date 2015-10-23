@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="200dp">
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_alignParentTop="true" android:id="@+id/common_message_dialog_region_top"
+		android:layout_height="@dimen/topbar_height" android:background="@drawable/bg_header">
+		
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:singleLine="true"
+			android:textSize="20sp" android:textStyle="bold" android:textColor="@android:color/white"
+			android:text="@string/common_message_dialog_title_txt"
+			android:layout_centerInParent="true" />
+
+		<Button android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:id="@+id/common_message_dialog_close_btn"
+			android:layout_marginRight="5dp"
+			android:layout_centerVertical="true" android:layout_alignParentRight="true"
+			android:background="@drawable/ic_dialog_default_right" />
+	</RelativeLayout>
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_below="@id/common_message_dialog_region_top"
+		android:layout_margin="10dp" android:layout_centerInParent="true"
+		android:text="Something here" android:layout_height="wrap_content"
+		android:id="@+id/common_message_dialog_msg_txt" />
+	<RelativeLayout android:layout_alignParentBottom="true"
+		android:gravity="center" android:padding="5dp" android:layout_height="wrap_content"
+		android:background="@drawable/bg_toolbar" android:id="@+id/common_confirm_dialog_region_botton"
+		android:layout_width="fill_parent" android:orientation="horizontal">
+	</RelativeLayout>
+</RelativeLayout>

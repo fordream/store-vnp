@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10dp"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:background="@drawable/xml_detail_share_1"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_5dp" >
+
+        <ImageView
+            android:id="@+id/all_img"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimen_70dp"
+            android:layout_height="@dimen/dimen_70dp"
+            android:layout_marginRight="@dimen/dimen_5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/all_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_3dp"
+                android:text="TextView"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/all_description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_13dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/all_description1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/dimen_13dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen_0dp"
+        android:background="@android:color/black" />
+
+</LinearLayout>

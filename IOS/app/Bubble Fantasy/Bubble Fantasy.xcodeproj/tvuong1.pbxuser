@@ -1,0 +1,92 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* Bubble Fantasy */ = {
+		activeExec = 0;
+		executables = (
+			FC20246F13FFD8C500A8D353 /* Bubble Fantasy */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FC20246F13FFD8C500A8D353 /* Bubble Fantasy */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Bubble Fantasy */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Bubble Fantasy */,
+		);
+		codeSenseManager = FC20248213FFD8D000A8D353 /* Code sense */;
+		executables = (
+			FC20246F13FFD8C500A8D353 /* Bubble Fantasy */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 335534806;
+			PBXWorkspaceStateSaveDate = 335534806;
+		};
+		sourceControlManager = FC20248113FFD8D000A8D353 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	FC20246F13FFD8C500A8D353 /* Bubble Fantasy */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Bubble Fantasy";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FC20248113FFD8D000A8D353 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FC20248213FFD8D000A8D353 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

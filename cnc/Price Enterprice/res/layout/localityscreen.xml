@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#c3c3c3">
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10dip">
+        
+        <ScrollView android:id="@+id/scrollView1" android:layout_width="fill_parent" android:layout_below="@+id/include1" android:layout_alignParentLeft="true" android:layout_above="@+id/include2" android:layout_height="fill_parent">
+            <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:paddingLeft="10dip" android:paddingRight="10dip" android:paddingTop="20dip">
+                <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#fefefe" android:textStyle="bold" android:layout_marginBottom="10dip" android:text="@string/localities"></TextView>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/llLocality_locality">
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+		
+</LinearLayout>

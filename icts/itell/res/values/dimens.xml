@@ -1,0 +1,18 @@
+<resources>
+    
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    
+    <!-- Chat -->
+    <dimen name="chat_text_size_remain_time">18dip</dimen>
+    <dimen name="chat_text_size_title">16dip</dimen>
+    <dimen name="chat_text_size_user_name">16dip</dimen>
+    
+    <dimen name="profile_image_size">40dip</dimen>
+    <!-- Setting profile -->
+    <dimen name="profile_text">14dip</dimen>
+    <!-- Map -->
+    <dimen name="map_corner_overlay">2dip</dimen>
+    <dimen name="map_title_textsize">20dip</dimen>
+</resources>

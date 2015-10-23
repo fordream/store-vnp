@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World, TalkSplashScreen!</string>
+    <string name="app_name">TimTalkPro</string>
+    <string name="splash_screen">SplashScreen</string>
+    <string name="lable_copyright">Copyright © 2012 TimTim.Vn Powered by CNC Mobile</string>
+    <string name="actionbar_activity_not_found">Failed to open intent...</string>
+    <!-- Register -->
+    <string name="register_contiune">CONTINUE</string>
+    <string name="register_hint_country">Country</string>
+    <string name="register_hint_phone">Phone number</string>
+    <string name="register_hint_email">Email</string>
+    <string name="register_hint_password">Password</string>
+    <string name="register_create">CREATE AN ACCOUNT</string>
+    <!-- Login -->
+    <string name="login_button">Login</string>
+    <string name="login_forgotpass">Forgot Password</string>
+    <string name="login_getfreeaccount">Get a Free Account</string>
+    <string name="login_resetpass">Reset Password</string>
+</resources>

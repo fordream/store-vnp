@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle">
+	<solid android:color="@color/map_bg_boy"/>
+	<gradient 
+	    android:startColor="@color/map_bg_boy_start"
+	    android:centerColor="@color/map_bg_boy_start"
+	    android:endColor="@color/map_bg_boy_start"/> 
+	<!-- <gradient 
+        android:startColor="@color/map_bg_boy_start"
+        android:centerColor="@color/map_bg_boy_center"
+        android:endColor="@color/map_bg_boy_end"/>  -->
+	<corners 
+		android:topLeftRadius="@dimen/map_corner_overlay" 
+		android:topRightRadius="@dimen/map_corner_overlay"
+		android:bottomLeftRadius="@dimen/map_corner_overlay" 
+		android:bottomRightRadius="@dimen/map_corner_overlay"/>
+</shape>

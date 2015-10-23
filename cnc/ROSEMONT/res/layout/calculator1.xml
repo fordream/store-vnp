@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnlContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8" >
+
+    <org.com.cnc.rosemont.views.HeaderView
+        android:id="@+id/headerView1"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:layout_weight="1" >
+    </org.com.cnc.rosemont.views.HeaderView>
+
+    <ScrollView
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="700dip"
+        android:layout_weight="7"
+        android:background="@drawable/bg_calculator" >
+
+        <LinearLayout
+            android:id="@+id/llContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_calculator"
+            android:orientation="vertical"
+            android:paddingLeft="8dip"
+            android:paddingRight="10dip"
+            android:paddingTop="6dip" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="match_parent"
+                android:layout_height="42dip"
+                android:background="@drawable/item1"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dip"
+                android:singleLine="true"
+                android:text="@string/choose_product"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/color_back"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="match_parent"
+                android:layout_height="42dip"
+                android:background="@drawable/item2"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dip"
+                android:singleLine="true"
+                android:text="@string/choose_strength"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/color_back"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="42dip"
+                android:background="@drawable/item3"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dip"
+                android:singleLine="true"
+                android:text="@string/dosage_in_milligams"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/color_back"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="38dip"
+                android:layout_marginTop="10dip" >
+
+                <RadioGroup
+                    android:id="@+id/RadioGroup01"
+                    android:layout_width="150dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dip"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <org.com.cnc.rosemont.views.widgets.RadioButtonSettingLeft
+                        android:id="@+id/RadioButtonSettingLeft01"
+                        android:layout_width="100dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:gravity="center"
+                        android:padding="0dip"
+                        android:text="@string/adult"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <org.com.cnc.rosemont.views.widgets.RadioButtonSettingRight
+                        android:id="@+id/RadioButtonSettingRight01"
+                        android:layout_width="100dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="0dip"
+                        android:text="@string/child"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </RadioGroup>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="150dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <org.com.cnc.rosemont.views.widgets.RadioButtonSettingLeft
+                            android:id="@+id/radioButtonSettingLeft1"
+                            android:layout_width="100dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:checked="true"
+                            android:gravity="center"
+                            android:padding="0dip"
+                            android:text="@string/weight"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <org.com.cnc.rosemont.views.widgets.RadioButtonSettingRight
+                            android:id="@+id/radioButtonSettingRight1"
+                            android:layout_width="100dip"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:padding="0dip"
+                            android:text="@string/age"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout31"
+                android:layout_width="match_parent"
+                android:layout_height="42dip"
+                android:layout_marginTop="10dp" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout04"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dip"
+                    android:background="@drawable/etbgcalculator" >
+
+                    <TextView
+                        android:id="@+id/TextView06"
+                        android:layout_width="100dip"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/weight"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/color_back"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/EditText02"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/tranfer"
+                        android:gravity="center_vertical"
+                        android:hint="@string/enter_weight_in_kg"
+                        android:inputType="number"
+                        android:maxLines="3"
+                        android:textColor="@color/color_back"
+                        android:textColorHint="#cfcfcf"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout02"
+                android:layout_width="match_parent"
+                android:layout_height="42dip"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/etbgcalculator" >
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="100dip"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/dosage"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/color_back"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/EditText01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/tranfer"
+                    android:gravity="center_vertical"
+                    android:hint="@string/enter_patient_dose_in_mg"
+                    android:inputType="numberDecimal"
+                    android:maxLength="8"
+                    android:textColor="@color/color_back"
+                    android:textColorHint="#cfcfcf"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="match_parent"
+                android:layout_height="42dip"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/etbgcalculator" >
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="170dip"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/you_patient_needs"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/color_back"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TextView04"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="0.000 ml"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/color_dose"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:text="@string/txt"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#4e4e4e"
+                    android:textSize="11sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

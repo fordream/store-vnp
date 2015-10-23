@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">Wendy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">SETTING</string>
+    <string name="title_activity_main">Wendy</string>
+    <string name="menu_list">MENU LIST</string>
+    <string name="shop_list">SHOP LIST</string>
+	<string name="news_list">NEWS LIST</string>
+	<string name="setting">SETTING</string>
+	<string name="username">Username:</string>
+	<string name="gender">Gender:</string>
+	<string name="birdthdat">Date of birth:</string>
+	<string name="receiverpush">Receiver push:</string>
+	<string name="connectfacebook">Connect Facebook:</string>
+	<string name="connecttwitter">Connect Twitter:</string>
+	<string name="blank"></string>
+	<string name="male">Male</string>
+	<string name="female">Female</string>
+	<string name="call_now">CALL NOW</string>
+	<string  name="coupon_list">COUPON LIST</string>
+	<string name="share_on_facebook">Share on Facebook</string>
+	<string name="share_on_twwiter">Share on Twitter</string>
+	<string name="picture">Picture</string>
+	<string name="yes">YES</string>
+	<string name="no">NO</string>
+</resources>

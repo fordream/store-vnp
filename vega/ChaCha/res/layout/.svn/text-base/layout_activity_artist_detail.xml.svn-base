@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_root"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_header" >
+
+        <Button
+            android:id="@+id/btArtirstBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/selector_button_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:clickable="false"
+            android:text="@string/music"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_button_on_title_bar" />
+
+        <TextView
+            android:id="@+id/feature_title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Artist"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize_title_bar" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:padding="5dp" >
+
+        <RelativeLayout
+            android:id="@+id/thumbnail_region"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" >
+
+            <ImageView
+                android:id="@+id/feature_artist_detail_icon"
+                android:layout_width="@dimen/album_cover_width"
+                android:layout_height="@dimen/album_cover_height"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/bg_thumbnail"
+                android:padding="10dp"
+                android:src="@drawable/ic_playlist_default" />
+
+            <!--
+            ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_thumbnail" />
+
+            <ImageView
+                android:id="@+id/feature_artist_detail_icon"
+                android:layout_width="@dimen/album_cover_width"
+                android:layout_height="@dimen/album_cover_height"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_artist_default" />
+            -->
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/feature_artist_detail_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_left_default"
+            android:layout_marginRight="@dimen/margin_right_default"
+            android:layout_toRightOf="@id/thumbnail_region"
+            android:singleLine="true"
+            android:text="Artist name"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/textsize_title_bar" />
+
+        <TextView
+            android:id="@+id/feature_artist_detail_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/feature_artist_detail_title"
+            android:layout_marginLeft="@dimen/margin_left_default"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/thumbnail_region"
+            android:singleLine="true"
+            android:text="120 fans"
+            android:textColor="@color/subtitle_text_color"
+            android:textSize="@dimen/textsize_small" />
+
+        <LinearLayout
+            android:id="@+id/btFollow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/feature_artist_detail_info"
+            android:layout_marginLeft="@dimen/margin_left_default"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/selector_button_artist_follow"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_default"
+                android:background="@drawable/ic_button_check"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/tvFollow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:text="@string/follow"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2.5dip"
+        android:layout_marginTop="2.5dip"
+        android:background="@drawable/bg_segment_bg" >
+
+        <vn.com.vega.music.view.custom.SegmentedRadioGroup
+            android:id="@+id/artist_detail_tabs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal" >
+
+            <vn.com.vega.music.view.custom.SegmentedControlButton
+                android:id="@+id/artist_tab_song"
+                android:button="@null"
+                android:checked="true"
+                android:maxHeight="30dip"
+                android:maxWidth="50dip"
+                android:minWidth="40dip"
+                android:text="Bài hát" />
+
+            <vn.com.vega.music.view.custom.SegmentedControlButton
+                android:id="@+id/artist_tab_album"
+                android:button="@null"
+                android:maxHeight="30dip"
+                android:maxWidth="50dip"
+                android:minWidth="40dip"
+                android:text="Album" />
+
+            <vn.com.vega.music.view.custom.SegmentedControlButton
+                android:id="@+id/artist_tab_video"
+                android:button="@null"
+                android:maxHeight="30dip"
+                android:maxWidth="50dip"
+                android:minWidth="40dip"
+                android:text="Video" />
+        </vn.com.vega.music.view.custom.SegmentedRadioGroup>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <RelativeLayout
+                android:id="@+id/help_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/search_help_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/search_ico_margintop"
+                    android:src="@drawable/ic_search_large" />
+
+                <TextView
+                    android:id="@+id/search_help_label"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/search_help_icon"
+                    android:layout_marginLeft="@dimen/margin_default"
+                    android:layout_marginRight="@dimen/margin_default"
+                    android:gravity="center_horizontal"
+                    android:textSize="@dimen/textsize_big" />
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/artist_progressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+            <ViewFlipper
+                android:id="@+id/artist_view_flipper"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:visibility="gone" >
+
+                <ListView
+                    android:id="@+id/artist_listview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:cacheColorHint="#0000"
+                    android:divider="@android:color/transparent" >
+                </ListView>
+            </ViewFlipper>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+8
+
+dir
+7488
+svn://222.255.28.110/svn/vega/client/MusicClient/trunk/android/MusicClient/res
+svn://222.255.28.110/svn/vega
+
+
+
+2012-03-29T08:24:00.610743Z
+7361
+phucbn
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8fba6426-021e-4735-92e4-bd083e00f8f0
+
+values
+dir
+
+drawable
+dir
+
+drawable-hdpi
+dir
+
+anim
+dir
+
+menu
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+layout
+dir
+

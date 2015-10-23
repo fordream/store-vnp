@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/banner_only"
+        android:duplicateParentState="false"
+        android:gravity="center"
+        android:paddingLeft="80dp"
+        android:text="Message send from server"
+        android:textColor="#123456" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/result_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:text="no_info"
+        android:textAppearance="?android:attr/textAppearanceLarge" >
+    </TextView>
+
+</LinearLayout>

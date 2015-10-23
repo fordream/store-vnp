@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="25dip"
+        android:orientation="vertical"
+        android:paddingLeft="7dip"
+        android:paddingRight="7dip" >
+
+        <TextView
+            android:id="@+id/register_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="ダウンロードありがとうございます！"
+            android:textColor="@android:color/black"
+            android:textSize="13dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/register_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dip"
+            android:text="iTellのご利用には、初回登録が必要です"
+            android:textColor="@android:color/black"
+            android:textSize="13dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/register_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dip"
+            android:text="メールアドレスを入力してください"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/register_iput_editText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:inputType="textEmailAddress"
+            android:lines="1"
+            android:singleLine="true"
+            android:textColor="@android:color/black" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/register_iput_editTextNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:ems="10"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:inputType="number"
+            android:lines="1"
+            android:singleLine="true"
+            android:textColor="@android:color/black" >
+        </EditText>
+
+        <Button
+            android:id="@+id/regis_iput_btnOk"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/button_net"
+            android:text="送信"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+</LinearLayout>

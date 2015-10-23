@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+        <org.com.cnc.rosemont.views.HeaderView
+            android:id="@+id/headerView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </org.com.cnc.rosemont.views.HeaderView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="700dip"
+        android:layout_weight="7"
+        android:background="@drawable/bgsettings"
+        android:orientation="vertical"
+        android:weightSum="742" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="278dip"
+            android:orientation="vertical" android:layout_weight="278">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="252dip"
+            android:layout_weight="252"
+            android:orientation="horizontal"
+            android:weightSum="640" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="306dip"
+                android:layout_height="match_parent"
+                android:orientation="vertical" android:layout_weight="306">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="322dip"
+                android:layout_height="match_parent"
+                android:layout_weight="322"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout01"
+                    android:layout_width="match_parent"
+                    android:layout_height="68dip"
+                    android:orientation="vertical" android:layout_weight="68">
+
+                    <RadioGroup
+                        android:id="@+id/RadioGroup01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2" >
+
+                        <RadioButton
+                            android:id="@+id/RadioButton02"
+                            android:layout_width="50dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/checkbox_left"
+                            android:button="@drawable/tranfer"
+                            android:checked="false" />
+
+                        <RadioButton
+                            android:id="@+id/RadioButton01"
+                            android:layout_width="50dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/checkbox_right"
+                            android:button="@drawable/tranfer"
+                            android:checked="true" />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout10"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dip"
+                    android:layout_weight="32"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout9"
+                    android:layout_width="match_parent"
+                    android:layout_height="68dip"
+                    android:orientation="vertical" android:layout_weight="68">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2" >
+
+                        <RadioButton
+                            android:id="@+id/radio0"
+                            android:layout_width="50dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/off"
+                            android:button="@drawable/tranfer"
+                            android:checked="false" />
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+                            android:layout_width="50dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/on"
+                            android:button="@drawable/tranfer"
+                            android:checked="true" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout11"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dip"
+                    android:layout_weight="58"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout8"
+                android:layout_width="12dip"
+                android:layout_height="match_parent"
+                android:layout_weight="12"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="212dip"
+            android:layout_weight="212"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout12"
+                android:layout_width="250dip"
+                android:layout_height="match_parent"
+                android:orientation="vertical" android:layout_weight="250">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout13"
+                android:layout_width="240dip"
+                android:layout_height="match_parent"
+                android:layout_weight="240"
+                android:orientation="vertical" android:weightSum="212">
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout02"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dip"
+                    android:layout_weight="80"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout04"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dip"
+                        android:layout_weight="100"
+                        android:orientation="vertical" android:gravity="bottom">
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="XX.X"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="@color/color_back" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout03"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dip"
+                        android:layout_weight="50"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout14"
+                    android:layout_width="match_parent"
+                    android:layout_height="106dip"
+                    android:orientation="vertical" android:layout_weight="106">
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="02/14/2012"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/color_back" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

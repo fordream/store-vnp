@@ -1,0 +1,12 @@
+bin\Debug\Xepso.exe
+bin\Debug\Xepso.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Xepso.Form1.resources
+obj\Debug\Xepso.Properties.Resources.resources
+obj\Debug\Xepso.csproj.GenerateResource.Cache
+obj\Debug\Xepso.exe
+obj\Debug\Xepso.pdb
+obj\Debug\Xepso.HighScores.resources
+obj\Debug\Xepso.Name.resources
+bin\Debug\Xepso.exe.config
+obj\Debug\Xepso.aboutme.resources

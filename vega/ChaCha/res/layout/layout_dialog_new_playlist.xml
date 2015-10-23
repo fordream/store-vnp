@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="9dp" >
+
+    <RelativeLayout
+        android:id="@+id/my_playlist_selector_new_playlist_region_top"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/topbar_height"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_header" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="#00000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:text="@string/my_playlist_selector_new_playlist_title_txt"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/my_playlist_selector_new_playlist_close_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/selector_button_dialog_close" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/top_region"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_playlist_selector_new_playlist_region_top"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/bg_search_bg"
+        android:clickable="false" >
+
+        <EditText
+            android:id="@+id/my_playlist_selector_new_playlist_edt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:background="#00000000"
+            android:hint="@string/playlist_name"
+            android:singleLine="true"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/my_playlist_selector_new_playlist_clear_btn"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignRight="@id/my_playlist_selector_new_playlist_edt"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/ic_search_cancel" >
+        </Button>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/playlist_description"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_below="@id/top_region"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="8dp"
+        android:gravity="top"
+        android:hint="@string/description"
+        android:singleLine="false"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/playlist_description"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp" >
+
+        <Button
+            android:id="@+id/my_playlist_selector_new_playlist_create_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_button_default_large"
+            android:text="@string/create_playlist"
+            android:textColor="#3d3d3d"
+            android:textSize="16sp" >
+        </Button>
+    </RelativeLayout>
+
+</RelativeLayout>

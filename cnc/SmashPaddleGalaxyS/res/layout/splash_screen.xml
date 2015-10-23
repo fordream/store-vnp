@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_splash"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" android:layout_weight="100">
+
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical" android:layout_weight="300">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout9"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:orientation="vertical" android:layout_weight="240">
+
+            <ImageView
+                android:id="@+id/normalPaddleImage"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/normalpaddle_image" android:layout_marginRight="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout10"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:orientation="vertical" android:layout_weight="260">
+
+            <LinearLayout
+                android:id="@+id/linearLayout11"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical" android:layout_weight="100">
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/facebookButton"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/facebook" android:layout_weight="80"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="280dp"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" android:layout_weight="280">
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical" android:layout_weight="120">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:orientation="vertical" android:layout_weight="280">
+
+            <Button
+                android:id="@+id/playnowButton"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_weight="70"
+                android:background="@drawable/playnow" android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/friendsButton"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/friendsonline" android:layout_weight="70" android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/boostsButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="50"
+                android:background="@drawable/boosts" android:layout_marginBottom="5dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/achievementsButton"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/achievements" android:layout_weight="50" android:layout_marginBottom="5dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/newsletterButton"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/newsletter" android:layout_weight="50" android:layout_marginBottom="5dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/optionsButton"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/options" android:layout_weight="50" android:layout_marginBottom="5dp" android:layout_marginRight="10dp" android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/getcoinsButton"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/getcoins" android:layout_weight="50" android:layout_marginBottom="5dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/freecoinsButton"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/freecoins" android:layout_weight="50" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="vertical" android:layout_weight="40">
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="100"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout12"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical" android:layout_weight="300">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout13"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:orientation="horizontal" android:layout_weight="240">
+
+            <LinearLayout
+                android:id="@+id/linearLayout16"
+                android:layout_width="60dp"
+                android:orientation="vertical" android:layout_weight="60" android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/ballfly" android:layout_marginBottom="40dp" android:layout_marginRight="-5dp" android:layout_marginTop="-15dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout17"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" android:layout_weight="50">
+
+                <ImageView
+                    android:id="@+id/goldenPaddleImage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/goldenpaddle_image" android:layout_marginRight="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout14"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:orientation="vertical" android:layout_weight="260">
+
+            <LinearLayout
+                android:id="@+id/linearLayout15"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical" android:layout_weight="100">
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/twitterButton"
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/twitter" android:layout_weight="80"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

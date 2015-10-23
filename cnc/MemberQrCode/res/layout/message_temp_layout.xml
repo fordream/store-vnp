@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/bg4">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="100dip"
+		android:gravity="center_vertical" android:background="@drawable/title_bar" android:layout_weight="100">
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal">
+			<TextView android:id="@+id/show_messagecore"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="@string/your_message_trans" android:textColor="@color/title_color"
+				android:textSize="30px" android:textStyle="bold" />
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="900dip"
+		android:gravity="center_vertical" android:layout_weight="900">
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal">
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:background="@drawable/form">
+				<RelativeLayout android:layout_width="fill_parent"
+					android:id="@+id/relativeLayout1" android:layout_height="fill_parent">
+					<LinearLayout android:layout_width="fill_parent"
+						android:id="@+id/linearLayout2" android:layout_above="@+id/linearLayout1"
+						android:layout_height="50dip" android:paddingLeft="10dip"
+						android:paddingRight="10dip">
+						<TextView android:id="@+id/textView1"
+							android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall"
+							android:textSize="14dip"
+							android:typeface="serif" android:textStyle="bold|italic"
+							android:layout_width="fill_parent"
+							android:text="TextViewsadsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsd" android:textColor="#f90000"></TextView>
+					</LinearLayout>
+					<LinearLayout android:orientation="horizontal"
+						android:layout_height="wrap_content" android:layout_width="fill_parent"
+						android:layout_alignParentTop="true" android:layout_margin="10dip"
+						android:layout_above="@+id/linearLayout2">
+						<TextView android:layout_marginTop="20px"
+							android:layout_width="fill_parent" android:layout_height="wrap_content"
+							android:id="@+id/show_message_temp" android:layout_marginLeft="20px"
+							android:textStyle="bold" android:textColor="@color/question_color"></TextView>
+					</LinearLayout>
+					<LinearLayout android:gravity="center_horizontal"
+						android:orientation="horizontal" android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:layout_alignParentBottom="true" android:id="@+id/linearLayout1"
+						android:layout_marginBottom="5dip">
+						<ImageButton android:background="@drawable/button_show_map"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:id="@+id/btn_show_message_temp"></ImageButton>
+					</LinearLayout>
+				</RelativeLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

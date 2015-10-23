@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_root"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_header" >
+
+        <Button
+            android:id="@+id/album_detail_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/selector_button_back"
+            android:text="@string/common_back_btn"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:clickable="false"
+            android:text="@string/music"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_button_on_title_bar"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/album_title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:text="Album"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize_title_bar" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" >
+
+        <ImageView
+            android:id="@+id/feature_album_detail_icon"
+            android:layout_width="@dimen/album_cover_width"
+            android:layout_height="@dimen/album_cover_height"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/bg_thumbnail"
+            android:padding="10dp"
+            android:src="@drawable/ic_album_default" />
+
+        <TextView
+            android:id="@+id/feature_album_detail_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@id/feature_album_detail_icon"
+            android:paddingTop="2dp"
+            android:singleLine="true"
+            android:text="Album title"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/feature_album_detail_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/feature_album_detail_title"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/feature_album_detail_icon"
+            android:singleLine="true"
+            android:text="by artist"
+            android:textColor="@color/subtitle_text_color"
+            android:textSize="@dimen/textsize_small" />
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/feature_album_detail_info"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/feature_album_detail_icon"
+            android:background="@drawable/selector_button_artist_detail"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="invisible" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_default"
+                android:background="@drawable/ic_artist"
+                android:clickable="false"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_default"
+                android:clickable="false"
+                android:text="@string/download"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/artist_info_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/feature_album_detail_info"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/selector_button_artist_detail"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgArtise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_default"
+                android:background="@drawable/ic_artist"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/artise_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:clickable="false"
+                android:text="@string/artist_detail"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_header_divider" />
+
+    <RelativeLayout
+        android:id="@+id/header_region"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dockina_bg"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/feature_album_download_btn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/margin_bottom_default"
+            android:layout_marginRight="@dimen/margin_default"
+            android:layout_marginTop="@dimen/margin_top_default"
+            android:text="Tải về"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/feature_album_listen_btn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/margin_bottom_default"
+            android:layout_marginRight="@dimen/margin_default"
+            android:layout_marginTop="@dimen/margin_top_default"
+            android:layout_toLeftOf="@id/feature_album_download_btn"
+            android:text="Nghe tất cả"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/feature_album_dockina_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/feature_album_download_btn"
+            android:paddingLeft="@dimen/padding_left_default"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textsize_default"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/empty_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible" >
+
+            <ImageView
+                android:id="@+id/empty_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/search_ico_margintop"
+                android:src="@drawable/ic_search_large" />
+
+            <TextView
+                android:id="@+id/empty_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/empty_icon"
+                android:layout_marginLeft="@dimen/margin_default"
+                android:layout_marginRight="@dimen/margin_default"
+                android:gravity="center_horizontal"
+                android:text="Chưa có bài hát nào"
+                android:textSize="@dimen/textsize_big" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/feature_detail_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="0dp"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent" >
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/feature_detail_progressbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đang tải dữ liệu"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

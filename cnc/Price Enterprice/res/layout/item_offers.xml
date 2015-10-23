@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="80dip"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imgOffers"
+                android:layout_width="80dip"
+                android:layout_height="70dip"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitCenter" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout100"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:gravity="center">
+
+                <ProgressBar
+                    android:id="@+id/progressBar1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="10dip"
+                android:layout_marginRight="20dip"
+                android:ellipsize="end"
+                android:gravity="right"
+                android:paddingLeft="20dp"
+                android:singleLine="true"
+                android:textColor="@color/text_item_lab"
+                android:textSize="9dip"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="160dip"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tVOfferPrice"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/tVOfferInformation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dip"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/text_item_lab"
+                    android:textSize="11dip"
+                    android:textStyle="bold"
+                    android:typeface="serif" >
+                </TextView>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imgOffferNext"
+                android:layout_width="10dip"
+                android:layout_height="10dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/next" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tVOfferPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="10dip"
+                android:layout_toLeftOf="@+id/imgOffferNext"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/text_item_price"
+                android:textSize="11dip"
+                android:textStyle="bold"
+                android:typeface="serif" >
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/line"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>

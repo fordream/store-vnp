@@ -1,0 +1,101 @@
+//
+// Prefix header for all source files of the 'AnyBook' target in the 'AnyBook' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+
+
+/*----------------------------------------------------------------------------------------------------------------
+ * 
+ *                              DEBUG Log
+ * 
+ *----------------------------------------------------------------------------------------------------------------*/
+
+//#undef DEBUG
+#define DEBUG
+#define LOG_TRACELEVEL 4
+// DLog is almost a drop-in replacement for NSLog
+// DLog();
+// DLog(@"here");
+// DLog(@"value: %d", x);
+// Unfortunately this doesn't work DLog(aStringVariable); you have to do this instead DLog(@"%@", aStringVariable);
+#ifdef DEBUG
+/*------LOW-----------*/
+/* etc:Log when in/out function*/
+#if(LOG_TRACELEVEL >= 4)
+#	define DLog_Low(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#	define DLog_Low(...)
+#endif
+/*------MED-----------*/
+#if(LOG_TRACELEVEL >= 3)
+/* Log for trace value of variable, function return value */
+#	define DLog_Med(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#	define DLog_Med(...)
+#endif
+/*--------HIGH------------*/
+/* Log when ERROR but don't return error, continue do other work */
+#if (LOG_TRACELEVEL >= 2)
+#	define DLog_High(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define DLog_High(...)
+#endif
+/*--------ERROR------------*/
+/* Log when ERROR and should be return ERROR */
+#if (LOG_TRACELEVEL >= 1)
+#	define DLog_Error(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define DLog_Error(...)
+#endif
+
+#else
+#	define DLog_Low(...)
+#	define DLog_Med(...)
+#	define DLog_High(...)
+#	define DLog_Error(...)
+#endif /*  DEBUG */
+
+// ALog always displays output regardless of the DEBUG setting
+#define ALog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+
+
+/*----------------------------------------------------------------------------------------------------------------
+ * 
+ *                              MESSAGE DEFINITION
+ * 
+ *----------------------------------------------------------------------------------------------------------------*/
+
+#define STRING_OK						@"OK"
+#define STRING_CANCEL					@"Hủy"
+#define	STRING_MESSAGE					@"Thông báo"
+#define STRING_NOTICE					@"Thông báo"
+#define STRING_ERROR					@"Lỗi"
+#define STRING_CONFIRM					@"Xác nhận"
+
+#define STRING_YES                      @"Ok"
+#define STRING_NO                       @"Không"
+#define STRING_DISCONNECT               @"Không có mạng"
+#define STRING_RETRY                    @"Thử lại"
+
+#define STRING_REGISTER_SUCCESS         @"Đăng kí thành công !"
+
+#define STRING_NULL_USERNAME            @"Vui lòng nhập tên đăng nhập"
+#define STRING_NULL_PASSWORD            @"Vui lòng nhập mật khẩu"
+
+//truongvv aaa
+#define STRING_NULL_ADRESS            @"Vui long nhập địa chỉ"
+#define STRING_NULL_EMAIL            @"Vui lòng nhập email"
+#define STRING_NULL_MOBILE            @"Vui lòng nhập số điện thoại"
+

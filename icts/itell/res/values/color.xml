@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name = "map_textcolor_unselected">#f1ebea</color>
+	<color name = "map_textcolor_selected">#f1ebea</color>
+	
+	<!-- Map -->
+	<color name = "map_bg_hover">#cc005cc5</color>
+	<color name = "map_bg_boy">#cc04b5b3</color>
+	<color name = "map_bg_boy_start">#cc35bfda</color>
+	<color name = "map_bg_boy_center">#cc86d8e8</color>
+	<color name = "map_bg_boy_end">#cc04b5b3</color>
+    <color name = "map_bg_girl">#ccf48080</color>
+    <color name = "map_bg_girl_start">#ccf78383</color>
+    <color name = "map_bg_girl_center">#ccdf9797</color>
+    <color name = "map_bg_girl_end">#ccf48080</color>
+    <color name = "map_list_minute_text">#f0f0f0</color>
+</resources>

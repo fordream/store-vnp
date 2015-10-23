@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout android:id="@+id/relativeLayout1" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="fill_parent" android:layout_width="fill_parent">
+        <RelativeLayout android:layout_height="wrap_content" android:id="@+id/relativeLayout3" android:layout_below="@+id/relativeLayout2" android:layout_width="fill_parent" android:background="@drawable/bgcontactus" android:layout_alignParentLeft="true">
+            <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_centerVertical="true" android:text="@string/to" android:layout_alignParentLeft="true" android:layout_marginLeft="10dip"></TextView>
+            <EditText android:layout_centerVertical="true" android:layout_alignParentRight="true" android:background="@drawable/contact" android:paddingLeft="5dip" android:paddingRight="5dip" android:layout_marginRight="10dip" android:layout_width="230dip" android:id="@+id/etTo" android:textSize="14dip" android:layout_height="25dip" android:singleLine="true" android:textColor="#7a95a6" android:text="@string/contact"></EditText>
+        </RelativeLayout>
+        <RelativeLayout android:layout_height="wrap_content" android:id="@+id/relativeLayout4" android:layout_below="@+id/relativeLayout3" android:layout_alignParentLeft="true" android:background="@drawable/bgcontactus" android:layout_width="fill_parent">
+            <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_centerVertical="true" android:text="@string/cc_bcc" android:layout_marginLeft="10dip"></TextView>
+            <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:layout_toRightOf="@+id/textView2" android:layout_centerVertical="true" android:id="@+id/tVContactCCBCC"></TextView>
+            <EditText android:paddingRight="5dip" android:paddingLeft="5dip" android:background="@drawable/contact" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginRight="10dip" android:layout_width="230dip" android:id="@+id/etCC" android:textSize="14dip" android:layout_height="25dip" android:singleLine="true" android:textColor="#7a95a6"></EditText>
+        </RelativeLayout>
+        <RelativeLayout android:layout_height="wrap_content" android:id="@+id/relativeLayout5" android:layout_width="fill_parent" android:layout_alignParentLeft="true" android:layout_below="@+id/relativeLayout4" android:background="@drawable/bgcontactus">
+            <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_centerVertical="true" android:text="@string/subject" android:layout_alignParentLeft="true" android:layout_marginLeft="10dip"></TextView>
+            <EditText android:paddingRight="5dip" android:paddingLeft="5dip" android:background="@drawable/contact" android:layout_centerVertical="true" android:layout_alignParentRight="true" android:layout_marginRight="10dip" android:layout_width="230dip" android:id="@+id/etSB" android:textSize="14dip" android:layout_height="25dip" android:singleLine="true" android:textColor="#7a95a6" android:text="@string/subject1"></EditText>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/relativeLayout6" android:layout_below="@+id/relativeLayout5" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_alignParentLeft="true" android:background="@drawable/bg" android:layout_marginTop="0dip">
+            <EditText android:layout_width="wrap_content" android:layout_below="@+id/textView5" android:layout_alignParentRight="true" android:layout_alignParentLeft="true" android:id="@+id/etContact" android:layout_height="100dip" android:paddingLeft="10dip" android:paddingRight="10dip" android:layout_marginRight="10dip" android:layout_marginLeft="10dip" android:layout_marginTop="10dip" android:textSize="14dip" android:textColor="#7a95a6" android:gravity="top">
+                <requestFocus></requestFocus>
+            </EditText>
+            <RelativeLayout android:id="@+id/relativeLayout2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/etContact" android:layout_centerHorizontal="true" android:layout_marginTop="10dip">
+                <Button android:layout_centerVertical="true" android:id="@+id/btnClearContact" android:layout_alignParentLeft="true" android:layout_marginRight="10dip" android:background="@drawable/clear_indicator" android:layout_height="30dip" android:layout_width="69dip"></Button>
+                <Button android:layout_centerVertical="true" android:id="@+id/btnSendContact" android:layout_toRightOf="@+id/btnClearContact" android:layout_height="30dip" android:layout_width="69dip" android:background="@drawable/send_indicator"></Button>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    

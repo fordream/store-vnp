@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:background="@drawable/bg_root"
+	android:layout_height="fill_parent">
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_alignParentTop="true" android:id="@+id/common_confirm_dialog_region_top"
+		android:layout_height="@dimen/topbar_height" android:background="@drawable/bg_header">
+		<Button android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:layout_centerVertical="true" android:layout_alignParentLeft="true"
+			android:background="@drawable/ic_dialog_default_left" />
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:singleLine="true"
+			android:textSize="20sp" android:textStyle="bold" android:textColor="@android:color/white"
+			android:text="@string/common_confirm_dialog_title_txt"
+			android:layout_centerInParent="true" />
+	</RelativeLayout>
+	<TextView android:layout_width="fill_parent"
+		android:layout_below="@id/common_confirm_dialog_region_top"
+		android:textColor="@android:color/white" android:layout_height="wrap_content"
+		android:layout_margin="10dp" android:layout_centerInParent="true"
+		android:text="Message" android:singleLine="false" android:textSize="18sp"
+		android:id="@+id/common_confirm_dialog_msg_txt" />
+	<RelativeLayout android:gravity="center"
+		android:layout_below="@id/common_confirm_dialog_msg_txt"
+		android:padding="5dp" android:layout_height="wrap_content"
+		android:background="@drawable/bg_toolbar_bottom" android:id="@+id/common_confirm_dialog_region_botton"
+		android:layout_width="fill_parent" android:orientation="horizontal">
+		<Button android:layout_height="wrap_content"
+			android:layout_marginRight="3dp" android:layout_width="wrap_content"
+			android:background="@drawable/selector_button_normal"
+			android:id="@+id/common_confirm_dialog_cancel_btn"
+			android:layout_centerVertical="true" android:layout_centerInParent="true"
+			android:textColor="@color/white"
+			android:text="@string/cancel"></Button>
+		<Button android:layout_height="wrap_content"
+			android:textColor="@color/white"
+			android:background="@drawable/selector_button_normal"
+			android:layout_marginLeft="5dp"
+			android:layout_toRightOf="@id/common_confirm_dialog_cancel_btn"
+			android:layout_width="wrap_content" android:id="@+id/common_confirm_dialog_ok_btn"
+			android:layout_centerVertical="true" android:layout_centerInParent="true"
+			android:text="@string/agree"></Button>
+	</RelativeLayout>
+
+</RelativeLayout>

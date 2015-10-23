@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <!-- New -->
+    <string name="language_trans">Language</string>
+    <string name="app_name_trans">DQR Code</string>
+    <string name="setting_your_key_trans">Setting your key</string>
+    <string name="answer_trans">Answer</string>
+    <string name="show_map_trans">Show map</string>
+    <string name="close_trans">Close</string>
+    <string name="please_check_your_network_trans">Please check your network!</string>
+    <string name="havent_network_trans">There is no available network</string>
+    <string name="check_network_trans">Check network!</string>
+    <string name="message_trans">Message</string>
+    <string name="go_to_main_screen_trans">Go to main screen</string>
+    <string name="havent_message_and_next_point_trans">Haven\'t message and next point!</string>
+    <string name="loading_trans">Loading ...</string>
+    <string name="download_fail_trans">Download fail!</string>
+    <string name="incorrect_key_try_agian_trans">Incorrect key. Try agian!</string>
+    <string name="key_not_blank_trans">Key must be not blank</string>
+    <string name="please_check_your_image_or_wifi_trans">Please check your image or wifi</string>
+    <string name="enjoy_the_designated_dqr_code_daqiri_trans">Enjoy the Designated DQR Code DaQiRi</string>
+    <string name="message_through_gps_trans">Message Through GPS</string>
+    <string name="scan_saved_dqr_code_trans">Scan saved DQR Code</string>
+    <string name="for_more_information_please_visit_the_web_http_DaQiRi_com_trans">For more information please visit the web http://DaQiRi.com</string>
+    <!-- 17 -->
+
+    <string name="request_DQR_trans">Request DQR</string>
+    <string name="downloading_trans">Downloading…</string>
+    <string name="error_trans">Error</string>
+    <string name="download_Fail_trans">Download Fail!</string>
+    <string name="info_trans">Info</string>
+    <string name="Do_you_want_to_receive_message_through_GPS_trans">Do you want to receive message through GPS?</string>
+    <string name="Cant_decode_this_image_trans">Can\'t decode this image !</string>
+    <string name="Please_check_your_key_number_trans">Please check your key number</string>
+    <string name="Cant_not_decode_this_image_trans">Can\'t not decode this image !</string>
+    <string name="Please_check_your_image_trans">Please check your image</string>
+    <string name="Select_Picture_trans">Select Picture</string>
+    <string name="Your_mobile_cant_not_scan_and_decode_trans">Your mobile can\'t not scan and decode !</string>
+    <string name="Please_check_your_key_number_or_this_DQR_code_trans">Please check your key number or this DQR code</string>
+    <string name="No_Image_is_selected_trans">No Image is selected.</string>
+    <string name="Image_is_selected_trans">Image is selected</string>
+    <string name="Your_mobile_cant_not_scan_this_image_trans">Your mobile can\'t not scan this image !</string>
+    <string name="Image_XXX_has_been_download_to_sdcard_trans">Image XXX has been download to sdcard</string>
+    <string name="Your_must_input_your_key_number_trans">Your must input your key number !</string>
+    <string name="accept_trans">Accept</string>
+    <string name="cancel_trans">Cancel</string>
+    <string name="searching_trans">Searching ...</string>
+    <string name="your_message_trans">Your Message</string>
+    <string name="location_trans">Location</string>
+    <string name="scan_DRR_code_trans">Scan DQR Code</string>
+    <string name="input_your_key_trans">Input your key</string>
+    <string name="about_us_trans">About Us</string>
+    <string name="Dont_Save_file_Check_your_Sdcard_trans">Don\'t Save file, Check your Sdcard!</string>
+    <string name="Success_trans">Success</string>
+    <string name="Image_save_to_Sdcard_trans">Image save to Sdcard</string>
+    <string name="your_question_trans">Your Question</string>
+    <string name="check_trans">Please enable location service!</string>
+    <string name="get_gps_trans">Detect location ...</string>
+    <string name="dont_get_GPS">can\'t get location.</string>
+    <string name="history_trans">History</string>
+    <string name="havent_history_trans">you have no next point!</string>
+    <string name="how_to_use_QDR_code">HOW TO USE DQR CODE</string>
+    <string name="usage_of_DQR_code">USAGE OF DQR CODE</string>
+    <string name="gps_translate_check">Your GPS seems to be disabled, do you want to enable it?</string>
+
+</resources>

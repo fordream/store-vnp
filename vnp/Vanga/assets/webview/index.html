@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ 	<title>Example</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+	<style>
+		#item{
+			background-color:#123456;
+			width : 100%:
+			height:30%;
+		}
+	</style>
+	<script>
+		function getWidth()
+	  	{
+	          var x = 0;
+	          if (self.innerHeight)
+	          {
+	                  x = self.innerWidth;
+	          }
+	          else if (document.documentElement && document.documentElement.clientHeight)
+	          {
+	                  x = document.documentElement.clientWidth;
+	          }
+	          else if (document.body)
+	          {
+	                  x = document.body.clientWidth;
+	          }
+	          return x;
+	  	}
+  
+		var widthScreen = getWidth();
+		var heightItem = (parseInt(widthScreen) * 80 / 320);
+		function addRow(link, img, header){
+			document.writeln("<div id = 'item' ");
+			document.writeln("width='");
+			document.writeln(widthScreen);
+			document.writeln("' height='");
+			document.writeln(heightItem);
+			document.writeln("'>");
+			document.writeln(header);
+			document.writeln("</div>");
+		}
+	</script>
+</head>
+<body >
+
+	<div id = "item">
+	
+	</div>
+</body>
+</html>

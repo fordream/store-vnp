@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:layout_alignParentTop="true" >
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/back_button" />
+
+        <TextView
+            android:id="@+id/tvSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="プライバシー管理"
+            android:textColor="@drawable/black"
+            android:textSize="18dip"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <include layout="@layout/setting_album" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/album_rl1"
+        android:layout_centerInParent="true"
+        android:background="@drawable/trash_bar"
+        >
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/text_19" />
+    </RelativeLayout>
+   
+    <!-- <LinearLayout
+        android:id="@+id/profile_rl_listalbum"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/relativeLayout3"
+        android:orientation="vertical" >
+        <include layout="@layout/layout_album_item1" />
+        <include layout="@layout/layout_album_item2" />
+        <include layout="@layout/layout_album_item3" />
+    </LinearLayout> -->
+    
+
+     <com.icts.control.SwipListView
+        android:id="@+id/listView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/relativeLayout3"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/line"
+        android:fadingEdge="none"
+        android:layoutAnimation="@anim/layout_bottom_to_top_slide"
+        android:persistentDrawingCache="animation|scrolling"
+        android:scrollbarThumbVertical="@drawable/scrollbar_y"
+        android:scrollingCache="false"
+        android:visibility="visible" /> 
+
+</RelativeLayout>

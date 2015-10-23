@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="@drawable/profile_bg">
+    <ScrollView android:id="@+id/scrollView1" android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="fill_parent">
+        <LinearLayout android:id="@+id/linearLayout3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:padding="20dip">
+            <TextView android:textSize="14dip" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/q" android:layout_weight="1" android:typeface="serif" android:text="@string/sdf" android:textColor="@color/color_back" android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+            <LinearLayout android:layout_weight="1" android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/linearLayout1" android:layout_width="fill_parent">
+                <LinearLayout android:layout_height="wrap_content" android:layout_marginBottom="10dip" android:id="@+id/LinearLayout05" android:layout_width="fill_parent" android:layout_marginTop="10dip">
+                    <TextView android:textSize="14dip" android:layout_height="wrap_content" android:layout_width="180dip" android:id="@+id/TextView11" android:layout_weight="1" android:typeface="serif" android:text="Name" android:textColor="@color/color_back" android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+                    <TextView android:textSize="14dip" android:layout_height="wrap_content" android:layout_width="180dip" android:id="@+id/TextView12" android:layout_weight="1" android:typeface="serif" android:text="Kraked" android:textColor="@color/sss" android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+                </LinearLayout>
+                <LinearLayout android:layout_height="wrap_content" android:id="@+id/LinearLayout04" android:layout_width="fill_parent">
+                    <TextView android:textSize="14dip" android:layout_height="wrap_content" android:layout_width="180dip" android:id="@+id/TextView09" android:layout_weight="1" android:typeface="serif" android:text="Activity/Sport" android:textColor="@color/color_back" android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+                </LinearLayout>
+                <LinearLayout android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:id="@+id/LinearLayout03" android:layout_width="fill_parent" android:layout_marginTop="10dp">
+                    <TextView android:textSize="14dip" android:layout_height="wrap_content" android:layout_width="180dip" android:id="@+id/TextView07" android:layout_weight="1" android:typeface="serif" android:text="Date/Time" android:textColor="@color/color_back" android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+                    <TextView android:textSize="14dip" android:layout_height="wrap_content" android:layout_width="300dip" android:id="@+id/TextView08" android:layout_weight="1" android:typeface="serif" android:text="@string/tinme" android:textColor="@color/sss" android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+                </LinearLayout>
+                <LinearLayout android:layout_height="wrap_content" android:id="@+id/LinearLayout02" android:layout_width="fill_parent">
+                    <TextView android:textSize="14dip" android:layout_height="wrap_content" android:layout_width="180dip" android:id="@+id/TextView05" android:layout_weight="1" android:typeface="serif" android:text="@string/deo" android:textColor="@color/color_back" android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+                    <TextView android:textSize="14dip" android:layout_height="wrap_content" android:gravity="center_vertical" android:background="@drawable/signup_sp" android:layout_width="250dip" android:id="@+id/TextView06" android:layout_weight="1" android:typeface="serif" android:text="3 Star" android:textColor="@color/sss" android:textAppearance="?android:attr/textAppearanceSmall" android:paddingLeft="5dip"></TextView>
+                </LinearLayout>
+                <LinearLayout android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_marginTop="10dp">
+                    <TextView android:textSize="14dip" android:layout_height="wrap_content" android:layout_width="180dip" android:id="@+id/TextView04" android:layout_weight="1" android:typeface="serif" android:text="Skill Level" android:textColor="@color/color_back" android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+                    <TextView android:textSize="14dip" android:layout_height="wrap_content" android:gravity="center_vertical" android:background="@drawable/signup_sp" android:layout_width="250dip" android:id="@+id/TextView03" android:layout_weight="1" android:typeface="serif" android:text="Beginner" android:textColor="@color/sss" android:textAppearance="?android:attr/textAppearanceSmall" android:paddingLeft="5dip"></TextView>
+                </LinearLayout>
+                <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="fill_parent">
+                    <TextView android:textSize="14dip" android:layout_height="wrap_content" android:layout_width="180dip" android:id="@+id/TextView01" android:layout_weight="1" android:typeface="serif" android:text="Overall Rating" android:textColor="@color/color_back" android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+                    <TextView android:textSize="14dip" android:layout_height="wrap_content" android:gravity="center_vertical" android:background="@drawable/signup_sp" android:layout_width="250dip" android:id="@+id/TextView02" android:layout_weight="1" android:typeface="serif" android:text="3 Star" android:textColor="@color/sss" android:textAppearance="?android:attr/textAppearanceSmall" android:paddingLeft="5dip"></TextView>
+                </LinearLayout>
+                <RelativeLayout android:paddingTop="20dp" android:layout_height="wrap_content" android:paddingBottom="10dp" android:id="@+id/RelativeLayout1" android:layout_width="fill_parent">
+                    <Button android:layout_width="wrap_content" android:background="@drawable/profile_option_submit" android:id="@+id/button1" android:layout_alignBaseline="@+id/button2" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/button2" android:layout_alignParentTop="true"></Button>
+                    <Button android:layout_width="wrap_content" android:background="@drawable/btndidnot" android:id="@+id/button2" android:layout_alignParentRight="true" android:layout_height="wrap_content" android:layout_marginLeft="10dip" android:layout_alignParentTop="true"></Button>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>

@@ -1,0 +1,8 @@
+C:\Documents and Settings\User\Desktop\Orbz1795179172004\bin\Release\Orbz.exe
+C:\Documents and Settings\User\Desktop\Orbz1795179172004\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\Orbz1795179172004\obj\Release\Orbz.DrawingSurface.resources
+C:\Documents and Settings\User\Desktop\Orbz1795179172004\obj\Release\Orbz.Orbz.resources
+C:\Documents and Settings\User\Desktop\Orbz1795179172004\obj\Release\Orbz.csproj.GenerateResource.Cache
+C:\Documents and Settings\User\Desktop\Orbz1795179172004\obj\Release\Orbz.exe
+C:\Users\hnsunflower1807\Desktop\Source_C#\Orbz-xep hinh\obj\Release\Orbz.exe
+D:\Learn\Data\C#\Source_C#\Orbz-xep hinh\obj\Release\Orbz.exe

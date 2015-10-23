@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/icon_holder"
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="7dp" >
+
+        <ImageButton
+            android:id="@+id/songitem_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/feature_row_arrow_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ic_listview_arrow_ex"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/second_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/feature_row_arrow_img"
+        android:layout_toRightOf="@id/icon_holder"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/songitem_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-3dp"
+            android:singleLine="true"
+            android:text="Song&apos;s title"
+            android:textColor="#333333"
+            android:textSize="@dimen/textsize_big" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp" >
+
+            <ProgressBar
+                android:id="@+id/download_progressbar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="@dimen/download_progress_width"
+                android:layout_height="@dimen/download_progress_height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:progressDrawable="@drawable/drawable_seekbar_blue"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/songitem_by"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="2.5dp"
+                android:singleLine="true"
+                android:text="by Bang Kieu"
+                android:textColor="#333333"
+                android:textSize="@dimen/textsize_small" />
+
+            <TextView
+                android:id="@+id/feature_listitem_divider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:singleLine="true"
+                android:text="-"
+                android:textColor="@color/listview_second_text"
+                android:textSize="@dimen/textsize_small" />
+
+            <TextView
+                android:id="@+id/songitem_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2.5dip"
+                android:singleLine="true"
+                android:text="300 view"
+                android:textColor="#666666"
+                android:textSize="@dimen/textsize_small" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

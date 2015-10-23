@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_45dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/dimen_10dp"
+    android:paddingRight="@dimen/dimen_10dp" >
+
+    <ImageView
+        android:id="@+id/cham_img"
+        android:layout_width="@dimen/dimen_35dp"
+        android:layout_height="@dimen/dimen_35dp"
+        android:layout_marginRight="@dimen/dimen_5dp"
+        android:background="@drawable/btn_red" />
+
+    <TextView
+        android:id="@+id/cham_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textColor="#000000"
+        android:textSize="@dimen/dimen_10dp" />
+
+</LinearLayout>

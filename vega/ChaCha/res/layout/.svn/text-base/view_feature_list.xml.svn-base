@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.markupartist.android.widget.PullToRefreshListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/feature_list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent"
+    android:cacheColorHint="#00000000"
+    android:clipChildren="true"
+    android:divider="@android:color/transparent"
+    android:fadingEdge="none"
+    android:listSelector="@android:color/transparent"
+    android:paddingLeft="1dip"
+    android:paddingRight="1dip" />

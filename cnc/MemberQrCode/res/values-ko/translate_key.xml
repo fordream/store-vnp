@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_key">열쇠 번호를 확인 하시기 바랍니다.</string>
+    <string name="device_fail">장치 실패</string>
+    <string name="not_paid">소정의 요금이 지불 되지 않았습니다.</string>
+    <string name="check_location">당신의 위치를 확인 바랍니다.</string>
+    <string name="check_time">당신이 제 시간에하지 않은 경우 당신은 아마 이전 또는 이후, 1 점을 얻을. 당신은 {0}에서 {1}에서 메시지를받을 수</string>
+</resources>

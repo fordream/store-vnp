@@ -1,0 +1,5 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">    
+	<item  android:state_selected="true"          
+            android:drawable="@drawable/extra_slide_boy_bg" />
+	<item android:drawable="@drawable/extra_slide_girl_bg" />
+</selector>

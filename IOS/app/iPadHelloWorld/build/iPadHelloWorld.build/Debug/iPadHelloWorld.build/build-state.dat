@@ -1,0 +1,116 @@
+TiPadHelloWorld
+v7
+r1
+cCheck dependencies
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/DetailView.xib
+c000000004B6745F600000000000054C5
+t1265059318
+s21701
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/MainWindow.xib
+c000000004B672D7A0000000000004AD7
+t1265053050
+s19159
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/apple.png
+c000000004B6733EE000000000003F1BD
+t1265054702
+s258493
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug/iPadHelloWorld.app
+t2
+s0
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug/iPadHelloWorld.app/Contents/Info.plist
+t2
+s0
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug/iPadHelloWorld.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug/iPadHelloWorld.app/Contents/Resources/DetailView.nib
+t2
+s0
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug/iPadHelloWorld.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug/iPadHelloWorld.app/Contents/Resources/apple.png
+t2
+s0
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug/iPadHelloWorld.app/Contents/Resources/cherry.png
+t2
+s0
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug/iPadHelloWorld.app/Contents/Resources/fruits.plist
+t2
+s0
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug/iPadHelloWorld.app/Contents/Resources/orange.png
+t2
+s0
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug/iPadHelloWorld.app/Contents/Resources/watermelon.png
+t2
+s0
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/cherry.png
+c000000004B673278000000000002BBA9
+t1265054328
+s179113
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/fruits.plist
+c000000004B6742990000000000000125
+t1265058457
+s293
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/orange.png
+c000000004B67332300000000000326DD
+t1265054499
+s206557
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/watermelon.png
+c000000004B6731DC000000000007416E
+t1265054172
+s475502
+
+NiPadHelloWorld-Info.plist
+c000000004B672D7A000000000000038D
+t1265053050
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies337409113#337409113#0(66"[BEROR]error: There is no SDK with the name or path 'iphoneos3.2'1(4@58"error: There is no SDK with the name or path 'iphoneos3.2'337409113#18446744073709551615#0#0(1@0"0(0#1#0"8617853344#0"0#
+
+CCompileXIB /Users/tvuong1/Downloads/iPadHelloWorld/DetailView.xib
+r0
+
+CCompileXIB /Users/tvuong1/Downloads/iPadHelloWorld/MainWindow.xib
+r0
+
+CCopyPlistFile /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug/iPadHelloWorld.app/Contents/Resources/fruits.plist fruits.plist
+r0
+
+CCpResource build/Debug/iPadHelloWorld.app/Contents/Resources/apple.png apple.png
+r0
+
+CCpResource build/Debug/iPadHelloWorld.app/Contents/Resources/cherry.png cherry.png
+r0
+
+CCpResource build/Debug/iPadHelloWorld.app/Contents/Resources/orange.png orange.png
+r0
+
+CCpResource build/Debug/iPadHelloWorld.app/Contents/Resources/watermelon.png watermelon.png
+r0
+
+CProcessInfoPlistFile /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug/iPadHelloWorld.app/Contents/Info.plist iPadHelloWorld-Info.plist
+r0
+
+CTouch /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug/iPadHelloWorld.app
+r0
+

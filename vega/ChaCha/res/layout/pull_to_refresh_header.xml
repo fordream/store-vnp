@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ptr_headerContainer" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        style="@style/ptr_header" >
+
+        <ImageView
+            android:id="@+id/pull_image"
+            style="@style/ptr_arrow"
+            android:contentDescription="@string/account_setting" />
+
+        <ProgressBar
+            android:id="@+id/pull_spinner"
+            style="@style/ptr_spinner" />
+
+        <TextView
+            android:id="@+id/pull_title"
+            style="@style/ptr_title" />
+    </RelativeLayout>
+
+</LinearLayout>

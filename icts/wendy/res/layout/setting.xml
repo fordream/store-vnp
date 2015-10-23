@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <com.vn.icts.wendy.view.TopBarView
+            android:id="@+id/topBarViewSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </com.vn.icts.wendy.view.TopBarView>
+
+        <LinearLayout
+            android:id="@+id/setting_username"
+            android:layout_width="@dimen/dimens300"
+            android:layout_height="@dimen/dimens50"
+            android:layout_marginBottom="@dimen/dimens10"
+            android:layout_marginTop="@dimen/dimens30"
+            android:background="@drawable/tvuong_button_setting_selected"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimens10"
+                android:text="@string/username"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="@dimen/sp15"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <EditText
+                    android:id="@+id/setting_etUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/dimens10"
+                    android:background="@drawable/transfer"
+                    android:gravity="right|center_vertical"
+                    android:text="@string/username"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/sp15" />
+
+                <TextView
+                    android:id="@+id/setting_tvUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/dimens10"
+                    android:drawableRight="@drawable/round"
+                    android:gravity="right|center_vertical"
+                    android:text="@string/username"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="@dimen/sp15" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/setting_gender"
+            android:layout_width="@dimen/dimens300"
+            android:layout_height="@dimen/dimens50"
+            android:layout_marginBottom="@dimen/dimens10"
+            android:background="@drawable/tvuong_button_setting_selected"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/TextView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimens10"
+                android:text="@string/gender"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="@dimen/sp15"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/setting_tvGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dimens10"
+                android:drawableRight="@drawable/round"
+                android:gravity="right"
+                android:text="@string/username"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="@dimen/sp15" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/setting_birth"
+            android:layout_width="@dimen/dimens300"
+            android:layout_height="@dimen/dimens50"
+            android:layout_marginBottom="@dimen/dimens10"
+            android:background="@drawable/tvuong_button_setting_selected"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimens10"
+                android:text="@string/birdthdat"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="@dimen/sp15"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/setting_tvBirth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dimens10"
+                android:drawableRight="@drawable/round"
+                android:gravity="right"
+                android:text="@string/username"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="@dimen/sp15" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/dimens300"
+            android:layout_height="@dimen/dimens50"
+            android:layout_marginBottom="@dimen/dimens10"
+            android:layout_marginTop="@dimen/dimens30"
+            android:background="@drawable/setting_item"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimens10"
+                android:text="@string/receiverpush"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="@dimen/sp15"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical" >
+
+                <ToggleButton
+                    android:id="@+id/setting_toggleButtonPush"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dimens50"
+                    android:layout_marginRight="@dimen/dimens10"
+                    android:background="@drawable/tvuong_toggebutton"
+                    android:textOff="@string/blank"
+                    android:textOn="@string/blank" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/setting_toggleButtonFacesss"
+            android:layout_width="@dimen/dimens300"
+            android:layout_height="@dimen/dimens50"
+            android:layout_marginBottom="@dimen/dimens10"
+            android:background="@drawable/setting_item"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimens10"
+                android:text="@string/connectfacebook"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="@dimen/sp15"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical" >
+
+                <ToggleButton
+                    android:id="@+id/setting_toggleButtonFace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dimens50"
+                    android:layout_marginRight="@dimen/dimens10"
+                    android:background="@drawable/tvuong_toggebutton"
+                    android:textOff="@string/blank"
+                    android:textOn="@string/blank" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/dimens300"
+            android:layout_height="@dimen/dimens50"
+            android:layout_marginBottom="@dimen/dimens10"
+            android:background="@drawable/setting_item"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimens10"
+                android:text="@string/connecttwitter"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="@dimen/sp15"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical" >
+
+                <ToggleButton
+                    android:id="@+id/setting_toggleButtonTwitter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dimens50"
+                    android:layout_marginRight="@dimen/dimens10"
+                    android:background="@drawable/tvuong_toggebutton"
+                    android:textOff="@string/blank"
+                    android:textOn="@string/blank" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

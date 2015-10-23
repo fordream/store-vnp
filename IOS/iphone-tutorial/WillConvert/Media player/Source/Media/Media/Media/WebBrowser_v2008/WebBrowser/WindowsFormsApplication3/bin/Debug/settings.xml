@@ -1,0 +1,8 @@
+<settings>
+  <menuBar visible="True" />
+  <addressrBar visible="True" />
+  <favoritesPanel visible="True" />
+  <SplashScreen checked="False" />
+  <homepage>www.google.com.vn</homepage>
+  <dropdown>15</dropdown>
+</settings>

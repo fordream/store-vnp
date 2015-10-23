@@ -1,0 +1,37 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@android:id/background">
+		 <inset xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/bg_seekbar_welcome_bg" /> 
+	</item>
+	<!-- GRAY LIGHT -->
+	<!-- <item android:id="@android:id/secondaryProgress"> -->
+	<!-- <clip> -->
+	<!-- <shape> -->
+	<!-- <corners android:radius="20dp" /> -->
+	<!-- <gradient -->
+	<!-- android:startColor="#505050" -->
+	<!-- android:centerColor="#909090" -->
+	<!-- android:centerY="0.75" -->
+	<!-- android:endColor="#B0B0B0" -->
+	<!-- android:angle="270" -->
+	<!-- /> -->
+	<!-- </shape> -->
+	<!-- </clip> -->
+	<!-- </item> -->
+	<!-- ORANGE DARK -->
+	<item android:id="@android:id/secondaryProgress">
+		<clip>
+			<shape>
+				<corners android:radius="20dp" />
+				<gradient android:startColor="#22FF8800"
+					android:centerColor="#22FFB800" android:centerY="0.75"
+					android:endColor="#22FFD800" android:angle="270" />
+			</shape>
+		</clip>
+	</item>
+	<!-- ORANGE -->
+	<item android:id="@android:id/progress" >
+		<clip>
+			 <inset xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/bg_seekbar_welcome_elapsed" />
+		</clip>
+	</item>
+</layer-list>

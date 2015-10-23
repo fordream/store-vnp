@@ -1,0 +1,1058 @@
+TSpaceBubble
+v7
+r0
+t329912851.112735
+cCheck dependencies
+cProcessInfoPlistFile /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/Info.plist SpaceBubble-Info.plist
+cCompileXIB /Users/111/Downloads/SpaceBubble/MainWindow.xib
+cCompileXIB /Users/111/Downloads/SpaceBubble/SpaceBubbleViewController.xib
+cCopyPlistFile /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/Entitlements.plist Entitlements.plist
+cCompileXIB /Users/111/Downloads/SpaceBubble/Classes/GameOverViewController.xib
+cCompileXIB /Users/111/Downloads/SpaceBubble/Classes/SettingsWindow.xib
+cCompileXIB /Users/111/Downloads/SpaceBubble/Classes/SplashView.xib
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/2bonus1.png Resources/Images/2bonus1.png
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/2bonus2.png Resources/Images/2bonus2.png
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/2bonus3.png Resources/Images/2bonus3.png
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/3bonus1.png Resources/Images/3bonus1.png
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/3bonus2.png Resources/Images/3bonus2.png
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/3bonus3.png Resources/Images/3bonus3.png
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/background.png Resources/Images/background.png
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/bonus1.png Resources/Images/bonus1.png
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/bonus2.png Resources/Images/bonus2.png
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/bonus3.png Resources/Images/bonus3.png
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/bubbleiconnew1.png Resources/Images/bubbleiconnew1.png
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/bubbleiconnew2.png Resources/Images/bubbleiconnew2.png
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/bubbleiconnew3.png Resources/Images/bubbleiconnew3.png
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/gameover.png Resources/Images/gameover.png
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/gameovertext1.png Resources/Images/gameovertext1.png
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/gameovertext2.png Resources/Images/gameovertext2.png
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/gameovertext3.png Resources/Images/gameovertext3.png
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/Icon.png Resources/Images/Icon.png
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/spaceship.png Resources/Images/spaceship.png
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/splashscreen.png Resources/Images/splashscreen.png
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/alien2.wav Resources/Audio/alien2.wav
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/axe_throw.wav Resources/Audio/axe_throw.wav
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/click.wav Resources/Audio/click.wav
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/GameLoop.mp3 Resources/Audio/GameLoop.mp3
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/hit_2.wav Resources/Audio/hit_2.wav
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/laser_1.wav Resources/Audio/laser_1.wav
+cCpResource build/Debug-iphonesimulator/SpaceBubble.app/mechanical_1.wav Resources/Audio/mechanical_1.wav
+cProcessPCH /var/folders/wP/wPiRhfZDHgWRCm4Ad0NVBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceBubble_Prefix-auzaovrbhavgcrhazfggehixhxvc/SpaceBubble_Prefix.pch.gch SpaceBubble_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/main.o /Users/111/Downloads/SpaceBubble/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SpaceBubbleAppDelegate.o /Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SpaceBubbleViewController.o /Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/GameOverViewController.o /Users/111/Downloads/SpaceBubble/Classes/GameOverViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SpriteHelpers.o /Users/111/Downloads/SpaceBubble/Classes/SpriteHelpers.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SoundEffects.o /Users/111/Downloads/SpaceBubble/Classes/SoundEffects.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SettingsWindow.o /Users/111/Downloads/SpaceBubble/Classes/SettingsWindow.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/Sprite.o /Users/111/Downloads/SpaceBubble/Classes/Sprite.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SplashViewController.o /Users/111/Downloads/SpaceBubble/Classes/SplashViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/SpaceBubble normal i386
+cGenerateDSYMFile /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app.dSYM /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/SpaceBubble
+cTouch /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004C494D260000000000000110
+t1279872294
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004BD2005600000000000102F0
+t1272053846
+s66288
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVAudioPlayer.h
+c000000004BD200550000000000000ED7
+t1272053845
+s3799
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004BD2001C0000000000193D80
+t1272053788
+s1654144
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004BD1FFCD0000000000000A22
+t1272053709
+s2594
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BD1CD90000000000026F020
+t1272040848
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BD1FFC200000000002A96A0
+t1272053698
+s2791072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BD1FF9E0000000000001355
+t1272053662
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BD20412000000000000098F
+t1272054802
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BD20471000000000222E640
+t1272054897
+s35841600
+
+N/Users/111/Downloads/SpaceBubble/Classes/GameOverViewController.h
+c000000004C0DB3730000000000000308
+t1275966323
+s776
+i<UIKit/UIKit.h>
+i"SpriteHelpers.h"
+
+N/Users/111/Downloads/SpaceBubble/Classes/GameOverViewController.m
+c000000004C0DB3710000000000000932
+t1275966321
+s2354
+i"GameOverViewController.h"
+i"SoundEffects.h"
+
+N/Users/111/Downloads/SpaceBubble/Classes/GameOverViewController.xib
+c000000004BEC309A000000000000187D
+t1273770138
+s6269
+
+N/Users/111/Downloads/SpaceBubble/Classes/SettingsWindow.h
+c000000004C0DB367000000000000034E
+t1275966311
+s846
+i<UIKit/UIKit.h>
+
+N/Users/111/Downloads/SpaceBubble/Classes/SettingsWindow.m
+c000000004C0DB3600000000000000860
+t1275966304
+s2144
+i"SettingsWindow.h"
+i"SpaceBubbleViewController.h"
+
+N/Users/111/Downloads/SpaceBubble/Classes/SettingsWindow.xib
+c000000004BF0E96C0000000000006CD8
+t1274079596
+s27864
+
+N/Users/111/Downloads/SpaceBubble/Classes/SoundEffects.h
+c000000004C0DB3850000000000000422
+t1275966341
+s1058
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/111/Downloads/SpaceBubble/Classes/SoundEffects.m
+c000000004C0DB383000000000000085F
+t1275966339
+s2143
+i"SoundEffects.h"
+
+N/Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleAppDelegate.h
+c000000004C0DB37C0000000000000359
+t1275966332
+s857
+i<UIKit/UIKit.h>
+
+N/Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleAppDelegate.m
+c000000004C0DB37A0000000000000CF4
+t1275966330
+s3316
+i"SpaceBubbleAppDelegate.h"
+i"SpaceBubbleViewController.h"
+i"SoundEffects.h"
+
+N/Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleViewController.h
+c000000004C0DB3770000000000000825
+t1275966327
+s2085
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioToolbox.h>
+i<AVFoundation/AVAudioPlayer.h>
+i"GameOverViewController.h"
+i"SpriteHelpers.h"
+i"SplashViewController.h"
+
+N/Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleViewController.m
+c000000004C0DB37500000000000031D2
+t1275966325
+s12754
+i"SpaceBubbleViewController.h"
+i"SoundEffects.h"
+
+N/Users/111/Downloads/SpaceBubble/Classes/SplashView.xib
+c000000004BF0E74E0000000000004E5F
+t1274079054
+s20063
+
+N/Users/111/Downloads/SpaceBubble/Classes/SplashViewController.h
+c000000004C0DB38C00000000000002DB
+t1275966348
+s731
+i<UIKit/UIKit.h>
+i"SettingsWindow.h"
+
+N/Users/111/Downloads/SpaceBubble/Classes/SplashViewController.m
+c000000004C0DB38700000000000009B0
+t1275966343
+s2480
+i"SplashViewController.h"
+i"SpaceBubbleViewController.h"
+
+N/Users/111/Downloads/SpaceBubble/Classes/Sprite.h
+c000000004C0DB36B00000000000002E7
+t1275966315
+s743
+i<UIKit/UIKit.h>
+
+N/Users/111/Downloads/SpaceBubble/Classes/Sprite.m
+c000000004C0DB36E00000000000002ED
+t1275966318
+s749
+i"Sprite.h"
+
+N/Users/111/Downloads/SpaceBubble/Classes/SpriteHelpers.h
+c000000004C0DB3810000000000000303
+t1275966337
+s771
+i<Foundation/Foundation.h>
+i"Sprite.h"
+
+N/Users/111/Downloads/SpaceBubble/Classes/SpriteHelpers.m
+c000000004C0DB37F0000000000000DEB
+t1275966335
+s3563
+i"SpriteHelpers.h"
+
+N/Users/111/Downloads/SpaceBubble/Entitlements.plist
+c000000004BEBA4C100000000000000E1
+t1273734337
+s225
+
+N/Users/111/Downloads/SpaceBubble/MainWindow.xib
+c000000004BEA1FA40000000000002678
+t1273634724
+s9848
+
+N/Users/111/Downloads/SpaceBubble/Resources/Audio/GameLoop.mp3
+c000000004BEE0DB5000000000004F43F
+t1273892277
+s324671
+
+N/Users/111/Downloads/SpaceBubble/Resources/Audio/alien2.wav
+c000000004BECE94E0000000000000DAE
+t1273817422
+s3502
+
+N/Users/111/Downloads/SpaceBubble/Resources/Audio/axe_throw.wav
+c000000003F6784CC00000000000030A4
+t1063748812
+s12452
+
+N/Users/111/Downloads/SpaceBubble/Resources/Audio/click.wav
+c0000000037B1EAEA0000000000002430
+t934406890
+s9264
+
+N/Users/111/Downloads/SpaceBubble/Resources/Audio/hit_2.wav
+c000000003003491E0000000000000B04
+t805521694
+s2820
+
+N/Users/111/Downloads/SpaceBubble/Resources/Audio/laser_1.wav
+c000000003E658DD20000000000004A60
+t1046842834
+s19040
+
+N/Users/111/Downloads/SpaceBubble/Resources/Audio/mechanical_1.wav
+c000000003A1D2ACA000000000000CF2C
+t974990026
+s53036
+
+N/Users/111/Downloads/SpaceBubble/Resources/Images/2bonus1.png
+c000000004BF0384500000000000011F4
+t1274034245
+s4596
+
+N/Users/111/Downloads/SpaceBubble/Resources/Images/2bonus2.png
+c000000004BF0387B00000000000012F3
+t1274034299
+s4851
+
+N/Users/111/Downloads/SpaceBubble/Resources/Images/2bonus3.png
+c000000004BF038870000000000001440
+t1274034311
+s5184
+
+N/Users/111/Downloads/SpaceBubble/Resources/Images/3bonus1.png
+c000000004BF03B7D0000000000001167
+t1274035069
+s4455
+
+N/Users/111/Downloads/SpaceBubble/Resources/Images/3bonus2.png
+c000000004BF03B8A000000000000135A
+t1274035082
+s4954
+
+N/Users/111/Downloads/SpaceBubble/Resources/Images/3bonus3.png
+c000000004BF03B9A0000000000001496
+t1274035098
+s5270
+
+N/Users/111/Downloads/SpaceBubble/Resources/Images/Icon.png
+c000000004BECB97D0000000000002011
+t1273805181
+s8209
+
+N/Users/111/Downloads/SpaceBubble/Resources/Images/background.png
+c000000004BE70E820000000000001E1D
+t1273433730
+s7709
+
+N/Users/111/Downloads/SpaceBubble/Resources/Images/bonus1.png
+c000000004BF07F300000000000001289
+t1274052400
+s4745
+
+N/Users/111/Downloads/SpaceBubble/Resources/Images/bonus2.png
+c000000004BF07F3F00000000000013FF
+t1274052415
+s5119
+
+N/Users/111/Downloads/SpaceBubble/Resources/Images/bonus3.png
+c000000004BF07F4D00000000000014FB
+t1274052429
+s5371
+
+N/Users/111/Downloads/SpaceBubble/Resources/Images/bubbleiconnew1.png
+c000000004BEC816F00000000000011CB
+t1273790831
+s4555
+
+N/Users/111/Downloads/SpaceBubble/Resources/Images/bubbleiconnew2.png
+c000000004BEC819B00000000000011C6
+t1273790875
+s4550
+
+N/Users/111/Downloads/SpaceBubble/Resources/Images/bubbleiconnew3.png
+c000000004BEC81AC00000000000011DE
+t1273790892
+s4574
+
+N/Users/111/Downloads/SpaceBubble/Resources/Images/gameover.png
+c000000004BEC692F0000000000005D2C
+t1273784623
+s23852
+
+N/Users/111/Downloads/SpaceBubble/Resources/Images/gameovertext1.png
+c000000004BEC62660000000000001A70
+t1273782886
+s6768
+
+N/Users/111/Downloads/SpaceBubble/Resources/Images/gameovertext2.png
+c000000004BEC627B0000000000002AA1
+t1273782907
+s10913
+
+N/Users/111/Downloads/SpaceBubble/Resources/Images/gameovertext3.png
+c000000004BEC62A70000000000002BEF
+t1273782951
+s11247
+
+N/Users/111/Downloads/SpaceBubble/Resources/Images/spaceship.png
+c000000004BE70EF4000000000000216D
+t1273433844
+s8557
+
+N/Users/111/Downloads/SpaceBubble/Resources/Images/splashscreen.png
+c000000004BEC67E1000000000000AD30
+t1273784289
+s44336
+
+N/Users/111/Downloads/SpaceBubble/SpaceBubbleViewController.xib
+c000000004BEA1FA40000000000001A55
+t1273634724
+s6741
+
+N/Users/111/Downloads/SpaceBubble/SpaceBubble_Prefix.pch
+c000000004BEA1FA400000000000000BF
+t1273634724
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app
+t1308219939
+s1292
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app.dSYM
+t1308219939
+s102
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/2bonus1.png
+t1308219934
+s4596
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/2bonus2.png
+t1308219934
+s4851
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/2bonus3.png
+t1308219934
+s5184
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/3bonus1.png
+t1308219934
+s4455
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/3bonus2.png
+t1308219934
+s4954
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/3bonus3.png
+t1308219934
+s5270
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/Entitlements.plist
+t1308219933
+s62
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/GameLoop.mp3
+t1308219934
+s324671
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/GameOverViewController.nib
+t1308219934
+s764
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/Icon.png
+t1308219934
+s8209
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/Info.plist
+t1308219931
+s637
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/MainWindow.nib
+t1308219931
+s1131
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/PkgInfo
+t1308219931
+s8
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/SettingsWindow.nib
+t1308219934
+s2486
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/SpaceBubble
+t1308219939
+s67796
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/SpaceBubbleViewController.nib
+t1308219933
+s795
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/SplashView.nib
+t1308219935
+s1651
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/alien2.wav
+t1308219934
+s3502
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/axe_throw.wav
+t1308219934
+s12452
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/background.png
+t1308219934
+s7709
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/bonus1.png
+t1308219934
+s4745
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/bonus2.png
+t1308219934
+s5119
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/bonus3.png
+t1308219934
+s5371
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/bubbleiconnew1.png
+t1308219934
+s4555
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/bubbleiconnew2.png
+t1308219934
+s4550
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/bubbleiconnew3.png
+t1308219934
+s4574
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/click.wav
+t1308219934
+s9264
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/gameover.png
+t1308219934
+s23852
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/gameovertext1.png
+t1308219934
+s6768
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/gameovertext2.png
+t1308219934
+s10913
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/gameovertext3.png
+t1308219934
+s11247
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/hit_2.wav
+t1308219934
+s2820
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/laser_1.wav
+t1308219934
+s19040
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/mechanical_1.wav
+t1308219934
+s53036
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/spaceship.png
+t1308219934
+s8557
+
+N/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/splashscreen.png
+t1308219934
+s44336
+
+N/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/GameOverViewController.o
+t1308219938
+s44852
+
+N/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SettingsWindow.o
+t1308219938
+s42232
+
+N/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SoundEffects.o
+t1308219938
+s12704
+
+N/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SpaceBubble.LinkFileList
+c000000004DF9DA1A00000000000004C2
+t1308219930
+s1218
+
+N/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SpaceBubbleAppDelegate.o
+t1308219937
+s53500
+
+N/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SpaceBubbleViewController.o
+t1308219938
+s84280
+
+N/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SplashViewController.o
+t1308219938
+s41832
+
+N/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/Sprite.o
+t1308219938
+s12208
+
+N/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SpriteHelpers.o
+t1308219938
+s14216
+
+N/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/main.o
+t1308219937
+s6292
+
+N/Users/111/Downloads/SpaceBubble/main.m
+c000000004BEA24C9000000000000016C
+t1273636041
+s364
+i<UIKit/UIKit.h>
+
+N/var/folders/wP/wPiRhfZDHgWRCm4Ad0NVBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceBubble_Prefix-auzaovrbhavgcrhazfggehixhxvc/SpaceBubble_Prefix.pch.gch
+t1308219937
+s9273920
+
+NSpaceBubble-Info.plist
+c000000004BEBA44B000000000000037B
+t1273734219
+s891
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies329912851#329912851#0(0"0(0#1#0"2422162064#0"0#
+
+CCompileC build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/GameOverViewController.o /Users/111/Downloads/SpaceBubble/Classes/GameOverViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329912737.798684
+e329912738.023866
+r1
+xCompileC
+xbuild/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/GameOverViewController.o
+x/Users/111/Downloads/SpaceBubble/Classes/GameOverViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/111/Downloads/SpaceBubble/Classes/GameOverViewController.m329912737#329912738#0(0"0(0#0#65"/Users/111/Downloads/SpaceBubble/Classes/GameOverViewController.m2422162064#2013"    cd /Users/111/Downloads/SpaceBubble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-generated-files.hmap -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-own-target-headers.hmap -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-all-target-headers.hmap -iquote /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-project-headers.hmap -F/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator -I/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/include -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/DerivedSources/i386 -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/DerivedSources -include /var/folders/wP/wPiRhfZDHgWRCm4Ad0NVBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceBubble_Prefix-auzaovrbhavgcrhazfggehixhxvc/SpaceBubble_Prefix.pch -c /Users/111/Downloads/SpaceBubble/Classes/GameOverViewController.m -o /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/GameOverViewController.o0#
+
+CCompileC build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SettingsWindow.o /Users/111/Downloads/SpaceBubble/Classes/SettingsWindow.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329912738.137955
+e329912738.307553
+r1
+xCompileC
+xbuild/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SettingsWindow.o
+x/Users/111/Downloads/SpaceBubble/Classes/SettingsWindow.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/111/Downloads/SpaceBubble/Classes/SettingsWindow.m329912738#329912738#0(0"0(0#0#57"/Users/111/Downloads/SpaceBubble/Classes/SettingsWindow.m2422162064#1997"    cd /Users/111/Downloads/SpaceBubble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-generated-files.hmap -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-own-target-headers.hmap -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-all-target-headers.hmap -iquote /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-project-headers.hmap -F/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator -I/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/include -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/DerivedSources/i386 -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/DerivedSources -include /var/folders/wP/wPiRhfZDHgWRCm4Ad0NVBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceBubble_Prefix-auzaovrbhavgcrhazfggehixhxvc/SpaceBubble_Prefix.pch -c /Users/111/Downloads/SpaceBubble/Classes/SettingsWindow.m -o /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SettingsWindow.o0#
+
+CCompileC build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SoundEffects.o /Users/111/Downloads/SpaceBubble/Classes/SoundEffects.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329912738.038708
+e329912738.180102
+r1
+xCompileC
+xbuild/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SoundEffects.o
+x/Users/111/Downloads/SpaceBubble/Classes/SoundEffects.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/111/Downloads/SpaceBubble/Classes/SoundEffects.m329912738#329912738#0(0"0(0#0#55"/Users/111/Downloads/SpaceBubble/Classes/SoundEffects.m2422162064#1993"    cd /Users/111/Downloads/SpaceBubble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-generated-files.hmap -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-own-target-headers.hmap -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-all-target-headers.hmap -iquote /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-project-headers.hmap -F/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator -I/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/include -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/DerivedSources/i386 -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/DerivedSources -include /var/folders/wP/wPiRhfZDHgWRCm4Ad0NVBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceBubble_Prefix-auzaovrbhavgcrhazfggehixhxvc/SpaceBubble_Prefix.pch -c /Users/111/Downloads/SpaceBubble/Classes/SoundEffects.m -o /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SoundEffects.o0#
+
+CCompileC build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SpaceBubbleAppDelegate.o /Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329912737.353377
+e329912737.798532
+r1
+xCompileC
+xbuild/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SpaceBubbleAppDelegate.o
+x/Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleAppDelegate.m: In function '-[SpaceBubbleAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleAppDelegate.m:41: warning: 'setStatusBarHidden:animated:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:207)
+lSLF07#2@73"Compile /Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleAppDelegate.m329912737#329912737#0(443"/Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleAppDelegate.m: In function '-[SpaceBubbleAppDelegate application:didFinishLaunchingWithOptions:]':/Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleAppDelegate.m:41: warning: 'setStatusBarHidden:animated:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:207)1(22@212"'setStatusBarHidden:animated:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h:207)329912737#151#292#0(6@65"/Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleAppDelegate.m297659130#41#0#41#0#33"'*' is deprecated (declared at *)0(0#0#65"/Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleAppDelegate.m2422162064#2013"    cd /Users/111/Downloads/SpaceBubble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-generated-files.hmap -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-own-target-headers.hmap -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-all-target-headers.hmap -iquote /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-project-headers.hmap -F/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator -I/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/include -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/DerivedSources/i386 -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/DerivedSources -include /var/folders/wP/wPiRhfZDHgWRCm4Ad0NVBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceBubble_Prefix-auzaovrbhavgcrhazfggehixhxvc/SpaceBubble_Prefix.pch -c /Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleAppDelegate.m -o /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SpaceBubbleAppDelegate.o0#
+
+CCompileC build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SpaceBubbleViewController.o /Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329912737.496511
+e329912738.023569
+r1
+xCompileC
+xbuild/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SpaceBubbleViewController.o
+x/Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleViewController.m329912737#329912738#0(0"0(0#0#68"/Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleViewController.m2422162064#2019"    cd /Users/111/Downloads/SpaceBubble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-generated-files.hmap -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-own-target-headers.hmap -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-all-target-headers.hmap -iquote /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-project-headers.hmap -F/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator -I/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/include -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/DerivedSources/i386 -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/DerivedSources -include /var/folders/wP/wPiRhfZDHgWRCm4Ad0NVBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceBubble_Prefix-auzaovrbhavgcrhazfggehixhxvc/SpaceBubble_Prefix.pch -c /Users/111/Downloads/SpaceBubble/Classes/SpaceBubbleViewController.m -o /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SpaceBubbleViewController.o0#
+
+CCompileC build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SplashViewController.o /Users/111/Downloads/SpaceBubble/Classes/SplashViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329912738.282891
+e329912738.467905
+r1
+xCompileC
+xbuild/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SplashViewController.o
+x/Users/111/Downloads/SpaceBubble/Classes/SplashViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/111/Downloads/SpaceBubble/Classes/SplashViewController.m329912738#329912738#0(0"0(0#0#63"/Users/111/Downloads/SpaceBubble/Classes/SplashViewController.m2422162064#2009"    cd /Users/111/Downloads/SpaceBubble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-generated-files.hmap -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-own-target-headers.hmap -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-all-target-headers.hmap -iquote /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-project-headers.hmap -F/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator -I/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/include -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/DerivedSources/i386 -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/DerivedSources -include /var/folders/wP/wPiRhfZDHgWRCm4Ad0NVBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceBubble_Prefix-auzaovrbhavgcrhazfggehixhxvc/SpaceBubble_Prefix.pch -c /Users/111/Downloads/SpaceBubble/Classes/SplashViewController.m -o /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SplashViewController.o0#
+
+CCompileC build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/Sprite.o /Users/111/Downloads/SpaceBubble/Classes/Sprite.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329912738.180258
+e329912738.282738
+r1
+xCompileC
+xbuild/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/Sprite.o
+x/Users/111/Downloads/SpaceBubble/Classes/Sprite.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/111/Downloads/SpaceBubble/Classes/Sprite.m329912738#329912738#0(0"0(0#0#49"/Users/111/Downloads/SpaceBubble/Classes/Sprite.m2422162064#1981"    cd /Users/111/Downloads/SpaceBubble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-generated-files.hmap -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-own-target-headers.hmap -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-all-target-headers.hmap -iquote /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-project-headers.hmap -F/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator -I/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/include -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/DerivedSources/i386 -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/DerivedSources -include /var/folders/wP/wPiRhfZDHgWRCm4Ad0NVBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceBubble_Prefix-auzaovrbhavgcrhazfggehixhxvc/SpaceBubble_Prefix.pch -c /Users/111/Downloads/SpaceBubble/Classes/Sprite.m -o /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/Sprite.o0#
+
+CCompileC build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SpriteHelpers.o /Users/111/Downloads/SpaceBubble/Classes/SpriteHelpers.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329912738.024002
+e329912738.137796
+r1
+xCompileC
+xbuild/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SpriteHelpers.o
+x/Users/111/Downloads/SpaceBubble/Classes/SpriteHelpers.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/111/Downloads/SpaceBubble/Classes/SpriteHelpers.m329912738#329912738#0(0"0(0#0#56"/Users/111/Downloads/SpaceBubble/Classes/SpriteHelpers.m2422162064#1995"    cd /Users/111/Downloads/SpaceBubble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-generated-files.hmap -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-own-target-headers.hmap -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-all-target-headers.hmap -iquote /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-project-headers.hmap -F/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator -I/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/include -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/DerivedSources/i386 -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/DerivedSources -include /var/folders/wP/wPiRhfZDHgWRCm4Ad0NVBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceBubble_Prefix-auzaovrbhavgcrhazfggehixhxvc/SpaceBubble_Prefix.pch -c /Users/111/Downloads/SpaceBubble/Classes/SpriteHelpers.m -o /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SpriteHelpers.o0#
+
+CCompileC build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/main.o /Users/111/Downloads/SpaceBubble/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329912737.351575
+e329912737.496360
+r1
+xCompileC
+xbuild/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/main.o
+x/Users/111/Downloads/SpaceBubble/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/111/Downloads/SpaceBubble/main.m329912737#329912737#0(0"0(0#0#39"/Users/111/Downloads/SpaceBubble/main.m2422162064#1969"    cd /Users/111/Downloads/SpaceBubble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-generated-files.hmap -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-own-target-headers.hmap -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-all-target-headers.hmap -iquote /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-project-headers.hmap -F/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator -I/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/include -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/DerivedSources/i386 -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/DerivedSources -include /var/folders/wP/wPiRhfZDHgWRCm4Ad0NVBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceBubble_Prefix-auzaovrbhavgcrhazfggehixhxvc/SpaceBubble_Prefix.pch -c /Users/111/Downloads/SpaceBubble/main.m -o /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/111/Downloads/SpaceBubble/Classes/GameOverViewController.xib
+s329912733.437854
+e329912734.540358
+r1
+xCompileXIB
+x/Users/111/Downloads/SpaceBubble/Classes/GameOverViewController.xib
+lSLF07#2@45"CompileXIB Classes/GameOverViewController.xib329912733#329912734#0(0"0(0#0#67"/Users/111/Downloads/SpaceBubble/Classes/GameOverViewController.xib2422162064#588"    cd /Users/111/Downloads/SpaceBubble    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/GameOverViewController.nib /Users/111/Downloads/SpaceBubble/Classes/GameOverViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB /Users/111/Downloads/SpaceBubble/Classes/SettingsWindow.xib
+s329912733.927377
+e329912734.820193
+r1
+xCompileXIB
+x/Users/111/Downloads/SpaceBubble/Classes/SettingsWindow.xib
+lSLF07#2@37"CompileXIB Classes/SettingsWindow.xib329912733#329912734#0(0"0(0#0#59"/Users/111/Downloads/SpaceBubble/Classes/SettingsWindow.xib2422162064#572"    cd /Users/111/Downloads/SpaceBubble    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/SettingsWindow.nib /Users/111/Downloads/SpaceBubble/Classes/SettingsWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB /Users/111/Downloads/SpaceBubble/Classes/SplashView.xib
+s329912734.540492
+e329912735.412732
+r1
+xCompileXIB
+x/Users/111/Downloads/SpaceBubble/Classes/SplashView.xib
+lSLF07#2@33"CompileXIB Classes/SplashView.xib329912734#329912735#0(0"0(0#0#55"/Users/111/Downloads/SpaceBubble/Classes/SplashView.xib2422162064#564"    cd /Users/111/Downloads/SpaceBubble    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/SplashView.nib /Users/111/Downloads/SpaceBubble/Classes/SplashView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB /Users/111/Downloads/SpaceBubble/MainWindow.xib
+s329912731.040240
+e329912732.180130
+r1
+xCompileXIB
+x/Users/111/Downloads/SpaceBubble/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib329912731#329912732#0(0"0(0#0#47"/Users/111/Downloads/SpaceBubble/MainWindow.xib2422162064#556"    cd /Users/111/Downloads/SpaceBubble    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/MainWindow.nib /Users/111/Downloads/SpaceBubble/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB /Users/111/Downloads/SpaceBubble/SpaceBubbleViewController.xib
+s329912731.047008
+e329912733.437616
+r1
+xCompileXIB
+x/Users/111/Downloads/SpaceBubble/SpaceBubbleViewController.xib
+lSLF07#2@40"CompileXIB SpaceBubbleViewController.xib329912731#329912733#0(0"0(0#0#62"/Users/111/Downloads/SpaceBubble/SpaceBubbleViewController.xib2422162064#586"    cd /Users/111/Downloads/SpaceBubble    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/SpaceBubbleViewController.nib /Users/111/Downloads/SpaceBubble/SpaceBubbleViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCopyPlistFile /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/Entitlements.plist Entitlements.plist
+s329912732.180282
+e329912733.927244
+r1
+xCopyPlistFile
+x/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/Entitlements.plist
+xEntitlements.plist
+lSLF07#2@23"Copy Entitlements.plist329912732#329912733#0(0"0(0#0#51"/Users/111/Downloads/SpaceBubble/Entitlements.plist2422162064#385"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Entitlements.plist --outdir /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/2bonus1.png Resources/Images/2bonus1.png
+s329912734.820325
+e329912734.857345
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/2bonus1.png
+xResources/Images/2bonus1.png
+lSLF07#2@33"Copy Resources/Images/2bonus1.png329912734#329912734#0(0"0(0#0#61"/Users/111/Downloads/SpaceBubble/Resources/Images/2bonus1.png2422162064#458"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Images/2bonus1.png /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/2bonus2.png Resources/Images/2bonus2.png
+s329912734.822591
+e329912734.857532
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/2bonus2.png
+xResources/Images/2bonus2.png
+lSLF07#2@33"Copy Resources/Images/2bonus2.png329912734#329912734#0(0"0(0#0#61"/Users/111/Downloads/SpaceBubble/Resources/Images/2bonus2.png2422162064#458"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Images/2bonus2.png /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/2bonus3.png Resources/Images/2bonus3.png
+s329912734.823987
+e329912734.857700
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/2bonus3.png
+xResources/Images/2bonus3.png
+lSLF07#2@33"Copy Resources/Images/2bonus3.png329912734#329912734#0(0"0(0#0#61"/Users/111/Downloads/SpaceBubble/Resources/Images/2bonus3.png2422162064#458"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Images/2bonus3.png /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/3bonus1.png Resources/Images/3bonus1.png
+s329912734.833534
+e329912734.857866
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/3bonus1.png
+xResources/Images/3bonus1.png
+lSLF07#2@33"Copy Resources/Images/3bonus1.png329912734#329912734#0(0"0(0#0#61"/Users/111/Downloads/SpaceBubble/Resources/Images/3bonus1.png2422162064#458"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Images/3bonus1.png /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/3bonus2.png Resources/Images/3bonus2.png
+s329912734.835156
+e329912734.858037
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/3bonus2.png
+xResources/Images/3bonus2.png
+lSLF07#2@33"Copy Resources/Images/3bonus2.png329912734#329912734#0(0"0(0#0#61"/Users/111/Downloads/SpaceBubble/Resources/Images/3bonus2.png2422162064#458"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Images/3bonus2.png /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/3bonus3.png Resources/Images/3bonus3.png
+s329912734.843999
+e329912734.858205
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/3bonus3.png
+xResources/Images/3bonus3.png
+lSLF07#2@33"Copy Resources/Images/3bonus3.png329912734#329912734#0(0"0(0#0#61"/Users/111/Downloads/SpaceBubble/Resources/Images/3bonus3.png2422162064#458"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Images/3bonus3.png /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/GameLoop.mp3 Resources/Audio/GameLoop.mp3
+s329912734.937139
+e329912734.992218
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/GameLoop.mp3
+xResources/Audio/GameLoop.mp3
+lSLF07#2@33"Copy Resources/Audio/GameLoop.mp3329912734#329912734#0(0"0(0#0#61"/Users/111/Downloads/SpaceBubble/Resources/Audio/GameLoop.mp32422162064#458"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Audio/GameLoop.mp3 /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/Icon.png Resources/Images/Icon.png
+s329912734.901273
+e329912734.944833
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/Icon.png
+xResources/Images/Icon.png
+lSLF07#2@30"Copy Resources/Images/Icon.png329912734#329912734#0(0"0(0#0#58"/Users/111/Downloads/SpaceBubble/Resources/Images/Icon.png2422162064#455"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Images/Icon.png /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/alien2.wav Resources/Audio/alien2.wav
+s329912734.912160
+e329912734.945863
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/alien2.wav
+xResources/Audio/alien2.wav
+lSLF07#2@31"Copy Resources/Audio/alien2.wav329912734#329912734#0(0"0(0#0#59"/Users/111/Downloads/SpaceBubble/Resources/Audio/alien2.wav2422162064#456"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Audio/alien2.wav /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/axe_throw.wav Resources/Audio/axe_throw.wav
+s329912734.919850
+e329912734.946035
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/axe_throw.wav
+xResources/Audio/axe_throw.wav
+lSLF07#2@34"Copy Resources/Audio/axe_throw.wav329912734#329912734#0(0"0(0#0#62"/Users/111/Downloads/SpaceBubble/Resources/Audio/axe_throw.wav2422162064#459"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Audio/axe_throw.wav /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/background.png Resources/Images/background.png
+s329912734.853559
+e329912734.892386
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/background.png
+xResources/Images/background.png
+lSLF07#2@36"Copy Resources/Images/background.png329912734#329912734#0(0"0(0#0#64"/Users/111/Downloads/SpaceBubble/Resources/Images/background.png2422162064#461"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Images/background.png /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/bonus1.png Resources/Images/bonus1.png
+s329912734.854836
+e329912734.892574
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/bonus1.png
+xResources/Images/bonus1.png
+lSLF07#2@32"Copy Resources/Images/bonus1.png329912734#329912734#0(0"0(0#0#60"/Users/111/Downloads/SpaceBubble/Resources/Images/bonus1.png2422162064#457"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Images/bonus1.png /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/bonus2.png Resources/Images/bonus2.png
+s329912734.855951
+e329912734.892760
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/bonus2.png
+xResources/Images/bonus2.png
+lSLF07#2@32"Copy Resources/Images/bonus2.png329912734#329912734#0(0"0(0#0#60"/Users/111/Downloads/SpaceBubble/Resources/Images/bonus2.png2422162064#457"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Images/bonus2.png /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/bonus3.png Resources/Images/bonus3.png
+s329912734.858310
+e329912734.891200
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/bonus3.png
+xResources/Images/bonus3.png
+lSLF07#2@32"Copy Resources/Images/bonus3.png329912734#329912734#0(0"0(0#0#60"/Users/111/Downloads/SpaceBubble/Resources/Images/bonus3.png2422162064#457"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Images/bonus3.png /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/bubbleiconnew1.png Resources/Images/bubbleiconnew1.png
+s329912734.859462
+e329912734.891418
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/bubbleiconnew1.png
+xResources/Images/bubbleiconnew1.png
+lSLF07#2@40"Copy Resources/Images/bubbleiconnew1.png329912734#329912734#0(0"0(0#0#68"/Users/111/Downloads/SpaceBubble/Resources/Images/bubbleiconnew1.png2422162064#465"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Images/bubbleiconnew1.png /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/bubbleiconnew2.png Resources/Images/bubbleiconnew2.png
+s329912734.860526
+e329912734.891619
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/bubbleiconnew2.png
+xResources/Images/bubbleiconnew2.png
+lSLF07#2@40"Copy Resources/Images/bubbleiconnew2.png329912734#329912734#0(0"0(0#0#68"/Users/111/Downloads/SpaceBubble/Resources/Images/bubbleiconnew2.png2422162064#465"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Images/bubbleiconnew2.png /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/bubbleiconnew3.png Resources/Images/bubbleiconnew3.png
+s329912734.861636
+e329912734.891809
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/bubbleiconnew3.png
+xResources/Images/bubbleiconnew3.png
+lSLF07#2@40"Copy Resources/Images/bubbleiconnew3.png329912734#329912734#0(0"0(0#0#68"/Users/111/Downloads/SpaceBubble/Resources/Images/bubbleiconnew3.png2422162064#465"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Images/bubbleiconnew3.png /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/click.wav Resources/Audio/click.wav
+s329912734.921162
+e329912734.946215
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/click.wav
+xResources/Audio/click.wav
+lSLF07#2@30"Copy Resources/Audio/click.wav329912734#329912734#0(0"0(0#0#58"/Users/111/Downloads/SpaceBubble/Resources/Audio/click.wav2422162064#455"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Audio/click.wav /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/gameover.png Resources/Images/gameover.png
+s329912734.862960
+e329912734.891995
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/gameover.png
+xResources/Images/gameover.png
+lSLF07#2@34"Copy Resources/Images/gameover.png329912734#329912734#0(0"0(0#0#62"/Users/111/Downloads/SpaceBubble/Resources/Images/gameover.png2422162064#459"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Images/gameover.png /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/gameovertext1.png Resources/Images/gameovertext1.png
+s329912734.883090
+e329912734.892193
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/gameovertext1.png
+xResources/Images/gameovertext1.png
+lSLF07#2@39"Copy Resources/Images/gameovertext1.png329912734#329912734#0(0"0(0#0#67"/Users/111/Downloads/SpaceBubble/Resources/Images/gameovertext1.png2422162064#464"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Images/gameovertext1.png /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/gameovertext2.png Resources/Images/gameovertext2.png
+s329912734.892871
+e329912734.944392
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/gameovertext2.png
+xResources/Images/gameovertext2.png
+lSLF07#2@39"Copy Resources/Images/gameovertext2.png329912734#329912734#0(0"0(0#0#67"/Users/111/Downloads/SpaceBubble/Resources/Images/gameovertext2.png2422162064#464"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Images/gameovertext2.png /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/gameovertext3.png Resources/Images/gameovertext3.png
+s329912734.894718
+e329912734.944656
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/gameovertext3.png
+xResources/Images/gameovertext3.png
+lSLF07#2@39"Copy Resources/Images/gameovertext3.png329912734#329912734#0(0"0(0#0#67"/Users/111/Downloads/SpaceBubble/Resources/Images/gameovertext3.png2422162064#464"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Images/gameovertext3.png /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/hit_2.wav Resources/Audio/hit_2.wav
+s329912734.946330
+e329912734.991857
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/hit_2.wav
+xResources/Audio/hit_2.wav
+lSLF07#2@30"Copy Resources/Audio/hit_2.wav329912734#329912734#0(0"0(0#0#58"/Users/111/Downloads/SpaceBubble/Resources/Audio/hit_2.wav2422162064#455"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Audio/hit_2.wav /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/laser_1.wav Resources/Audio/laser_1.wav
+s329912734.965845
+e329912734.992046
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/laser_1.wav
+xResources/Audio/laser_1.wav
+lSLF07#2@32"Copy Resources/Audio/laser_1.wav329912734#329912734#0(0"0(0#0#60"/Users/111/Downloads/SpaceBubble/Resources/Audio/laser_1.wav2422162064#457"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Audio/laser_1.wav /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/mechanical_1.wav Resources/Audio/mechanical_1.wav
+s329912734.987688
+e329912734.999306
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/mechanical_1.wav
+xResources/Audio/mechanical_1.wav
+lSLF07#2@37"Copy Resources/Audio/mechanical_1.wav329912734#329912734#0(0"0(0#0#65"/Users/111/Downloads/SpaceBubble/Resources/Audio/mechanical_1.wav2422162064#462"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Audio/mechanical_1.wav /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/spaceship.png Resources/Images/spaceship.png
+s329912734.903266
+e329912734.945477
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/spaceship.png
+xResources/Images/spaceship.png
+lSLF07#2@35"Copy Resources/Images/spaceship.png329912734#329912734#0(0"0(0#0#63"/Users/111/Downloads/SpaceBubble/Resources/Images/spaceship.png2422162064#460"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Images/spaceship.png /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CCpResource build/Debug-iphonesimulator/SpaceBubble.app/splashscreen.png Resources/Images/splashscreen.png
+s329912734.910861
+e329912734.945686
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SpaceBubble.app/splashscreen.png
+xResources/Images/splashscreen.png
+lSLF07#2@38"Copy Resources/Images/splashscreen.png329912734#329912734#0(0"0(0#0#66"/Users/111/Downloads/SpaceBubble/Resources/Images/splashscreen.png2422162064#463"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/111/Downloads/SpaceBubble/Resources/Images/splashscreen.png /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+
+CGenerateDSYMFile /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app.dSYM /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/SpaceBubble
+s329912739.677813
+e329912739.776017
+r1
+xGenerateDSYMFile
+x/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app.dSYM
+x/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/SpaceBubble
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/SpaceBubble.app.dSYM build/Debug-iphonesimulator/SpaceBubble.app/SpaceBubble329912739#329912739#0(0"0(0#0#88"/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/SpaceBubble2422162064#377"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/SpaceBubble -o /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app.dSYM0#
+
+CLd /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/SpaceBubble normal i386
+s329912738.468051
+e329912739.677578
+r1
+xLd
+x/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/SpaceBubble
+xnormal
+xi386
+lSLF07#2@93"Link /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/SpaceBubble329912738#329912739#0(0"0(0#0#0"2422162064#938"    cd /Users/111/Downloads/SpaceBubble    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator -F/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator -filelist /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/Objects-normal/i386/SpaceBubble.LinkFileList -mmacosx-version-min=10.5 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework AVFoundation -o /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/SpaceBubble0#
+
+CProcessInfoPlistFile /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/Info.plist SpaceBubble-Info.plist
+s329912731.035748
+e329912731.040102
+r1
+xProcessInfoPlistFile
+x/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/Info.plist
+xSpaceBubble-Info.plist
+lSLF07#2@30"Process SpaceBubble-Info.plist329912731#329912731#0(0"0(0#0#55"/Users/111/Downloads/SpaceBubble/SpaceBubble-Info.plist2422162064#473"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SpaceBubble-Info.plist -genpkginfo /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app/Info.plist0#
+
+CProcessPCH /var/folders/wP/wPiRhfZDHgWRCm4Ad0NVBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceBubble_Prefix-auzaovrbhavgcrhazfggehixhxvc/SpaceBubble_Prefix.pch.gch SpaceBubble_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s329912735.412920
+e329912737.351350
+r1
+xProcessPCH
+x/var/folders/wP/wPiRhfZDHgWRCm4Ad0NVBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceBubble_Prefix-auzaovrbhavgcrhazfggehixhxvc/SpaceBubble_Prefix.pch.gch
+xSpaceBubble_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile SpaceBubble_Prefix.pch329912735#329912737#0(0"0(0#0#55"/Users/111/Downloads/SpaceBubble/SpaceBubble_Prefix.pch2422162064#1863"    cd /Users/111/Downloads/SpaceBubble    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -iquote /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-generated-files.hmap -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-own-target-headers.hmap -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-all-target-headers.hmap -iquote /Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/SpaceBubble-project-headers.hmap -F/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator -I/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/include -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/DerivedSources/i386 -I/Users/111/Downloads/SpaceBubble/build/SpaceBubble.build/Debug-iphonesimulator/SpaceBubble.build/DerivedSources -c /Users/111/Downloads/SpaceBubble/SpaceBubble_Prefix.pch -o /var/folders/wP/wPiRhfZDHgWRCm4Ad0NVBU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceBubble_Prefix-auzaovrbhavgcrhazfggehixhxvc/SpaceBubble_Prefix.pch.gch0#
+
+CTouch /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app
+s329912739.776331
+e329912739.783820
+r1
+xTouch
+x/Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app
+lSLF07#2@82"Touch /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app329912739#329912739#0(0"0(0#0#0"2422162064#270"    cd /Users/111/Downloads/SpaceBubble    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/111/Downloads/SpaceBubble/build/Debug-iphonesimulator/SpaceBubble.app0#
+

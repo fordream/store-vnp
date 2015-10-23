@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_white">#ffffff</color>
+    <color name="color_back">#000000</color>
+    <color name="color_item_search_header">#4cb9c9</color>
+    <color name="color_list_procduct_by">#3a455d</color>
+    <color name="color_item_list_product_by">#3fb4c5</color>
+    <color name="color_detail_product">#ffffff</color>
+    <color name="color_dose">#008fa0</color>
+    <color name="color_dose_txt">#a2a2a2</color>
+    <color name="color_1">#008f9f</color>
+    <color name="color_green">#a2a2a2</color>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="word_bar">#FF0000</color>
+    <color name="number_bar">#00FF00</color>
+    <color name="news_date">#3EC0F7</color>
+    <color name="news_title">#030E13</color>
+    <color name="news_content">#808587</color>
+    <color name="movie_rating">#28F90D</color>
+    <color name="movie_author">#666A66</color>
+    <color name="app_price">#FA0606</color>
+    
+</resources>

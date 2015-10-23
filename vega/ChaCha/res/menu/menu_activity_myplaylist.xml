@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/my_playlist_menu_account" android:title="@string/my_playlist_menu_account_txt"
+		android:icon="@drawable/ic_menu_account" />
+	<item android:id="@+id/my_playlist_menu_help" android:icon="@drawable/ic_menu_help"
+		android:title="@string/my_playlist_menu_help_txt">
+	</item>
+</menu>

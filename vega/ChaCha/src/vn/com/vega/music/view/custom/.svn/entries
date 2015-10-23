@@ -1,0 +1,52 @@
+8
+
+dir
+7488
+svn://222.255.28.110/svn/vega/client/MusicClient/trunk/android/MusicClient/src/vn/com/vega/music/view/custom
+svn://222.255.28.110/svn/vega
+
+
+
+2012-03-26T10:32:26.312107Z
+7139
+hoaint
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8fba6426-021e-4735-92e4-bd083e00f8f0
+
+SegmentedRadioGroup.java
+file
+
+
+
+
+2012-04-03T06:57:47.500000Z
+8d4004710352c359ae21f0fa3a0b4759
+2012-03-26T10:32:26.312107Z
+7139
+hoaint
+
+SegmentedControlButton.java
+file
+
+
+
+
+2012-04-03T06:57:47.515625Z
+20f447fac9092302ea6c68115516cfa9
+2012-03-08T02:49:56.814628Z
+5938
+khainv
+

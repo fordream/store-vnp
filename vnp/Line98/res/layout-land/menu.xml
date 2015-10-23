@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="@drawable/splash">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dip"
+        android:layout_height="50dip" android:background="@drawable/test"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+        <Button android:layout_width="fill_parent" android:id="@+id/button4" android:layout_height="wrap_content" android:text="Help" android:visibility="gone"></Button>
+        <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Exit" android:id="@+id/btnExit" android:visibility="gone"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:padding="10dip" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Play" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="scores" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content"
+            android:text="Option" />
+
+    </LinearLayout>
+    
+</RelativeLayout>

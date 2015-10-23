@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView 	android:id="@+id/show_question"
+				android:layout_width="wrap_content"
+			  	android:layout_height="wrap_content"
+			    
+	/>
+    <RadioGroup android:id="@+id/rdbGpAnswer"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:orientation="vertical"
+        >               
+        <RadioButton android:id="@+id/rdbAnswer1"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+			android:layout_weight="0"
+            android:text="Option 1"
+            />
+        <RadioButton android:id="@+id/rdbAnswer2"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"     
+            android:layout_gravity="left"
+			android:layout_weight="0"   
+            android:text="Option 2"
+            />   
+         <RadioButton android:id="@+id/rdbAnswer3"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"     
+            android:layout_gravity="left"
+			android:layout_weight="0"   
+            android:text="Option 3"
+            /> 
+          <RadioButton android:id="@+id/rdbAnswer4"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"     
+            android:layout_gravity="left"
+			android:layout_weight="0"   
+            android:text="Option 4"
+            />      
+    </RadioGroup>
+    <LinearLayout 	android:orientation="horizontal"
+    				android:layout_width="fill_parent"
+    				android:layout_height="fill_parent"
+    				android:gravity="center_horizontal" 
+    				>
+    		<Button android:id="@+id/btnSubmit"
+ 					android:text="Submit"
+ 					android:layout_width="wrap_content"
+ 					android:layout_height="wrap_content"
+					/>
+    		<Button android:id="@+id/btnCancel"
+ 					android:text="Cancel"
+ 					android:layout_width="wrap_content"
+ 					android:layout_height="wrap_content"
+					/>		
+    </LinearLayout>
+</LinearLayout>

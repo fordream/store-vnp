@@ -1,0 +1,581 @@
+TiPadHelloWorld
+v7
+r0
+t337409156.510581
+cCheck dependencies
+cCpResource build/Debug-iphoneos/iPadHelloWorld.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/Info.plist iPadHelloWorld-Info.plist
+cCompileXIB /Users/tvuong1/Downloads/iPadHelloWorld/MainWindow.xib
+cCompileXIB /Users/tvuong1/Downloads/iPadHelloWorld/DetailView.xib
+cCopyPNGFile /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/apple.png apple.png
+cCopyPNGFile /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/cherry.png cherry.png
+cCopyPNGFile /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/orange.png orange.png
+cCopyPNGFile /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/watermelon.png watermelon.png
+cCopyPlistFile /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/fruits.plist fruits.plist
+cProcessPCH /var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadHelloWorld_Prefix-fsbksjsklwrkvndnybrcafeiocvy/iPadHelloWorld_Prefix.pch.gch iPadHelloWorld_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadHelloWorld_Prefix-ablvajuwszojjjgoarkzgrepeina/iPadHelloWorld_Prefix.pch.gch iPadHelloWorld_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/main.o /Users/tvuong1/Downloads/iPadHelloWorld/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/iPadHelloWorldAppDelegate.o /Users/tvuong1/Downloads/iPadHelloWorld/Classes/iPadHelloWorldAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/MasterViewController.o /Users/tvuong1/Downloads/iPadHelloWorld/Classes/MasterViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/DetailViewController.o /Users/tvuong1/Downloads/iPadHelloWorld/Classes/DetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/main.o /Users/tvuong1/Downloads/iPadHelloWorld/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/iPadHelloWorld normal armv6
+cCompileC build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/iPadHelloWorldAppDelegate.o /Users/tvuong1/Downloads/iPadHelloWorld/Classes/iPadHelloWorldAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/MasterViewController.o /Users/tvuong1/Downloads/iPadHelloWorld/Classes/MasterViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/DetailViewController.o /Users/tvuong1/Downloads/iPadHelloWorld/Classes/DetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/iPadHelloWorld normal armv7
+cCreateUniversalBinary /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/iPadHelloWorld normal "armv6 armv7"
+cGenerateDSYMFile /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app.dSYM /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/iPadHelloWorld
+cProcessProductPackaging "/Users/tvuong1/Library/MobileDevice/Provisioning Profiles/11804B4D-F9BB-447F-ADDB-2FCF20BEF513.mobileprovision" /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/embedded.mobileprovision
+cTouch /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld.xcent
+cCodeSign /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
+c000000004CB3FBB80000000000001ADD
+t1286863800
+s6877
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/Classes/DetailViewController.h
+c000000004B689A9900000000000002C7
+t1265146521
+s711
+i<UIKit/UIKit.h>
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/Classes/DetailViewController.m
+c000000004B67458C0000000000000C75
+t1265059212
+s3189
+i"DetailViewController.h"
+i"MasterViewController.h"
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/Classes/MasterViewController.h
+c000000004B67441500000000000001E8
+t1265058837
+s488
+i<UIKit/UIKit.h>
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/Classes/MasterViewController.m
+c000000004B675C3A0000000000000C50
+t1265065018
+s3152
+i"MasterViewController.h"
+i"DetailViewController.h"
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/Classes/iPadHelloWorldAppDelegate.h
+c000000004B672D7A000000000000032D
+t1265053050
+s813
+i<UIKit/UIKit.h>
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/Classes/iPadHelloWorldAppDelegate.m
+c000000004B686B4800000000000006B8
+t1265134408
+s1720
+i"iPadHelloWorldAppDelegate.h"
+i"MasterViewController.h"
+i"DetailViewController.h"
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/DetailView.xib
+c000000004B6745F600000000000054C5
+t1265059318
+s21701
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/MainWindow.xib
+c000000004B672D7A0000000000004AD7
+t1265053050
+s19159
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/apple.png
+c000000004B6733EE000000000003F1BD
+t1265054702
+s258493
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app
+t1315716356
+s544
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app.dSYM
+t1315716345
+s102
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/DetailView.nib
+t1315716340
+s1212
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/Info.plist
+t1315716338
+s809
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/MainWindow.nib
+t1315716339
+s967
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/PkgInfo
+t1315716338
+s8
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/ResourceRules.plist
+t1315716338
+s485
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/apple.png
+t1315716341
+s193393
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/cherry.png
+t1315716341
+s136246
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/embedded.mobileprovision
+t1315716345
+s7520
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/fruits.plist
+t1315716342
+s81
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/iPadHelloWorld
+t1315716345
+s60072
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/orange.png
+t1315716341
+s151213
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/watermelon.png
+t1315716342
+s391499
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/DetailViewController.o
+t1315716345
+s48656
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/MasterViewController.o
+t1315716344
+s46272
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/iPadHelloWorld
+t1315716345
+s27304
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/iPadHelloWorld.LinkFileList
+c000000004E6C3CF20000000000000241
+t1315716338
+s577
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/iPadHelloWorldAppDelegate.o
+t1315716344
+s56452
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/main.o
+t1315716344
+s6448
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/DetailViewController.o
+t1315716345
+s48508
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/MasterViewController.o
+t1315716345
+s46100
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/iPadHelloWorld
+t1315716345
+s27304
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/iPadHelloWorld.LinkFileList
+c000000004E6C3CF20000000000000241
+t1315716338
+s577
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/iPadHelloWorldAppDelegate.o
+t1315716345
+s56324
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/main.o
+t1315716345
+s6432
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld.xcent
+t1315716345
+s639
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/cherry.png
+c000000004B673278000000000002BBA9
+t1265054328
+s179113
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/fruits.plist
+c000000004B6742990000000000000125
+t1265058457
+s293
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/iPadHelloWorld_Prefix.pch
+c000000004B672D7A000000000000014E
+t1265053050
+s334
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/main.m
+c000000004B672D7A0000000000000170
+t1265053050
+s368
+i<UIKit/UIKit.h>
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/orange.png
+c000000004B67332300000000000326DD
+t1265054499
+s206557
+
+N/Users/tvuong1/Downloads/iPadHelloWorld/watermelon.png
+c000000004B6731DC000000000007416E
+t1265054172
+s475502
+
+N/Users/tvuong1/Library/MobileDevice/Provisioning Profiles/11804B4D-F9BB-447F-ADDB-2FCF20BEF513.mobileprovision
+c000000004E5A09530000000000001D60
+t1314523475
+s7520
+
+N/var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadHelloWorld_Prefix-ablvajuwszojjjgoarkzgrepeina/iPadHelloWorld_Prefix.pch.gch
+t1315716344
+s10446552
+
+N/var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadHelloWorld_Prefix-fsbksjsklwrkvndnybrcafeiocvy/iPadHelloWorld_Prefix.pch.gch
+t1315716344
+s9983704
+
+NiPadHelloWorld-Info.plist
+c000000004B672D7A000000000000038D
+t1265053050
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies337409138#337409138#0(105"[BWARN]warning: iPad only apps should not include an armv6 architecture (current ARCHS = "armv6 armv7").1(22@97"warning: iPad only apps should not include an armv6 architecture (current ARCHS = "armv6 armv7").337409138#18446744073709551615#0#0(1@0"0(0#1#0"8619911648#0"0#
+
+CCodeSign /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app
+s337409145.706786
+e337409156.510442
+r1
+xCodeSign
+x/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app
+lSLF07#2@48"CodeSign build/Debug-iphoneos/iPadHelloWorld.app337409145#337409156#0(0"0(0#0#79"/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app8618052992#690"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Nguyen The Hung (5VMCJ678JY)" --resource-rules=/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/ResourceRules.plist --entitlements /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld.xcent /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app0#
+
+CCompileC build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/DetailViewController.o /Users/tvuong1/Downloads/iPadHelloWorld/Classes/DetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s337409144.923095
+e337409145.059638
+r1
+xCompileC
+xbuild/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/DetailViewController.o
+x/Users/tvuong1/Downloads/iPadHelloWorld/Classes/DetailViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/tvuong1/Downloads/iPadHelloWorld/Classes/DetailViewController.m337409144#337409145#0(0"0(0#0#70"/Users/tvuong1/Downloads/iPadHelloWorld/Classes/DetailViewController.m8617677504#1915"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-generated-files.hmap -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-own-target-headers.hmap -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-all-target-headers.hmap -iquote /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-project-headers.hmap -F/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos -I/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/include -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/DerivedSources/armv6 -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/DerivedSources -include /var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadHelloWorld_Prefix-fsbksjsklwrkvndnybrcafeiocvy/iPadHelloWorld_Prefix.pch -c /Users/tvuong1/Downloads/iPadHelloWorld/Classes/DetailViewController.m -o /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/DetailViewController.o0#
+
+CCompileC build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/MasterViewController.o /Users/tvuong1/Downloads/iPadHelloWorld/Classes/MasterViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s337409144.870541
+e337409145.001932
+r1
+xCompileC
+xbuild/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/MasterViewController.o
+x/Users/tvuong1/Downloads/iPadHelloWorld/Classes/MasterViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/tvuong1/Downloads/iPadHelloWorld/Classes/MasterViewController.m337409144#337409145#0(0"0(0#0#70"/Users/tvuong1/Downloads/iPadHelloWorld/Classes/MasterViewController.m8617861440#1915"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-generated-files.hmap -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-own-target-headers.hmap -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-all-target-headers.hmap -iquote /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-project-headers.hmap -F/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos -I/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/include -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/DerivedSources/armv6 -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/DerivedSources -include /var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadHelloWorld_Prefix-fsbksjsklwrkvndnybrcafeiocvy/iPadHelloWorld_Prefix.pch -c /Users/tvuong1/Downloads/iPadHelloWorld/Classes/MasterViewController.m -o /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/MasterViewController.o0#
+
+CCompileC build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/iPadHelloWorldAppDelegate.o /Users/tvuong1/Downloads/iPadHelloWorld/Classes/iPadHelloWorldAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s337409144.770190
+e337409144.922965
+r1
+xCompileC
+xbuild/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/iPadHelloWorldAppDelegate.o
+x/Users/tvuong1/Downloads/iPadHelloWorld/Classes/iPadHelloWorldAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/tvuong1/Downloads/iPadHelloWorld/Classes/iPadHelloWorldAppDelegate.m337409144#337409144#0(0"0(0#0#75"/Users/tvuong1/Downloads/iPadHelloWorld/Classes/iPadHelloWorldAppDelegate.m8618008992#1925"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-generated-files.hmap -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-own-target-headers.hmap -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-all-target-headers.hmap -iquote /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-project-headers.hmap -F/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos -I/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/include -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/DerivedSources/armv6 -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/DerivedSources -include /var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadHelloWorld_Prefix-fsbksjsklwrkvndnybrcafeiocvy/iPadHelloWorld_Prefix.pch -c /Users/tvuong1/Downloads/iPadHelloWorld/Classes/iPadHelloWorldAppDelegate.m -o /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/iPadHelloWorldAppDelegate.o0#
+
+CCompileC build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/main.o /Users/tvuong1/Downloads/iPadHelloWorld/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s337409144.768755
+e337409144.870397
+r1
+xCompileC
+xbuild/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/main.o
+x/Users/tvuong1/Downloads/iPadHelloWorld/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/tvuong1/Downloads/iPadHelloWorld/main.m337409144#337409144#0(0"0(0#0#46"/Users/tvuong1/Downloads/iPadHelloWorld/main.m8619336320#1875"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-generated-files.hmap -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-own-target-headers.hmap -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-all-target-headers.hmap -iquote /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-project-headers.hmap -F/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos -I/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/include -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/DerivedSources/armv6 -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/DerivedSources -include /var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadHelloWorld_Prefix-fsbksjsklwrkvndnybrcafeiocvy/iPadHelloWorld_Prefix.pch -c /Users/tvuong1/Downloads/iPadHelloWorld/main.m -o /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/DetailViewController.o /Users/tvuong1/Downloads/iPadHelloWorld/Classes/DetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s337409145.302731
+e337409145.401144
+r1
+xCompileC
+xbuild/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/DetailViewController.o
+x/Users/tvuong1/Downloads/iPadHelloWorld/Classes/DetailViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/tvuong1/Downloads/iPadHelloWorld/Classes/DetailViewController.m337409145#337409145#0(0"0(0#0#70"/Users/tvuong1/Downloads/iPadHelloWorld/Classes/DetailViewController.m8618090016#1915"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-generated-files.hmap -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-own-target-headers.hmap -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-all-target-headers.hmap -iquote /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-project-headers.hmap -F/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos -I/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/include -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/DerivedSources/armv7 -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/DerivedSources -include /var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadHelloWorld_Prefix-ablvajuwszojjjgoarkzgrepeina/iPadHelloWorld_Prefix.pch -c /Users/tvuong1/Downloads/iPadHelloWorld/Classes/DetailViewController.m -o /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/DetailViewController.o0#
+
+CCompileC build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/MasterViewController.o /Users/tvuong1/Downloads/iPadHelloWorld/Classes/MasterViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s337409145.205405
+e337409145.302595
+r1
+xCompileC
+xbuild/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/MasterViewController.o
+x/Users/tvuong1/Downloads/iPadHelloWorld/Classes/MasterViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/tvuong1/Downloads/iPadHelloWorld/Classes/MasterViewController.m337409145#337409145#0(0"0(0#0#70"/Users/tvuong1/Downloads/iPadHelloWorld/Classes/MasterViewController.m8617823616#1915"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-generated-files.hmap -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-own-target-headers.hmap -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-all-target-headers.hmap -iquote /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-project-headers.hmap -F/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos -I/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/include -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/DerivedSources/armv7 -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/DerivedSources -include /var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadHelloWorld_Prefix-ablvajuwszojjjgoarkzgrepeina/iPadHelloWorld_Prefix.pch -c /Users/tvuong1/Downloads/iPadHelloWorld/Classes/MasterViewController.m -o /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/MasterViewController.o0#
+
+CCompileC build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/iPadHelloWorldAppDelegate.o /Users/tvuong1/Downloads/iPadHelloWorld/Classes/iPadHelloWorldAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s337409145.101874
+e337409145.205259
+r1
+xCompileC
+xbuild/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/iPadHelloWorldAppDelegate.o
+x/Users/tvuong1/Downloads/iPadHelloWorld/Classes/iPadHelloWorldAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/tvuong1/Downloads/iPadHelloWorld/Classes/iPadHelloWorldAppDelegate.m337409145#337409145#0(0"0(0#0#75"/Users/tvuong1/Downloads/iPadHelloWorld/Classes/iPadHelloWorldAppDelegate.m8618061728#1925"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-generated-files.hmap -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-own-target-headers.hmap -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-all-target-headers.hmap -iquote /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-project-headers.hmap -F/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos -I/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/include -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/DerivedSources/armv7 -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/DerivedSources -include /var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadHelloWorld_Prefix-ablvajuwszojjjgoarkzgrepeina/iPadHelloWorld_Prefix.pch -c /Users/tvuong1/Downloads/iPadHelloWorld/Classes/iPadHelloWorldAppDelegate.m -o /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/iPadHelloWorldAppDelegate.o0#
+
+CCompileC build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/main.o /Users/tvuong1/Downloads/iPadHelloWorld/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s337409145.002084
+e337409145.101729
+r1
+xCompileC
+xbuild/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/main.o
+x/Users/tvuong1/Downloads/iPadHelloWorld/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/tvuong1/Downloads/iPadHelloWorld/main.m337409145#337409145#0(0"0(0#0#46"/Users/tvuong1/Downloads/iPadHelloWorld/main.m8615630240#1875"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-generated-files.hmap -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-own-target-headers.hmap -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-all-target-headers.hmap -iquote /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-project-headers.hmap -F/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos -I/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/include -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/DerivedSources/armv7 -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/DerivedSources -include /var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadHelloWorld_Prefix-ablvajuwszojjjgoarkzgrepeina/iPadHelloWorld_Prefix.pch -c /Users/tvuong1/Downloads/iPadHelloWorld/main.m -o /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/tvuong1/Downloads/iPadHelloWorld/DetailView.xib
+s337409138.978616
+e337409140.058325
+r1
+xCompileXIB
+x/Users/tvuong1/Downloads/iPadHelloWorld/DetailView.xib
+lSLF07#2@25"CompileXIB DetailView.xib337409138#337409140#0(0"0(0#0#54"/Users/tvuong1/Downloads/iPadHelloWorld/DetailView.xib8616012608#552"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/DetailView.nib /Users/tvuong1/Downloads/iPadHelloWorld/DetailView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/tvuong1/Downloads/iPadHelloWorld/MainWindow.xib
+s337409138.977436
+e337409139.948848
+r1
+xCompileXIB
+x/Users/tvuong1/Downloads/iPadHelloWorld/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib337409138#337409139#0(0"0(0#0#54"/Users/tvuong1/Downloads/iPadHelloWorld/MainWindow.xib20266627826253904#552"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/MainWindow.nib /Users/tvuong1/Downloads/iPadHelloWorld/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/apple.png apple.png
+s337409139.948993
+e337409141.479457
+r1
+xCopyPNGFile
+x/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/apple.png
+xapple.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/iPadHelloWorld.app/apple.png apple.png337409139#337409141#0(0"0(0#0#49"/Users/tvuong1/Downloads/iPadHelloWorld/apple.png8617945248#568"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/tvuong1/Downloads/iPadHelloWorld/apple.png /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/apple.png0#
+
+CCopyPNGFile /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/cherry.png cherry.png
+s337409140.058462
+e337409141.297582
+r1
+xCopyPNGFile
+x/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/cherry.png
+xcherry.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/iPadHelloWorld.app/cherry.png cherry.png337409140#337409141#0(0"0(0#0#50"/Users/tvuong1/Downloads/iPadHelloWorld/cherry.png8617761056#570"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/tvuong1/Downloads/iPadHelloWorld/cherry.png /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/cherry.png0#
+
+CCopyPNGFile /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/orange.png orange.png
+s337409141.297792
+e337409141.804219
+r1
+xCopyPNGFile
+x/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/orange.png
+xorange.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/iPadHelloWorld.app/orange.png orange.png337409141#337409141#0(0"0(0#0#50"/Users/tvuong1/Downloads/iPadHelloWorld/orange.png8617404128#570"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/tvuong1/Downloads/iPadHelloWorld/orange.png /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/orange.png0#
+
+CCopyPNGFile /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/watermelon.png watermelon.png
+s337409141.479574
+e337409142.661657
+r1
+xCopyPNGFile
+x/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/watermelon.png
+xwatermelon.png
+lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/iPadHelloWorld.app/watermelon.png watermelon.png337409141#337409142#0(0"0(0#0#54"/Users/tvuong1/Downloads/iPadHelloWorld/watermelon.png8620298112#578"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/tvuong1/Downloads/iPadHelloWorld/watermelon.png /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/watermelon.png0#
+
+CCopyPlistFile /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/fruits.plist fruits.plist
+s337409141.804339
+e337409142.101134
+r1
+xCopyPlistFile
+x/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/fruits.plist
+xfruits.plist
+lSLF07#2@17"Copy fruits.plist337409141#337409142#0(0"0(0#0#52"/Users/tvuong1/Downloads/iPadHelloWorld/fruits.plist8620327840#382"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 fruits.plist --outdir /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app0#
+
+CCpResource build/Debug-iphoneos/iPadHelloWorld.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s337409138.918163
+e337409138.977321
+r1
+xCpResource
+xbuild/Debug-iphoneos/iPadHelloWorld.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist337409138#337409138#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8617543264#503"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app0#
+
+CCreateUniversalBinary /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/iPadHelloWorld normal "armv6 armv7"
+s337409145.550935
+e337409145.573842
+r1
+xCreateUniversalBinary
+x/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/iPadHelloWorld
+xnormal
+xarmv6 armv7
+lSLF07#2@97"CreateUniversalBinary build/Debug-iphoneos/iPadHelloWorld.app/iPadHelloWorld normal "armv6 armv7"337409145#337409145#0(0"0(0#0#51"/Users/tvuong1/Downloads/iPadHelloWorld/armv6 armv78619336768#578"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/iPadHelloWorld /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/iPadHelloWorld -output /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/iPadHelloWorld0#
+
+CGenerateDSYMFile /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app.dSYM /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/iPadHelloWorld
+s337409145.573962
+e337409145.671168
+r1
+xGenerateDSYMFile
+x/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app.dSYM
+x/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/iPadHelloWorld
+lSLF07#2@116"GenerateDSYMFile build/Debug-iphoneos/iPadHelloWorld.app.dSYM build/Debug-iphoneos/iPadHelloWorld.app/iPadHelloWorld337409145#337409145#0(0"0(0#0#94"/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/iPadHelloWorld8617971680#386"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/iPadHelloWorld -o /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app.dSYM0#
+
+CLd /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/iPadHelloWorld normal armv6
+s337409145.059760
+e337409145.447826
+r1
+xLd
+x/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/iPadHelloWorld
+xnormal
+xarmv6
+lSLF07#2@143"Link /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/iPadHelloWorld337409145#337409145#0(0"0(0#0#0"8613979872#906"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos -F/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos -filelist /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/iPadHelloWorld.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv6/iPadHelloWorld0#
+
+CLd /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/iPadHelloWorld normal armv7
+s337409145.401258
+e337409145.550790
+r1
+xLd
+x/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/iPadHelloWorld
+xnormal
+xarmv7
+lSLF07#2@143"Link /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/iPadHelloWorld337409145#337409145#0(0"0(0#0#0"8617797440#906"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos -F/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos -filelist /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/iPadHelloWorld.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/Objects-normal/armv7/iPadHelloWorld0#
+
+CProcessInfoPlistFile /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/Info.plist iPadHelloWorld-Info.plist
+s337409138.919434
+e337409138.953951
+r1
+xProcessInfoPlistFile
+x/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/Info.plist
+xiPadHelloWorld-Info.plist
+lSLF07#2@33"Process iPadHelloWorld-Info.plist337409138#337409138#0(0"0(0#0#65"/Users/tvuong1/Downloads/iPadHelloWorld/iPadHelloWorld-Info.plist8617414048#594"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iPadHelloWorld-Info.plist -genpkginfo /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/ResourceRules.plist -o /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/Info.plist0#
+
+CProcessPCH /var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadHelloWorld_Prefix-ablvajuwszojjjgoarkzgrepeina/iPadHelloWorld_Prefix.pch.gch iPadHelloWorld_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s337409142.663053
+e337409144.768625
+r1
+xProcessPCH
+x/var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadHelloWorld_Prefix-ablvajuwszojjjgoarkzgrepeina/iPadHelloWorld_Prefix.pch.gch
+xiPadHelloWorld_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile iPadHelloWorld_Prefix.pch337409142#337409144#0(0"0(0#0#65"/Users/tvuong1/Downloads/iPadHelloWorld/iPadHelloWorld_Prefix.pch8619950816#1765"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-generated-files.hmap -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-own-target-headers.hmap -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-all-target-headers.hmap -iquote /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-project-headers.hmap -F/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos -I/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/include -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/DerivedSources/armv7 -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/DerivedSources -c /Users/tvuong1/Downloads/iPadHelloWorld/iPadHelloWorld_Prefix.pch -o /var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadHelloWorld_Prefix-ablvajuwszojjjgoarkzgrepeina/iPadHelloWorld_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadHelloWorld_Prefix-fsbksjsklwrkvndnybrcafeiocvy/iPadHelloWorld_Prefix.pch.gch iPadHelloWorld_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s337409142.661807
+e337409144.682485
+r1
+xProcessPCH
+x/var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadHelloWorld_Prefix-fsbksjsklwrkvndnybrcafeiocvy/iPadHelloWorld_Prefix.pch.gch
+xiPadHelloWorld_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile iPadHelloWorld_Prefix.pch337409142#337409144#0(0"0(0#0#65"/Users/tvuong1/Downloads/iPadHelloWorld/iPadHelloWorld_Prefix.pch8617358880#1765"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-generated-files.hmap -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-own-target-headers.hmap -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-all-target-headers.hmap -iquote /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld-project-headers.hmap -F/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos -I/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/include -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/DerivedSources/armv6 -I/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/DerivedSources -c /Users/tvuong1/Downloads/iPadHelloWorld/iPadHelloWorld_Prefix.pch -o /var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPadHelloWorld_Prefix-fsbksjsklwrkvndnybrcafeiocvy/iPadHelloWorld_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/tvuong1/Library/MobileDevice/Provisioning Profiles/11804B4D-F9BB-447F-ADDB-2FCF20BEF513.mobileprovision" /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/embedded.mobileprovision
+s337409145.671294
+e337409145.673052
+r1
+xProcessProductPackaging
+x/Users/tvuong1/Library/MobileDevice/Provisioning Profiles/11804B4D-F9BB-447F-ADDB-2FCF20BEF513.mobileprovision
+x/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/embedded.mobileprovision
+lSLF07#2@201"ProcessProductPackaging "/Users/tvuong1/Library/MobileDevice/Provisioning Profiles/11804B4D-F9BB-447F-ADDB-2FCF20BEF513.mobileprovision" build/Debug-iphoneos/iPadHelloWorld.app/embedded.mobileprovision337409145#337409145#0(0"0(0#0#104"/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/embedded.mobileprovision8619379648#434"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/tvuong1/Library/MobileDevice/Provisioning Profiles/11804B4D-F9BB-447F-ADDB-2FCF20BEF513.mobileprovision" -o /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld.xcent
+s337409145.681428
+e337409145.706685
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld.xcent
+lSLF07#2@196"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld.xcent337409145#337409145#0(0"0(0#0#123"/Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld.xcent8613980192#455"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/tvuong1/Downloads/iPadHelloWorld/build/iPadHelloWorld.build/Debug-iphoneos/iPadHelloWorld.build/iPadHelloWorld.xcent0#
+
+CTouch /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app
+s337409145.673145
+e337409145.681299
+r1
+xTouch
+x/Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app
+lSLF07#2@85"Touch /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app337409145#337409145#0(0"0(0#0#0"8617407648#273"    cd /Users/tvuong1/Downloads/iPadHelloWorld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/tvuong1/Downloads/iPadHelloWorld/build/Debug-iphoneos/iPadHelloWorld.app0#
+

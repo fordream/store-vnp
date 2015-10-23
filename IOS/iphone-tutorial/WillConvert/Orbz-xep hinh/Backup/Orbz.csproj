@@ -1,0 +1,211 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Orbz"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "Orbz"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "true"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DrawingSurface.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DrawingSurface.resx"
+                    DependentUpon = "DrawingSurface.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GameGrid.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GameState.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Orbz.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Orbz.resx"
+                    DependentUpon = "Orbz.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Sound.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SubUnit.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Unit.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "gfx\blue.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "gfx\green.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "gfx\grey.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "gfx\purple.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "gfx\red.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "gfx\yellow.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "snd\1"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "snd\2"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "snd\3"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "snd\4"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "snd\5"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "snd\6"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "snd\7"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "snd\bloop"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "snd\gameover"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "snd\p"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "snd\p2"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "snd\p3"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

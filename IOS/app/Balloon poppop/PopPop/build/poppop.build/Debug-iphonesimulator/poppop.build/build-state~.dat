@@ -1,0 +1,880 @@
+Tpoppop
+v7
+r0
+t335611497.792553
+cCheck dependencies
+cProcessInfoPlistFile "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/Info.plist" poppop-Info.plist
+cCompileXIB "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/MainWindow.xib"
+cCompileXIB "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/MenuView.xib"
+cCompileXIB "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/PlayView.xib"
+cCpResource build/Debug-iphonesimulator/poppop.app/Default.png Images/Default.png
+cCpResource build/Debug-iphonesimulator/poppop.app/background.png Images/PlayScreen/background.png
+cCompileXIB "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/BestScoreView.xib"
+cCompileXIB "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/HelpView.xib"
+cCpResource build/Debug-iphonesimulator/poppop.app/0.png Images/play/0.png
+cCompileXIB "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/Win.xib"
+cCpResource build/Debug-iphonesimulator/poppop.app/1.png Images/play/ball/1.png
+cCpResource build/Debug-iphonesimulator/poppop.app/2.png Images/play/ball/2.png
+cCpResource build/Debug-iphonesimulator/poppop.app/3.png Images/play/ball/3.png
+cCpResource build/Debug-iphonesimulator/poppop.app/4.png Images/play/ball/4.png
+cCpResource build/Debug-iphonesimulator/poppop.app/5.png Images/play/ball/5.png
+cCpResource build/Debug-iphonesimulator/poppop.app/btnHome.png Images/play/play/btnHome.png
+cCpResource build/Debug-iphonesimulator/poppop.app/btnReplay.png Images/play/play/btnReplay.png
+cCpResource build/Debug-iphonesimulator/poppop.app/playBackground.png Images/play/play/playBackground.png
+cCpResource build/Debug-iphonesimulator/poppop.app/playScreen.png Images/play/play/playScreen.png
+cCpResource build/Debug-iphonesimulator/poppop.app/btnBestscore.png Images/MenuScreen/btnBestscore.png
+cCpResource build/Debug-iphonesimulator/poppop.app/btnHelp.png Images/MenuScreen/btnHelp.png
+cCpResource build/Debug-iphonesimulator/poppop.app/btnMoreapps.png Images/MenuScreen/btnMoreapps.png
+cCpResource build/Debug-iphonesimulator/poppop.app/btnPlay.png Images/MenuScreen/btnPlay.png
+cCpResource build/Debug-iphonesimulator/poppop.app/btnSetting.png Images/MenuScreen/btnSetting.png
+cCpResource build/Debug-iphonesimulator/poppop.app/menuBackground.png Images/MenuScreen/menuBackground.png
+cCpResource build/Debug-iphonesimulator/poppop.app/menuscreen.png Images/MenuScreen/menuscreen.png
+cProcessPCH /var/folders/CU/CUJUMszrGiWYS7+kqox9-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/poppop_Prefix-fisimgnrnojruwfcjszjahtwjpxk/poppop_Prefix.pch.gch poppop_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/main.o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/PopPopGameAppDelegate.o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PopPopGameAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/MenuViewController.o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/MenuViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/PlayViewController.o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/BestScoreViewController.o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/BestScoreViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/HelpViewController.o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/HelpViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/SegmentViewController.o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MoreClass/SegmentViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/Point1.o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/CommonClass/Point1.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/WinGameController.o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/WinGame/WinGameController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/poppop" normal i386
+cGenerateDSYMFile "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app.dSYM" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/poppop"
+cTouch "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/CommonClass/Point1.h
+c000000004E45A1F0000000000000019A
+t1313186288
+s410
+i<Foundation/Foundation.h>
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/CommonClass/Point1.m
+c000000004E45A1FC00000000000000FD
+t1313186300
+s253
+i"Point1.h"
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/BestScoreViewController.h
+c000000004E2E4102000000000000016E
+t1311654146
+s366
+i<UIKit/UIKit.h>
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/BestScoreViewController.m
+c000000004E2E43A000000000000006B3
+t1311654816
+s1715
+i"BestScoreViewController.h"
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/HelpViewController.h
+c000000004E2E41180000000000000165
+t1311654168
+s357
+i<UIKit/UIKit.h>
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/HelpViewController.m
+c000000004E2E417A00000000000006A4
+t1311654266
+s1700
+i"HelpViewController.h"
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/MenuViewController.h
+c000000004E45A0680000000000000356
+t1313185896
+s854
+i<UIKit/UIKit.h>
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/MenuViewController.m
+c000000004E3D55D40000000000000CD6
+t1312642516
+s3286
+i"MenuViewController.h"
+i"PlayViewController.h"
+i"HelpViewController.h"
+i"BestScoreViewController.h"
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h
+c000000004E4D24E80000000000001893
+t1313678568
+s6291
+i<UIKit/UIKit.h>
+i"Point1.h"
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.m
+c000000004E4F9998000000000000265F
+t1313839512
+s9823
+i"PlayViewController.h"
+i"SegmentViewController.h"
+i"WinGameController.h"
+i"Point1.h"
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PopPopGameAppDelegate.h
+c000000004E50A88100000000000001E1
+t1313908865
+s481
+i<UIKit/UIKit.h>
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PopPopGameAppDelegate.m
+c000000004E50A8CF0000000000000AB8
+t1313908943
+s2744
+i"PopPopGameAppDelegate.h"
+i"MenuViewController.h"
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MoreClass/SegmentViewController.h
+c000000004E2E585600000000000000EF
+t1311660118
+s239
+i<UIKit/UIKit.h>
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MoreClass/SegmentViewController.m
+c000000004E2E6F640000000000001767
+t1311666020
+s5991
+i"SegmentViewController.h"
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/WinGame/WinGameController.h
+c000000004E4D321A000000000000014E
+t1313681946
+s334
+i<UIKit/UIKit.h>
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/WinGame/WinGameController.m
+c000000004E4D329C000000000000069B
+t1313682076
+s1691
+i"WinGameController.h"
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/Default.png
+c000000004E0D422E00000000000B75D0
+t1309491758
+s751056
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/btnBestscore.png
+c000000004E4F872400000000000028D1
+t1313834788
+s10449
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/btnHelp.png
+c000000004E4F87380000000000002060
+t1313834808
+s8288
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/btnMoreapps.png
+c000000004E4F8730000000000000282B
+t1313834800
+s10283
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/btnPlay.png
+c000000004E4F87540000000000002716
+t1313834836
+s10006
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/btnSetting.png
+c000000004E4F87180000000000002781
+t1313834776
+s10113
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/menuBackground.png
+c000000004E4F86CE000000000003B144
+t1313834702
+s241988
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/menuscreen.png
+c000000004E4F86E20000000000045378
+t1313834722
+s283512
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/PlayScreen/background.png
+c000000004E2E286800000000001373BE
+t1311647848
+s1274814
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/0.png
+c000000004E401DB000000000000000DD
+t1312824752
+s221
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/ball/1.png
+c000000004E4F88EE0000000000000E57
+t1313835246
+s3671
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/ball/2.png
+c000000004E4F88F60000000000000F81
+t1313835254
+s3969
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/ball/3.png
+c000000004E4F88FE0000000000000FC3
+t1313835262
+s4035
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/ball/4.png
+c000000004E4F890E0000000000000F89
+t1313835278
+s3977
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/ball/5.png
+c000000004E4F89060000000000000EFB
+t1313835270
+s3835
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/play/btnHome.png
+c000000004E4F88860000000000002786
+t1313835142
+s10118
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/play/btnReplay.png
+c000000004E4F88A60000000000002891
+t1313835174
+s10385
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/play/playBackground.png
+c000000004E4F886200000000000363DD
+t1313835106
+s222173
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/play/playScreen.png
+c000000004E4F8836000000000005769F
+t1313835062
+s358047
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/BestScoreView.xib
+c000000004E50CEAB000000000000534D
+t1313918635
+s21325
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/HelpView.xib
+c000000004E50CED30000000000005247
+t1313918675
+s21063
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/MainWindow.xib
+c000000004E50A8BA0000000000007090
+t1313908922
+s28816
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/MenuView.xib
+c000000004E50CDFC00000000000083DB
+t1313918460
+s33755
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/PlayView.xib
+c000000004E50CE81000000000000786F
+t1313918593
+s30831
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/Win.xib
+c000000004E4D325C0000000000004B4E
+t1313682012
+s19278
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app
+t1313918697
+s1020
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app.dSYM
+t1313918697
+s102
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/0.png
+t1313918696
+s221
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/1.png
+t1313918696
+s3671
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/2.png
+t1313918696
+s3969
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/3.png
+t1313918697
+s4035
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/4.png
+t1313918697
+s3977
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/5.png
+t1313918697
+s3835
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/BestScoreView.nib
+t1313918696
+s1682
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/Default.png
+t1313918695
+s751056
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/HelpView.nib
+t1313918697
+s1683
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/Info.plist
+t1313918695
+s587
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/MainWindow.nib
+t1313918695
+s1526
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/MenuView.nib
+t1313918695
+s2935
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/PkgInfo
+t1313918695
+s8
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/PlayView.nib
+t1313918696
+s2211
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/Win.nib
+t1313918696
+s1460
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/background.png
+t1313918695
+s1274814
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/btnBestscore.png
+t1313918697
+s10449
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/btnHelp.png
+t1313918697
+s8288
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/btnHome.png
+t1313918697
+s10118
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/btnMoreapps.png
+t1313918697
+s10283
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/btnPlay.png
+t1313918697
+s10006
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/btnReplay.png
+t1313918697
+s10385
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/btnSetting.png
+t1313918697
+s10113
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/menuBackground.png
+t1313918697
+s241988
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/menuscreen.png
+t1313918697
+s283512
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/playBackground.png
+t1313918697
+s222173
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/playScreen.png
+t1313918697
+s358047
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/poppop
+t1313918697
+s80364
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/BestScoreViewController.o
+t1313918697
+s41160
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/HelpViewController.o
+t1313918697
+s40964
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/MenuViewController.o
+t1313918697
+s53924
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/PlayViewController.o
+t1313918697
+s107332
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/Point1.o
+t1313918697
+s9800
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/PopPopGameAppDelegate.o
+t1313918697
+s52820
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/SegmentViewController.o
+t1313918697
+s51900
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/WinGameController.o
+t1313918697
+s40212
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/main.o
+t1313918697
+s6336
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/poppop.LinkFileList
+c000000004E50CEE7000000000000053F
+t1313918695
+s1343
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/main.m
+c000000004DFEB1540000000000000170
+t1308537172
+s368
+i<UIKit/UIKit.h>
+
+N/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/poppop_Prefix.pch
+c000000004DFEB1540000000000000148
+t1308537172
+s328
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/var/folders/CU/CUJUMszrGiWYS7+kqox9-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/poppop_Prefix-fisimgnrnojruwfcjszjahtwjpxk/poppop_Prefix.pch.gch
+t1313839462
+s15453392
+
+Npoppop-Info.plist
+c000000004DFEB154000000000000038D
+t1308537172
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies335611495#335611495#0(0"0(0#1#0"8619890208#0"0#
+
+CCompileC build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/BestScoreViewController.o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/BestScoreViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335611497.294967
+e335611497.391712
+r1
+xCompileC
+xbuild/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/BestScoreViewController.o
+x/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/BestScoreViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/BestScoreViewController.m335611497#335611497#0(0"0(0#0#99"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/BestScoreViewController.m8606938080#2159"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-generated-files.hmap" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-own-target-headers.hmap" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-all-target-headers.hmap" -iquote "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-project-headers.hmap" "-F/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/include" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/DerivedSources/i386" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/DerivedSources" -include /var/folders/CU/CUJUMszrGiWYS7+kqox9-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/poppop_Prefix-fisimgnrnojruwfcjszjahtwjpxk/poppop_Prefix.pch -c "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/BestScoreViewController.m" -o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/BestScoreViewController.o"0#
+
+CCompileC build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/HelpViewController.o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/HelpViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335611497.391843
+e335611497.476974
+r1
+xCompileC
+xbuild/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/HelpViewController.o
+x/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/HelpViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/HelpViewController.m335611497#335611497#0(0"0(0#0#94"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/HelpViewController.m8618466944#2149"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-generated-files.hmap" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-own-target-headers.hmap" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-all-target-headers.hmap" -iquote "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-project-headers.hmap" "-F/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/include" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/DerivedSources/i386" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/DerivedSources" -include /var/folders/CU/CUJUMszrGiWYS7+kqox9-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/poppop_Prefix-fisimgnrnojruwfcjszjahtwjpxk/poppop_Prefix.pch -c "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/HelpViewController.m" -o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/HelpViewController.o"0#
+
+CCompileC build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/MenuViewController.o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/MenuViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335611497.164663
+e335611497.294829
+r1
+xCompileC
+xbuild/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/MenuViewController.o
+x/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/MenuViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/MenuViewController.m:10:
+o/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h:176: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h:176: warning: assign attribute (default) not appropriate for non-gc object property 'tVLife'
+lSLF07#2@102"Compile /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/MenuViewController.m335611497#335611497#0(496"In file included from /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/MenuViewController.m:10:/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h:176: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h:176: warning: assign attribute (default) not appropriate for non-gc object property 'tVLife'2(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed335611497#121#187#2(7@116"In file included from /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/MenuViewController.m335611497#18446744073709551615#0#0(6@94"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/MenuViewController.m334335316#10#0#10#0#0"0(13@175"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h335611497#18446744073709551615#0#0(6@94"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h335371368#176#0#176#0#0"0(6@94"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h335371368#176#0#176#0#0"0(22@78"Assign attribute (default) not appropriate for non-gc object property 'tVLife'335611497#308#188#2(7@116"In file included from /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/MenuViewController.m335611497#18446744073709551615#0#0(6@94"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/MenuViewController.m334335316#10#0#10#0#0"0(13@176"Assign attribute (default) not appropriate for non-gc object property 'tVLife' in /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h335611497#18446744073709551615#0#0(6@94"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h335371368#176#0#176#0#0"0(6@94"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h335371368#176#0#176#0#0"0(0#0#94"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/MenuViewController.m8610478592#2149"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-generated-files.hmap" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-own-target-headers.hmap" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-all-target-headers.hmap" -iquote "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-project-headers.hmap" "-F/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/include" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/DerivedSources/i386" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/DerivedSources" -include /var/folders/CU/CUJUMszrGiWYS7+kqox9-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/poppop_Prefix-fisimgnrnojruwfcjszjahtwjpxk/poppop_Prefix.pch -c "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/MenuViewController.m" -o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/MenuViewController.o"0#
+
+CCompileC build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/PlayViewController.o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335611497.210172
+e335611497.500663
+r1
+xCompileC
+xbuild/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/PlayViewController.o
+x/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.m:1:
+o/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h:176: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h:176: warning: assign attribute (default) not appropriate for non-gc object property 'tVLife'
+lSLF07#2@102"Compile /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.m335611497#335611497#0(495"In file included from /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.m:1:/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h:176: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h:176: warning: assign attribute (default) not appropriate for non-gc object property 'tVLife'2(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed335611497#120#187#2(7@116"In file included from /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.m335611497#18446744073709551615#0#0(6@94"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.m335532312#1#0#1#0#0"0(13@175"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h335611497#18446744073709551615#0#0(6@94"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h335371368#176#0#176#0#0"0(6@94"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h335371368#176#0#176#0#0"0(22@78"Assign attribute (default) not appropriate for non-gc object property 'tVLife'335611497#307#188#2(7@116"In file included from /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.m335611497#18446744073709551615#0#0(6@94"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.m335532312#1#0#1#0#0"0(13@176"Assign attribute (default) not appropriate for non-gc object property 'tVLife' in /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h335611497#18446744073709551615#0#0(6@94"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h335371368#176#0#176#0#0"0(6@94"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.h335371368#176#0#176#0#0"0(0#0#94"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.m8610234624#2149"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-generated-files.hmap" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-own-target-headers.hmap" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-all-target-headers.hmap" -iquote "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-project-headers.hmap" "-F/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/include" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/DerivedSources/i386" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/DerivedSources" -include /var/folders/CU/CUJUMszrGiWYS7+kqox9-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/poppop_Prefix-fisimgnrnojruwfcjszjahtwjpxk/poppop_Prefix.pch -c "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PlayViewController.m" -o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/PlayViewController.o"0#
+
+CCompileC build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/Point1.o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/CommonClass/Point1.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335611497.500804
+e335611497.584913
+r1
+xCompileC
+xbuild/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/Point1.o
+x/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/CommonClass/Point1.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/CommonClass/Point1.m335611497#335611497#0(0"0(0#0#84"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/CommonClass/Point1.m8616963808#2127"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-generated-files.hmap" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-own-target-headers.hmap" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-all-target-headers.hmap" -iquote "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-project-headers.hmap" "-F/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/include" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/DerivedSources/i386" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/DerivedSources" -include /var/folders/CU/CUJUMszrGiWYS7+kqox9-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/poppop_Prefix-fisimgnrnojruwfcjszjahtwjpxk/poppop_Prefix.pch -c "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/CommonClass/Point1.m" -o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/Point1.o"0#
+
+CCompileC build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/PopPopGameAppDelegate.o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PopPopGameAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335611497.081273
+e335611497.210022
+r1
+xCompileC
+xbuild/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/PopPopGameAppDelegate.o
+x/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PopPopGameAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PopPopGameAppDelegate.m335611497#335611497#0(0"0(0#0#97"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PopPopGameAppDelegate.m8615449600#2155"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-generated-files.hmap" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-own-target-headers.hmap" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-all-target-headers.hmap" -iquote "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-project-headers.hmap" "-F/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/include" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/DerivedSources/i386" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/DerivedSources" -include /var/folders/CU/CUJUMszrGiWYS7+kqox9-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/poppop_Prefix-fisimgnrnojruwfcjszjahtwjpxk/poppop_Prefix.pch -c "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MainClass/PopPopGameAppDelegate.m" -o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/PopPopGameAppDelegate.o"0#
+
+CCompileC build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/SegmentViewController.o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MoreClass/SegmentViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335611497.477094
+e335611497.615345
+r1
+xCompileC
+xbuild/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/SegmentViewController.o
+x/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MoreClass/SegmentViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MoreClass/SegmentViewController.m335611497#335611497#0(0"0(0#0#97"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MoreClass/SegmentViewController.m8617837152#2155"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-generated-files.hmap" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-own-target-headers.hmap" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-all-target-headers.hmap" -iquote "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-project-headers.hmap" "-F/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/include" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/DerivedSources/i386" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/DerivedSources" -include /var/folders/CU/CUJUMszrGiWYS7+kqox9-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/poppop_Prefix-fisimgnrnojruwfcjszjahtwjpxk/poppop_Prefix.pch -c "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/MoreClass/SegmentViewController.m" -o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/SegmentViewController.o"0#
+
+CCompileC build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/WinGameController.o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/WinGame/WinGameController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335611497.585120
+e335611497.678110
+r1
+xCompileC
+xbuild/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/WinGameController.o
+x/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/WinGame/WinGameController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/WinGame/WinGameController.m335611497#335611497#0(0"0(0#0#91"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/WinGame/WinGameController.m8612089056#2145"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-generated-files.hmap" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-own-target-headers.hmap" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-all-target-headers.hmap" -iquote "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-project-headers.hmap" "-F/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/include" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/DerivedSources/i386" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/DerivedSources" -include /var/folders/CU/CUJUMszrGiWYS7+kqox9-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/poppop_Prefix-fisimgnrnojruwfcjszjahtwjpxk/poppop_Prefix.pch -c "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Classes/WinGame/WinGameController.m" -o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/WinGameController.o"0#
+
+CCompileC build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/main.o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335611497.079907
+e335611497.164518
+r1
+xCompileC
+xbuild/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/main.o
+x/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/main.m335611497#335611497#0(0"0(0#0#62"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/main.m8615860672#2103"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-generated-files.hmap" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-own-target-headers.hmap" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-all-target-headers.hmap" -iquote "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/poppop-project-headers.hmap" "-F/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/include" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/DerivedSources/i386" "-I/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/DerivedSources" -include /var/folders/CU/CUJUMszrGiWYS7+kqox9-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/poppop_Prefix-fisimgnrnojruwfcjszjahtwjpxk/poppop_Prefix.pch -c "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/main.m" -o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/BestScoreView.xib"
+s335611495.940463
+e335611496.465846
+r1
+xCompileXIB
+x/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/BestScoreView.xib
+lSLF07#2@44"CompileXIB Views/MainViews/BestScoreView.xib335611495#335611496#0(0"0(0#0#89"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/BestScoreView.xib8617971552#648"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/BestScoreView.nib" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/BestScoreView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/HelpView.xib"
+s335611496.438103
+e335611497.079628
+r1
+xCompileXIB
+x/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/HelpView.xib
+lSLF07#2@39"CompileXIB Views/MainViews/HelpView.xib335611496#335611497#0(0"0(0#0#84"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/HelpView.xib8616467488#638"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/HelpView.nib" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/HelpView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/MainWindow.xib"
+s335611495.203299
+e335611495.936606
+r1
+xCompileXIB
+x/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/MainWindow.xib
+lSLF07#2@41"CompileXIB Views/MainViews/MainWindow.xib335611495#335611495#0(0"0(0#0#86"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/MainWindow.xib8602175776#642"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/MainWindow.nib" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/MenuView.xib"
+s335611495.205002
+e335611495.890252
+r1
+xCompileXIB
+x/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/MenuView.xib
+lSLF07#2@39"CompileXIB Views/MainViews/MenuView.xib335611495#335611495#0(0"0(0#0#84"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/MenuView.xib8618335456#638"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/MenuView.nib" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/MenuView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/PlayView.xib"
+s335611495.890372
+e335611496.437984
+r1
+xCompileXIB
+x/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/PlayView.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/PlayView.xib:8: warning: The 'Touch Up Inside' event of 'Custom Button' is connected to the 'ClickHomeBtn:' selector of 'File's Owner', but 'ClickHomeBtn:' is no longer defined on 'PlayViewController'.
+lSLF07#2@39"CompileXIB Views/MainViews/PlayView.xib335611495#335611496#0(315"/* com.apple.ibtool.document.warnings *//Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/PlayView.xib:8: warning: The 'Touch Up Inside' event of 'Custom Button' is connected to the 'ClickHomeBtn:' selector of 'File's Owner', but 'ClickHomeBtn:' is no longer defined on 'PlayViewController'.1(22@176"The 'Touch Up Inside' event of 'Custom Button' is connected to the 'ClickHomeBtn:' selector of 'File's Owner', but 'ClickHomeBtn:' is no longer defined on 'PlayViewController'.335611496#18446744073709551615#0#0(6@84"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/PlayView.xib335611393#8#0#8#0#0"0(0#0#84"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/PlayView.xib8619005728#638"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/PlayView.nib" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/PlayView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/Win.xib"
+s335611496.469696
+e335611496.987546
+r1
+xCompileXIB
+x/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/Win.xib
+lSLF07#2@34"CompileXIB Views/MainViews/Win.xib335611496#335611496#0(0"0(0#0#79"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/Win.xib8615741760#628"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/Win.nib" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Views/MainViews/Win.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/poppop.app/0.png Images/play/0.png
+s335611496.465959
+e335611496.477996
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/poppop.app/0.png
+xImages/play/0.png
+lSLF07#2@22"Copy Images/play/0.png335611496#335611496#0(0"0(0#0#73"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/0.png8615924736#531"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/0.png" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"0#
+
+CCpResource build/Debug-iphonesimulator/poppop.app/1.png Images/play/ball/1.png
+s335611496.987758
+e335611497.018062
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/poppop.app/1.png
+xImages/play/ball/1.png
+lSLF07#2@27"Copy Images/play/ball/1.png335611496#335611497#0(0"0(0#0#78"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/ball/1.png8617789984#536"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/ball/1.png" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"0#
+
+CCpResource build/Debug-iphonesimulator/poppop.app/2.png Images/play/ball/2.png
+s335611496.989866
+e335611497.018261
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/poppop.app/2.png
+xImages/play/ball/2.png
+lSLF07#2@27"Copy Images/play/ball/2.png335611496#335611497#0(0"0(0#0#78"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/ball/2.png8616009696#536"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/ball/2.png" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"0#
+
+CCpResource build/Debug-iphonesimulator/poppop.app/3.png Images/play/ball/3.png
+s335611496.992070
+e335611497.018453
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/poppop.app/3.png
+xImages/play/ball/3.png
+lSLF07#2@27"Copy Images/play/ball/3.png335611496#335611497#0(0"0(0#0#78"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/ball/3.png8615586720#536"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/ball/3.png" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"0#
+
+CCpResource build/Debug-iphonesimulator/poppop.app/4.png Images/play/ball/4.png
+s335611496.998393
+e335611497.018645
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/poppop.app/4.png
+xImages/play/ball/4.png
+lSLF07#2@27"Copy Images/play/ball/4.png335611496#335611497#0(0"0(0#0#78"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/ball/4.png8620769280#536"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/ball/4.png" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"0#
+
+CCpResource build/Debug-iphonesimulator/poppop.app/5.png Images/play/ball/5.png
+s335611497.000592
+e335611497.018831
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/poppop.app/5.png
+xImages/play/ball/5.png
+lSLF07#2@27"Copy Images/play/ball/5.png335611497#335611497#0(0"0(0#0#78"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/ball/5.png8620131360#536"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/ball/5.png" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"0#
+
+CCpResource build/Debug-iphonesimulator/poppop.app/Default.png Images/Default.png
+s335611495.936725
+e335611495.976959
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/poppop.app/Default.png
+xImages/Default.png
+lSLF07#2@23"Copy Images/Default.png335611495#335611495#0(0"0(0#0#74"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/Default.png8618582816#532"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/Default.png" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"0#
+
+CCpResource build/Debug-iphonesimulator/poppop.app/background.png Images/PlayScreen/background.png
+s335611495.938140
+e335611495.977191
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/poppop.app/background.png
+xImages/PlayScreen/background.png
+lSLF07#2@37"Copy Images/PlayScreen/background.png335611495#335611495#0(0"0(0#0#88"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/PlayScreen/background.png8618331200#546"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/PlayScreen/background.png" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"0#
+
+CCpResource build/Debug-iphonesimulator/poppop.app/btnBestscore.png Images/MenuScreen/btnBestscore.png
+s335611497.019312
+e335611497.061706
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/poppop.app/btnBestscore.png
+xImages/MenuScreen/btnBestscore.png
+lSLF07#2@39"Copy Images/MenuScreen/btnBestscore.png335611497#335611497#0(0"0(0#0#90"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/btnBestscore.png8618220352#548"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/btnBestscore.png" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"0#
+
+CCpResource build/Debug-iphonesimulator/poppop.app/btnHelp.png Images/MenuScreen/btnHelp.png
+s335611497.021988
+e335611497.062144
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/poppop.app/btnHelp.png
+xImages/MenuScreen/btnHelp.png
+lSLF07#2@34"Copy Images/MenuScreen/btnHelp.png335611497#335611497#0(0"0(0#0#85"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/btnHelp.png8618025344#543"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/btnHelp.png" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"0#
+
+CCpResource build/Debug-iphonesimulator/poppop.app/btnHome.png Images/play/play/btnHome.png
+s335611497.002723
+e335611497.019026
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/poppop.app/btnHome.png
+xImages/play/play/btnHome.png
+lSLF07#2@33"Copy Images/play/play/btnHome.png335611497#335611497#0(0"0(0#0#84"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/play/btnHome.png8619270208#542"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/play/btnHome.png" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"0#
+
+CCpResource build/Debug-iphonesimulator/poppop.app/btnMoreapps.png Images/MenuScreen/btnMoreapps.png
+s335611497.026629
+e335611497.062393
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/poppop.app/btnMoreapps.png
+xImages/MenuScreen/btnMoreapps.png
+lSLF07#2@38"Copy Images/MenuScreen/btnMoreapps.png335611497#335611497#0(0"0(0#0#89"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/btnMoreapps.png8617913216#547"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/btnMoreapps.png" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"0#
+
+CCpResource build/Debug-iphonesimulator/poppop.app/btnPlay.png Images/MenuScreen/btnPlay.png
+s335611497.033232
+e335611497.062625
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/poppop.app/btnPlay.png
+xImages/MenuScreen/btnPlay.png
+lSLF07#2@34"Copy Images/MenuScreen/btnPlay.png335611497#335611497#0(0"0(0#0#85"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/btnPlay.png8617542464#543"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/btnPlay.png" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"0#
+
+CCpResource build/Debug-iphonesimulator/poppop.app/btnReplay.png Images/play/play/btnReplay.png
+s335611497.006452
+e335611497.019201
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/poppop.app/btnReplay.png
+xImages/play/play/btnReplay.png
+lSLF07#2@35"Copy Images/play/play/btnReplay.png335611497#335611497#0(0"0(0#0#86"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/play/btnReplay.png8619055904#544"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/play/btnReplay.png" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"0#
+
+CCpResource build/Debug-iphonesimulator/poppop.app/btnSetting.png Images/MenuScreen/btnSetting.png
+s335611497.035393
+e335611497.062874
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/poppop.app/btnSetting.png
+xImages/MenuScreen/btnSetting.png
+lSLF07#2@37"Copy Images/MenuScreen/btnSetting.png335611497#335611497#0(0"0(0#0#88"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/btnSetting.png8617270496#546"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/btnSetting.png" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"0#
+
+CCpResource build/Debug-iphonesimulator/poppop.app/menuBackground.png Images/MenuScreen/menuBackground.png
+s335611497.041928
+e335611497.063159
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/poppop.app/menuBackground.png
+xImages/MenuScreen/menuBackground.png
+lSLF07#2@41"Copy Images/MenuScreen/menuBackground.png335611497#335611497#0(0"0(0#0#92"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/menuBackground.png8616995552#550"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/menuBackground.png" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"0#
+
+CCpResource build/Debug-iphonesimulator/poppop.app/menuscreen.png Images/MenuScreen/menuscreen.png
+s335611497.048957
+e335611497.063548
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/poppop.app/menuscreen.png
+xImages/MenuScreen/menuscreen.png
+lSLF07#2@37"Copy Images/MenuScreen/menuscreen.png335611497#335611497#0(0"0(0#0#88"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/menuscreen.png8616550208#546"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/MenuScreen/menuscreen.png" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"0#
+
+CCpResource build/Debug-iphonesimulator/poppop.app/playBackground.png Images/play/play/playBackground.png
+s335611497.010539
+e335611497.063874
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/poppop.app/playBackground.png
+xImages/play/play/playBackground.png
+lSLF07#2@40"Copy Images/play/play/playBackground.png335611497#335611497#0(0"0(0#0#91"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/play/playBackground.png8618861792#549"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/play/playBackground.png" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"0#
+
+CCpResource build/Debug-iphonesimulator/poppop.app/playScreen.png Images/play/play/playScreen.png
+s335611497.014761
+e335611497.064162
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/poppop.app/playScreen.png
+xImages/play/play/playScreen.png
+lSLF07#2@36"Copy Images/play/play/playScreen.png335611497#335611497#0(0"0(0#0#87"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/play/playScreen.png8618488992#545"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/Images/play/play/playScreen.png" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"0#
+
+CGenerateDSYMFile "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app.dSYM" "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/poppop"
+s335611497.734822
+e335611497.787801
+r1
+xGenerateDSYMFile
+x/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app.dSYM
+x/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/poppop
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/poppop.app.dSYM build/Debug-iphonesimulator/poppop.app/poppop335611497#335611497#0(0"0(0#0#101"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/poppop8618053216#437"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/poppop" -o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app.dSYM"0#
+
+CLd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/poppop" normal i386
+s335611497.678237
+e335611497.734695
+r1
+xLd
+x/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/poppop
+xnormal
+xi386
+lSLF07#2@106"Link /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/poppop335611497#335611497#0(0"0(0#0#0"8609262368#990"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator" "-F/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator" -filelist "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/poppop.build/Debug-iphonesimulator/poppop.build/Objects-normal/i386/poppop.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/poppop"0#
+
+CProcessInfoPlistFile "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/Info.plist" poppop-Info.plist
+s335611495.199467
+e335611495.203177
+r1
+xProcessInfoPlistFile
+x/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/Info.plist
+xpoppop-Info.plist
+lSLF07#2@25"Process poppop-Info.plist335611495#335611495#0(0"0(0#0#73"/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/poppop-Info.plist8615409856#533"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility poppop-Info.plist -genpkginfo "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app/Info.plist"0#
+
+CProcessPCH /var/folders/CU/CUJUMszrGiWYS7+kqox9-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/poppop_Prefix-fisimgnrnojruwfcjszjahtwjpxk/poppop_Prefix.pch.gch poppop_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"
+s335611497.787915
+e335611497.792492
+r1
+xTouch
+x/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app
+lSLF07#2@100"Touch /Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app335611497#335611497#0(0"0(0#0#0"8617830432#315"    cd "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/hn/Desktop/Neosoft-Working/Balloon poppop/PopPop/build/Debug-iphonesimulator/poppop.app"0#
+

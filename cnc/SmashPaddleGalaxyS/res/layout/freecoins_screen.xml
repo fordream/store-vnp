@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/background"
+  >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:orientation="vertical" android:layout_weight="700">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical" android:gravity="center" android:layout_weight="100">
+
+        <Button
+            android:id="@+id/okFreeCoins"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/ok"/>
+
+    </LinearLayout>
+    
+</LinearLayout>

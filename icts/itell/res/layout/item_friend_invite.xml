@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/friend_list_item_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/list_outer_tab_1"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <TextView
+            android:id="@+id/friend_list_item_text_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="PROFILE"
+            android:textSize="22dip" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llFriend"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/list_inner_tab_1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:tag="listviewitemup" >
+
+        <ImageView
+            android:id="@+id/item_friendSearch_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dip" />
+
+        <TextView
+            android:id="@+id/item_friendSearch_txtView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/item_friendSearch_btnAccept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dip"
+            android:background="@drawable/accept_button"
+            android:text="承認"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/item_friendSearch_btnDeny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="17dip"
+            android:background="@drawable/accept_button"
+            android:text="拒否"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/list_item_layout_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/list_item_text_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/list_outer_tab_1"
+            android:gravity="center"
+            android:text="CHAT"
+            android:textSize="22dip" />
+
+        <LinearLayout
+            android:id="@+id/list_item_text_content"
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:layout_below="@+id/list_item_text_title" >
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:background="@drawable/bg_root"
+	android:layout_height="fill_parent">
+	<RelativeLayout android:layout_width="fill_parent"
+		android:padding="2dp" android:layout_alignParentTop="true"
+		android:id="@+id/my_playlist_detail_region_first"
+		android:layout_height="wrap_content" android:background="@drawable/bg_header">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_centerVertical="true"
+			android:layout_marginLeft="5dp" android:id="@+id/playlist_detail_back_btn"
+			android:textColor="@color/black" android:text="@string/back"
+			android:textSize="13sp" android:paddingBottom="1dp"
+			android:paddingLeft="2dp" android:background="@drawable/selector_button_back" />
+
+
+		<TextView android:layout_height="wrap_content"
+			android:id="@+id/my_playlist_detail_title_txt" android:layout_width="wrap_content"
+			android:singleLine="true" android:textSize="20sp" android:textColor="@android:color/white"
+			android:text="Playlist" android:layout_centerInParent="true" />
+		
+		
+	</RelativeLayout>
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:visibility="gone" android:layout_height="wrap_content"
+		android:id="@+id/header_region" android:paddingRight="8dp" android:paddingLeft="2dp"
+		android:background="@null" android:layout_below="@id/my_playlist_detail_region_first">
+
+		<RelativeLayout android:id="@+id/thumbnail_region"
+		    
+			android:layout_width="wrap_content" android:layout_alignParentLeft="true"
+			android:layout_height="wrap_content">
+			
+			<ImageView
+	            android:id="@+id/creator_icon"
+	            android:layout_width="@dimen/album_cover_width"
+	            android:layout_height="@dimen/album_cover_height"
+	            android:padding="10dp"
+	            android:scaleType="fitXY"
+	            android:src="@drawable/ic_playlist_default"
+	            android:background="@drawable/bg_thumbnail"
+	            android:layout_alignParentLeft="true" />
+			
+			<!-- <ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:background="@drawable/bg_thumbnail"
+				android:layout_centerInParent="true" />
+
+			<ImageView android:id="@+id/creator_icon"
+				android:layout_width="76.5dp"
+				android:layout_height="76.5dp"
+				android:background="@drawable/ic_playlist_default"
+				android:layout_centerInParent="true" />-->
+		</RelativeLayout>
+
+		<TextView android:id="@+id/playlist_title"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="" android:textColor="#cccccc" 
+			android:layout_marginRight="@dimen/margin_right_default"
+			android:layout_marginTop="5dp" android:layout_marginLeft="@dimen/margin_left_default"
+			android:layout_toRightOf="@id/thumbnail_region" android:textSize="18sp"
+			android:singleLine="true" />
+		<TextView android:id="@+id/creator_title"
+			android:layout_below="@id/playlist_title" android:layout_toRightOf="@id/thumbnail_region"
+			android:layout_marginLeft="@dimen/margin_left_default"
+			android:textSize="12sp" android:textColor="#919191"
+			android:layout_marginTop="5dp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="">
+
+		</TextView>
+		<LinearLayout android:layout_width="fill_parent"
+			android:orientation="horizontal"
+			android:gravity="center_vertical|right" android:layout_height="wrap_content"
+			android:layout_alignBottom="@+id/thumbnail_region"
+			android:layout_marginBottom="5dp">
+			<LinearLayout android:layout_width="wrap_content"
+				android:orientation="horizontal" android:id="@+id/like_layout"
+				android:visibility="gone" android:gravity="center"
+				android:background="@drawable/selector_button_like"
+				android:layout_height="wrap_content" android:layout_alignBottom="@+id/thumbnail_region">
+				<ImageView android:layout_height="wrap_content"
+					android:clickable="false" android:background="@drawable/ic_button_like"
+					android:layout_width="wrap_content"></ImageView>
+				<TextView android:textSize="12sp" android:textColor="#000000"
+					android:text="@string/like" android:id="@+id/like_layout_txt"
+					android:layout_height="wrap_content" android:layout_marginLeft="3dp"
+					android:clickable="false" android:layout_width="wrap_content"></TextView>
+			</LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:orientation="horizontal" android:id="@+id/edit_and_share_layout"
+			android:visibility="gone" android:gravity="center_vertical|right"
+			android:layout_height="wrap_content" android:layout_alignBottom="@+id/thumbnail_region"
+			android:layout_marginBottom="5dp">
+			<LinearLayout android:layout_height="wrap_content"
+			    android:visibility="visible"
+				android:orientation="horizontal" android:id="@+id/share_layout"
+				android:gravity="center" android:background="@drawable/selector_button_share"
+				android:layout_width="wrap_content">
+				<ImageView android:layout_height="wrap_content"
+					android:clickable="false" android:background="@drawable/ic_button_share"
+					android:layout_width="wrap_content"></ImageView>
+				<TextView android:textSize="12sp" android:textColor="@color/black"
+					android:text="@string/share" android:layout_height="wrap_content"
+					android:layout_marginLeft="3dp" android:clickable="false"
+					android:layout_width="wrap_content"></TextView>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content"
+				android:orientation="horizontal" android:layout_marginLeft="@dimen/margin_left_default"
+				android:id="@+id/edit_layout" android:gravity="center"
+				android:background="@drawable/selector_button_edit"
+				android:layout_width="wrap_content">
+				<ImageView android:layout_height="wrap_content"
+					android:clickable="false" android:background="@drawable/ic_button_edit_ex"
+					android:layout_width="wrap_content"></ImageView>
+				<TextView android:textSize="12sp" android:textColor="@color/black"
+					android:text="@string/edit" android:layout_height="wrap_content"
+					android:layout_marginLeft="3dp" android:clickable="false"
+					android:layout_width="wrap_content"></TextView>
+			</LinearLayout>
+		</LinearLayout>
+
+
+
+	</RelativeLayout>
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:visibility="gone"
+		android:gravity="center_vertical" android:layout_below="@id/header_region"
+		android:layout_centerInParent="true" android:padding="0dp"
+		android:id="@+id/my_playlist_detail_region_second"
+		android:layout_height="wrap_content">
+		<ImageView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:background="@drawable/bg_header_divider" />
+	</RelativeLayout>
+
+	<LinearLayout android:id="@+id/my_playlist_detail_empty"
+		android:visibility="gone" android:gravity="center"
+		android:layout_below="@id/my_playlist_detail_region_second"
+		android:layout_height="fill_parent" android:orientation="vertical"
+		
+		android:layout_width="fill_parent">
+		<ImageView android:src="@drawable/ic_search_large"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<TextView android:id="@+id/my_playlist_detail_empty_txt"
+			android:gravity="center" android:text="@string/no_song"
+			android:layout_marginTop="10dp" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+		</TextView>
+	</LinearLayout>
+	<ListView android:id="@+id/my_playlist_detail_listview"
+		android:layout_below="@id/my_playlist_detail_region_second"
+		android:layout_width="fill_parent" android:cacheColorHint="#00000000"
+		android:divider="#00000000" android:layout_marginLeft="0dp"
+		android:listSelector="@android:color/transparent"
+		android:layout_marginRight="0dp" android:layout_height="wrap_content"
+		android:fadingEdge="none">
+	</ListView>
+
+
+</RelativeLayout>

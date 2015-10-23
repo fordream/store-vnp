@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent"
+    android:descendantFocusability="blocksDescendants" >
+
+    <RelativeLayout
+        android:id="@+id/feature_playlist_row_region_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="13dip"
+        android:paddingTop="7dip" >
+
+        <ImageView
+            android:id="@+id/feature_playlist_thumb"
+            android:layout_width="54dip"
+            android:layout_height="54dip"
+            android:background="@drawable/ic_playlist_default"
+            android:contentDescription="@string/playlist_name"
+            android:onClick="thumbnailClickHandler" />
+
+        <CheckBox
+            android:id="@+id/feature_playlist_row_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:button="@drawable/selector_checkbox_download"
+            android:onClick="checkboxClickHandler"
+            android:visibility="gone" >
+        </CheckBox>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/feature_playlist_row_region_second"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/feature_playlist_row_region_first"
+        android:orientation="vertical"
+        android:paddingLeft="5dip"
+        android:paddingRight="2.5dip"
+        android:paddingTop="2.5dip" >
+
+        <TextView
+            android:id="@+id/feature_playlist_title_txt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_default"
+            android:ellipsize="end"
+            android:layout_marginTop="3dp"
+            android:singleLine="true"
+            android:text="Song title"
+            android:textColor="#333333"
+            android:textSize="@dimen/textsize_big" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_default" >
+
+            <TextView
+                android:id="@+id/feature_playlist_info_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="@dimen/margin_top_small"
+               
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="Album - Artist"
+                android:textColor="#333333"
+                android:textSize="@dimen/textsize_small" />
+             
+             <TextView 
+             	android:id="@+id/feature_playlist_info_extra_txt"
+             	android:layout_width="wrap_content"
+             	android:layout_height="wrap_content"
+             	android:layout_marginLeft="5dp"
+             	android:layout_centerVertical="true"
+             	android:textColor="#666666"
+             	android:textSize="@dimen/textsize_small"
+             	android:layout_toRightOf="@id/feature_playlist_info_txt"
+             	android:text="hello"/>     
+              
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+    	android:id="@+id/abc_region"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/feature_playlist_row_region_first"
+        android:layout_marginLeft="2.5dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="2dip"
+        android:layout_marginBottom="3dp"
+        android:layout_toRightOf="@id/feature_playlist_row_region_first"
+        android:background="@drawable/bg_online_playlist_artists"
+        android:paddingBottom="5dip" >
+
+        <TextView
+            android:id="@+id/feature_playlist_song_count_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dip"
+            android:ellipsize="end"
+        
+            android:singleLine="true"
+            android:text="10 bài nhạc"
+            android:textColor="#434343"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/feature_playlist_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:src="@drawable/ic_listview_arrow"
+            android:visibility="visible" />
+
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="2.5dip"
+            android:scrollbars="none"
+            android:layout_marginLeft="3dp"
+            android:layout_toLeftOf="@id/feature_playlist_more"
+            android:layout_toRightOf="@id/feature_playlist_song_count_txt"
+            android:paddingLeft="5dip" >
+
+            <LinearLayout
+                android:id="@+id/feature_playlist_scrollable_thumbs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/feature_playlist_thumb1"
+                    android:layout_width="32dip"
+                    android:layout_margin="1dp"
+                    android:layout_height="32dip"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/feature_playlist_thumb2"
+                    android:layout_width="32dip"
+                    android:layout_margin="1dp"
+                    android:layout_height="32dip"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/feature_playlist_thumb3"
+                    android:layout_width="32dip"
+                    android:layout_margin="1dp"
+                    android:layout_height="32dip"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/feature_playlist_thumb4"
+                    android:layout_width="32dip"
+                    android:layout_margin="1dp"
+                    android:layout_height="32dip"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="2dp"
+		android:layout_below="@id/abc_region"></LinearLayout>
+</RelativeLayout>

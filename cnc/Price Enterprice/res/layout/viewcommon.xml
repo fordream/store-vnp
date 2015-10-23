@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_height="fill_parent" android:layout_width="fill_parent">
+    <RelativeLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/rlOffers_Home_Offers">
+        <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:layout_margin="10dip" android:layout_below="@+id/include1" android:layout_alignParentRight="true" android:orientation="vertical">
+            <LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent">
+                <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imgProduct"></ImageView>
+                <LinearLayout android:id="@+id/LinearLayout02" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_marginLeft="10dip" android:layout_marginBottom="5dip" android:layout_marginTop="5dip" android:orientation="vertical">
+                    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textColor="#424241" android:text="@string/product_name" android:id="@+id/tVProductName"></TextView>
+                    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textColor="#59c9f9" android:text="@string/laboratory_name" android:id="@+id/tVLaboratoryName"></TextView>
+                    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textColor="#7da900" android:text="@string/price_example" android:id="@+id/tVPrice"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linearLayout4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_below="@+id/linearLayout1">
+            <RelativeLayout android:layout_height="fill_parent" android:layout_width="160dip" android:id="@+id/relativeLayout2" android:background="@drawable/bgcolumn">
+                <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#384c00" android:text="@string/best_price" android:layout_centerInParent="true" android:layout_width="wrap_content" android:id="@+id/TextView03" android:layout_height="wrap_content"></TextView>
+            </RelativeLayout>
+            <RelativeLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/relativeLayout3" android:background="@drawable/bgcolumn">
+                <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#e84c00" android:text="@string/near_by" android:layout_centerInParent="true" android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_marginLeft="33dp"></TextView>
+            </RelativeLayout>
+        </LinearLayout>
+        <ListView android:layout_width="fill_parent" android:layout_above="@+id/include2" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_below="@+id/linearLayout4" android:layout_alignParentRight="true" android:id="@+id/lVOffers"></ListView>
+    </RelativeLayout>
+    <LinearLayout android:weightSum="1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10dip" android:orientation="vertical" android:id="@+id/llProduct_Home">
+        <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_width="fill_parent">
+            <ImageView android:layout_height="60dip" android:layout_width="60dip" android:background="@drawable/product" android:id="@+id/imgProduct_Home_Product"></ImageView>
+            <LinearLayout android:id="@+id/linearLayout3" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_marginLeft="10dip" android:orientation="vertical">
+                <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textColor="#424241" android:text="@string/product_name" android:textSize="12dip" android:id="@+id/tVProductName_Home_Product"></TextView>
+                <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textColor="#59c9f9" android:text="@string/laboratory_name" android:textSize="12dip" android:id="@+id/tVLaboratoryName_Home_Product"></TextView>
+                <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textColor="#7da900" android:text="@string/price_example" android:textSize="12dip" android:id="@+id/tVPriceFromTo_Home_Product"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <ScrollView android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/scrollView1" android:layout_marginTop="10dip">
+            <LinearLayout android:id="@+id/linearLayout5" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical">
+                <RelativeLayout android:layout_width="fill_parent" android:background="@drawable/bgconfiguration_1" android:layout_height="30dip" android:id="@+id/rlOffersProduct_Home_Product">
+                    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_centerVertical="true" android:textColor="#8b8c8c" android:text="@string/offers" android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_marginLeft="10dip"></TextView>
+                    <ImageButton android:layout_marginRight="10dip" android:background="#0000" android:layout_width="wrap_content" android:layout_centerVertical="true" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:src="@drawable/next" android:id="@+id/imgOffersNext_Home_Product" android:layout_marginLeft="10dip"></ImageButton>
+                    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_centerVertical="true" android:textColor="#296b8c" android:text="@string/value0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/imgOffersNext_Home_Product" android:id="@+id/tVCountOffersProducts_Home_Product"></TextView>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:background="@drawable/bgconfiguration_2" android:layout_height="30dip" android:id="@+id/rlSimilarsProduct_Home_Product">
+                    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_centerVertical="true" android:layout_alignParentLeft="true" android:text="TextView" android:layout_width="wrap_content" android:id="@+id/textView3" android:layout_height="wrap_content"></TextView>
+                    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_centerVertical="true" android:textColor="#adadad" android:layout_alignParentLeft="true" android:text="@string/similars_products" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_height="wrap_content" android:layout_alignTop="@+id/textView3" android:layout_marginLeft="10dip"></TextView>
+                    <ImageButton android:layout_marginRight="10dip" android:background="#0000" android:layout_width="wrap_content" android:layout_centerVertical="true" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:src="@drawable/next" android:id="@+id/imgSimilarsProducts_Home_Product" android:layout_marginLeft="10dip"></ImageButton>
+                    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_alignBottom="@+id/TextView01" android:layout_centerVertical="true" android:textColor="#296b8c" android:text="@string/value0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tVCountSilarsProducts_Home_Product" android:layout_toLeftOf="@+id/imgSimilarsProducts_Home_Product"></TextView>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:background="@drawable/bgconfiguration_3" android:layout_height="30dip" android:id="@+id/rlGenericProducts_Home_Product">
+                    <TextView android:layout_alignParentTop="true" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_centerVertical="true" android:textColor="#adadad" android:layout_alignParentLeft="true" android:text="@string/generic_products" android:layout_width="wrap_content" android:id="@+id/TextView02" android:layout_height="wrap_content" android:layout_marginLeft="10dip"></TextView>
+                    <ImageButton android:layout_marginRight="10dip" android:background="#0000" android:layout_width="wrap_content" android:layout_centerVertical="true" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:src="@drawable/next" android:layout_marginLeft="10dip" android:id="@+id/imgGenericProducts_Home_Product"></ImageButton>
+                    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_centerVertical="true" android:textColor="#29688c" android:text="@string/value0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/imgGenericProducts_Home_Product" android:id="@+id/tVCountGenericproducts_Home_Product"></TextView>
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical" android:id="@+id/llProductlV_Home">
+        <ListView android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/lVProducts_Home"></ListView>
+    </LinearLayout>
+    
+</LinearLayout>

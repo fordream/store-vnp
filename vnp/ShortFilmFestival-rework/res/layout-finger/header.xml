@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_45dp" >
+
+        <ImageView
+            android:id="@+id/header_btn_left"
+            android:layout_width="@dimen/dimen_45dp"
+            android:layout_height="@dimen/dimen_45dp"
+            android:padding="@dimen/dimen_10dp"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            android:src="@drawable/icon_setting_b" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="@dimen/dimen_81dp"
+            android:layout_height="@dimen/dimen_45dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/header_logo_shortshort" />
+
+        <ProgressBar
+            android:id="@+id/header_progressbar"
+            android:visibility="gone"
+            android:padding="@dimen/dimen_10dp"
+            android:layout_width="@dimen/dimen_45dp"
+            android:layout_height="@dimen/dimen_45dp"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen_1dp"
+        android:background="@android:color/black"
+        android:scaleType="fitCenter" >
+    </ImageView>
+
+</LinearLayout>

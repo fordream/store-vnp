@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_root"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_header"
+        android:gravity="center"
+        android:paddingTop="1dp" >
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/relativeLayout1"
+            android:layout_marginRight="9dp"
+            android:background="@drawable/selector_button_search"
+            android:paddingBottom="2dp"
+            android:paddingLeft="2dp"
+            android:text="Tìm"
+            android:textColor="@color/black" >
+        </Button>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/cancel_btn"
+            android:background="@drawable/bg_search_bg" >
+
+            <EditText
+                android:id="@+id/search_edt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#00000000"
+                android:hint="@string/search_hint"
+                android:singleLine="true"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/search_clear_btn"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignRight="@+id/search_edt"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/ic_search_cancel" >
+            </Button>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/search_tabs_holder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/bg_segment_bg" >
+
+        <RadioGroup
+            android:id="@+id/search_tabs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/search_tab_songs"
+                android:layout_width="60dp"
+                android:button="@drawable/selector_segment_song"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/search_tab_videos"
+                android:layout_width="60dp"
+                android:button="@drawable/selector_segment_video"
+                android:checked="false" />
+
+            <RadioButton
+                android:id="@+id/search_tab_album"
+                android:layout_width="60dp"
+                android:button="@drawable/selector_segment_album"
+                android:checked="false" />
+
+            <RadioButton
+                android:id="@+id/search_tab_artist"
+                android:layout_width="60dp"
+                android:button="@drawable/selector_segment_artist"
+                android:checked="false" />
+
+            <RadioButton
+                android:id="@+id/search_tab_playlist"
+                android:layout_width="60dp"
+                android:button="@drawable/selector_segment_playlist"
+                android:checked="false" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/help_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/search_help_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/search_ico_margintop"
+            android:background="@drawable/ic_search_large"
+            android:clickable="false" />
+
+        <TextView
+            android:id="@+id/search_help_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/search_help_icon"
+            android:layout_marginLeft="@dimen/margin_default"
+            android:layout_marginRight="@dimen/margin_default"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:text="@string/search_help_label"
+            android:textColor="#b9b9b9"
+            android:textSize="@dimen/textsize_big" />
+
+        <Button
+            android:id="@+id/search_help_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/search_help_label"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button_retry"
+            android:text="Thử lại"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:id="@+id/search_spinning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_loading" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Đang tải dữ liệu" >
+                </TextView>
+            </LinearLayout>
+            <!--
+                 <ProgressBar android:id="@+id/search_progressbar" android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" android:layout_gravity="center" />
+            -->
+
+            <ListView
+                android:id="@+id/search_listview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:cacheColorHint="#00000000"
+                android:divider="#00000000"
+                android:fadingEdge="none"
+                android:listSelector="@android:color/transparent" >
+            </ListView>
+        </FrameLayout>
+    </RelativeLayout>
+
+</LinearLayout>

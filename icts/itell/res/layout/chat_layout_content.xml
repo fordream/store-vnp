@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:id="@+id/chat_rl_content">
+    <include layout="@layout/chat_time"/>
+    <ImageView
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/chat_img_itell"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:src="@drawable/chat_pink_button"
+            android:layout_marginLeft="10dip"/>
+    <LinearLayout 
+        android:layout_marginTop="20dip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="visible"
+        android:layout_below="@+id/chat_ll_time"
+        android:layout_above="@+id/chat_ll_bottom"
+        android:id="@+id/chat_ll_content">
+        <ListView 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:fadingEdge="none"
+            android:background="#00FFFFFF"
+            android:listSelector="@android:color/transparent"
+            android:id="@+id/chat_lv_content">
+        </ListView>
+    </LinearLayout>
+    <include
+        layout="@layout/chat_layout_bottom_content"/>
+</RelativeLayout>

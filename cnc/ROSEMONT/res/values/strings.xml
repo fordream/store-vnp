@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rosemont</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="message">Message</string>
+    <string name="Are_you_a_Healthcare_professional">Are you a Healthcare professional?</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_Search">Search</string>
+    <string name="tab_Calculator">Calculator</string>
+    <string name="tab_Settings">Settings</string>
+    <string name="tab_header_calculator">Dosage Caculator</string>
+    <string name="tab_home_header_main">Rosemont Pharmaceuticals</string>
+    <string name="tab_home_adverser">Adverse Event Reporting</string>
+    <string name="dont_call">Don\'t call phone! Check your phone!</string>
+    <string name="search">Search</string>
+    <string name="tab_home_product_list">List Product</string>
+    <string name="tab_home_category_List">List Categories</string>
+    <string name="tab_home_indication_List">List Indication</string>
+    <string name="close_app">Close App!</string>
+    <string name="rosenmont_param">Rosemont Pharmaceuticals</string>
+    <string name="list_product_by">List products by</string>
+    <string name="loading">Loadding ...</string>
+    <string name="search_hint">NAME/ THERAPY AREA/ CATEGORY</string>
+    <string name="dont_load_file">Can not download file!</string>
+    <string name="havent_network">have not network!</string>
+    <string name="havent_cer">Have not certicate of Analysis</string>
+    <string name="choose_product">Choose Product</string>
+    <string name="choose_strength">Choose Strength (mg/ml)</string>
+    <string name="advese_event_reporting">Adverse Event Reporting</string>
+    <string name="dosage_in_milligams">Dosage in milligams (mg)</string>
+    <string name="dosage_in_milligams1">Dosage in microgam (µg)</string>
+    <string name="enter_patient_dose_in_mg">Enter patient dose in mg</string>
+    <string name="enter_patient_dose_in_mg2">Enter patient dose in µg</string>
+    <string name="enter_weight_in_kg">Enter weight in Kg (0-200)</string>
+    <string name="enter_weight_in_age">Enter age in years (1-16)</string>
+    <string name="dosage">Dosage</string>
+    <string name="list_of_product">List of Products"</string>
+    <string name="adult">Adult</string>
+    <string name="child">Child</string>
+    <string name="weight">Weight</string>
+    <string name="age">Age</string>
+    <string name="txt">This calculator does not offer medical advice and is not intended as a substitute for informed medical advice. Its use should always be evaluated taking into consideration individual patient conditions. For max daily dosage please refer to summary of product characteristics.</string>
+    <string name="you_patient_needs">Your patient needs</string>
+    <string name="key1">You are calculating dosages in \nMILLIGRAMS. \nClick \'Dosage in milligrams (mg\' to select dosage in Milligrams or Micrograms</string>
+    <string name="key2">Please select a product.</string>
+    <string name="key3">Mode of action - </string>
+    <string name="key4">Are you now leaving the app. This link will take you to a website where we a not responsible for the content. Click YES to continue.</string>
+    <string name="key5">List of Categories</string>
+    <string name="key6">List of Indications</string>
+    <string name="key7">Summary of Product Characteristics</string>
+    <string name="key8">Are you now leaving the app. This link will take you to a website where we a not responsible for the content. Click YES to continue.</string>
+    <string name="key9">You are calculating Dosage in MILLIGRAMS. SELECT \'Dosage in Micrograms(µg)\' to change to Micrograms.</string>
+    <string name="key10">You are calculating Dosage in MICROGRAMS. SELECT \'Dosage in Milligrams(mg)\' to change to Milligrams.</string>
+	<string name="key11">User Manual</string>
+    <string name="key12">About this App</string>
+    <string name="key13">User Manual</string>
+    <string name="key14">Tablet crushing</string>
+    
+    <string name="key15">Consumer Protection Act 1987</string>
+    <string name="key16">The Equality Act 2010</string>
+    <string name="key17">Medicines Act 1968</string>
+    <string name="key18">The Human Rights Act 1998</string>
+    
+    <string name="key19">Certificate of Analysis</string>
+    <string name="key20">the Certificate of Analysis cannot be found. Click OK to continue</string>
+</resources>

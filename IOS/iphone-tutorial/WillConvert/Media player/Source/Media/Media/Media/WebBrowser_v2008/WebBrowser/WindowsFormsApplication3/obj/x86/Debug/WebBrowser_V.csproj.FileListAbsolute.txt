@@ -1,0 +1,9 @@
+G:\HK4\Lap trinh Win\New folder (2)\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\HK4\Lap trinh Win\New folder (2)\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.browser.resources
+G:\HK4\Lap trinh Win\New folder (2)\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.Open.resources
+G:\HK4\Lap trinh Win\New folder (2)\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.Properties.Resources.resources
+G:\HK4\Lap trinh Win\New folder (2)\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\HK4\Lap trinh Win\New folder (2)\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\HK4\Lap trinh Win\New folder (2)\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WindowsFormsApplication3.exe
+G:\HK4\Lap trinh Win\New folder (2)\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WebBrowser_V.browser.resources
+G:\HK4\Lap trinh Win\New folder (2)\WindowsFormsApplication3\WindowsFormsApplication3\obj\x86\Debug\WebBrowser_V.Open.resources

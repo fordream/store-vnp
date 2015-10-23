@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="@drawable/board">
+    <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="200dip" android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:gravity="center" android:layout_marginBottom="5dip">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnmoreapp_indicator" />
+
+        </LinearLayout>
+
+        <Button android:layout_width="fill_parent" android:id="@+id/button1" android:layout_height="wrap_content" android:text="Play"></Button>
+        <Button android:layout_width="fill_parent" android:id="@+id/button2" android:layout_height="wrap_content" android:text="scores"></Button>
+        <Button android:layout_width="fill_parent" android:id="@+id/button3" android:layout_height="wrap_content" android:text="Option"></Button>
+        <Button android:layout_width="fill_parent" android:id="@+id/button4" android:layout_height="wrap_content" android:text="Help" android:visibility="gone"></Button>
+        <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Exit" android:id="@+id/btnExit"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" android:gravity="center">
+
+    </LinearLayout>
+    
+</RelativeLayout>

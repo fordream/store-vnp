@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <!--
+        <item name="android:activityOpenEnterAnimation">@anim/abc_slide_in_bottom</item>
+        <item name="android:activityOpenExitAnimation">@anim/abc_nothing</item>
+          <item name="android:activityCloseEnterAnimation">@anim/abc_slide_in_bottom</item>
+        <item name="android:activityCloseExitAnimation">@anim/abc_nothing</item>
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+</resources>

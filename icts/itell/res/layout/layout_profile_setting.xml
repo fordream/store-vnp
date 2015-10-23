@@ -1,0 +1,420 @@
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/setting_profile_rl_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/chat_bg_top_bar" >
+
+                <Button
+                    android:id="@+id/btnBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:background="@drawable/chat_back_button_selector" />
+
+                <TextView
+                    android:id="@+id/tvSetting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="プロフィール"
+                    android:textColor="#000000"
+                    android:textSize="18dip"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout1"
+                android:layout_margin="10dip" >
+
+                <!--
+             <ImageView
+            android:id="@+id/avatar1"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:scaleType="fitCenter"
+                        android:background="@drawable/profile_avatar_border"/>
+                -->
+
+                <RelativeLayout
+                    android:id="@+id/profile_rl_avatar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/profile_avatar_border1"
+                    android:padding="4dip" >
+
+                    <ImageView
+                        android:id="@+id/avatar"
+                        android:layout_width="100dip"
+                        android:layout_height="100dip"
+                        android:layout_centerInParent="true"
+                        android:scaleType="centerCrop"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dip"
+                    android:layout_toRightOf="@+id/profile_rl_avatar" >
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dip"
+                        android:text="@string/profile_phone"
+                        android:textColor="@drawable/black"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/profile_badge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dip"
+                        android:layout_alignTop="@+id/profile_ll_avatar"
+                        android:layout_below="@+id/tv1"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="10dip"
+                        android:layout_toRightOf="@+id/profile_ll_avatar" >
+
+                        <ImageView
+                            android:id="@+id/profile_image_badge_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:src="@drawable/profile_awesome_icon" />
+
+                        <TextView
+                            android:id="@+id/badge_good"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dip"
+                            android:text="0" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:src="@drawable/profile_really_good_icon" />
+
+                        <TextView
+                            android:id="@+id/badge_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dip"
+                            android:text="0" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:src="@drawable/profile_like_icon" />
+
+                        <TextView
+                            android:id="@+id/badge_bad"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dip"
+                            android:text="0" />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/profile_badge"
+                        android:background="@drawable/text_box_1"
+                        android:gravity="bottom"
+                        android:padding="10dip" >
+
+                        <TextView
+                            android:id="@+id/tv3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:text="@string/profile_name"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="@dimen/profile_text" />
+
+                        <EditText
+                            android:id="@+id/tv4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/tv3"
+                            android:layout_alignTop="@+id/tv3"
+                            android:layout_toRightOf="@+id/tv3"
+                            android:background="@android:color/transparent"
+                            android:paddingLeft="10dip"
+                            android:maxLines="1"
+                            android:lines="1"
+                            android:imeOptions="actionDone"
+                            android:singleLine="true"
+                            android:textColor="@drawable/black"
+                            android:textSize="@dimen/profile_text"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ll"
+                android:layout_alignRight="@+id/ll"
+                android:layout_below="@+id/relativeLayout2"
+                android:layout_marginTop="0dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginBottom="5dip"
+                android:background="@drawable/text_box_1"
+                android:padding="10dip" >
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/profile_nick_name"
+                    android:textColor="@android:color/darker_gray" />
+
+                <EditText
+                    android:id="@+id/tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/tv6"
+                    android:layout_alignTop="@+id/tv6"
+                    android:layout_toRightOf="@+id/tv6"
+                    android:background="@android:color/transparent"
+                    android:paddingLeft="10dip"
+                    android:maxLines="1"
+                    android:lines="1"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:textColor="@drawable/black"
+                    android:textSize="@dimen/profile_text"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/relativeLayout3"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="5dip"
+                android:text="@string/profile_birth_year"
+                android:textColor="@drawable/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/relativeLayout3"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="10dip"
+                android:text="@string/profile_public_birth"
+                android:textColor="@drawable/black"
+                android:textStyle="bold" />
+            <!-- Birth day -->
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview1"
+                android:layout_marginRight="10dip"
+                android:weightSum="3" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/date_box_1" >
+
+                    <EditText
+                        android:id="@+id/tvYear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tv7"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignTop="@+id/tv7"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/transparent"
+                        android:inputType="numberDecimal"
+                        android:maxLength="4"
+                        android:paddingLeft="12dip"
+                        android:text="    "
+                        android:imeOptions="actionDone"
+                        android:textColor="@drawable/black"
+                        android:textSize="@dimen/profile_text"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="2dip"
+                        android:layout_toRightOf="@+id/tvYear"
+                        android:text="@string/profile_year"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/profile_text" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/date_box_1" >
+
+                    <EditText
+                        android:id="@+id/tvMonth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tv8"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignTop="@+id/tv8"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/transparent"
+                        android:inputType="numberDecimal"
+                        android:paddingLeft="12dip"
+                        android:text="  "
+                        android:imeOptions="actionDone"
+                        android:maxLength="2"
+                        android:textColor="@drawable/black"
+                        android:textSize="@dimen/profile_text"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="2dip"
+                        android:layout_toRightOf="@+id/tvMonth"
+                        android:text="@string/profile_month"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/profile_text" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/date_box_1" >
+
+                    <EditText
+                        android:id="@+id/tvDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/tv9"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignTop="@+id/tv9"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/transparent"
+                        android:inputType="numberDecimal"
+                        android:paddingLeft="12dip"
+                        android:maxLength="2"
+                        android:text="  "
+                        android:imeOptions="actionDone"
+                        android:textColor="@drawable/black"
+                        android:textSize="@dimen/profile_text"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="2dip"
+                        android:layout_toRightOf="@+id/tvDate"
+                        android:text="@string/profile_date"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/profile_text" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/profile_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/relativeLayout3"
+                android:layout_alignLeft="@+id/profile_on_off"
+                android:layout_alignTop="@+id/relativeLayout3" >
+
+                <ImageView
+                    android:id="@+id/profile_img_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/profile_button_gender_selector" />
+
+                <ImageView
+                    android:id="@+id/profile_img_slide_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="-2dip"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/handle_silde"
+                    android:tag="toggle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/profile_on_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ll"
+                android:layout_alignRight="@+id/textview2"
+                android:layout_alignTop="@+id/ll"
+                android:layout_below="@+id/textview2" >
+
+                <ImageView
+                    android:id="@+id/profile_img_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/profile_button_on_off_selector" />
+
+                <ImageView
+                    android:id="@+id/profile_img_slide_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="-2dip"
+                    android:src="@drawable/handle_silde"
+                    android:tag="toggle" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <include layout="@layout/setting_profile_content" />
+
+        <include layout="@layout/setting_profile_upload_image" />
+    </RelativeLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EFEFEF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/venus_box_bg"
+        android:paddingBottom="5dip" >
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:paddingRight="10dp" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tokyo: Laforet"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:maxLines="6"
+                android:text="Laforet Museum, Harajuku Laforet Harajuku 6th floor, 1-11-6 Jingumae Shibuya-ku, Tokyo"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content" >
+            
+            <ImageView
+                android:id="@+id/google"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/imgtweet"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/google_buttn" />
+          
+            <ImageView
+                android:id="@+id/imgtweet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/imgfacebook"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/tweet_buttn" />
+
+            <ImageView
+                android:id="@+id/imgfacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/like_buttn" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_map"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+         >
+        
+        <ImageView 
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/delete_buttn"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible"
+            />
+
+        <ImageView
+            android:id="@+id/top"
+            android:layout_width="320dp"
+            android:layout_height="24dip"
+            android:background="@drawable/top" />
+
+        <RelativeLayout
+            android:id="@+id/middle"
+            android:layout_width="320dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/top"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" 
+            android:background="@drawable/middle"
+            >
+
+            <ImageView
+                android:id="@+id/imgMapBackGround"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:background="@drawable/map_1" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="24dip"
+            android:layout_below="@+id/middle"
+            android:background="@drawable/bottom" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+C:\Users\An_Vu\Desktop\KimCuongv3.0\KimCuong\KimCuong\bin\Debug\KimCuong.exe
+C:\Users\An_Vu\Desktop\KimCuongv3.0\KimCuong\KimCuong\bin\Debug\KimCuong.pdb
+C:\Users\An_Vu\Desktop\KimCuongv3.0\KimCuong\KimCuong\bin\Debug\Interop.WMPLib.dll
+C:\Users\An_Vu\Desktop\KimCuongv3.0\KimCuong\KimCuong\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\An_Vu\Desktop\KimCuongv3.0\KimCuong\KimCuong\obj\Debug\Interop.WMPLib.dll
+C:\Users\An_Vu\Desktop\KimCuongv3.0\KimCuong\KimCuong\obj\Debug\KimCuong.csproj.ResolveComReference.cache
+C:\Users\An_Vu\Desktop\KimCuongv3.0\KimCuong\KimCuong\obj\Debug\WindowsFormsApplication1.FormHighScore.resources
+C:\Users\An_Vu\Desktop\KimCuongv3.0\KimCuong\KimCuong\obj\Debug\WindowsFormsApplication1.FormMain.resources
+C:\Users\An_Vu\Desktop\KimCuongv3.0\KimCuong\KimCuong\obj\Debug\WindowsFormsApplication1.Name.resources
+C:\Users\An_Vu\Desktop\KimCuongv3.0\KimCuong\KimCuong\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\An_Vu\Desktop\KimCuongv3.0\KimCuong\KimCuong\obj\Debug\KimCuong.csproj.GenerateResource.Cache
+C:\Users\An_Vu\Desktop\KimCuongv3.0\KimCuong\KimCuong\obj\Debug\KimCuong.exe
+C:\Users\An_Vu\Desktop\KimCuongv3.0\KimCuong\KimCuong\obj\Debug\KimCuong.pdb
+C:\Users\An_Vu\Desktop\KimCuongv3.0\KimCuong\KimCuong\bin\Debug\irrKlang.NET2.0.dll
+C:\Users\An_Vu\Desktop\KimCuongv10.0\KimCuong\KimCuong\obj\Debug\Interop.WMPLib.dll
+C:\Users\An_Vu\Desktop\KimCuongv10.0\KimCuong\KimCuong\obj\Debug\KimCuong.csproj.ResolveComReference.cache
+C:\Users\An_Vu\Desktop\KimCuongv10.0\KimCuong\KimCuong\obj\Debug\KimCuong.exe
+C:\Users\An_Vu\Desktop\KimCuongv10.0\KimCuong\KimCuong\obj\Debug\KimCuong.pdb
+C:\Users\An_Vu\Desktop\KimCuongv10.0\KimCuong\KimCuong\bin\Debug\KimCuong.exe
+C:\Users\An_Vu\Desktop\KimCuongv10.0\KimCuong\KimCuong\bin\Debug\KimCuong.pdb
+C:\Users\An_Vu\Desktop\KimCuongv10.0\KimCuong\KimCuong\bin\Debug\irrKlang.NET2.0.dll
+C:\Users\An_Vu\Desktop\KimCuongv10.0\KimCuong\KimCuong\bin\Debug\Interop.WMPLib.dll
+C:\Users\An_Vu\Desktop\KimCuongv10.0\KimCuong\KimCuong\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\An_Vu\Desktop\KimCuongv10.0\KimCuong\KimCuong\obj\Debug\WindowsFormsApplication1.FormHighScore.resources
+C:\Users\An_Vu\Desktop\KimCuongv10.0\KimCuong\KimCuong\obj\Debug\WindowsFormsApplication1.FormMain.resources
+C:\Users\An_Vu\Desktop\KimCuongv10.0\KimCuong\KimCuong\obj\Debug\WindowsFormsApplication1.Name.resources
+C:\Users\An_Vu\Desktop\KimCuongv10.0\KimCuong\KimCuong\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\An_Vu\Desktop\KimCuongv10.0\KimCuong\KimCuong\obj\Debug\KimCuong.csproj.GenerateResource.Cache
+C:\Users\Bat_Man\Desktop\KimCuongv10.0\KimCuong\KimCuong\obj\Debug\Interop.WMPLib.dll
+C:\Users\Bat_Man\Desktop\KimCuongv10.0\KimCuong\KimCuong\obj\Debug\KimCuong.csproj.ResolveComReference.cache
+C:\Users\Bat_Man\Desktop\KimCuongv10.0\KimCuong\KimCuong\obj\Debug\KimCuong.exe
+C:\Users\Bat_Man\Desktop\KimCuongv10.0\KimCuong\KimCuong\obj\Debug\KimCuong.pdb
+C:\Users\Bat_Man\Desktop\KimCuongv10.0\KimCuong\KimCuong\bin\Debug\KimCuong.exe
+C:\Users\Bat_Man\Desktop\KimCuongv10.0\KimCuong\KimCuong\bin\Debug\KimCuong.pdb
+C:\Users\Bat_Man\Desktop\KimCuongv10.0\KimCuong\KimCuong\bin\Debug\Interop.WMPLib.dll
+C:\Users\Bat_Man\Desktop\KimCuongv10.0\KimCuong\KimCuong\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bat_Man\Desktop\KimCuongv10.0\KimCuong\KimCuong\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Bat_Man\Desktop\KimCuongv10.0\KimCuong\KimCuong\obj\Debug\KimCuong.csproj.GenerateResource.Cache
+C:\Users\Bat_Man\Desktop\KimCuongv10.0\KimCuong\KimCuong\bin\Debug\irrKlang.NET2.0.dll
+C:\Users\Bat_Man\Desktop\KimCuongv10.0\KimCuong\KimCuong\obj\Debug\KimCuong.FormMain.resources
+C:\Users\Bat_Man\Desktop\KimCuongv10.0\KimCuong\KimCuong\obj\Debug\KimCuong.FormHighScore.resources
+C:\Users\Bat_Man\Desktop\KimCuongv10.0\KimCuong\KimCuong\obj\Debug\KimCuong.Name.resources
+C:\Users\An_Vu\Desktop\KimCuongv10.1\KimCuong\KimCuong\obj\Debug\Interop.WMPLib.dll
+C:\Users\An_Vu\Desktop\KimCuongv10.1\KimCuong\KimCuong\obj\Debug\KimCuong.csproj.ResolveComReference.cache
+C:\Users\An_Vu\Desktop\KimCuongv10.1\KimCuong\KimCuong\obj\Debug\KimCuong.exe
+C:\Users\An_Vu\Desktop\KimCuongv10.1\KimCuong\KimCuong\obj\Debug\KimCuong.pdb
+C:\Users\An_Vu\Desktop\KimCuongv10.1\KimCuong\KimCuong\bin\Debug\KimCuong.exe
+C:\Users\An_Vu\Desktop\KimCuongv10.1\KimCuong\KimCuong\bin\Debug\KimCuong.pdb
+C:\Users\An_Vu\Desktop\KimCuongv10.1\KimCuong\KimCuong\bin\Debug\irrKlang.NET2.0.dll
+C:\Users\An_Vu\Desktop\KimCuongv10.1\KimCuong\KimCuong\bin\Debug\Interop.WMPLib.dll
+C:\Users\An_Vu\Desktop\KimCuongv10.1\KimCuong\KimCuong\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\An_Vu\Desktop\KimCuongv10.1\KimCuong\KimCuong\obj\Debug\KimCuong.FormHighScore.resources
+C:\Users\An_Vu\Desktop\KimCuongv10.1\KimCuong\KimCuong\obj\Debug\KimCuong.FormMain.resources
+C:\Users\An_Vu\Desktop\KimCuongv10.1\KimCuong\KimCuong\obj\Debug\KimCuong.Name.resources
+C:\Users\An_Vu\Desktop\KimCuongv10.1\KimCuong\KimCuong\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\An_Vu\Desktop\KimCuongv10.1\KimCuong\KimCuong\obj\Debug\KimCuong.csproj.GenerateResource.Cache
+C:\Users\Binh-Amen\Desktop\KimCuongv10.1\KimCuong\KimCuong\obj\Debug\Interop.WMPLib.dll
+C:\Users\Binh-Amen\Desktop\KimCuongv10.1\KimCuong\KimCuong\obj\Debug\KimCuong.csproj.ResolveComReference.cache
+C:\Users\Binh-Amen\Desktop\KimCuongv10.1\KimCuong\KimCuong\obj\Debug\KimCuong.exe
+C:\Users\Binh-Amen\Desktop\KimCuongv10.1\KimCuong\KimCuong\obj\Debug\KimCuong.pdb
+C:\Users\Binh-Amen\Desktop\KimCuong\KimCuong\KimCuong\obj\Debug\Interop.WMPLib.dll
+C:\Users\Binh-Amen\Desktop\KimCuong\KimCuong\KimCuong\obj\Debug\KimCuong.csproj.ResolveComReference.cache
+C:\Users\Binh-Amen\Desktop\KimCuong\KimCuong\KimCuong\obj\Debug\KimCuong.exe
+C:\Users\Binh-Amen\Desktop\KimCuong\KimCuong\KimCuong\obj\Debug\KimCuong.pdb
+E:\c#\All report c#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\Interop.WMPLib.dll
+E:\c#\All report c#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\KimCuong.csproj.ResolveComReference.cache
+E:\c#\All report c#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\KimCuong.exe
+E:\c#\All report c#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\KimCuong.pdb
+E:\c#\All report c#\Game xep kim cuong\KimCuong\KimCuong\bin\Debug\KimCuong.exe
+E:\c#\All report c#\Game xep kim cuong\KimCuong\KimCuong\bin\Debug\KimCuong.pdb
+E:\c#\All report c#\Game xep kim cuong\KimCuong\KimCuong\bin\Debug\Interop.WMPLib.dll
+E:\c#\All report c#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\ResolveAssemblyReference.cache
+E:\c#\All report c#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\KimCuong.FormHighScore.resources
+E:\c#\All report c#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\KimCuong.FormMain.resources
+E:\c#\All report c#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\KimCuong.Name.resources
+E:\c#\All report c#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\c#\All report c#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\KimCuong.csproj.GenerateResource.Cache
+C:\Users\hnsunflower1807\Desktop\Source_C#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\Interop.WMPLib.dll
+C:\Users\hnsunflower1807\Desktop\Source_C#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\KimCuong.csproj.ResolveComReference.cache
+C:\Users\hnsunflower1807\Desktop\Source_C#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\KimCuong.exe
+C:\Users\hnsunflower1807\Desktop\Source_C#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\KimCuong.pdb
+C:\Users\hnsunflower1807\Desktop\Source_C#\Game xep kim cuong\KimCuong\KimCuong\bin\Debug\KimCuong.exe
+C:\Users\hnsunflower1807\Desktop\Source_C#\Game xep kim cuong\KimCuong\KimCuong\bin\Debug\KimCuong.pdb
+C:\Users\hnsunflower1807\Desktop\Source_C#\Game xep kim cuong\KimCuong\KimCuong\bin\Debug\Interop.WMPLib.dll
+C:\Users\hnsunflower1807\Desktop\Source_C#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\hnsunflower1807\Desktop\Source_C#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\KimCuong.FormHighScore.resources
+C:\Users\hnsunflower1807\Desktop\Source_C#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\KimCuong.FormMain.resources
+C:\Users\hnsunflower1807\Desktop\Source_C#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\KimCuong.Name.resources
+C:\Users\hnsunflower1807\Desktop\Source_C#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\hnsunflower1807\Desktop\Source_C#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\KimCuong.csproj.GenerateResource.Cache
+D:\Learn\Data\C#\Source_C#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\Interop.WMPLib.dll
+D:\Learn\Data\C#\Source_C#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\KimCuong.csproj.ResolveComReference.cache
+D:\Learn\Data\C#\Source_C#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\KimCuong.exe
+D:\Learn\Data\C#\Source_C#\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\KimCuong.pdb
+D:\For_MyLove\Works_Very_Important\iPhone_Work\Hnsunflower1807\WillConvert\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\Interop.WMPLib.dll
+D:\For_MyLove\Works_Very_Important\iPhone_Work\Hnsunflower1807\WillConvert\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\KimCuong.csproj.ResolveComReference.cache
+D:\For_MyLove\Works_Very_Important\iPhone_Work\Hnsunflower1807\WillConvert\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\KimCuong.exe
+D:\For_MyLove\Works_Very_Important\iPhone_Work\Hnsunflower1807\WillConvert\Game xep kim cuong\KimCuong\KimCuong\obj\Debug\KimCuong.pdb

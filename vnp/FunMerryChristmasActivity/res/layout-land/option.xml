@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="@drawable/bgoptions">
+    <RelativeLayout android:layout_width="fill_parent" android:id="@+id/relativeLayout1" android:layout_height="fill_parent">
+        <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:orientation="vertical" android:layout_centerHorizontal="true" android:layout_width="200dip" android:layout_centerVertical="true">
+
+            <CheckBox android:id="@+id/CheckBox02" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Sound of background" android:button="@drawable/checkbox" android:layout_weight="1"></CheckBox>
+            <CheckBox android:id="@+id/CheckBox01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Sound off effect" android:button="@drawable/checkbox" android:layout_marginTop="10dip" android:layout_weight="1"></CheckBox>
+
+        </LinearLayout>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/button1" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_marginLeft="17dp" android:layout_marginTop="15dp" android:background="@drawable/back"></Button>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical" android:gravity="center">
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    
+</LinearLayout>

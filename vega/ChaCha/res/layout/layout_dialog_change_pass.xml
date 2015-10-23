@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:paddingBottom="9dp"
+	android:layout_height="wrap_content">
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_alignParentTop="true"
+		android:id="@+id/my_playlist_selector_new_playlist_region_top"
+		android:layout_height="@dimen/topbar_height" android:background="@drawable/bg_header">
+		<Button android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp" android:layout_width="wrap_content"
+			android:layout_centerVertical="true" android:layout_alignParentLeft="true"
+			android:background="#00000000" />
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:singleLine="true"
+			android:textSize="20sp" android:textColor="@android:color/white"
+			android:text="Đổi mật khẩu" android:layout_centerInParent="true" />
+
+		<Button android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:id="@+id/change_pass_close_btn"
+			android:layout_marginRight="5dp" android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+			android:background="@drawable/selector_button_dialog_close" />
+	</RelativeLayout>
+
+
+	<EditText android:layout_width="fill_parent"
+		android:layout_marginTop="10dp"
+		android:layout_below="@id/my_playlist_selector_new_playlist_region_top"
+		android:layout_height="wrap_content" android:hint="Mật khẩu cũ"
+		android:layout_marginLeft="5dp" android:textSize="16sp"
+		android:inputType="textPassword"
+		android:layout_marginRight="5dp" android:layout_centerVertical="true"
+		android:singleLine="true" android:id="@+id/old_pass_edt" />
+
+
+	<EditText android:id="@+id/new_pass_edt_1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center_vertical" android:singleLine="false"
+		android:textSize="16sp" android:layout_marginTop="10dp"
+		android:layout_marginLeft="5dp" android:layout_marginRight="5dp"
+		android:layout_below="@id/old_pass_edt"
+		android:inputType="textPassword"
+		android:hint="Mật khẩu mới" />
+
+	<EditText android:id="@+id/new_pass_edt_2"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center_vertical" android:singleLine="false"
+		android:textSize="16sp" android:layout_marginTop="10dp"
+		android:layout_marginLeft="5dp" android:layout_marginRight="5dp"
+		android:layout_below="@id/new_pass_edt_1"
+		android:inputType="textPassword"
+		android:hint="Xác nhận mật khẩu mới" />
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_marginTop="10dp"
+		android:layout_height="wrap_content" android:layout_marginLeft="7dp"
+		android:layout_marginRight="7dp" android:layout_below="@id/new_pass_edt_2">
+
+		<Button android:layout_height="wrap_content"
+
+			android:layout_width="fill_parent" android:background="@drawable/selector_button_default_large"
+			android:id="@+id/change_pass_save_btn"
+			android:textColor="#3d3d3d" android:layout_centerVertical="true"
+			android:textSize="16sp" android:layout_centerInParent="true"
+			android:text="Lưu thay đổi"></Button>
+	</RelativeLayout>
+
+</RelativeLayout>

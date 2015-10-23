@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent" android:layout_height="wrap_content">
+    <com.cnc.buddyup.common.views.ScheduleDayView android:layout_height="wrap_content" android:id="@+id/day1" android:layout_width="fill_parent"></com.cnc.buddyup.common.views.ScheduleDayView>
+    <com.cnc.buddyup.common.views.ScheduleDayView android:layout_height="wrap_content" android:id="@+id/day2" android:layout_width="fill_parent"></com.cnc.buddyup.common.views.ScheduleDayView>
+    <com.cnc.buddyup.common.views.ScheduleDayView android:layout_height="wrap_content" android:id="@+id/day3" android:layout_width="fill_parent"></com.cnc.buddyup.common.views.ScheduleDayView>
+    <com.cnc.buddyup.common.views.ScheduleDayView android:layout_height="wrap_content" android:id="@+id/day4" android:layout_width="fill_parent"></com.cnc.buddyup.common.views.ScheduleDayView>
+    <com.cnc.buddyup.common.views.ScheduleDayView android:layout_height="wrap_content" android:id="@+id/day5" android:layout_width="fill_parent"></com.cnc.buddyup.common.views.ScheduleDayView>
+    <com.cnc.buddyup.common.views.ScheduleDayView android:layout_height="wrap_content" android:id="@+id/day6" android:layout_width="fill_parent"></com.cnc.buddyup.common.views.ScheduleDayView>
+    <com.cnc.buddyup.common.views.ScheduleDayView android:layout_height="wrap_content" android:id="@+id/day7" android:layout_width="fill_parent"></com.cnc.buddyup.common.views.ScheduleDayView>
+    
+</LinearLayout>

@@ -1,0 +1,64 @@
+10
+
+dir
+8299
+svn://truongvv@222.255.28.110/svn/vega/client/MusicClient/trunk/android/MusicClient/src/vn/com/vega/music
+svn://truongvv@222.255.28.110/svn/vega
+
+
+
+2012-04-17T07:07:12.480032Z
+8292
+tuantm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8fba6426-021e-4735-92e4-bd083e00f8f0
+
+device
+dir
+
+utils
+dir
+
+downloadmanager
+dir
+
+database
+dir
+
+c2dm
+dir
+
+clientserver
+dir
+
+syncmanager
+dir
+
+network
+dir
+
+objects
+dir
+
+social
+dir
+
+view
+dir
+
+player
+dir
+

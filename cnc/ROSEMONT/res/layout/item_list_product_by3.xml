@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" android:background="@drawable/item3">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="13">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="13dip"
+            android:layout_height="match_parent"
+            android:layout_weight="13" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="159dip"
+            android:layout_height="match_parent"
+            android:layout_weight="159"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tvProductItemListBy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/color_item_list_product_by"
+                android:typeface="serif" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="28dip"
+            android:layout_height="match_parent"
+            android:layout_weight="28" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

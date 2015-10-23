@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:gravity="center" android:weightSum="7">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:background="@drawable/lose" android:padding="20dip">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="10dip" android:layout_weight="1" android:padding="5dip">
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="80dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="8"
+                android:text="Name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:typeface="serif" android:gravity="center_vertical"/>
+
+            <EditText
+                android:id="@+id/EditText01"
+                android:layout_width="220dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="22"
+                android:hint="Name"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:typeface="serif" android:background="@drawable/bget" android:singleLine="true" android:maxLines="10"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="10dip" android:layout_weight="1" android:padding="5dip">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="80dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="8"
+                android:text="Score"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:typeface="serif" android:gravity="center_vertical"/>
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="220dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="22"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="1000"
+                android:typeface="serif" android:background="@drawable/bget" android:singleLine="true" android:textColor="#000000">
+
+                <requestFocus />
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="10dip" android:gravity="center" android:layout_weight="1">
+
+            <Button
+                android:id="@+id/Button01"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/btn"
+                android:hint="Name"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:text="Save"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/Button1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:hint="Name"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:text="Close"
+                android:typeface="serif" android:background="@drawable/btn"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/sms_dialog_top"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/topbar_height"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_header"
+        android:padding="2dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:text="Đăng ký dịch vụ"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/sms_dialog_mid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sms_dialog_top"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/sms_first_txt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_listview_line" />
+
+        <TextView
+            android:id="@+id/sms_second_txt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="sms"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/sms_dialog_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sms_dialog_mid"
+        android:background="@drawable/bg_toolbar_bottom"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/sms_dialog_ok_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+   
+            android:background="@drawable/selector_button_normal"
+            android:text="@string/agree"
+            android:textColor="#999999">
+        </Button>
+
+        <Button
+            android:id="@+id/sms_dialog_cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/sms_dialog_ok_btn"
+            android:background="@drawable/selector_button_normal"
+            android:text="@string/cancel"
+            android:textColor="#999999"/>
+    </RelativeLayout>
+
+</RelativeLayout>

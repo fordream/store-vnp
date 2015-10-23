@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" >
+	    <TabWidget
+	        android:id="@android:id/tabs"
+	        android:layout_width="fill_parent"
+	        android:layout_height="43dip"
+	       
+	         />
+	   
+	 	<ImageView
+	        android:id="@+id/bottom_line"
+	        android:layout_width="fill_parent"
+	        android:layout_height="3dp"
+	        />
+
+	    <FrameLayout
+	        android:id="@android:id/tabcontent"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:background="#EFEFEF" >
+
+	        <FrameLayout
+	            android:id="@+id/tab_festival"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent" />
+
+	        <FrameLayout
+	            android:id="@+id/tab_biz"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent" />
+
+	        <FrameLayout
+	            android:id="@+id/tab_lounge"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent" />
+
+	        <FrameLayout
+	            android:id="@+id/tab_theater"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent" />
+
+	        <FrameLayout
+	            android:id="@+id/tab_all"
+	            android:layout_width="wrap_content"
+	            android:layout_height="fill_parent" />
+	    </FrameLayout>
+	</LinearLayout>
+   
+</TabHost>

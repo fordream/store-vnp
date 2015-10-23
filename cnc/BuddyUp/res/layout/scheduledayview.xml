@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:background="@color/color_white" android:layout_height="wrap_content" android:layout_width="fill_parent">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="1dip" android:background="@color/color_back" android:id="@+id/linearLayout3" android:visibility="gone"></LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/profile_sport_day_item_llheader" android:background="@color/color_header" android:layout_height="40dip" android:visibility="gone">
+		<RelativeLayout android:id="@+id/RelativeLayout1"
+			android:layout_height="fill_parent" android:layout_weight="1"
+			android:background="@color/bg_back" android:gravity="center" android:layout_width="60dip">
+			<LinearLayout android:layout_width="1dip" android:id="@+id/LinearLayout08" android:layout_height="fill_parent" android:orientation="vertical" android:background="@color/color_back" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"></LinearLayout>
+			<LinearLayout android:layout_width="wrap_content" android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_centerHorizontal="true">
+				<ImageView android:src="@drawable/profile_sport_o" android:layout_width="wrap_content" android:id="@+id/imageView1" android:layout_marginRight="5dip" android:layout_height="wrap_content"></ImageView>
+				<TextView android:textSize="10dip" android:textColor="#f0ae00" android:id="@+id/textView1" android:layout_width="wrap_content" android:typeface="serif" android:text="Times" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+			</LinearLayout>
+			<LinearLayout android:layout_width="1dip" android:id="@+id/LinearLayout16" android:layout_height="fill_parent" android:orientation="vertical" android:background="@color/color_back" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"></LinearLayout>
+		</RelativeLayout>
+			<RelativeLayout android:id="@+id/RelativeLayout1"
+			android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="53dip">
+				<LinearLayout android:layout_width="1dip" android:id="@+id/LinearLayout09" android:layout_height="fill_parent" android:orientation="vertical" android:background="@color/color_back" android:layout_alignParentTop="true" android:layout_alignParentRight="true"></LinearLayout>
+				<TextView android:gravity="center" android:textSize="10dip" android:textColor="@color/color_back" android:id="@+id/TextView01" android:layout_width="wrap_content" android:typeface="serif" android:text="Early Morning" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_centerVertical="true" android:layout_alignParentLeft="true"></TextView>
+				<LinearLayout android:layout_width="1dip" android:id="@+id/LinearLayout12" android:layout_height="fill_parent" android:orientation="vertical" android:background="@color/color_back" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"></LinearLayout>
+			</RelativeLayout>
+			<RelativeLayout android:id="@+id/RelativeLayout1"
+			android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="53dip">
+				<LinearLayout android:layout_width="1dip" android:id="@+id/LinearLayout10" android:layout_height="fill_parent" android:orientation="vertical" android:background="@color/color_back" android:layout_alignParentTop="true" android:layout_alignParentRight="true"></LinearLayout>
+				<TextView android:gravity="center" android:textSize="10dip" android:textColor="@color/color_back" android:id="@+id/TextView02" android:layout_width="wrap_content" android:typeface="serif" android:text="Morning" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_centerInParent="true"></TextView>
+			</RelativeLayout>
+			<RelativeLayout android:id="@+id/RelativeLayout1"
+			android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="53dip">
+				<TextView android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:typeface="serif" android:textSize="10dip" android:layout_height="wrap_content" android:id="@+id/TextView03" android:text="Lunch" android:textColor="@color/color_back" android:layout_centerInParent="true"></TextView>
+				<LinearLayout android:layout_width="1dip" android:id="@+id/LinearLayout11" android:layout_height="fill_parent" android:orientation="vertical" android:background="@color/color_back" android:layout_alignParentTop="true" android:layout_alignParentRight="true"></LinearLayout>
+			</RelativeLayout>
+			<RelativeLayout android:id="@+id/RelativeLayout1"
+			android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="53dip">
+				<TextView android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:typeface="serif" android:textSize="10dip" android:layout_height="wrap_content" android:id="@+id/TextView04" android:text="Afternoon" android:textColor="@color/color_back" android:layout_centerInParent="true"></TextView>
+				<LinearLayout android:layout_width="1dip" android:id="@+id/LinearLayout13" android:layout_height="fill_parent" android:orientation="vertical" android:background="@color/color_back" android:layout_alignParentTop="true" android:layout_alignParentRight="true"></LinearLayout>
+			</RelativeLayout>
+			<RelativeLayout android:id="@+id/RelativeLayout1"
+			android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="53dip">
+				<TextView android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:typeface="serif" android:textSize="10dip" android:layout_height="wrap_content" android:id="@+id/TextView05" android:text="Evening" android:textColor="@color/color_back" android:layout_centerInParent="true"></TextView>
+				<LinearLayout android:layout_width="1dip" android:id="@+id/LinearLayout14" android:layout_height="fill_parent" android:orientation="vertical" android:background="@color/color_back" android:layout_alignParentTop="true" android:layout_alignParentRight="true"></LinearLayout>
+			</RelativeLayout>
+	</LinearLayout>
+	<LinearLayout android:layout_height="1dip" android:id="@+id/LinearLayout15" android:layout_width="fill_parent" android:background="@color/color_back" android:visibility="gone"></LinearLayout>
+<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/linearLayout1" android:gravity="center" android:layout_height="20dip">
+		<RelativeLayout android:id="@+id/RelativeLayout1"
+			android:layout_height="fill_parent" android:layout_weight="1"
+			android:background="@color/color_header" android:gravity="center_vertical" android:layout_width="60dip">
+			<TextView android:layout_alignParentLeft="true" android:textAppearance="?android:attr/textAppearanceSmall" android:typeface="serif" android:textSize="10dip" android:text="Times" android:textColor="@color/color_back" android:id="@+id/profile_sport_day_item_etDay" android:layout_width="fill_parent" android:gravity="right|center_horizontal" android:layout_height="wrap_content" android:layout_centerVertical="true"></TextView>
+			<LinearLayout android:layout_width="1dip" android:id="@+id/LinearLayout07" android:layout_height="fill_parent" android:orientation="vertical" android:background="@color/color_back" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"></LinearLayout>
+		</RelativeLayout>
+			<RelativeLayout android:id="@+id/RelativeLayout1"
+			android:layout_height="fill_parent" android:layout_weight="1"
+			android:gravity="center" android:layout_width="53dip">
+				<CheckBox android:layout_alignParentTop="true" android:id="@+id/profile_sport_day_item_llheader_cb1" android:gravity="center" android:button="@drawable/profile_checkbox1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@+id/LinearLayout02" android:layout_toRightOf="@+id/linearLayout4"></CheckBox>
+				<LinearLayout android:layout_width="1dip" android:id="@+id/LinearLayout02" android:orientation="vertical" android:background="@color/color_back" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_height="fill_parent"></LinearLayout>
+				<LinearLayout android:layout_width="1dip" android:id="@+id/linearLayout4" android:layout_height="fill_parent" android:orientation="vertical" android:background="@color/color_back" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"></LinearLayout>
+			</RelativeLayout>
+			<RelativeLayout android:id="@+id/RelativeLayout1"
+			android:layout_height="fill_parent" android:layout_weight="1"
+			android:gravity="center" android:layout_width="53dip">
+				<CheckBox android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:id="@+id/profile_sport_day_item_llheader_cb2" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:button="@drawable/profile_checkbox1" android:layout_toLeftOf="@+id/LinearLayout03"></CheckBox>
+				<LinearLayout android:layout_width="1dip" android:id="@+id/LinearLayout03" android:orientation="vertical" android:background="@color/color_back" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_height="fill_parent"></LinearLayout>
+			</RelativeLayout>
+			<RelativeLayout android:id="@+id/RelativeLayout1"
+			android:layout_height="fill_parent" android:layout_weight="1"
+			android:gravity="center" android:layout_width="53dip">
+				<CheckBox android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:id="@+id/profile_sport_day_item_llheader_cb3" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:button="@drawable/profile_checkbox1" android:layout_toLeftOf="@+id/LinearLayout04"></CheckBox>
+				<LinearLayout android:layout_width="1dip" android:id="@+id/LinearLayout04" android:orientation="vertical" android:background="@color/color_back" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_height="fill_parent"></LinearLayout>
+			</RelativeLayout>
+			<RelativeLayout android:id="@+id/RelativeLayout1"
+			android:layout_height="fill_parent" android:layout_weight="1"
+			android:gravity="center" android:layout_width="53dip">
+				<CheckBox android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:id="@+id/profile_sport_day_item_llheader_cb4" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:button="@drawable/profile_checkbox1" android:layout_toLeftOf="@+id/LinearLayout05"></CheckBox>
+				<LinearLayout android:layout_width="1dip" android:id="@+id/LinearLayout05" android:orientation="vertical" android:background="@color/color_back" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_height="fill_parent"></LinearLayout>
+			</RelativeLayout>
+			<RelativeLayout android:id="@+id/RelativeLayout1"
+			android:layout_height="fill_parent" android:layout_weight="1"
+			android:gravity="center" android:layout_width="53dip">
+				<CheckBox android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:id="@+id/profile_sport_day_item_llheader_cb5" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:button="@drawable/profile_checkbox1" android:layout_toLeftOf="@+id/LinearLayout06"></CheckBox>
+				<LinearLayout android:layout_width="1dip" android:id="@+id/LinearLayout06" android:orientation="vertical" android:background="@color/color_back" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_height="fill_parent"></LinearLayout>
+			</RelativeLayout>
+	</LinearLayout>
+<LinearLayout android:layout_height="1dip" android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:background="@color/color_back">
+</LinearLayout>
+
+</LinearLayout>

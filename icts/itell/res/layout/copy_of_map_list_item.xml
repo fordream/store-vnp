@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<RelativeLayout 
+	    android:id="@+id/map_list_item_rl"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/list_outer_tab_1"
+	    >
+		<!-- <TextView
+	        android:id="@+id/item_left_text"
+	        android:layout_toLeftOf="@+id/item"
+	        android:gravity="right|center_vertical"
+	        android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:lines="1"
+            android:textStyle="bold"
+            android:textSize="22dip"
+            android:text="CHAT"
+	         /> -->
+	    <ImageView
+            android:id="@+id/item_left_text"
+            android:layout_toLeftOf="@+id/list_item"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingRight="5dip"
+            android:layout_centerVertical="true"
+            android:src="@drawable/map_list_chat_text"
+            android:visibility="gone"
+             />
+		<include layout="@layout/map_list_item_content"/>
+		<!-- <TextView
+            android:id="@+id/item_right_text"
+            android:layout_toRightOf="@+id/item"
+            android:gravity="left|center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:lines="1"
+            android:textStyle="bold"
+            android:textSize="22dip"
+            android:text="Profile"
+             /> -->
+        <ImageView
+            android:paddingLeft="5dip"
+            android:id="@+id/item_right_text"
+            android:layout_toRightOf="@+id/list_item"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/map_list_profile_text"
+            android:visibility="gone"
+             />
+	</RelativeLayout>
+</RelativeLayout>

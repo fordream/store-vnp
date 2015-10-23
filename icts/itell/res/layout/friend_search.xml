@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bar_bg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/friend_title"
+            android:textColor="@android:color/black"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/friendSearch_btnFriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="7dip"
+            android:background="@drawable/button_friend" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/friendSearch_editText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:layout_weight="1"
+            android:background="@drawable/search_box"
+            android:hint="ニックネーム検索"
+            android:imeOptions="actionDone"
+            android:textSize="12sp"
+            android:paddingLeft="25dip"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/friendSearch_btnSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/button_search" />
+    </LinearLayout>
+
+    <include layout="@layout/button_slide_invite" />
+
+    <LinearLayout
+        android:id="@+id/friendSearch_ll1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_bg"
+            android:id="@+id/friendSearch_llTxt1"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Frends申請が届いています！"
+                android:textColor="#FF0000"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <com.icts.control.SwipListView
+            android:id="@+id/friendSearch_listView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/line"
+            android:fadingEdge="none"
+            android:layoutAnimation="@anim/layout_bottom_to_top_slide"
+            android:persistentDrawingCache="animation|scrolling"
+            android:scrollbarThumbVertical="@drawable/scrollbar_y"
+            android:scrollingCache="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/friendSearch_ll2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_bg"
+            android:id="@+id/friendSearch_llTxt2"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="電話帳の iTell ユーザー"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <com.icts.control.SwipListView
+            android:id="@+id/friendSearch_listView2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/line"
+            android:fadingEdge="none"
+            android:layoutAnimation="@anim/layout_bottom_to_top_slide"
+            android:persistentDrawingCache="animation|scrolling"
+            android:scrollbarThumbVertical="@drawable/scrollbar_y"
+            android:scrollingCache="false" />
+    </LinearLayout>
+
+</LinearLayout>

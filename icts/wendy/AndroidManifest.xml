@@ -1,0 +1,147 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vn.icts.wendy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- for use camera of device -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!--
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- C2MD -->
+    <permission
+        android:name="com.vn.icts.wendy.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.vn.icts.wendy.permission.C2D_MESSAGE" />
+    <!-- App receives GCM messages. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <!-- GCM connects to Google Services. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name="UiApplication"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="SplashActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.HomeTabActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service android:name="com.ict.library.service.SensorService" />
+        <service android:name="com.ict.library.service.LocationService" />
+
+        <activity android:name=".controller.HomeActivity" >
+        </activity>
+        <activity android:name=".controller.group.CouponGroupActivity" >
+        </activity>
+        <activity android:name=".controller.group.NewsGroupActivity" >
+        </activity>
+        <activity android:name=".controller.group.SettingGroupActivity" >
+        </activity>
+        <activity
+            android:name=".controller.group.ShopGroupActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".controller.group.coupon.CouponListActivity" >
+        </activity>
+        <activity android:name=".controller.group.news.NewsListActivity" >
+        </activity>
+        <activity android:name=".controller.group.setting.SettingActivity" >
+        </activity>
+        <activity
+            android:name=".controller.group.shop.ShopListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".controller.group.shop.ShopDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity android:name=".controller.group.news.NewsDetailActivity" >
+        </activity>
+        <activity android:name=".controller.group.setting.SettingGenderActivity" >
+        </activity>
+        <activity android:name=".controller.group.coupon.CouponDetailActivity" >
+        </activity>
+        <activity
+            android:name=".controller.scanner.ScannerActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".controller.TWiterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="controller.TWiterActivity"
+                    android:scheme="callback" />
+            </intent-filter>
+        </activity>
+
+        <!-- C2MD -->
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.vn.icts.wendy" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".GCMIntentService" />
+    </application>
+
+</manifest>

@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* GardenSummer */ = {
+		activeExec = 0;
+		executables = (
+			A6D0F60F140A438D00CEA8E7 /* GardenSummer */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = A6D0F60F140A438D00CEA8E7 /* GardenSummer */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* GardenSummer */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* GardenSummer */,
+		);
+		codeSenseManager = A6D0F624140A43AC00CEA8E7 /* Code sense */;
+		executables = (
+			A6D0F60F140A438D00CEA8E7 /* GardenSummer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					472,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					505,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 337609475;
+			PBXWorkspaceStateSaveDate = 337609475;
+		};
+		perUserProjectItems = {
+			A68DCC92141F81FC0000828F /* PBXBookmark */ = A68DCC92141F81FC0000828F /* PBXBookmark */;
+			A68DCCD4141F831E0000828F /* PBXBookmark */ = A68DCCD4141F831E0000828F /* PBXBookmark */;
+			A68DCCE0141F833D0000828F /* PlistBookmark */ = A68DCCE0141F833D0000828F /* PlistBookmark */;
+			A69A4720141F808D00426B50 /* PBXTextBookmark */ = A69A4720141F808D00426B50 /* PBXTextBookmark */;
+			A69A472A141F810200426B50 /* PBXTextBookmark */ = A69A472A141F810200426B50 /* PBXTextBookmark */;
+			A6D0F6A6140A528000CEA8E7 /* PBXTextBookmark */ = A6D0F6A6140A528000CEA8E7 /* PBXTextBookmark */;
+			A6D0F6A7140A528000CEA8E7 /* PBXTextBookmark */ = A6D0F6A7140A528000CEA8E7 /* PBXTextBookmark */;
+			A6E359D4141E548A001F2B8C /* PBXTextBookmark */ = A6E359D4141E548A001F2B8C /* PBXTextBookmark */;
+			A6E359FD141E5720001F2B8C /* PBXBookmark */ = A6E359FD141E5720001F2B8C /* PBXBookmark */;
+			A6E359FF141E5720001F2B8C /* PBXBookmark */ = A6E359FF141E5720001F2B8C /* PBXBookmark */;
+			A6E35A01141E5720001F2B8C /* PBXBookmark */ = A6E35A01141E5720001F2B8C /* PBXBookmark */;
+			A6E35A02141E5720001F2B8C /* PBXBookmark */ = A6E35A02141E5720001F2B8C /* PBXBookmark */;
+			A6E35A03141E5720001F2B8C /* PBXBookmark */ = A6E35A03141E5720001F2B8C /* PBXBookmark */;
+			A6E35A65141E5E55001F2B8C /* PBXTextBookmark */ = A6E35A65141E5E55001F2B8C /* PBXTextBookmark */;
+			A6E35A83141E6340001F2B8C /* PlistBookmark */ = A6E35A83141E6340001F2B8C /* PlistBookmark */;
+			A6E35A84141E6340001F2B8C /* PBXTextBookmark */ = A6E35A84141E6340001F2B8C /* PBXTextBookmark */;
+			A6E35AAC141E6716001F2B8C /* PBXTextBookmark */ = A6E35AAC141E6716001F2B8C /* PBXTextBookmark */;
+			A6E35AAE141E6716001F2B8C /* PBXTextBookmark */ = A6E35AAE141E6716001F2B8C /* PBXTextBookmark */;
+		};
+		sourceControlManager = A6D0F623140A43AC00CEA8E7 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107310486CEB800E47090 /* GardenSummer-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{108, 72}, {808, 627}}";
+		};
+	};
+	A68DCC92141F81FC0000828F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FCBBDA88141B508300E3EE2A /* bac1.png */;
+	};
+	A68DCCD4141F831E0000828F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FCCCE859141C4F8E009CAF7E /* helpBackground.png */;
+	};
+	A68DCCE0141F833D0000828F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* GardenSummer-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/KINGSTON/SpringGarden-V1.0/GardenSummerFree/GardenSummer-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	A69A4720141F808D00426B50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC2C18291409EE8000B36073 /* PlayerController.m */;
+		name = "PlayerController.m: 570";
+		rLen = 0;
+		rLoc = 15206;
+		rType = 0;
+		vrLen = 1542;
+		vrLoc = 14483;
+	};
+	A69A472A141F810200426B50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FCB87A80140D34E200B69F92 /* LevelController.m */;
+		name = "LevelController.m: 87";
+		rLen = 0;
+		rLoc = 2483;
+		rType = 0;
+		vrLen = 1828;
+		vrLoc = 2190;
+	};
+	A6D0F60F140A438D00CEA8E7 /* GardenSummer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = GardenSummer;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	A6D0F623140A43AC00CEA8E7 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A6D0F624140A43AC00CEA8E7 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A6D0F6A6140A528000CEA8E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC23FC79140A2744006032BE /* DBManager.m */;
+		name = "DBManager.m: 490";
+		rLen = 0;
+		rLoc = 14291;
+		rType = 0;
+		vrLen = 786;
+		vrLoc = 13686;
+	};
+	A6D0F6A7140A528000CEA8E7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC23FC8B140A2744006032BE /* UIImagePlus.m */;
+		name = "UIImagePlus.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 648;
+		vrLoc = 0;
+	};
+	A6E359D4141E548A001F2B8C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC8FF0D5141334A600DFDE7B /* MoreAppController.h */;
+		name = "MoreAppController.h: 18";
+		rLen = 0;
+		rLoc = 360;
+		rType = 0;
+		vrLen = 398;
+		vrLoc = 0;
+	};
+	A6E359FD141E5720001F2B8C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FCCCE85C141C4FE6009CAF7E /* settingBackground.png */;
+	};
+	A6E359FF141E5720001F2B8C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FCBBDA89141B508300E3EE2A /* bac2.png */;
+	};
+	A6E35A01141E5720001F2B8C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FCBBDA8E141B508300E3EE2A /* menuBackground.png */;
+	};
+	A6E35A02141E5720001F2B8C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FCBBDA8C141B508300E3EE2A /* bestscoreBackground.png */;
+	};
+	A6E35A03141E5720001F2B8C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FCBBDA8D141B508300E3EE2A /* levelBackground.png */;
+	};
+	A6E35A65141E5E55001F2B8C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC2C18281409EE8000B36073 /* PlayerController.h */;
+		name = "PlayerController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 914;
+		vrLoc = 0;
+	};
+	A6E35A83141E6340001F2B8C /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* GardenSummer-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/hn/Desktop/12-09-2011/GardenSummerFree/GardenSummer-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A6E35A84141E6340001F2B8C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6E35A85141E6340001F2B8C /* CADisplayLink.h */;
+		name = "CADisplayLink.h: 13";
+		rLen = 36;
+		rLoc = 253;
+		rType = 0;
+		vrLen = 1470;
+		vrLoc = 0;
+	};
+	A6E35A85141E6340001F2B8C /* CADisplayLink.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CADisplayLink.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CADisplayLink.h;
+		sourceTree = "<absolute>";
+	};
+	A6E35AAC141E6716001F2B8C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6E35AAD141E6716001F2B8C /* UIAlertView.h */;
+		name = "UIAlertView.h: 19";
+		rLen = 61;
+		rLoc = 330;
+		rType = 0;
+		vrLen = 1087;
+		vrLoc = 0;
+	};
+	A6E35AAD141E6716001F2B8C /* UIAlertView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIAlertView.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAlertView.h;
+		sourceTree = "<absolute>";
+	};
+	A6E35AAE141E6716001F2B8C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC8FF0D6141334A600DFDE7B /* MoreAppController.m */;
+		name = "MoreAppController.m: 67";
+		rLen = 0;
+		rLoc = 1840;
+		rType = 0;
+		vrLen = 1306;
+		vrLoc = 1222;
+	};
+	FC23FC79140A2744006032BE /* DBManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {943, 10348}}";
+			sepNavSelRange = "{14291, 0}";
+			sepNavVisRange = "{13686, 786}";
+		};
+	};
+	FC23FC8B140A2744006032BE /* UIImagePlus.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {708, 442}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 648}";
+		};
+	};
+	FC2C18281409EE8000B36073 /* PlayerController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {642, 1469}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 914}";
+		};
+	};
+	FC2C18291409EE8000B36073 /* PlayerController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {936, 10192}}";
+			sepNavSelRange = "{15206, 0}";
+			sepNavVisRange = "{14483, 1542}";
+		};
+	};
+	FC8FF0D5141334A600DFDE7B /* MoreAppController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {620, 613}}";
+			sepNavSelRange = "{360, 0}";
+			sepNavVisRange = "{0, 398}";
+		};
+	};
+	FC8FF0D6141334A600DFDE7B /* MoreAppController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1638}}";
+			sepNavSelRange = "{1840, 0}";
+			sepNavVisRange = "{1222, 1306}";
+		};
+	};
+	FCB87A80140D34E200B69F92 /* LevelController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1768}}";
+			sepNavSelRange = "{2483, 0}";
+			sepNavVisRange = "{2190, 1828}";
+		};
+	};
+}

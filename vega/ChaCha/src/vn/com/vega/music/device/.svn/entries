@@ -1,0 +1,52 @@
+8
+
+dir
+7488
+svn://222.255.28.110/svn/vega/client/MusicClient/trunk/android/MusicClient/src/vn/com/vega/music/device
+svn://222.255.28.110/svn/vega
+
+
+
+2012-03-19T02:17:30.783728Z
+6342
+hoaint
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8fba6426-021e-4735-92e4-bd083e00f8f0
+
+FileStorage.java
+file
+
+
+
+
+2012-04-03T06:57:43.515625Z
+9fcd620e55f52e15e9a04db48eaba127
+2012-03-19T02:17:30.783728Z
+6342
+hoaint
+
+DeviceIntegrator.java
+file
+
+
+
+
+2012-04-03T06:57:43.531250Z
+e1cd13af9d3685dfe380a05562c75cef
+2012-01-06T07:07:43.993557Z
+4254
+hoaint
+

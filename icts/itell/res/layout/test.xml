@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" 
+	xmlns:app="http://schemas.android.com/apk/res/com.icts.itel">
+
+	<com.icts.control.iTellButton
+		android:id="@+id/itellbt"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		app:button_image="@drawable/itell_button_color"
+		app:button_background="@drawable/itell_button_background"
+		app:button_top="@drawable/itell_button_top"
+		>
+	</com.icts.control.iTellButton>
+
+</RelativeLayout>

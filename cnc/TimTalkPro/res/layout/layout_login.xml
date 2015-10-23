@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_tim_talk_background"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_forgot_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:drawableRight="@drawable/ic_next"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/login_forgotpass" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_forgot_password"
+        android:gravity="center"
+        android:paddingRight="18dp"
+        android:text="@string/login_button"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/lo_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_login"
+        android:orientation="vertical"
+        android:padding="30dp" >
+
+        <AutoCompleteTextView
+            android:id="@+id/acomp_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_country_next"
+            android:hint="@string/register_hint_country"
+            android:imeOptions="actionNext"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/edt_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/register_hint_phone"
+            android:imeOptions="actionNext"
+            android:inputType="phone"
+            android:lines="1" />
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/register_hint_password"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:lines="1" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_get_free_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lo_login"
+        android:drawableRight="@drawable/ic_next"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/login_getfreeaccount"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+</RelativeLayout>

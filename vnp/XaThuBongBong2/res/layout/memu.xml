@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dip" >
+
+    <org.com.vnp.xathubongbong2.views.widget.Button
+        android:id="@+id/btnPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play" android:textStyle="bold"/>
+
+    <org.com.vnp.xathubongbong2.views.widget.Button
+        android:id="@+id/btnHightScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/score" android:textStyle="bold"/>
+
+    <org.com.vnp.xathubongbong2.views.widget.Button
+        android:id="@+id/btnSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setting" android:textStyle="bold"/>
+
+    <org.com.vnp.xathubongbong2.views.widget.Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about" android:textStyle="bold"/>
+
+    <org.com.vnp.xathubongbong2.views.widget.Button
+        android:id="@+id/btnMarket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/more_app" android:textStyle="bold"/>
+
+</LinearLayout>

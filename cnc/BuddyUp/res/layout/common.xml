@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/LinearLayout1"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="@color/color_white">
+    <LinearLayout android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="50dip" android:background="@drawable/sign_top">
+        <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingLeft="10dip" android:paddingRight="10dip">
+            <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/commonETHearder" android:textSize="15dip" android:textStyle="bold" android:typeface="serif" android:textColor="@color/color_back" android:layout_centerInParent="true"></TextView>
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentLeft="true" android:id="@+id/commonbtnBack" android:background="@drawable/sign_btn_back"></Button>
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:id="@+id/commonBtnAdd" android:background="@drawable/btnadd" android:layout_centerVertical="true"></Button>
+            <ImageView android:id="@+id/imageView1" android:layout_toRightOf="@+id/commonETHearder" android:layout_centerVertical="true" android:background="@drawable/tranper" android:layout_width="20dip" android:layout_height="20dip" android:layout_marginLeft="5dip"></ImageView>
+            <TextView android:typeface="serif" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:textSize="15dip" android:textColor="@color/color_back" android:textStyle="bold" android:layout_height="wrap_content" android:text="Schedule Activity Detail" android:layout_toRightOf="@+id/commonbtnBack" android:id="@+id/tvScheduteV" android:layout_centerVertical="true" android:layout_marginLeft="10dip" android:visibility="gone"></TextView>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_alignParentLeft="true" android:layout_below="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_above="@+id/common_llSubmit" android:background="@drawable/buddy_main_bg1" android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/commonLLContent">
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:orientation="vertical" android:layout_alignParentBottom="true" android:gravity="center_horizontal" android:id="@+id/common_llSubmit" android:layout_height="wrap_content" android:visibility="gone">
+        <Button android:background="@drawable/btn_indicator" android:text="Submit" android:layout_width="wrap_content" android:id="@+id/common_btnSubmit" android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+    
+</RelativeLayout>

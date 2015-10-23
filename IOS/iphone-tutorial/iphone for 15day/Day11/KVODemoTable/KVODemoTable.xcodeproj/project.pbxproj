@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F7A6272152C86800075A1B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7A6271152C86800075A1B4 /* UIKit.framework */; };
+		3F7A6274152C86800075A1B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7A6273152C86800075A1B4 /* Foundation.framework */; };
+		3F7A6276152C86800075A1B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7A6275152C86800075A1B4 /* CoreGraphics.framework */; };
+		3F7A627C152C86800075A1B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F7A627A152C86800075A1B4 /* InfoPlist.strings */; };
+		3F7A627E152C86800075A1B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A627D152C86800075A1B4 /* main.m */; };
+		3F7A6282152C86800075A1B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A6281152C86800075A1B4 /* AppDelegate.m */; };
+		3F7A6292152C88F40075A1B4 /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A6291152C88F40075A1B4 /* NavController.m */; };
+		3F7A6296152C891C0075A1B4 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A6294152C891C0075A1B4 /* MasterViewController.m */; };
+		3F7A6297152C891C0075A1B4 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F7A6295152C891C0075A1B4 /* MasterViewController.xib */; };
+		3F7A629E152C8C1A0075A1B4 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A629D152C8C1A0075A1B4 /* Dog.m */; };
+		3F7A62A3152C90CE0075A1B4 /* Dogs.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A62A2152C90CE0075A1B4 /* Dogs.m */; };
+		3F7A62AE152C950E0075A1B4 /* dogs in Resources */ = {isa = PBXBuildFile; fileRef = 3F7A62AC152C950E0075A1B4 /* dogs */; };
+		3F7A62AF152C950E0075A1B4 /* dogtype in Resources */ = {isa = PBXBuildFile; fileRef = 3F7A62AD152C950E0075A1B4 /* dogtype */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F7A626D152C86800075A1B4 /* KVODemoTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVODemoTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7A6271152C86800075A1B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F7A6273152C86800075A1B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F7A6275152C86800075A1B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F7A6279152C86800075A1B4 /* KVODemoTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KVODemoTable-Info.plist"; sourceTree = "<group>"; };
+		3F7A627B152C86800075A1B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F7A627D152C86800075A1B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F7A627F152C86800075A1B4 /* KVODemoTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KVODemoTable-Prefix.pch"; sourceTree = "<group>"; };
+		3F7A6280152C86800075A1B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F7A6281152C86800075A1B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F7A6290152C88F40075A1B4 /* NavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
+		3F7A6291152C88F40075A1B4 /* NavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
+		3F7A6293152C891C0075A1B4 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		3F7A6294152C891C0075A1B4 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		3F7A6295152C891C0075A1B4 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		3F7A6299152C8A400075A1B4 /* Dogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dogs.h; sourceTree = "<group>"; };
+		3F7A629C152C8C1A0075A1B4 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		3F7A629D152C8C1A0075A1B4 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		3F7A62A2152C90CE0075A1B4 /* Dogs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dogs.m; sourceTree = "<group>"; };
+		3F7A62AC152C950E0075A1B4 /* dogs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dogs; sourceTree = "<group>"; };
+		3F7A62AD152C950E0075A1B4 /* dogtype */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dogtype; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F7A626A152C86800075A1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7A6272152C86800075A1B4 /* UIKit.framework in Frameworks */,
+				3F7A6274152C86800075A1B4 /* Foundation.framework in Frameworks */,
+				3F7A6276152C86800075A1B4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7A6262152C86800075A1B4 = {
+			isa = PBXGroup;
+			children = (
+				3F7A6277152C86800075A1B4 /* KVODemoTable */,
+				3F7A6270152C86800075A1B4 /* Frameworks */,
+				3F7A626E152C86800075A1B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F7A626E152C86800075A1B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F7A626D152C86800075A1B4 /* KVODemoTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F7A6270152C86800075A1B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F7A6271152C86800075A1B4 /* UIKit.framework */,
+				3F7A6273152C86800075A1B4 /* Foundation.framework */,
+				3F7A6275152C86800075A1B4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F7A6277152C86800075A1B4 /* KVODemoTable */ = {
+			isa = PBXGroup;
+			children = (
+				3F7A6298152C89B80075A1B4 /* Models */,
+				3F7A628B152C86AF0075A1B4 /* ViewControllers */,
+				3F7A629F152C8F3D0075A1B4 /* Resources */,
+				3F7A6280152C86800075A1B4 /* AppDelegate.h */,
+				3F7A6281152C86800075A1B4 /* AppDelegate.m */,
+				3F7A628C152C86B60075A1B4 /* XIBs */,
+				3F7A6278152C86800075A1B4 /* Supporting Files */,
+			);
+			path = KVODemoTable;
+			sourceTree = "<group>";
+		};
+		3F7A6278152C86800075A1B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F7A6279152C86800075A1B4 /* KVODemoTable-Info.plist */,
+				3F7A627A152C86800075A1B4 /* InfoPlist.strings */,
+				3F7A627D152C86800075A1B4 /* main.m */,
+				3F7A627F152C86800075A1B4 /* KVODemoTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F7A628B152C86AF0075A1B4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F7A6290152C88F40075A1B4 /* NavController.h */,
+				3F7A6291152C88F40075A1B4 /* NavController.m */,
+				3F7A6293152C891C0075A1B4 /* MasterViewController.h */,
+				3F7A6294152C891C0075A1B4 /* MasterViewController.m */,
+				3F7A6295152C891C0075A1B4 /* MasterViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3F7A628C152C86B60075A1B4 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
+		3F7A6298152C89B80075A1B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F7A6299152C8A400075A1B4 /* Dogs.h */,
+				3F7A62A2152C90CE0075A1B4 /* Dogs.m */,
+				3F7A629C152C8C1A0075A1B4 /* Dog.h */,
+				3F7A629D152C8C1A0075A1B4 /* Dog.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3F7A629F152C8F3D0075A1B4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F7A62AC152C950E0075A1B4 /* dogs */,
+				3F7A62AD152C950E0075A1B4 /* dogtype */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F7A626C152C86800075A1B4 /* KVODemoTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7A6285152C86800075A1B4 /* Build configuration list for PBXNativeTarget "KVODemoTable" */;
+			buildPhases = (
+				3F7A6269152C86800075A1B4 /* Sources */,
+				3F7A626A152C86800075A1B4 /* Frameworks */,
+				3F7A626B152C86800075A1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVODemoTable;
+			productName = KVODemoTable;
+			productReference = 3F7A626D152C86800075A1B4 /* KVODemoTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F7A6264152C86800075A1B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3F7A6267152C86800075A1B4 /* Build configuration list for PBXProject "KVODemoTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F7A6262152C86800075A1B4;
+			productRefGroup = 3F7A626E152C86800075A1B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F7A626C152C86800075A1B4 /* KVODemoTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F7A626B152C86800075A1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7A627C152C86800075A1B4 /* InfoPlist.strings in Resources */,
+				3F7A6297152C891C0075A1B4 /* MasterViewController.xib in Resources */,
+				3F7A62AE152C950E0075A1B4 /* dogs in Resources */,
+				3F7A62AF152C950E0075A1B4 /* dogtype in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7A6269152C86800075A1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7A627E152C86800075A1B4 /* main.m in Sources */,
+				3F7A6282152C86800075A1B4 /* AppDelegate.m in Sources */,
+				3F7A6292152C88F40075A1B4 /* NavController.m in Sources */,
+				3F7A6296152C891C0075A1B4 /* MasterViewController.m in Sources */,
+				3F7A629E152C8C1A0075A1B4 /* Dog.m in Sources */,
+				3F7A62A3152C90CE0075A1B4 /* Dogs.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F7A627A152C86800075A1B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7A627B152C86800075A1B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F7A6283152C86800075A1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F7A6284152C86800075A1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F7A6286152C86800075A1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KVODemoTable/KVODemoTable-Prefix.pch";
+				INFOPLIST_FILE = "KVODemoTable/KVODemoTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F7A6287152C86800075A1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KVODemoTable/KVODemoTable-Prefix.pch";
+				INFOPLIST_FILE = "KVODemoTable/KVODemoTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F7A6267152C86800075A1B4 /* Build configuration list for PBXProject "KVODemoTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7A6283152C86800075A1B4 /* Debug */,
+				3F7A6284152C86800075A1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7A6285152C86800075A1B4 /* Build configuration list for PBXNativeTarget "KVODemoTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7A6286152C86800075A1B4 /* Debug */,
+				3F7A6287152C86800075A1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F7A6264152C86800075A1B4 /* Project object */;
+}

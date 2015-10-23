@@ -1,0 +1,401 @@
+Texample3_TableView
+v7
+r0
+t327487994.295405
+cCheck dependencies
+cProcessInfoPlistFile /Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/Info.plist example3_TableView-Info.plist
+cCompileXIB /Users/mac/Desktop/example3_TableView/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/example3_TableView.app/0-0.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/0-0.png"
+cCpResource build/Debug-iphonesimulator/example3_TableView.app/1-0.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/1-0.png"
+cCpResource build/Debug-iphonesimulator/example3_TableView.app/1-1.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/1-1.png"
+cCpResource build/Debug-iphonesimulator/example3_TableView.app/2-0.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/2-0.png"
+cCpResource build/Debug-iphonesimulator/example3_TableView.app/2-1.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/2-1.png"
+cCpResource build/Debug-iphonesimulator/example3_TableView.app/3-0.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/3-0.png"
+cCpResource build/Debug-iphonesimulator/example3_TableView.app/3-1.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/3-1.png"
+cCpResource build/Debug-iphonesimulator/example3_TableView.app/4-0.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/4-0.png"
+cCpResource build/Debug-iphonesimulator/example3_TableView.app/5-0.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/5-0.png"
+cCpResource build/Debug-iphonesimulator/example3_TableView.app/6-0.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/6-0.png"
+cCpResource build/Debug-iphonesimulator/example3_TableView.app/0-1.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/0-1.png"
+cProcessPCH /var/folders/aD/aD7-u4IKEEuvw6h11f2hQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/example3_TableView_Prefix-ctipfukcxydojhbavkmgqdjmxcnk/example3_TableView_Prefix.pch.gch example3_TableView_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/Objects-normal/i386/main.o /Users/mac/Desktop/example3_TableView/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/Objects-normal/i386/example3_TableViewAppDelegate.o /Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004DCF70880000000000000132
+t1305440392
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/0-0.png
+c0000000049E67ACE00000000000008F9
+t1239841486
+s2297
+
+N/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/0-1.png
+c0000000049E67AD800000000000006D3
+t1239841496
+s1747
+
+N/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/1-0.png
+c0000000049E67AA100000000000007AB
+t1239841441
+s1963
+
+N/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/1-1.png
+c0000000049E67A950000000000000656
+t1239841429
+s1622
+
+N/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/2-0.png
+c0000000049E67AC400000000000005C9
+t1239841476
+s1481
+
+N/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/2-1.png
+c0000000049E67B610000000000000A80
+t1239841633
+s2688
+
+N/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/3-0.png
+c0000000049E67907000000000000092C
+t1239841031
+s2348
+
+N/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/3-1.png
+c0000000049E67A890000000000000B68
+t1239841417
+s2920
+
+N/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/4-0.png
+c0000000049E67AB90000000000000C16
+t1239841465
+s3094
+
+N/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/5-0.png
+c0000000049E67B4B00000000000005E7
+t1239841611
+s1511
+
+N/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/6-0.png
+c0000000049E678C70000000000000C03
+t1239840967
+s3075
+
+N/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.h
+c000000004DD4D44E00000000000001C0
+t1305793614
+s448
+i<UIKit/UIKit.h>
+
+N/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m
+c000000004DD4DA6D00000000000012B7
+t1305795181
+s4791
+i"example3_TableViewAppDelegate.h"
+
+N/Users/mac/Desktop/example3_TableView/MainWindow.xib
+c000000004DD4D3F1000000000000213F
+t1305793521
+s8511
+
+N/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app
+t2
+s0
+
+N/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app.dSYM
+t2
+s0
+
+N/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/0-0.png
+t1305795183
+s2297
+
+N/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/0-1.png
+t1305795183
+s1747
+
+N/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/1-0.png
+t1305795183
+s1963
+
+N/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/1-1.png
+t1305795183
+s1622
+
+N/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/2-0.png
+t1305795183
+s1481
+
+N/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/2-1.png
+t1305795183
+s2688
+
+N/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/3-0.png
+t1305795183
+s2348
+
+N/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/3-1.png
+t1305795183
+s2920
+
+N/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/4-0.png
+t1305795183
+s3094
+
+N/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/5-0.png
+t1305795183
+s1511
+
+N/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/6-0.png
+t1305795183
+s3075
+
+N/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/Info.plist
+t1305795182
+s641
+
+N/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/MainWindow.nib
+t1305795183
+s995
+
+N/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/PkgInfo
+t1305795182
+s8
+
+N/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/example3_TableView
+t2
+s0
+
+N/Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/Objects-normal/i386/example3_TableView.LinkFileList
+c000000004DD4DA6E0000000000000137
+t1305795182
+s311
+
+N/Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/Objects-normal/i386/example3_TableViewAppDelegate.o
+t2
+s0
+
+N/Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/Objects-normal/i386/main.o
+t1305795194
+s6300
+
+N/Users/mac/Desktop/example3_TableView/example3_TableView_Prefix.pch
+c000000004DD4D3F100000000000000CD
+t1305793521
+s205
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mac/Desktop/example3_TableView/main.m
+c000000004DD4D3F10000000000000177
+t1305793521
+s375
+i<UIKit/UIKit.h>
+
+N/var/folders/aD/aD7-u4IKEEuvw6h11f2hQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/example3_TableView_Prefix-ctipfukcxydojhbavkmgqdjmxcnk/example3_TableView_Prefix.pch.gch
+t1305795193
+s10212912
+
+Nexample3_TableView-Info.plist
+c000000004DD4D3F1000000000000038D
+t1305793521
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies327487982#327487982#0(0"0(0#1#0"2508313232#0"0#
+
+CCompileC build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/Objects-normal/i386/example3_TableViewAppDelegate.o /Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327487994.172134
+e327487994.295327
+r0
+xCompileC
+xbuild/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/Objects-normal/i386/example3_TableViewAppDelegate.o
+x/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m: In function '-[example3_TableViewAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m:22: error: expected ':' before ']' token
+o/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m:22: error: incompatible type for argument 1 of 'initWithFrame:'
+o/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m:24: error: expected statement before ']' token
+o/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m:40: warning: class 'example3_TableViewAppDelegate' does not implement the 'UITableViewDelegate' protocol
+o/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m:41: warning: class 'example3_TableViewAppDelegate' does not implement the 'UITableViewDataSource' protocol
+lSLF07#2@85"Compile /Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m327487994#327487994#0(924"/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m: In function '-[example3_TableViewAppDelegate application:didFinishLaunchingWithOptions:]':/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m:22: error: expected ':' before ']' token/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m:22: error: incompatible type for argument 1 of 'initWithFrame:'/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m:24: error: expected statement before ']' token/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m:40: warning: class 'example3_TableViewAppDelegate' does not implement the 'UITableViewDelegate' protocol/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m:41: warning: class 'example3_TableViewAppDelegate' does not implement the 'UITableViewDataSource' protocol5(4@29"Expected ':' before ']' token327487994#170#119#0(6@77"/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m327487981#22#0#22#0#19"expected * before *0(4@52"Incompatible type for argument 1 of 'initWithFrame:'327487994#289#142#0(6@77"/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m327487981#22#0#22#0#0"0(4@35"Expected statement before ']' token327487994#431#125#0(6@77"/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m327487981#24#0#24#0#19"expected * before *0(22@91"Class 'example3_TableViewAppDelegate' does not implement the 'UITableViewDelegate' protocol327487994#556#183#0(6@77"/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m327487981#40#0#40#0#45"class '*' does not implement the '*' protocol0(22@93"Class 'example3_TableViewAppDelegate' does not implement the 'UITableViewDataSource' protocol327487994#739#185#0(6@77"/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m327487981#41#0#41#0#45"class '*' does not implement the '*' protocol0(0#0#77"/Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m2508313232#2168"    cd /Users/mac/Desktop/example3_TableView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/example3_TableView-generated-files.hmap -I/Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/example3_TableView-own-target-headers.hmap -I/Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/example3_TableView-all-target-headers.hmap -iquote /Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/example3_TableView-project-headers.hmap -F/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator -I/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/include -I/Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/DerivedSources/i386 -I/Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/DerivedSources -include /var/folders/aD/aD7-u4IKEEuvw6h11f2hQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/example3_TableView_Prefix-ctipfukcxydojhbavkmgqdjmxcnk/example3_TableView_Prefix.pch -c /Users/mac/Desktop/example3_TableView/Classes/example3_TableViewAppDelegate.m -o /Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/Objects-normal/i386/example3_TableViewAppDelegate.o1#
+
+CCompileC build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/Objects-normal/i386/main.o /Users/mac/Desktop/example3_TableView/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327487993.862258
+e327487994.172025
+r1
+xCompileC
+xbuild/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/Objects-normal/i386/main.o
+x/Users/mac/Desktop/example3_TableView/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/mac/Desktop/example3_TableView/main.m327487993#327487994#0(0"0(0#0#44"/Users/mac/Desktop/example3_TableView/main.m2508313232#2110"    cd /Users/mac/Desktop/example3_TableView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/example3_TableView-generated-files.hmap -I/Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/example3_TableView-own-target-headers.hmap -I/Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/example3_TableView-all-target-headers.hmap -iquote /Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/example3_TableView-project-headers.hmap -F/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator -I/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/include -I/Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/DerivedSources/i386 -I/Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/DerivedSources -include /var/folders/aD/aD7-u4IKEEuvw6h11f2hQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/example3_TableView_Prefix-ctipfukcxydojhbavkmgqdjmxcnk/example3_TableView_Prefix.pch -c /Users/mac/Desktop/example3_TableView/main.m -o /Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/mac/Desktop/example3_TableView/MainWindow.xib
+s327487982.492516
+e327487983.556654
+r1
+xCompileXIB
+x/Users/mac/Desktop/example3_TableView/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib327487982#327487983#0(0"0(0#0#52"/Users/mac/Desktop/example3_TableView/MainWindow.xib2508313232#578"    cd /Users/mac/Desktop/example3_TableView    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/MainWindow.nib /Users/mac/Desktop/example3_TableView/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource build/Debug-iphonesimulator/example3_TableView.app/0-0.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/0-0.png"
+s327487983.557128
+e327487983.658706
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/example3_TableView.app/0-0.png
+x../../Downloads/iPhoneSDK3/Chapter 9/TableView3/0-0.png
+lSLF07#2@60"Copy ../../Downloads/iPhoneSDK3/Chapter 9/TableView3/0-0.png327487983#327487983#0(0"0(0#0#93"/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/0-0.png2508313232#509"    cd /Users/mac/Desktop/example3_TableView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/0-0.png" /Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app0#
+
+CCpResource build/Debug-iphonesimulator/example3_TableView.app/0-1.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/0-1.png"
+s327487983.640037
+e327487983.655447
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/example3_TableView.app/0-1.png
+x../../Downloads/iPhoneSDK3/Chapter 9/TableView3/0-1.png
+lSLF07#2@60"Copy ../../Downloads/iPhoneSDK3/Chapter 9/TableView3/0-1.png327487983#327487983#0(0"0(0#0#93"/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/0-1.png2508313232#509"    cd /Users/mac/Desktop/example3_TableView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/0-1.png" /Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app0#
+
+CCpResource build/Debug-iphonesimulator/example3_TableView.app/1-0.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/1-0.png"
+s327487983.558894
+e327487983.660138
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/example3_TableView.app/1-0.png
+x../../Downloads/iPhoneSDK3/Chapter 9/TableView3/1-0.png
+lSLF07#2@60"Copy ../../Downloads/iPhoneSDK3/Chapter 9/TableView3/1-0.png327487983#327487983#0(0"0(0#0#93"/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/1-0.png2508313232#509"    cd /Users/mac/Desktop/example3_TableView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/1-0.png" /Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app0#
+
+CCpResource build/Debug-iphonesimulator/example3_TableView.app/1-1.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/1-1.png"
+s327487983.570912
+e327487983.639104
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/example3_TableView.app/1-1.png
+x../../Downloads/iPhoneSDK3/Chapter 9/TableView3/1-1.png
+lSLF07#2@60"Copy ../../Downloads/iPhoneSDK3/Chapter 9/TableView3/1-1.png327487983#327487983#0(0"0(0#0#93"/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/1-1.png2508313232#509"    cd /Users/mac/Desktop/example3_TableView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/1-1.png" /Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app0#
+
+CCpResource build/Debug-iphonesimulator/example3_TableView.app/2-0.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/2-0.png"
+s327487983.574936
+e327487983.639289
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/example3_TableView.app/2-0.png
+x../../Downloads/iPhoneSDK3/Chapter 9/TableView3/2-0.png
+lSLF07#2@60"Copy ../../Downloads/iPhoneSDK3/Chapter 9/TableView3/2-0.png327487983#327487983#0(0"0(0#0#93"/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/2-0.png2508313232#509"    cd /Users/mac/Desktop/example3_TableView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/2-0.png" /Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app0#
+
+CCpResource build/Debug-iphonesimulator/example3_TableView.app/2-1.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/2-1.png"
+s327487983.578748
+e327487983.639463
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/example3_TableView.app/2-1.png
+x../../Downloads/iPhoneSDK3/Chapter 9/TableView3/2-1.png
+lSLF07#2@60"Copy ../../Downloads/iPhoneSDK3/Chapter 9/TableView3/2-1.png327487983#327487983#0(0"0(0#0#93"/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/2-1.png2508313232#509"    cd /Users/mac/Desktop/example3_TableView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/2-1.png" /Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app0#
+
+CCpResource build/Debug-iphonesimulator/example3_TableView.app/3-0.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/3-0.png"
+s327487983.582655
+e327487983.639628
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/example3_TableView.app/3-0.png
+x../../Downloads/iPhoneSDK3/Chapter 9/TableView3/3-0.png
+lSLF07#2@60"Copy ../../Downloads/iPhoneSDK3/Chapter 9/TableView3/3-0.png327487983#327487983#0(0"0(0#0#93"/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/3-0.png2508313232#509"    cd /Users/mac/Desktop/example3_TableView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/3-0.png" /Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app0#
+
+CCpResource build/Debug-iphonesimulator/example3_TableView.app/3-1.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/3-1.png"
+s327487983.610654
+e327487983.639790
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/example3_TableView.app/3-1.png
+x../../Downloads/iPhoneSDK3/Chapter 9/TableView3/3-1.png
+lSLF07#2@60"Copy ../../Downloads/iPhoneSDK3/Chapter 9/TableView3/3-1.png327487983#327487983#0(0"0(0#0#93"/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/3-1.png2508313232#509"    cd /Users/mac/Desktop/example3_TableView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/3-1.png" /Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app0#
+
+CCpResource build/Debug-iphonesimulator/example3_TableView.app/4-0.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/4-0.png"
+s327487983.618134
+e327487983.639952
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/example3_TableView.app/4-0.png
+x../../Downloads/iPhoneSDK3/Chapter 9/TableView3/4-0.png
+lSLF07#2@60"Copy ../../Downloads/iPhoneSDK3/Chapter 9/TableView3/4-0.png327487983#327487983#0(0"0(0#0#93"/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/4-0.png2508313232#509"    cd /Users/mac/Desktop/example3_TableView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/4-0.png" /Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app0#
+
+CCpResource build/Debug-iphonesimulator/example3_TableView.app/5-0.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/5-0.png"
+s327487983.625013
+e327487983.647787
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/example3_TableView.app/5-0.png
+x../../Downloads/iPhoneSDK3/Chapter 9/TableView3/5-0.png
+lSLF07#2@60"Copy ../../Downloads/iPhoneSDK3/Chapter 9/TableView3/5-0.png327487983#327487983#0(0"0(0#0#93"/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/5-0.png2508313232#509"    cd /Users/mac/Desktop/example3_TableView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/5-0.png" /Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app0#
+
+CCpResource build/Debug-iphonesimulator/example3_TableView.app/6-0.png "../../Downloads/iPhoneSDK3/Chapter 9/TableView3/6-0.png"
+s327487983.631956
+e327487983.654467
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/example3_TableView.app/6-0.png
+x../../Downloads/iPhoneSDK3/Chapter 9/TableView3/6-0.png
+lSLF07#2@60"Copy ../../Downloads/iPhoneSDK3/Chapter 9/TableView3/6-0.png327487983#327487983#0(0"0(0#0#93"/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/6-0.png2508313232#509"    cd /Users/mac/Desktop/example3_TableView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/mac/Desktop/example3_TableView/../../Downloads/iPhoneSDK3/Chapter 9/TableView3/6-0.png" /Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app0#
+
+CGenerateDSYMFile /Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app.dSYM /Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/example3_TableView
+r0
+
+CLd /Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/example3_TableView normal i386
+r0
+
+CProcessInfoPlistFile /Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/Info.plist example3_TableView-Info.plist
+s327487982.465586
+e327487982.492362
+r1
+xProcessInfoPlistFile
+x/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/Info.plist
+xexample3_TableView-Info.plist
+lSLF07#2@37"Process example3_TableView-Info.plist327487982#327487982#0(0"0(0#0#67"/Users/mac/Desktop/example3_TableView/example3_TableView-Info.plist2508313232#509"    cd /Users/mac/Desktop/example3_TableView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility example3_TableView-Info.plist -genpkginfo /Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app/Info.plist0#
+
+CProcessPCH /var/folders/aD/aD7-u4IKEEuvw6h11f2hQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/example3_TableView_Prefix-ctipfukcxydojhbavkmgqdjmxcnk/example3_TableView_Prefix.pch.gch example3_TableView_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s327487983.660246
+e327487993.861786
+r1
+xProcessPCH
+x/var/folders/aD/aD7-u4IKEEuvw6h11f2hQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/example3_TableView_Prefix-ctipfukcxydojhbavkmgqdjmxcnk/example3_TableView_Prefix.pch.gch
+xexample3_TableView_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Precompile example3_TableView_Prefix.pch327487983#327487993#0(0"0(0#0#67"/Users/mac/Desktop/example3_TableView/example3_TableView_Prefix.pch2508313232#1992"    cd /Users/mac/Desktop/example3_TableView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/example3_TableView-generated-files.hmap -I/Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/example3_TableView-own-target-headers.hmap -I/Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/example3_TableView-all-target-headers.hmap -iquote /Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/example3_TableView-project-headers.hmap -F/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator -I/Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/include -I/Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/DerivedSources/i386 -I/Users/mac/Desktop/example3_TableView/build/example3_TableView.build/Debug-iphonesimulator/example3_TableView.build/DerivedSources -c /Users/mac/Desktop/example3_TableView/example3_TableView_Prefix.pch -o /var/folders/aD/aD7-u4IKEEuvw6h11f2hQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/example3_TableView_Prefix-ctipfukcxydojhbavkmgqdjmxcnk/example3_TableView_Prefix.pch.gch0#
+
+CTouch /Users/mac/Desktop/example3_TableView/build/Debug-iphonesimulator/example3_TableView.app
+r0
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>fullName</key>
+		<string>Cuong Trinh Minh</string>
+		<key>age</key>
+		<string>37</string>
+		<key>photo</key>
+		<string>cuong.png</string>
+	</dict>
+	<dict>
+		<key>fullName</key>
+		<string>Bill Gates</string>
+		<key>age</key>
+		<integer>65</integer>
+		<key>photo</key>
+		<string>bill.png</string>
+	</dict>
+	<dict>
+		<key>fullName</key>
+		<string>Steve Jobs</string>
+		<key>age</key>
+		<integer>56</integer>
+		<key>photo</key>
+		<string>jobs.png</string>
+	</dict>
+    <dict>
+		<key>fullName</key>
+		<string>Bob Hayton</string>
+		<key>age</key>
+		<integer>68</integer>
+		<key>photo</key>
+		<string>bill.png</string>
+	</dict>
+</array>
+</plist>

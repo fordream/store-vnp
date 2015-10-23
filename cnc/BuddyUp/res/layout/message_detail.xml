@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="@drawable/profile_bg">
+    <RelativeLayout android:layout_width="fill_parent" android:id="@+id/relativeLayout1" android:layout_height="fill_parent" android:padding="10dip">
+        <LinearLayout android:layout_width="wrap_content" android:id="@+id/linearLayout1" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_height="50dip" android:gravity="center_horizontal" android:layout_marginTop="10dip">
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="14dip" android:textStyle="bold" android:typeface="serif" android:id="@+id/message_detail_btnReply" android:background="@drawable/message_detail_btnreply"></Button>
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dip" android:layout_marginRight="10dip" android:textStyle="bold" android:typeface="serif" android:textSize="14dip" android:id="@+id/message_detail_btnAddBuddy" android:background="@drawable/message_detail_btnaddbuddy"></Button>
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="14dip" android:typeface="serif" android:textStyle="bold" android:id="@+id/message_detail_btnDelete" android:background="@drawable/message_detail_btndelete"></Button>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/linearLayout2" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:paddingBottom="10dip" android:paddingTop="10dip">
+            <LinearLayout android:layout_height="wrap_content" android:paddingRight="10dip" android:id="@+id/LinearLayout02" android:layout_width="fill_parent" android:paddingLeft="10dip" android:orientation="horizontal">
+                <TextView android:layout_height="wrap_content" android:id="@+id/TextView01" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@color/color_back" android:typeface="serif" android:textSize="14dip" android:text="User Name :" android:layout_width="80dip" android:layout_weight="1"></TextView>
+                <TextView android:textColor="@color/color_back" android:layout_height="wrap_content" android:textSize="14dip" android:textAppearance="?android:attr/textAppearanceSmall" android:typeface="serif" android:id="@+id/message_detail_tVUserName" android:layout_width="180dip" android:layout_weight="1" android:text="Administrator"></TextView>
+            </LinearLayout>
+            <LinearLayout android:layout_height="wrap_content" android:paddingRight="10dip" android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:paddingLeft="10dip" android:orientation="horizontal" android:paddingBottom="10dip" android:paddingTop="10dip">
+                <TextView android:layout_height="wrap_content" android:id="@+id/TextView02" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@color/color_back" android:typeface="serif" android:textSize="14dip" android:text="Date :" android:layout_width="80dip" android:layout_weight="1"></TextView>
+                <TextView android:textColor="@color/color_back" android:layout_height="wrap_content" android:textSize="14dip" android:textAppearance="?android:attr/textAppearanceSmall" android:typeface="serif" android:id="@+id/message_detail_tVDate" android:layout_weight="1" android:text="Wednesday, October 19, 2011" android:layout_width="220dip"></TextView>
+            </LinearLayout>
+            <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout3" android:layout_width="fill_parent" android:orientation="vertical" android:paddingLeft="10dip" android:paddingRight="10dip">
+                <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:id="@+id/textView1" android:textColor="@color/color_back" android:textSize="14dip" android:typeface="serif" android:text="Message : "></TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TextSwitcher1" android:layout_below="@+id/linearLayout2" android:layout_above="@+id/linearLayout1" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:background="@drawable/message_detailet" android:text="@string/message" android:textColor="@color/color_back" android:textSize="14dip" android:typeface="serif">
+            <LinearLayout android:id="@+id/linearLayout4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:padding="10dip">
+                <TextView android:layout_height="wrap_content" android:id="@+id/TextView03" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@color/color_back" android:typeface="serif" android:layout_width="wrap_content" android:textSize="14dip" android:text="@string/message"></TextView>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+    
+</LinearLayout>

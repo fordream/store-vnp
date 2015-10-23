@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:background="@drawable/background"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_weight="240"
+        android:orientation="vertical" android:background="@drawable/pregame_first_to">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="100"
+            android:paddingBottom="10dp" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:src="@drawable/big_coins" android:layout_weight="40" android:layout_marginTop="5dp"/>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" android:layout_weight="120" android:layout_marginTop="20dp" android:layout_marginLeft="-25dp">
+
+                <ImageView
+                    android:id="@+id/position1"
+                    android:layout_width="17dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/small_blank" />
+
+                <ImageView
+                    android:id="@+id/position2"
+                    android:layout_width="17dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/small_blank" />
+
+                <ImageView
+                    android:id="@+id/position3"
+                    android:layout_width="17dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/small_blank" />
+
+                <ImageView
+                    android:id="@+id/position4"
+                    android:layout_width="17dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/small_blank" />
+
+                <ImageView
+                    android:id="@+id/position5"
+                    android:layout_width="17dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/small_blank" />
+
+                <ImageView
+                    android:id="@+id/position6"
+                    android:layout_width="17dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/small_blank" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="100"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+    </LinearLayout>
+
+	<LinearLayout android:layout_height="50dp"
+		android:layout_width="match_parent" android:layout_weight="50" android:layout_marginLeft="30dp">
+
+		<LinearLayout
+		    android:id="@+id/linearLayout8"
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="35"
+		    android:orientation="vertical" >
+		</LinearLayout>
+
+		<ImageView android:layout_height="fill_parent"
+			android:src="@drawable/boosts_label" android:layout_width="0dp" android:layout_weight="180"></ImageView>
+
+		<LinearLayout
+		    android:id="@+id/linearLayout9"
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="85"
+		    android:orientation="vertical" >
+		</LinearLayout>
+
+		<ImageView android:layout_width="0dp" android:src="@drawable/img_purchased" android:layout_height="fill_parent" android:layout_weight="230"></ImageView>
+
+		<LinearLayout
+		    android:id="@+id/linearLayout10"
+		    android:layout_width="10dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="10"
+		    android:orientation="vertical" >
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<TableLayout android:layout_height="320dp"
+		android:layout_width="fill_parent" android:layout_weight="280" android:paddingLeft="5dp" android:paddingRight="5dp">
+		<TableRow android:layout_height="0dp"
+			android:paddingBottom="1dip" android:layout_width="fill_parent" android:layout_weight="70">
+			<Button android:id="@+id/longDetail" android:background="@drawable/detail"
+				android:layout_height="fill_parent" android:layout_width="0dp" android:layout_weight="35" android:layout_marginBottom="5dp"></Button>
+			<Button android:id="@+id/longPaddleButton" android:background="@drawable/longpaddle_button"
+				android:layout_height="fill_parent" android:layout_width="0dp"
+				android:layout_weight="135" android:layout_marginLeft="5dp"></Button>
+			<ImageView android:src="@drawable/minus25"
+				android:layout_height="fill_parent" android:layout_width="0dip" android:layout_weight="40"></ImageView>
+			<ImageView android:src="@drawable/small_coins"
+				android:layout_height="fill_parent" android:layout_width="0dip" android:layout_weight="40"></ImageView>
+			<ImageView android:id="@+id/longAvailable" android:src="@drawable/small_blank"
+				android:layout_marginLeft="10dp" android:layout_height="fill_parent" android:layout_width="0dp" android:layout_weight="17"></ImageView>
+			<ImageView android:src="@drawable/small_blank" android:id="@+id/longAvailable1"
+				android:layout_height="fill_parent" android:layout_width="0dp" android:layout_weight="17"></ImageView>
+		</TableRow>
+		<TableRow android:paddingBottom="1dip" android:layout_width="fill_parent"
+			android:layout_height="0dp" android:layout_weight="70">
+			<Button android:background="@drawable/detail" android:id="@+id/stickyDetail"
+				android:layout_height="fill_parent" android:layout_width="0dp" android:layout_weight="35" android:layout_marginBottom="5dp"></Button>
+			<Button android:background="@drawable/stickypaddle_button"
+				android:id="@+id/stickyPaddleButton" android:layout_height="fill_parent"
+				android:layout_width="0dp" android:layout_weight="135" android:layout_marginLeft="5dp"></Button>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_width="0dip" android:src="@drawable/minus15" android:layout_weight="40"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_width="0dip" android:src="@drawable/small_coins" android:layout_weight="40"></ImageView>
+			<ImageView android:id="@+id/stickyAvailable" android:src="@drawable/small_blank"
+				android:layout_height="fill_parent" android:layout_marginLeft="10dp" android:layout_width="0dp" android:layout_weight="17"></ImageView>
+			<ImageView android:src="@drawable/small_blank" android:id="@+id/stickyAvailable1"
+				android:layout_height="fill_parent" android:layout_width="0dp" android:layout_weight="17"></ImageView>
+		</TableRow>
+		<TableRow android:paddingBottom="1dip" android:layout_height="0dp" android:layout_width="fill_parent" android:layout_weight="55">
+			<Button android:layout_height="fill_parent" android:layout_width="0dp" android:background="@drawable/detail" android:id="@+id/smashDetail" android:layout_weight="35" android:layout_marginBottom="5dp"></Button>
+			<Button android:layout_height="fill_parent" android:layout_width="0dp" android:background="@drawable/smashpaddle_button" android:id="@+id/smashPaddleButton" android:layout_weight="135" android:layout_marginLeft="5dp"></Button>
+			<ImageView android:src="@drawable/minus35" android:layout_height="fill_parent" android:layout_width="0dip" android:layout_weight="40"></ImageView>
+			<ImageView android:src="@drawable/small_coins" android:layout_marginTop="-3dip" android:layout_height="fill_parent" android:layout_width="0dip" android:layout_weight="40"></ImageView>
+			<ImageView android:src="@drawable/small_blank" android:layout_marginLeft="10dp" android:layout_height="fill_parent" android:layout_width="0dp" android:id="@+id/smashpaddleAvailable" android:layout_weight="17"></ImageView>
+			<ImageView android:src="@drawable/small_blank" android:layout_height="fill_parent" android:layout_width="0dp" android:id="@+id/smashAvailable1" android:layout_weight="17"></ImageView>
+		</TableRow>
+		<TableRow android:paddingBottom="1dip" android:layout_width="fill_parent"
+			android:layout_height="0dp" android:layout_weight="55">
+			<Button android:background="@drawable/detail" android:id="@+id/breakerDetail"
+				android:layout_height="fill_parent" android:layout_width="0dp" android:layout_weight="35" android:layout_marginBottom="5dp"></Button>
+			<Button android:background="@drawable/breakerpaddle_button"
+				android:id="@+id/breakerPaddleButton" android:layout_height="fill_parent"
+				android:layout_width="0dp" android:layout_weight="135" android:layout_marginLeft="5dp"></Button>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_width="0dip" android:src="@drawable/minus40" android:layout_weight="40"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_width="0dip" android:src="@drawable/small_coins" android:layout_marginTop="-3dip" android:layout_weight="40"></ImageView>
+			<ImageView android:src="@drawable/small_blank" android:id="@+id/breakerpaddleAvailable"
+				android:layout_width="0dp" android:layout_height="fill_parent" android:layout_marginLeft="10dp" android:layout_weight="17"></ImageView>
+			<ImageView android:src="@drawable/small_blank" android:id="@+id/breakerAvailable1"
+				android:layout_height="fill_parent" android:layout_width="0dp" android:layout_weight="17"></ImageView>
+		</TableRow>
+		<TableRow android:paddingBottom="1dip" android:layout_width="fill_parent"
+			android:layout_height="0dp" android:layout_weight="55">
+			<Button android:background="@drawable/detail" android:id="@+id/blackoutDetail"
+				android:layout_height="fill_parent" android:layout_width="0dp" android:layout_weight="35" android:layout_marginBottom="5dp"></Button>
+			<Button android:background="@drawable/blackoutpaddle_button"
+				android:id="@+id/blackoutPaddleButton" android:layout_height="fill_parent"
+				android:layout_width="0dp" android:layout_weight="135" android:layout_marginLeft="5dp"></Button>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_width="0dip" android:src="@drawable/minus50" android:layout_weight="40"></ImageView>
+			<ImageView android:layout_height="fill_parent"
+				android:layout_width="0dip" android:src="@drawable/small_coins" android:layout_marginTop="-3dip" android:layout_weight="40"></ImageView>
+			<ImageView android:src="@drawable/small_blank" android:id="@+id/blackoutAvailable"
+				android:layout_height="fill_parent" android:layout_width="0dp"
+				android:layout_marginLeft="10dp" android:layout_weight="17"></ImageView>
+			<ImageView android:src="@drawable/small_blank" android:id="@+id/blackoutAvailable1"
+				android:layout_height="fill_parent" android:layout_width="0dp" android:layout_weight="17"></ImageView>
+		</TableRow>
+
+	</TableLayout>
+
+	<LinearLayout
+	    android:id="@+id/linearLayout11"
+	    android:layout_width="match_parent"
+	    android:layout_height="40dp"
+	    android:layout_weight="40"
+	    android:orientation="horizontal">
+
+		<LinearLayout
+		    android:id="@+id/linearLayout13"
+		    android:layout_width="0dp"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical" android:layout_weight="60">
+		</LinearLayout>
+
+		<ImageView
+		    android:layout_width="0dp"
+		    android:layout_height="fill_parent"
+		    android:src="@drawable/permanent_label" android:layout_weight="250" android:layout_marginBottom="5dp" android:layout_marginTop="1dp"/>
+
+		<LinearLayout
+		    android:id="@+id/linearLayout12"
+		    android:layout_width="0dp"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical" android:layout_weight="230">
+		</LinearLayout>
+
+	</LinearLayout>
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="65dp" android:layout_weight="65" android:paddingLeft="5dp" android:paddingRight="5dp">
+		<Button android:background="@drawable/detail" android:id="@+id/goldenDetail"
+			android:layout_height="fill_parent" android:layout_width="0dp" android:layout_weight="35" android:layout_marginBottom="3dp"></Button>
+		<Button android:background="@drawable/goldenpaddle_button"
+			android:id="@+id/goldenPaddleButton" android:layout_height="fill_parent"
+			android:layout_width="0dp" android:layout_weight="135" android:layout_marginLeft="5dp"></Button>
+		<ImageView android:layout_height="fill_parent"
+			android:layout_width="0dip" android:src="@drawable/minus5000"
+			android:layout_marginTop="2dp" android:layout_weight="70" android:layout_marginBottom="5dp"></ImageView>
+		<ImageView android:layout_height="fill_parent"
+			android:layout_width="0dip" android:src="@drawable/small_coins" android:layout_marginLeft="-5dp" android:layout_marginTop="-4dp" android:layout_weight="40" android:layout_marginRight="20dp"></ImageView>
+	</TableRow>
+
+	<LinearLayout
+	    android:id="@+id/linearLayout7"
+	    android:layout_width="match_parent"
+	    android:layout_height="15dp"
+	    android:layout_weight="15"
+	    android:orientation="vertical" >
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="120dp"
+	    android:layout_weight="120"
+	    android:orientation="vertical" android:layout_marginBottom="10dp">
+
+		<LinearLayout
+		    android:id="@+id/linearLayout4"
+		    android:layout_width="match_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="horizontal" android:paddingLeft="10dp">
+
+			<LinearLayout
+			    android:layout_width="0dp"
+			    android:layout_height="match_parent"
+			    android:orientation="vertical" android:layout_weight="100">
+
+				<Button
+				    android:id="@+id/backButton"
+				    android:layout_width="45dp"
+				    android:layout_height="45dp"
+				    android:background="@drawable/back" />
+
+				<LinearLayout
+				    android:layout_width="45dp"
+				    android:layout_height="15dp"
+				    android:orientation="vertical" android:background="@drawable/img_text_back">
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+			    android:id="@+id/linearLayout6"
+			    android:layout_width="0dp"
+			    android:layout_height="match_parent"
+			    android:layout_weight="300"
+			    android:orientation="vertical">
+
+				<Button
+				    android:id="@+id/readyButton"
+				    android:layout_width="120dp"
+				    android:layout_height="45dp"
+				    android:layout_marginRight="10dp"
+				    android:background="@drawable/ready" android:layout_gravity="right"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>

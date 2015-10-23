@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2970BCD159B365A0021447C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2970BCC159B365A0021447C /* UIKit.framework */; };
+		E2970BCF159B365A0021447C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2970BCE159B365A0021447C /* Foundation.framework */; };
+		E2970BD1159B365A0021447C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2970BD0159B365A0021447C /* CoreGraphics.framework */; };
+		E2970BD7159B365A0021447C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2970BD5159B365A0021447C /* InfoPlist.strings */; };
+		E2970BD9159B365A0021447C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2970BD8159B365A0021447C /* main.m */; };
+		E2970BDD159B365A0021447C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2970BDC159B365A0021447C /* AppDelegate.m */; };
+		E2970BE8159B37D00021447C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2970BE6159B37D00021447C /* MasterViewController.m */; };
+		E2970BE9159B37D00021447C /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2970BE7159B37D00021447C /* MasterViewController.xib */; };
+		E2970BED159B37E00021447C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2970BEB159B37E00021447C /* DetailViewController.m */; };
+		E2970BEE159B37E00021447C /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2970BEC159B37E00021447C /* DetailViewController.xib */; };
+		E2970BF2159B37F20021447C /* MoreDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2970BF0159B37F20021447C /* MoreDetailViewController.m */; };
+		E2970BF3159B37F20021447C /* MoreDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2970BF1159B37F20021447C /* MoreDetailViewController.xib */; };
+		E2970C01159B380F0021447C /* beach_chair.png in Resources */ = {isa = PBXBuildFile; fileRef = E2970BF4159B380F0021447C /* beach_chair.png */; };
+		E2970C02159B380F0021447C /* cake.png in Resources */ = {isa = PBXBuildFile; fileRef = E2970BF5159B380F0021447C /* cake.png */; };
+		E2970C03159B380F0021447C /* cocktail.png in Resources */ = {isa = PBXBuildFile; fileRef = E2970BF6159B380F0021447C /* cocktail.png */; };
+		E2970C04159B380F0021447C /* drink.png in Resources */ = {isa = PBXBuildFile; fileRef = E2970BF7159B380F0021447C /* drink.png */; };
+		E2970C05159B380F0021447C /* drink1.png in Resources */ = {isa = PBXBuildFile; fileRef = E2970BF8159B380F0021447C /* drink1.png */; };
+		E2970C06159B380F0021447C /* drink2.png in Resources */ = {isa = PBXBuildFile; fileRef = E2970BF9159B380F0021447C /* drink2.png */; };
+		E2970C07159B380F0021447C /* drink3.png in Resources */ = {isa = PBXBuildFile; fileRef = E2970BFA159B380F0021447C /* drink3.png */; };
+		E2970C08159B380F0021447C /* drink4.png in Resources */ = {isa = PBXBuildFile; fileRef = E2970BFB159B380F0021447C /* drink4.png */; };
+		E2970C09159B380F0021447C /* drink5.png in Resources */ = {isa = PBXBuildFile; fileRef = E2970BFC159B380F0021447C /* drink5.png */; };
+		E2970C0A159B380F0021447C /* japaneseTea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2970BFD159B380F0021447C /* japaneseTea.jpg */; };
+		E2970C0B159B380F0021447C /* soup.png in Resources */ = {isa = PBXBuildFile; fileRef = E2970BFE159B380F0021447C /* soup.png */; };
+		E2970C0C159B380F0021447C /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = E2970BFF159B380F0021447C /* star.png */; };
+		E2970C0D159B380F0021447C /* sushi.png in Resources */ = {isa = PBXBuildFile; fileRef = E2970C00159B380F0021447C /* sushi.png */; };
+		E2970C14159B4D040021447C /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = E2970C12159B4D030021447C /* down.png */; };
+		E2970C15159B4D040021447C /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = E2970C13159B4D040021447C /* up.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E2970BC8159B365A0021447C /* FoodLovers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodLovers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2970BCC159B365A0021447C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E2970BCE159B365A0021447C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2970BD0159B365A0021447C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E2970BD4159B365A0021447C /* FoodLovers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoodLovers-Info.plist"; sourceTree = "<group>"; };
+		E2970BD6159B365A0021447C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2970BD8159B365A0021447C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2970BDA159B365A0021447C /* FoodLovers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoodLovers-Prefix.pch"; sourceTree = "<group>"; };
+		E2970BDB159B365A0021447C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2970BDC159B365A0021447C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2970BE5159B37D00021447C /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		E2970BE6159B37D00021447C /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		E2970BE7159B37D00021447C /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		E2970BEA159B37E00021447C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E2970BEB159B37E00021447C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E2970BEC159B37E00021447C /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		E2970BEF159B37F20021447C /* MoreDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreDetailViewController.h; sourceTree = "<group>"; };
+		E2970BF0159B37F20021447C /* MoreDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreDetailViewController.m; sourceTree = "<group>"; };
+		E2970BF1159B37F20021447C /* MoreDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreDetailViewController.xib; sourceTree = "<group>"; };
+		E2970BF4159B380F0021447C /* beach_chair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beach_chair.png; sourceTree = "<group>"; };
+		E2970BF5159B380F0021447C /* cake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cake.png; sourceTree = "<group>"; };
+		E2970BF6159B380F0021447C /* cocktail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cocktail.png; sourceTree = "<group>"; };
+		E2970BF7159B380F0021447C /* drink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink.png; sourceTree = "<group>"; };
+		E2970BF8159B380F0021447C /* drink1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink1.png; sourceTree = "<group>"; };
+		E2970BF9159B380F0021447C /* drink2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink2.png; sourceTree = "<group>"; };
+		E2970BFA159B380F0021447C /* drink3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink3.png; sourceTree = "<group>"; };
+		E2970BFB159B380F0021447C /* drink4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink4.png; sourceTree = "<group>"; };
+		E2970BFC159B380F0021447C /* drink5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink5.png; sourceTree = "<group>"; };
+		E2970BFD159B380F0021447C /* japaneseTea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japaneseTea.jpg; sourceTree = "<group>"; };
+		E2970BFE159B380F0021447C /* soup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soup.png; sourceTree = "<group>"; };
+		E2970BFF159B380F0021447C /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		E2970C00159B380F0021447C /* sushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sushi.png; sourceTree = "<group>"; };
+		E2970C12159B4D030021447C /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		E2970C13159B4D040021447C /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2970BC5159B365A0021447C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2970BCD159B365A0021447C /* UIKit.framework in Frameworks */,
+				E2970BCF159B365A0021447C /* Foundation.framework in Frameworks */,
+				E2970BD1159B365A0021447C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2970BBD159B365A0021447C = {
+			isa = PBXGroup;
+			children = (
+				E2970BD2159B365A0021447C /* FoodLovers */,
+				E2970BCB159B365A0021447C /* Frameworks */,
+				E2970BC9159B365A0021447C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2970BC9159B365A0021447C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2970BC8159B365A0021447C /* FoodLovers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2970BCB159B365A0021447C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2970BCC159B365A0021447C /* UIKit.framework */,
+				E2970BCE159B365A0021447C /* Foundation.framework */,
+				E2970BD0159B365A0021447C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2970BD2159B365A0021447C /* FoodLovers */ = {
+			isa = PBXGroup;
+			children = (
+				E2970BDB159B365A0021447C /* AppDelegate.h */,
+				E2970BDC159B365A0021447C /* AppDelegate.m */,
+				E2970BE3159B36690021447C /* ViewControllers */,
+				E2970BE4159B36720021447C /* Resources */,
+				E2970BD3159B365A0021447C /* Supporting Files */,
+			);
+			path = FoodLovers;
+			sourceTree = "<group>";
+		};
+		E2970BD3159B365A0021447C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2970BD4159B365A0021447C /* FoodLovers-Info.plist */,
+				E2970BD5159B365A0021447C /* InfoPlist.strings */,
+				E2970BD8159B365A0021447C /* main.m */,
+				E2970BDA159B365A0021447C /* FoodLovers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2970BE3159B36690021447C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2970BE5159B37D00021447C /* MasterViewController.h */,
+				E2970BE6159B37D00021447C /* MasterViewController.m */,
+				E2970BE7159B37D00021447C /* MasterViewController.xib */,
+				E2970BEA159B37E00021447C /* DetailViewController.h */,
+				E2970BEB159B37E00021447C /* DetailViewController.m */,
+				E2970BEC159B37E00021447C /* DetailViewController.xib */,
+				E2970BEF159B37F20021447C /* MoreDetailViewController.h */,
+				E2970BF0159B37F20021447C /* MoreDetailViewController.m */,
+				E2970BF1159B37F20021447C /* MoreDetailViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E2970BE4159B36720021447C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2970C12159B4D030021447C /* down.png */,
+				E2970C13159B4D040021447C /* up.png */,
+				E2970BF4159B380F0021447C /* beach_chair.png */,
+				E2970BF5159B380F0021447C /* cake.png */,
+				E2970BF6159B380F0021447C /* cocktail.png */,
+				E2970BF7159B380F0021447C /* drink.png */,
+				E2970BF8159B380F0021447C /* drink1.png */,
+				E2970BF9159B380F0021447C /* drink2.png */,
+				E2970BFA159B380F0021447C /* drink3.png */,
+				E2970BFB159B380F0021447C /* drink4.png */,
+				E2970BFC159B380F0021447C /* drink5.png */,
+				E2970BFD159B380F0021447C /* japaneseTea.jpg */,
+				E2970BFE159B380F0021447C /* soup.png */,
+				E2970BFF159B380F0021447C /* star.png */,
+				E2970C00159B380F0021447C /* sushi.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2970BC7159B365A0021447C /* FoodLovers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2970BE0159B365A0021447C /* Build configuration list for PBXNativeTarget "FoodLovers" */;
+			buildPhases = (
+				E2970BC4159B365A0021447C /* Sources */,
+				E2970BC5159B365A0021447C /* Frameworks */,
+				E2970BC6159B365A0021447C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodLovers;
+			productName = FoodLovers;
+			productReference = E2970BC8159B365A0021447C /* FoodLovers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2970BBF159B365A0021447C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E2970BC2159B365A0021447C /* Build configuration list for PBXProject "FoodLovers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2970BBD159B365A0021447C;
+			productRefGroup = E2970BC9159B365A0021447C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2970BC7159B365A0021447C /* FoodLovers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2970BC6159B365A0021447C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2970BD7159B365A0021447C /* InfoPlist.strings in Resources */,
+				E2970BE9159B37D00021447C /* MasterViewController.xib in Resources */,
+				E2970BEE159B37E00021447C /* DetailViewController.xib in Resources */,
+				E2970BF3159B37F20021447C /* MoreDetailViewController.xib in Resources */,
+				E2970C01159B380F0021447C /* beach_chair.png in Resources */,
+				E2970C02159B380F0021447C /* cake.png in Resources */,
+				E2970C03159B380F0021447C /* cocktail.png in Resources */,
+				E2970C04159B380F0021447C /* drink.png in Resources */,
+				E2970C05159B380F0021447C /* drink1.png in Resources */,
+				E2970C06159B380F0021447C /* drink2.png in Resources */,
+				E2970C07159B380F0021447C /* drink3.png in Resources */,
+				E2970C08159B380F0021447C /* drink4.png in Resources */,
+				E2970C09159B380F0021447C /* drink5.png in Resources */,
+				E2970C0A159B380F0021447C /* japaneseTea.jpg in Resources */,
+				E2970C0B159B380F0021447C /* soup.png in Resources */,
+				E2970C0C159B380F0021447C /* star.png in Resources */,
+				E2970C0D159B380F0021447C /* sushi.png in Resources */,
+				E2970C14159B4D040021447C /* down.png in Resources */,
+				E2970C15159B4D040021447C /* up.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2970BC4159B365A0021447C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2970BD9159B365A0021447C /* main.m in Sources */,
+				E2970BDD159B365A0021447C /* AppDelegate.m in Sources */,
+				E2970BE8159B37D00021447C /* MasterViewController.m in Sources */,
+				E2970BED159B37E00021447C /* DetailViewController.m in Sources */,
+				E2970BF2159B37F20021447C /* MoreDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2970BD5159B365A0021447C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2970BD6159B365A0021447C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2970BDE159B365A0021447C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2970BDF159B365A0021447C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2970BE1159B365A0021447C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodLovers/FoodLovers-Prefix.pch";
+				INFOPLIST_FILE = "FoodLovers/FoodLovers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E2970BE2159B365A0021447C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodLovers/FoodLovers-Prefix.pch";
+				INFOPLIST_FILE = "FoodLovers/FoodLovers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2970BC2159B365A0021447C /* Build configuration list for PBXProject "FoodLovers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2970BDE159B365A0021447C /* Debug */,
+				E2970BDF159B365A0021447C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2970BE0159B365A0021447C /* Build configuration list for PBXNativeTarget "FoodLovers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2970BE1159B365A0021447C /* Debug */,
+				E2970BE2159B365A0021447C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2970BBF159B365A0021447C /* Project object */;
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>optionName</key>
+		<string>Facebook</string>
+		<key>mode</key>
+		<integer>1</integer>
+		<key>photo</key>
+		<string>facebook.png</string>
+	</dict>
+	<dict>
+		<key>optionName</key>
+		<string>Gmail</string>
+		<key>mode</key>
+		<integer>1</integer>
+		<key>photo</key>
+		<string>gmail.png</string>
+	</dict>
+	<dict>
+		<key>optionName</key>
+		<string>iBooks</string>
+		<key>mode</key>
+		<integer>1</integer>
+		<key>photo</key>
+		<string>ibooks.png</string>
+	</dict>
+	<dict>
+		<key>optionName</key>
+		<string>Instagram</string>
+		<key>mode</key>
+		<integer>1</integer>
+		<key>photo</key>
+		<string>instagram.png</string>
+	</dict>
+	<dict>
+		<key>optionName</key>
+		<string>Y! Messenger</string>
+		<key>mode</key>
+		<integer>1</integer>
+		<key>photo</key>
+		<string>yahoo.png</string>
+	</dict>
+	<dict>
+		<key>optionName</key>
+		<string>Skype</string>
+		<key>mode</key>
+		<integer>1</integer>
+		<key>photo</key>
+		<string>skype.png</string>
+	</dict>
+	<dict>
+		<key>optionName</key>
+		<string>Stock</string>
+		<key>mode</key>
+		<integer>1</integer>
+		<key>photo</key>
+		<string>stock.jpg</string>
+	</dict>
+	<dict>
+		<key>optionName</key>
+		<string>Viber</string>
+		<key>mode</key>
+		<integer>1</integer>
+		<key>photo</key>
+		<string>viber.jpg</string>
+	</dict>
+</array>
+</plist>

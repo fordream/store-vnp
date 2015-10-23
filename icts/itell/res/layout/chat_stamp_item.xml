@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/chat_stamp_cat_rl"
+    android:background="@drawable/chat_category_item_button_selector">
+    <ImageView 
+        android:contentDescription="@string/chat_cat_img"
+        android:id="@+id/chat_stamp_category_img" 
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:duplicateParentState="true"/>
+</RelativeLayout>

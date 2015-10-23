@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:id="@+id/chat_ll_user_title"
+    android:background="@drawable/chat_bg_top_bar" >
+    <TextView 
+        android:id="@+id/chat_tv_acc"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        style="@style/ChatTitleTextAppearance"
+        android:text="@string/chat_title"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>

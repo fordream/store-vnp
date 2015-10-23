@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/bg_root">
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="@drawable/bg_header">
+
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_centerVertical="true"
+			android:layout_marginLeft="7dp" android:textColor="@color/black"
+			android:textSize="12sp" android:paddingBottom="1dp"
+			android:paddingLeft="1dp" android:id="@+id/local_music_back_btn"
+			android:text="@string/back" android:background="@drawable/selector_button_back" />
+
+
+		<TextView android:id="@+id/local_music_title_txt"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/local_music" android:layout_centerVertical="true"
+			android:layout_centerHorizontal="true" android:textColor="@android:color/white"
+			android:textSize="@dimen/textsize_title_bar" />
+		<Button
+            android:id="@+id/btn_edit_ex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/selector_setting_friend_add_friend" />
+
+	</RelativeLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_marginTop="-1dp" android:layout_height="wrap_content"
+		android:orientation="horizontal" android:gravity="center"
+		android:background="@drawable/bg_segment_bg">
+
+
+		<Button android:id="@+id/tab_song_btn" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@drawable/selector_tab_song"
+			android:textColor="@color/white" android:text="Bài hát" />
+
+		<Button android:id="@+id/tab_artist_btn" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="@color/white"
+			android:background="@drawable/selector_tab_album" android:text="Nghệ sĩ" />
+		<Button android:id="@+id/tab_genre_btn" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="@color/white"
+			android:background="@drawable/selector_tab_video" android:text="Thể loại" />
+	</LinearLayout>
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_centerInParent="true" android:id="@+id/search_layout"
+		android:layout_marginBottom="5dp" android:layout_marginTop="5dp"
+		android:layout_height="wrap_content">
+		<!-- <Button android:layout_width="60dp" android:layout_height="38dp" android:layout_alignParentRight="true" 
+			android:layout_centerVertical="true" android:text="@string/search" android:layout_marginRight="3dp" 
+			android:id="@+id/search_btn" /> -->
+
+
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+
+			android:layout_height="wrap_content" android:background="@drawable/bg_search_bg">
+			<EditText android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:hint="@string/search_hint"
+				android:background="#00000000" android:layout_marginLeft="5dp"
+				android:textSize="16sp" android:layout_marginRight="5dp"
+				android:layout_centerVertical="true" android:singleLine="true"
+				android:id="@+id/search_edt" />
+			<Button android:background="@drawable/ic_search_cancel"
+				android:id="@+id/local_music_search_clear_btn"
+				android:layout_height="15dp" android:layout_width="15dp"
+				android:layout_centerVertical="true" android:layout_alignRight="@+id/search_edt"
+				android:layout_marginRight="3dp"></Button>
+		</RelativeLayout>
+	</RelativeLayout>
+
+	<ImageView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="@drawable/bg_header_divider" />
+
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+
+			<RelativeLayout android:visibility="visible"
+				android:id="@+id/local_music_empty_layout" android:gravity="center"
+				android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+				<ImageView android:id="@+id/search_help_icon"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/ic_search_large"
+					android:layout_centerHorizontal="true" android:layout_marginTop="@dimen/search_ico_margintop" />
+
+				<TextView android:id="@+id/local_music_empty_txt"
+					android:gravity="center" android:layout_below="@id/search_help_icon"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:layout_marginLeft="@dimen/margin_default"
+					android:layout_marginRight="@dimen/margin_default" android:text="@string/no_song"
+					android:textSize="@dimen/textsize_big" />
+
+			</RelativeLayout>
+
+
+			<ListView android:layout_width="fill_parent"
+				android:layout_marginLeft="1dp" android:layout_marginRight="1dp"
+				android:divider="#00000000" android:layout_height="fill_parent"
+				android:fadingEdge="none" android:id="@+id/local_music_listview"
+				android:listSelector="@android:color/transparent"
+				android:cacheColorHint="#00000000">
+			</ListView>
+		</RelativeLayout>
+
+
+
+	</RelativeLayout>
+
+</LinearLayout>

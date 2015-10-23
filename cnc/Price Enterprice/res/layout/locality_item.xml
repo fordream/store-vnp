@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:orientation="vertical" >
+
+    <RelativeLayout android:id="@+id/rlLocality_item" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:text="TextView" android:layout_centerVertical="true" android:layout_alignParentLeft="true" android:id="@+id/tVLocalityName" android:textColor="#424241" android:textSize="14dip" android:textStyle="bold" android:typeface="normal" android:layout_marginLeft="15dip"></TextView>
+        <ImageView android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginRight="10dip" android:background="@drawable/next" android:layout_width="10dip" android:layout_height="10dip" android:id="@+id/img_Locality_Item1"></ImageView>
+        <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:background="@drawable/line" android:layout_marginLeft="1dip" android:layout_marginRight="1dip"></LinearLayout>
+    </RelativeLayout>
+    
+</LinearLayout>

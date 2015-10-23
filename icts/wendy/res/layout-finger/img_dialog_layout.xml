@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/date_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+
+    <com.vn.icts.wendy.view.TopBarView
+        android:id="@+id/dialog_img_topbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+    </com.vn.icts.wendy.view.TopBarView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/dialog_img_topbar"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/dialog_img_image"
+            android:layout_width="@dimen/dimens300"
+            android:layout_height="@dimen/dimens300"
+            android:src="@drawable/logo_button" />
+
+    </LinearLayout>
+
+</RelativeLayout>

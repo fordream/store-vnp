@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<LinearLayout android:background="@drawable/border"
+		android:layout_width="match_parent" android:orientation="vertical"
+		android:layout_height="440dip" android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true" android:layout_marginLeft="10dip"
+		android:layout_marginRight="10dip" android:layout_marginTop="55px">
+		<ImageView android:layout_height="40dip" android:src="@drawable/register_label"
+			android:layout_width="match_parent" android:layout_marginTop="2dp"></ImageView>
+		<ImageView android:layout_width="100dip"
+			android:layout_height="33dip" android:src="@drawable/username_label"
+			android:layout_marginLeft="6dip" android:layout_marginTop="-12dp"></ImageView>
+		<EditText android:layout_width="match_parent" android:id="@+id/usernameRegister"
+			android:layout_height="wrap_content" android:layout_marginLeft="10dip"
+			android:layout_marginRight="5dip" android:layout_marginTop="-8dip">
+			<requestFocus></requestFocus>
+		</EditText>
+		<ImageView android:layout_width="100dip"
+			android:layout_height="25dip" android:src="@drawable/fullname_label"
+			android:layout_marginLeft="8dip"></ImageView>
+		<EditText android:layout_width="match_parent" android:id="@+id/fullnameRegister"
+			android:layout_height="wrap_content" android:layout_marginLeft="10dip"
+			android:layout_marginRight="5dip" android:layout_marginTop="-5dip"></EditText>
+		<ImageView android:layout_width="100dip"
+			android:layout_height="33dip" android:src="@drawable/password_label"
+			android:layout_marginLeft="8dip" android:layout_marginTop="-7dp"></ImageView>
+		<EditText android:layout_width="match_parent" android:id="@+id/passwordRegister"
+			android:layout_height="wrap_content" android:inputType="textPassword"
+			android:layout_marginLeft="10dip" android:layout_marginRight="5dip"
+			android:layout_marginTop="-8dip"></EditText>
+		<ImageView android:layout_width="170dip"
+			android:layout_height="33dip" android:src="@drawable/confirm_password_label" android:layout_marginLeft="12dip" android:layout_marginTop="-6dp"></ImageView>
+		<EditText android:layout_width="match_parent" android:id="@+id/confirmpassword"
+			android:layout_height="wrap_content" android:inputType="textPassword"
+			android:layout_marginLeft="10dip" android:layout_marginRight="5dip"
+			android:layout_marginTop="-6dip"></EditText>
+		<Button android:background="@drawable/submit" android:id="@+id/submitButton"
+			android:layout_width="100dip" android:layout_marginLeft="100dip" android:layout_marginTop="10dip" android:layout_height="37dip"></Button>
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="60dip" android:src="@drawable/suggestion"
+			android:layout_marginTop="10dp"></ImageView>
+	</LinearLayout>
+	<Button android:layout_height="40dip" android:layout_width="40dip"
+		android:id="@+id/circleXRegister" android:background="@drawable/circlex_button"
+		android:layout_alignParentTop="true" android:layout_alignParentRight="true"
+		android:layout_marginRight="-8dp" android:layout_marginTop="16dp"></Button>
+
+</RelativeLayout>

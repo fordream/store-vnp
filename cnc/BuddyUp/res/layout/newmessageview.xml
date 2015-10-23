@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:background="@drawable/profile_bg" android:padding="10dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_width="fill_parent" android:layout_alignParentLeft="true">
+        <TextView android:layout_height="wrap_content" android:textSize="14dip" android:textColor="@color/color_back" android:id="@+id/TextView01" android:typeface="serif" android:text="To :" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_weight="1" android:layout_width="50dip"></TextView>
+        <EditText android:layout_height="wrap_content" android:id="@+id/EditText1" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@color/color_back" android:textSize="14dip" android:typeface="serif" android:layout_weight="1" android:layout_width="180dip" android:text="Kraked" android:background="@drawable/repply_message_et1" android:paddingLeft="5dip" android:paddingRight="5dip" android:singleLine="true"></EditText>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_below="@+id/linearLayout1" android:layout_marginTop="10dip" android:layout_marginBottom="10dip">
+        <TextView android:layout_height="wrap_content" android:textSize="14dip" android:textColor="@color/color_back" android:id="@+id/TextView03" android:typeface="serif" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_weight="1" android:text="Subject : " android:layout_width="50dip"></TextView>
+        <EditText android:layout_height="wrap_content" android:textSize="14dip" android:textColor="@color/color_back" android:id="@+id/EditText1" android:typeface="serif" android:text="Kraked" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="180dip" android:layout_weight="1" android:background="@drawable/repply_message_et1" android:paddingLeft="5dip" android:paddingRight="5dip" android:singleLine="true"></EditText>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_below="@+id/LinearLayout01" android:layout_marginBottom="10dip" android:layout_marginTop="10dip">
+        <TextView android:layout_height="wrap_content" android:textSize="14dip" android:textColor="@color/color_back" android:id="@+id/TextView04" android:typeface="serif" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="50dip" android:layout_weight="1" android:text="Message : "></TextView>
+    </LinearLayout>
+    <EditText android:id="@+id/editText2" android:layout_height="wrap_content" android:layout_below="@+id/LinearLayout02" android:layout_width="fill_parent" android:layout_alignParentLeft="true" android:background="@drawable/repply_message_et" android:gravity="top" android:layout_above="@+id/button1" android:padding="5dip">
+        <requestFocus></requestFocus>
+    </EditText>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/button1" android:layout_centerHorizontal="true" android:background="@drawable/repply_message_btn" android:layout_alignParentBottom="true" android:layout_marginTop="10dip"></Button>
+    
+</RelativeLayout>

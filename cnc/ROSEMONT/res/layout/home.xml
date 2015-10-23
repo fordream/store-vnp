@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+        <org.com.cnc.rosemont.views.HeaderView
+            android:id="@+id/headerView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </org.com.cnc.rosemont.views.HeaderView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="700dip"
+        android:layout_weight="7"
+        android:background="@drawable/bghome"
+        android:orientation="horizontal" android:weightSum="640">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="18dip"
+            android:layout_height="match_parent"
+            android:layout_weight="18" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="600dip"
+            android:layout_height="match_parent"
+            android:layout_weight="600"
+            android:orientation="vertical" android:weightSum="830">
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="190dip"
+                android:orientation="vertical" android:layout_weight="190">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout7"
+                    android:layout_width="match_parent"
+                    android:layout_height="85dip"
+                    android:orientation="vertical" android:layout_weight="85">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout8"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dip"
+                    android:layout_weight="120"
+                    android:orientation="vertical" android:background="@drawable/btn_one">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout9"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dip"
+                    android:layout_weight="10"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="640dip"
+                android:layout_weight="640"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout02"
+                    android:layout_width="match_parent"
+                    android:layout_height="460dip"
+                    android:layout_weight="460"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout11"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dip"
+                        android:orientation="vertical" android:layout_weight="70">
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout12"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dip"
+                        android:layout_weight="300"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout04Name"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dip"
+                            android:layout_weight="100"
+                            android:orientation="vertical" android:background="@drawable/btn_one1">
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout031"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dip"
+                            android:layout_weight="100"
+                            android:background="@drawable/btn_one2"
+                            android:orientation="vertical" >
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linearLayout13"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dip"
+                            android:layout_weight="100"
+                            android:orientation="vertical" android:background="@drawable/btn_one3">
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout10"
+                    android:layout_width="match_parent"
+                    android:layout_height="340dip"
+                    android:orientation="vertical" android:layout_weight="340">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout14"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dip"
+                        android:orientation="vertical" android:layout_weight="35">
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout15"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dip"
+                        android:orientation="vertical" android:layout_weight="150">
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout05"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dip"
+                            android:layout_weight="100"
+                            android:orientation="vertical" android:background="@drawable/btn_one1">
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout04"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dip"
+                            android:layout_weight="100"
+                            android:orientation="vertical" android:background="@drawable/btn_one3">
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linearLayout17"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dip"
+                            android:layout_weight="100"
+                            android:orientation="vertical" android:background="@drawable/btn_one3" android:visibility="gone">
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout16"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dip"
+                        android:orientation="vertical" android:layout_weight="20">
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="20dip"
+            android:layout_height="match_parent" android:layout_weight="20">
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

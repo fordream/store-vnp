@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37DF128514AD5A700007EBAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DF128414AD5A700007EBAF /* UIKit.framework */; };
+		37DF128714AD5A700007EBAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DF128614AD5A700007EBAF /* Foundation.framework */; };
+		37DF128914AD5A700007EBAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DF128814AD5A700007EBAF /* CoreGraphics.framework */; };
+		37DF128F14AD5A700007EBAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37DF128D14AD5A700007EBAF /* InfoPlist.strings */; };
+		37DF129114AD5A700007EBAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DF129014AD5A700007EBAF /* main.m */; };
+		37DF129514AD5A700007EBAF /* TACAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DF129414AD5A700007EBAF /* TACAppDelegate.m */; };
+		37DF129814AD5A700007EBAF /* TACFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DF129714AD5A700007EBAF /* TACFirstViewController.m */; };
+		37DF129A14AD5A700007EBAF /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 37DF129914AD5A700007EBAF /* first.png */; };
+		37DF129C14AD5A700007EBAF /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37DF129B14AD5A700007EBAF /* first@2x.png */; };
+		37DF129F14AD5A700007EBAF /* TACSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DF129E14AD5A700007EBAF /* TACSecondViewController.m */; };
+		37DF12A114AD5A700007EBAF /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 37DF12A014AD5A700007EBAF /* second.png */; };
+		37DF12A314AD5A700007EBAF /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37DF12A214AD5A700007EBAF /* second@2x.png */; };
+		37DF12A614AD5A700007EBAF /* TACFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37DF12A414AD5A700007EBAF /* TACFirstViewController.xib */; };
+		37DF12A914AD5A700007EBAF /* TACSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37DF12A714AD5A700007EBAF /* TACSecondViewController.xib */; };
+		37DF12B114AD5A700007EBAF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DF12B014AD5A700007EBAF /* SenTestingKit.framework */; };
+		37DF12B214AD5A700007EBAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DF128414AD5A700007EBAF /* UIKit.framework */; };
+		37DF12B314AD5A700007EBAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DF128614AD5A700007EBAF /* Foundation.framework */; };
+		37DF12BB14AD5A700007EBAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37DF12B914AD5A700007EBAF /* InfoPlist.strings */; };
+		37DF12BE14AD5A700007EBAF /* NavigationTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DF12BD14AD5A700007EBAF /* NavigationTutorialTests.m */; };
+		37DF12D414AD61600007EBAF /* TACThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DF12D214AD61600007EBAF /* TACThirdViewController.m */; };
+		37DF12D514AD61600007EBAF /* TACThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37DF12D314AD61600007EBAF /* TACThirdViewController.xib */; };
+		3F03804E14F9E67C00E0D88A /* TACFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F03804C14F9E67C00E0D88A /* TACFourthViewController.m */; };
+		3F03804F14F9E67C00E0D88A /* TACFourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F03804D14F9E67C00E0D88A /* TACFourthViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37DF12B414AD5A700007EBAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37DF127714AD5A700007EBAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37DF127F14AD5A700007EBAF;
+			remoteInfo = NavigationTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37DF128014AD5A700007EBAF /* NavigationTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DF128414AD5A700007EBAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37DF128614AD5A700007EBAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37DF128814AD5A700007EBAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37DF128C14AD5A700007EBAF /* NavigationTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationTutorial-Info.plist"; sourceTree = "<group>"; };
+		37DF128E14AD5A700007EBAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37DF129014AD5A700007EBAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37DF129214AD5A700007EBAF /* NavigationTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavigationTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		37DF129314AD5A700007EBAF /* TACAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TACAppDelegate.h; sourceTree = "<group>"; };
+		37DF129414AD5A700007EBAF /* TACAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TACAppDelegate.m; sourceTree = "<group>"; };
+		37DF129614AD5A700007EBAF /* TACFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TACFirstViewController.h; sourceTree = "<group>"; };
+		37DF129714AD5A700007EBAF /* TACFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TACFirstViewController.m; sourceTree = "<group>"; };
+		37DF129914AD5A700007EBAF /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		37DF129B14AD5A700007EBAF /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		37DF129D14AD5A700007EBAF /* TACSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TACSecondViewController.h; sourceTree = "<group>"; };
+		37DF129E14AD5A700007EBAF /* TACSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TACSecondViewController.m; sourceTree = "<group>"; };
+		37DF12A014AD5A700007EBAF /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		37DF12A214AD5A700007EBAF /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		37DF12A514AD5A700007EBAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TACFirstViewController.xib; sourceTree = "<group>"; };
+		37DF12A814AD5A700007EBAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TACSecondViewController.xib; sourceTree = "<group>"; };
+		37DF12AF14AD5A700007EBAF /* NavigationTutorialTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationTutorialTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DF12B014AD5A700007EBAF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		37DF12B814AD5A700007EBAF /* NavigationTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationTutorialTests-Info.plist"; sourceTree = "<group>"; };
+		37DF12BA14AD5A700007EBAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37DF12BC14AD5A700007EBAF /* NavigationTutorialTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationTutorialTests.h; sourceTree = "<group>"; };
+		37DF12BD14AD5A700007EBAF /* NavigationTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationTutorialTests.m; sourceTree = "<group>"; };
+		37DF12D114AD61600007EBAF /* TACThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACThirdViewController.h; sourceTree = "<group>"; };
+		37DF12D214AD61600007EBAF /* TACThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACThirdViewController.m; sourceTree = "<group>"; };
+		37DF12D314AD61600007EBAF /* TACThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TACThirdViewController.xib; sourceTree = "<group>"; };
+		3F03804B14F9E67C00E0D88A /* TACFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACFourthViewController.h; sourceTree = "<group>"; };
+		3F03804C14F9E67C00E0D88A /* TACFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACFourthViewController.m; sourceTree = "<group>"; };
+		3F03804D14F9E67C00E0D88A /* TACFourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TACFourthViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37DF127D14AD5A700007EBAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DF128514AD5A700007EBAF /* UIKit.framework in Frameworks */,
+				37DF128714AD5A700007EBAF /* Foundation.framework in Frameworks */,
+				37DF128914AD5A700007EBAF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DF12AB14AD5A700007EBAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DF12B114AD5A700007EBAF /* SenTestingKit.framework in Frameworks */,
+				37DF12B214AD5A700007EBAF /* UIKit.framework in Frameworks */,
+				37DF12B314AD5A700007EBAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37DF127514AD5A700007EBAF = {
+			isa = PBXGroup;
+			children = (
+				37DF128A14AD5A700007EBAF /* NavigationTutorial */,
+				37DF12B614AD5A700007EBAF /* NavigationTutorialTests */,
+				37DF128314AD5A700007EBAF /* Frameworks */,
+				37DF128114AD5A700007EBAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37DF128114AD5A700007EBAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37DF128014AD5A700007EBAF /* NavigationTutorial.app */,
+				37DF12AF14AD5A700007EBAF /* NavigationTutorialTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37DF128314AD5A700007EBAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37DF128414AD5A700007EBAF /* UIKit.framework */,
+				37DF128614AD5A700007EBAF /* Foundation.framework */,
+				37DF128814AD5A700007EBAF /* CoreGraphics.framework */,
+				37DF12B014AD5A700007EBAF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37DF128A14AD5A700007EBAF /* NavigationTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				37DF129314AD5A700007EBAF /* TACAppDelegate.h */,
+				37DF129414AD5A700007EBAF /* TACAppDelegate.m */,
+				3F06F81614F9D55E00EDDAF9 /* View Controllers */,
+				3F06F81514F9D53F00EDDAF9 /* XIB */,
+				3F06F81314F9D52600EDDAF9 /* Graphics */,
+				37DF128B14AD5A700007EBAF /* Supporting Files */,
+			);
+			path = NavigationTutorial;
+			sourceTree = "<group>";
+		};
+		37DF128B14AD5A700007EBAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37DF128C14AD5A700007EBAF /* NavigationTutorial-Info.plist */,
+				37DF128D14AD5A700007EBAF /* InfoPlist.strings */,
+				37DF129014AD5A700007EBAF /* main.m */,
+				37DF129214AD5A700007EBAF /* NavigationTutorial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37DF12B614AD5A700007EBAF /* NavigationTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				37DF12BC14AD5A700007EBAF /* NavigationTutorialTests.h */,
+				37DF12BD14AD5A700007EBAF /* NavigationTutorialTests.m */,
+				37DF12B714AD5A700007EBAF /* Supporting Files */,
+			);
+			path = NavigationTutorialTests;
+			sourceTree = "<group>";
+		};
+		37DF12B714AD5A700007EBAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37DF12B814AD5A700007EBAF /* NavigationTutorialTests-Info.plist */,
+				37DF12B914AD5A700007EBAF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F06F81314F9D52600EDDAF9 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				37DF129914AD5A700007EBAF /* first.png */,
+				37DF129B14AD5A700007EBAF /* first@2x.png */,
+				37DF12A014AD5A700007EBAF /* second.png */,
+				37DF12A214AD5A700007EBAF /* second@2x.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		3F06F81514F9D53F00EDDAF9 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				37DF12A414AD5A700007EBAF /* TACFirstViewController.xib */,
+				37DF12A714AD5A700007EBAF /* TACSecondViewController.xib */,
+				37DF12D314AD61600007EBAF /* TACThirdViewController.xib */,
+				3F03804D14F9E67C00E0D88A /* TACFourthViewController.xib */,
+			);
+			name = XIB;
+			sourceTree = "<group>";
+		};
+		3F06F81614F9D55E00EDDAF9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37DF129614AD5A700007EBAF /* TACFirstViewController.h */,
+				37DF129714AD5A700007EBAF /* TACFirstViewController.m */,
+				37DF129D14AD5A700007EBAF /* TACSecondViewController.h */,
+				37DF129E14AD5A700007EBAF /* TACSecondViewController.m */,
+				37DF12D114AD61600007EBAF /* TACThirdViewController.h */,
+				37DF12D214AD61600007EBAF /* TACThirdViewController.m */,
+				3F03804B14F9E67C00E0D88A /* TACFourthViewController.h */,
+				3F03804C14F9E67C00E0D88A /* TACFourthViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37DF127F14AD5A700007EBAF /* NavigationTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37DF12C114AD5A700007EBAF /* Build configuration list for PBXNativeTarget "NavigationTutorial" */;
+			buildPhases = (
+				37DF127C14AD5A700007EBAF /* Sources */,
+				37DF127D14AD5A700007EBAF /* Frameworks */,
+				37DF127E14AD5A700007EBAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationTutorial;
+			productName = NavigationTutorial;
+			productReference = 37DF128014AD5A700007EBAF /* NavigationTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37DF12AE14AD5A700007EBAF /* NavigationTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37DF12C414AD5A700007EBAF /* Build configuration list for PBXNativeTarget "NavigationTutorialTests" */;
+			buildPhases = (
+				37DF12AA14AD5A700007EBAF /* Sources */,
+				37DF12AB14AD5A700007EBAF /* Frameworks */,
+				37DF12AC14AD5A700007EBAF /* Resources */,
+				37DF12AD14AD5A700007EBAF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37DF12B514AD5A700007EBAF /* PBXTargetDependency */,
+			);
+			name = NavigationTutorialTests;
+			productName = NavigationTutorialTests;
+			productReference = 37DF12AF14AD5A700007EBAF /* NavigationTutorialTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37DF127714AD5A700007EBAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "The AppCode LLC";
+			};
+			buildConfigurationList = 37DF127A14AD5A700007EBAF /* Build configuration list for PBXProject "NavigationTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37DF127514AD5A700007EBAF;
+			productRefGroup = 37DF128114AD5A700007EBAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37DF127F14AD5A700007EBAF /* NavigationTutorial */,
+				37DF12AE14AD5A700007EBAF /* NavigationTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37DF127E14AD5A700007EBAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DF128F14AD5A700007EBAF /* InfoPlist.strings in Resources */,
+				37DF129A14AD5A700007EBAF /* first.png in Resources */,
+				37DF129C14AD5A700007EBAF /* first@2x.png in Resources */,
+				37DF12A114AD5A700007EBAF /* second.png in Resources */,
+				37DF12A314AD5A700007EBAF /* second@2x.png in Resources */,
+				37DF12A614AD5A700007EBAF /* TACFirstViewController.xib in Resources */,
+				37DF12A914AD5A700007EBAF /* TACSecondViewController.xib in Resources */,
+				37DF12D514AD61600007EBAF /* TACThirdViewController.xib in Resources */,
+				3F03804F14F9E67C00E0D88A /* TACFourthViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DF12AC14AD5A700007EBAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DF12BB14AD5A700007EBAF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37DF12AD14AD5A700007EBAF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37DF127C14AD5A700007EBAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DF129114AD5A700007EBAF /* main.m in Sources */,
+				37DF129514AD5A700007EBAF /* TACAppDelegate.m in Sources */,
+				37DF129814AD5A700007EBAF /* TACFirstViewController.m in Sources */,
+				37DF129F14AD5A700007EBAF /* TACSecondViewController.m in Sources */,
+				37DF12D414AD61600007EBAF /* TACThirdViewController.m in Sources */,
+				3F03804E14F9E67C00E0D88A /* TACFourthViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DF12AA14AD5A700007EBAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DF12BE14AD5A700007EBAF /* NavigationTutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37DF12B514AD5A700007EBAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37DF127F14AD5A700007EBAF /* NavigationTutorial */;
+			targetProxy = 37DF12B414AD5A700007EBAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37DF128D14AD5A700007EBAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37DF128E14AD5A700007EBAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37DF12A414AD5A700007EBAF /* TACFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37DF12A514AD5A700007EBAF /* en */,
+			);
+			name = TACFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		37DF12A714AD5A700007EBAF /* TACSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37DF12A814AD5A700007EBAF /* en */,
+			);
+			name = TACSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+		37DF12B914AD5A700007EBAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37DF12BA14AD5A700007EBAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37DF12BF14AD5A700007EBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37DF12C014AD5A700007EBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37DF12C214AD5A700007EBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationTutorial/NavigationTutorial-Prefix.pch";
+				INFOPLIST_FILE = "NavigationTutorial/NavigationTutorial-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37DF12C314AD5A700007EBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationTutorial/NavigationTutorial-Prefix.pch";
+				INFOPLIST_FILE = "NavigationTutorial/NavigationTutorial-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		37DF12C514AD5A700007EBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavigationTutorial.app/NavigationTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationTutorial/NavigationTutorial-Prefix.pch";
+				INFOPLIST_FILE = "NavigationTutorialTests/NavigationTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		37DF12C614AD5A700007EBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavigationTutorial.app/NavigationTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationTutorial/NavigationTutorial-Prefix.pch";
+				INFOPLIST_FILE = "NavigationTutorialTests/NavigationTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37DF127A14AD5A700007EBAF /* Build configuration list for PBXProject "NavigationTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DF12BF14AD5A700007EBAF /* Debug */,
+				37DF12C014AD5A700007EBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37DF12C114AD5A700007EBAF /* Build configuration list for PBXNativeTarget "NavigationTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DF12C214AD5A700007EBAF /* Debug */,
+				37DF12C314AD5A700007EBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37DF12C414AD5A700007EBAF /* Build configuration list for PBXNativeTarget "NavigationTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37DF12C514AD5A700007EBAF /* Debug */,
+				37DF12C614AD5A700007EBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37DF127714AD5A700007EBAF /* Project object */;
+}

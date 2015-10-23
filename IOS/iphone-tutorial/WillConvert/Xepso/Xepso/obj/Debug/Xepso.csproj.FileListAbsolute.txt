@@ -1,0 +1,15 @@
+C:\Users\hnsunflower1807\Desktop\Source_C#\Xepso\Xepso\bin\Debug\Xepso.exe.config
+C:\Users\hnsunflower1807\Desktop\Source_C#\Xepso\Xepso\obj\Debug\Xepso.exe
+C:\Users\hnsunflower1807\Desktop\Source_C#\Xepso\Xepso\obj\Debug\Xepso.pdb
+C:\Users\hnsunflower1807\Desktop\Source_C#\Xepso\Xepso\bin\Debug\Xepso.exe
+C:\Users\hnsunflower1807\Desktop\Source_C#\Xepso\Xepso\bin\Debug\Xepso.pdb
+C:\Users\hnsunflower1807\Desktop\Source_C#\Xepso\Xepso\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\hnsunflower1807\Desktop\Source_C#\Xepso\Xepso\obj\Debug\Xepso.aboutme.resources
+C:\Users\hnsunflower1807\Desktop\Source_C#\Xepso\Xepso\obj\Debug\Xepso.Form1.resources
+C:\Users\hnsunflower1807\Desktop\Source_C#\Xepso\Xepso\obj\Debug\Xepso.HighScores.resources
+C:\Users\hnsunflower1807\Desktop\Source_C#\Xepso\Xepso\obj\Debug\Xepso.Name.resources
+C:\Users\hnsunflower1807\Desktop\Source_C#\Xepso\Xepso\obj\Debug\Xepso.Properties.Resources.resources
+C:\Users\hnsunflower1807\Desktop\Source_C#\Xepso\Xepso\obj\Debug\Xepso.csproj.GenerateResource.Cache
+D:\Learn\Data\C#\Source_C#\Xepso\Xepso\bin\Debug\Xepso.exe.config
+D:\Learn\Data\C#\Source_C#\Xepso\Xepso\obj\Debug\Xepso.exe
+D:\Learn\Data\C#\Source_C#\Xepso\Xepso\obj\Debug\Xepso.pdb

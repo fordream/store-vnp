@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShortFirmFestival-Rework</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Group menu -->
+    <string name="nenu_group_new">News</string>
+    <string name="nenu_group_photo">Photos</string>
+    <string name="nenu_group_movie">Movies</string>
+    <string name="nenu_group_app">Apps</string>
+    <!-- Child -->
+    <!-- Child 1 -->
+    <string name="menu_child_1_all">All</string>
+    <string name="menu_child_1_festival">Festival</string>
+    <string name="menu_child_1_biz">Biz</string>
+    <string name="menu_child_1_lounge">Lounge</string>
+    <string name="menu_child_1_theater">Theater</string>
+    <!-- Child 2 -->
+    <string name="menu_child_2_all">@string/menu_child_1_all</string>
+    <string name="menu_child_2_festival">@string/menu_child_1_festival</string>
+    <string name="menu_child_2_biz">@string/menu_child_1_biz</string>
+    <string name="menu_child_2_lounge">@string/menu_child_1_lounge</string>
+    <string name="menu_child_2_theater">@string/menu_child_1_theater</string>
+
+    <!-- Child 3 -->
+    <string name="menu_child_3_youtube">YouTube</string>
+    <string name="menu_child_3_ustream">USTREAM</string>
+
+    <!-- f -->
+    <!-- API -->
+
+    <string name="api_language">en</string>
+    <string name="api_server_list">http://www.shortshorts.org/api/list.php</string>
+    <string name="tab_new_type_all">all</string>
+
+</resources>

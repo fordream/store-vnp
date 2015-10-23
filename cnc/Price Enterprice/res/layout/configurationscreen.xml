@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#c3c3c3">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/rlConfiguration">
+        <FrameLayout android:id="@+id/frameLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_alignParentBottom="true" android:layout_alignParentTop="true">
+            <ScrollView android:layout_width="fill_parent" android:id="@+id/sVAbount1" android:layout_height="fill_parent" android:paddingLeft="10dip" android:paddingRight="10dip">
+              
+                                  <LinearLayout
+                                      android:id="@+id/llConfiguration"
+                                      android:layout_width="fill_parent"
+                                      android:layout_height="fill_parent"
+                                      android:orientation="vertical" >
+
+                        <TextView android:textColor="#fefefe" android:layout_marginTop="10dip" android:text="@string/items_per_page" android:id="@+id/TextView02" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_marginBottom="10dip" android:textStyle="bold" android:textSize="18dip" android:typeface="serif"></TextView>
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/RelativeLayout01">
+                            <RelativeLayout android:id="@+id/rl5items" android:layout_width="fill_parent" android:layout_alignParentLeft="true" android:background="@drawable/bgconfiguration1indicator" android:layout_height="40dip">
+                                <TextView android:textColor="#424241" android:layout_centerVertical="true" android:text="@string/n5items" android:id="@+id/TextView01" android:layout_height="wrap_content" android:layout_marginLeft="20dip" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:textStyle="bold" android:textSize="15dip" android:typeface="serif"></TextView>
+                                <ImageView android:layout_marginRight="10dip" android:id="@+id/img5items" android:layout_centerVertical="true" android:layout_alignParentRight="true" android:background="@drawable/check" android:layout_width="10dip" android:layout_height="10dip"></ImageView>
+                            </RelativeLayout>
+                            <RelativeLayout android:id="@+id/rl10items" android:layout_width="fill_parent" android:layout_below="@+id/rl5items" android:layout_alignParentLeft="true" android:background="@drawable/bgconfiguration2indicator" android:layout_height="40dip">
+                                <TextView android:textColor="#424241" android:layout_centerVertical="true" android:text="@string/n10items" android:id="@+id/TextView04" android:layout_height="wrap_content" android:layout_marginLeft="20dip" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:textStyle="bold" android:textSize="15dip" android:typeface="serif"></TextView>
+                                <ImageView android:layout_marginRight="10dip" android:id="@+id/img10items" android:layout_centerVertical="true" android:layout_alignParentRight="true" android:background="@drawable/uncheck" android:layout_height="10dip" android:layout_width="10dip"></ImageView>
+                            </RelativeLayout>
+                            <RelativeLayout android:id="@+id/rl30items" android:layout_width="fill_parent" android:layout_below="@+id/rl10items" android:layout_alignParentLeft="true" android:background="@drawable/bgconfiguration3indicator" android:layout_height="40dip">
+                                <TextView android:textColor="#424241" android:layout_centerVertical="true" android:text="@string/n30items" android:id="@+id/TextView03" android:layout_height="wrap_content" android:layout_marginLeft="20dip" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:textStyle="bold" android:textSize="15dip" android:typeface="serif"></TextView>
+                                <ImageView android:layout_marginRight="10dip" android:id="@+id/img30items" android:layout_centerVertical="true" android:layout_alignParentRight="true" android:layout_width="10dip" android:layout_height="10dip"></ImageView>
+                            </RelativeLayout>
+                        </RelativeLayout>
+                        <TextView android:textColor="#fefefe" android:layout_marginTop="10dip" android:text="@string/about" android:id="@+id/textView1" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_marginBottom="10dip" android:textSize="18dip" android:textStyle="bold" android:typeface="serif"></TextView>
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/relativeLayout2">
+                            <RelativeLayout android:id="@+id/rlAbout" android:layout_width="fill_parent" android:layout_alignParentLeft="true" android:background="@drawable/bgconfiguration1indicator" android:layout_height="40dip">
+                                <TextView android:textColor="#424241" android:layout_centerVertical="true" android:text="@string/about_mais_preco" android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_marginLeft="20dip" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:textStyle="bold" android:textSize="15dip" android:typeface="serif"></TextView>
+                                <ImageView android:layout_marginRight="10dip" android:id="@+id/imageView1" android:layout_centerVertical="true" android:layout_alignParentRight="true" android:src="@drawable/next" android:layout_width="10dip" android:layout_height="10dip"></ImageView>
+                            </RelativeLayout>
+                            <RelativeLayout android:id="@+id/rlContacts" android:layout_width="fill_parent" android:layout_below="@+id/rlAbout" android:layout_alignParentLeft="true" android:background="@drawable/bgconfiguration2indicator" android:layout_height="40dip">
+                                <TextView android:textColor="#424241" android:layout_centerVertical="true" android:text="@string/contact_us" android:id="@+id/textView3" android:layout_height="wrap_content" android:layout_marginLeft="20dip" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:textStyle="bold" android:textSize="15dip" android:typeface="serif"></TextView>
+                                <ImageView android:layout_marginRight="10dip" android:id="@+id/imageView4" android:layout_centerVertical="true" android:layout_alignParentRight="true" android:src="@drawable/next" android:layout_width="10dip" android:layout_height="10dip"></ImageView>
+                            </RelativeLayout>
+                            <RelativeLayout android:layout_alignParentBottom="true" android:id="@+id/rlHep" android:layout_width="fill_parent" android:layout_below="@+id/rlContacts" android:layout_alignParentLeft="true" android:background="@drawable/bgconfiguration3indicator" android:layout_height="40dip">
+                                <TextView android:textColor="#424241" android:layout_centerVertical="true" android:text="@string/help" android:id="@+id/textView4" android:layout_height="wrap_content" android:layout_marginLeft="20dip" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:textStyle="bold" android:textSize="15dip" android:typeface="serif"></TextView>
+                                <ImageView android:layout_marginRight="10dip" android:id="@+id/imageView5" android:layout_centerVertical="true" android:layout_alignParentRight="true" android:src="@drawable/next" android:layout_width="10dip" android:layout_height="10dip"></ImageView>
+                            </RelativeLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+                
+            </ScrollView>
+        </FrameLayout>
+    </RelativeLayout>
+		
+</LinearLayout>

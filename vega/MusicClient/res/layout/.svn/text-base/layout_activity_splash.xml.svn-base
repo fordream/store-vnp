@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:paddingBottom="40dp"
+	android:background="@drawable/bg_splash">
+
+	<ProgressBar android:id="@+id/splash_progress_bar"
+		style="?android:attr/progressBarStyleHorizontal" android:layout_width="100dp"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:progress="0"
+		android:layout_height="10dp" android:layout_centerVertical="true"
+		android:progressDrawable="@drawable/drawable_seekbar_red"
+		android:visibility="visible" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <!-- New -->
+    <string name="language_trans">언어</string>
+    <string name="app_name_trans">DQR코드</string>
+    <string name="setting_your_key_trans">열쇠번호를 넣으시오</string>
+    <string name="answer_trans">답변</string>
+    <string name="show_map_trans">지도를 보입니다.</string>
+    <string name="close_trans">닫습니다</string>
+    <string name="please_check_your_network_trans">위치확인 기능이 작동 되는지요?</string>
+    <string name="havent_network_trans"> 위치 확인기능이 작동 않됩니다.</string>
+    <string name="check_network_trans">네트워크를 확인</string>
+    <string name="message_trans">메시지</string>
+    <string name="go_to_main_screen_trans">본래의 화면으로 가시오.</string>
+    <string name="havent_message_and_next_point_trans">메시지를 받았습니까? 다음 포인트로! </string>
+    <string name="loading_trans">로딩중 …</string>
+    <string name="download_fail_trans">다운로드가 않되었습니다.</string>
+    <string name="incorrect_key_try_agian_trans">열쇠번호가 틀립니다.</string>
+    <string name="key_not_blank_trans">열쇠번호는 반듯이 적어야 합니다.</string>
+    <string name="please_check_your_image_or_wifi_trans">이미지혹은 wifi 확인</string>
+    <string name="enjoy_the_designated_dqr_code_daqiri_trans">회원만이 접속 가능한 DQR 코드를 즐기세요.</string>
+    <string name="message_through_gps_trans">GPS를 통하여 메시지를 받을수 있습니다.</string>
+    <string name="scan_saved_dqr_code_trans">DQR 코드를 스캔 하십시요.</string>
+    <string name="for_more_information_please_visit_the_web_http_DaQiRi_com_trans">더욱 자세한 정보는 http://daqiri.com</string>
+    <string name="request_DQR_trans">DQR 코드를 요청하십시요.</string>
+    <string name="downloading_trans">내려받기중</string>
+    <string name="error_trans">에러 발생</string>
+    <string name="download_Fail_trans">다운로딩 실패</string>
+    <string name="info_trans">정보</string>
+    <string name="Do_you_want_to_receive_message_through_GPS_trans">GPS를 통하여 메시지를 원하시나요?</string>
+    <string name="Cant_decode_this_image_trans">이 코드는 해석 할수없습니다.</string>
+    <string name="Please_check_your_key_number_trans">열쇠 번호를 확인 하시기 바랍니다.</string>
+    <string name="Cant_not_decode_this_image_trans">이 코드를 해석 할수없습니다</string>
+    <string name="Please_check_your_image_trans">코드를 다시 확인 하세요</string>
+    <string name="Select_Picture_trans">코드를 선택</string>
+    <string name="Your_mobile_cant_not_scan_and_decode_trans">모바일 기기가 코드를 스캔하여 해석못함</string>
+    <string name="Please_check_your_key_number_or_this_DQR_code_trans">열쇠 번호를 확인 하거나 DQR코드를 한번 확인 바랍니다.</string>
+    <string name="No_Image_is_selected_trans">이미지가 선택 않되었습니다.</string>
+    <string name="Image_is_selected_trans">이미지가 선택 되었습니다.</string>
+    <string name="Your_mobile_cant_not_scan_this_image_trans">모바일 기기가 코드를 스캔 못합니다</string>
+    <string name="Image_XXX_has_been_download_to_sdcard_trans">이미지가 SD카드에 다운로드 </string>
+    <string name="Your_must_input_your_key_number_trans">열쇠 번호를 적어 넣으십시요.</string>
+    <string name="accept_trans">승인 되었습니다.</string>
+    <string name="cancel_trans">취소 되었습니다.</string>
+    <string name="searching_trans">찾고 있는중 …</string>
+    <string name="your_message_trans">당신의 메시지는 </string>
+    <string name="location_trans">위치</string>
+    <string name="scan_DRR_code_trans">DQR코드를 스캔 하시오.</string>
+    <string name="input_your_key_trans">열쇠 번호를 적어 넣으십시요.</string>
+    <string name="about_us_trans">우리들은</string>
+    <string name="Dont_Save_file_Check_your_Sdcard_trans">파일을 저장하지 마십시오, 당신 Sdcard를 확인!</string>
+    <string name="Success_trans">성공 입니다.</string>
+    <string name="Image_save_to_Sdcard_trans">이미지 Sdcard에 저장</string>
+    <string name="your_question_trans">당신의 질문은</string>
+    <string name="check_trans">위치 서비스를 동작 시키십시요.</string>
+    <string name="get_gps_trans">위치 찾기중 …</string>
+    <string name="dont_get_GPS">위치를 얻지 못합니다.</string>
+    <string name="history_trans">내력</string>
+    <string name="havent_history_trans">다음 위치를 얻지 못했습니다.</string>
+    <string name="how_to_use_QDR_code">DQR코드 사용 방법</string>
+    <string name="usage_of_DQR_code">DQR코드 사용처 </string>
+    <string name="gps_translate_check">GPS 장치가 꺼져 있습니다. 작동 시키기를 원합니까?</string>
+
+</resources>

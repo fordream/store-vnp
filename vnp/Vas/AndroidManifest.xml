@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.vnp.vas"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name="org.vnp.vas.controller.UIApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.vnp.vas.controller.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.vnp.vas.controller.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="org.vnp.vas.controller.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="org.vnp.vas.controller.ForgotPasswordActivity"
+            android:label="@string/title_activity_forgotpassword" >
+        </activity>
+        <activity
+            android:name="org.vnp.vas.controller.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+
+        <service android:name="org.vnp.vas.controller.service.VasService" >
+        </service>
+
+        <activity
+            android:name="org.vnp.vas.controller.tab.SettingActivity"
+            android:label="@string/title_activity_setting" >
+        </activity>
+        <activity
+            android:name="org.vnp.vas.controller.tab.MusicTabActivity"
+            android:label="@string/title_activity_music_tab" >
+        </activity>
+        <activity
+            android:name="org.vnp.vas.controller.tab.HistoryTabActivity"
+            android:label="@string/title_activity_history_tab" >
+        </activity>
+        <activity
+            android:name="org.vnp.vas.controller.tab.SearchTabActivity"
+            android:label="@string/title_activity_search_tab" >
+        </activity>
+        <activity
+            android:name="org.vnp.vas.controller.tab.history.FavoritesActivity"
+            android:label="@string/title_activity_favorites" >
+        </activity>
+        <activity
+            android:name="org.vnp.vas.controller.tab.history.DownloadActivity"
+            android:label="@string/title_activity_download" >
+        </activity>
+        <activity
+            android:name="org.vnp.vas.controller.tab.history.ListenedActivity"
+            android:label="@string/title_activity_listened" >
+        </activity>
+        <activity
+            android:name="org.vnp.vas.controller.tab.music.AllMusicActivity"
+            android:label="@string/title_activity_all_music" >
+        </activity>
+        <activity
+            android:name="org.vnp.vas.controller.tab.music.PopularActivity"
+            android:label="@string/title_activity_popular" >
+        </activity>
+        <activity
+            android:name="org.vnp.vas.controller.tab.music.GenesActivity"
+            android:label="@string/title_activity_genes" >
+        </activity>
+    </application>
+
+</manifest>

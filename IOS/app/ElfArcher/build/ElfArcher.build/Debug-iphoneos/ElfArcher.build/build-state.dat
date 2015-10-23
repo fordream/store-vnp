@@ -1,0 +1,340 @@
+TElfArcher
+v7
+r1
+cCheck dependencies
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
+c000000004CB3FBB80000000000001ADD
+t1286863800
+s6877
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/ElfArcherAppDelegate.h
+c000000004E78821800000000000001D9
+t1316520472
+s473
+i<UIKit/UIKit.h>
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/ElfArcherAppDelegate.m
+c000000004E7882180000000000000AAF
+t1316520472
+s2735
+i"ElfArcherAppDelegate.h"
+i"RootViewController.h"
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/RootViewController.h
+c000000004E78821800000000000000ED
+t1316520472
+s237
+i<UIKit/UIKit.h>
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/RootViewController.m
+c000000004E78821800000000000010C5
+t1316520472
+s4293
+i"RootViewController.h"
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/main/customs/RoundView.h
+c000000004E73A6860000000000000156
+t1316202118
+s342
+i<UIKit/UIKit.h>
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/main/customs/RoundView.m
+c000000004E73A6240000000000000463
+t1316202020
+s1123
+i"RoundView.h"
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/main/menu/MenuController.h
+c000000004E7224C80000000000000169
+t1316103368
+s361
+i<UIKit/UIKit.h>
+i"PlayController.h"
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/main/menu/MenuController.m
+c000000004E722524000000000000067E
+t1316103460
+s1662
+i"MenuController.h"
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/main/menu/MenuController.xib
+c000000004E7223600000000000004BE4
+t1316103008
+s19428
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/main/play/PlayController.h
+c000000004E722B60000000000000017E
+t1316105056
+s382
+i<UIKit/UIKit.h>
+i"RoundView.h"
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/main/play/PlayController.m
+c000000004E73A3BE0000000000000942
+t1316201406
+s2370
+i"PlayController.h"
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/main/play/PlayController.xib
+c000000004E7223880000000000001865
+t1316103048
+s6245
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/ElfArcher_Prefix.pch
+c000000004E7882180000000000000144
+t1316520472
+s324
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/MainWindow.xib
+c000000004E7882680000000000006631
+t1316520552
+s26161
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/RootViewController.xib
+c000000004E7882180000000000004454
+t1316520472
+s17492
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/Debug-iphoneos/ElfArcher.app
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/Debug-iphoneos/ElfArcher.app.dSYM
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/Debug-iphoneos/ElfArcher.app/ElfArcher
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/Debug-iphoneos/ElfArcher.app/Info.plist
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/Debug-iphoneos/ElfArcher.app/MainWindow.nib
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/Debug-iphoneos/ElfArcher.app/MenuController.nib
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/Debug-iphoneos/ElfArcher.app/PkgInfo
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/Debug-iphoneos/ElfArcher.app/PlayController.nib
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/Debug-iphoneos/ElfArcher.app/ResourceRules.plist
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/Debug-iphoneos/ElfArcher.app/RootViewController.nib
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv6/ElfArcher
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv6/ElfArcher.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv6/ElfArcherAppDelegate.o
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv6/MenuController.o
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv6/PlayController.o
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv6/RootViewController.o
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv6/RoundView.o
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv7/ElfArcher
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv7/ElfArcher.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv7/ElfArcherAppDelegate.o
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv7/MenuController.o
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv7/PlayController.o
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv7/RootViewController.o
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv7/RoundView.o
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Volumes/SETUP/Scouce Common/iphone/ElfArcher/main.m
+c000000004E788218000000000000016B
+t1316520472
+s363
+i<UIKit/UIKit.h>
+
+N/var/folders/5T/5Tgf3wKgFu4naK6+QGw1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ElfArcher_Prefix-avkttqvvbzpwuhddtwqwrreafcgf/ElfArcher_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/5T/5Tgf3wKgFu4naK6+QGw1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ElfArcher_Prefix-fzbyjuphuydbjbdvreearggeacpy/ElfArcher_Prefix.pch.gch
+t2
+s0
+
+NElfArcher-Info.plist
+c000000004E788218000000000000038D
+t1316520472
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies338702927#338702927#0(133"[BEROR]Code Sign error: The identity 'iPhone Developer' doesn't match any valid certificate/private key pair in the default keychain1(4@125"Code Sign error: The identity 'iPhone Developer' doesn't match any valid certificate/private key pair in the default keychain338702927#18446744073709551615#0#0(1@0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv6/ElfArcherAppDelegate.o "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/ElfArcherAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv6/MenuController.o "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/main/menu/MenuController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv6/PlayController.o "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/main/play/PlayController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv6/RootViewController.o "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/RootViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv6/RoundView.o "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/main/customs/RoundView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv6/main.o "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv7/ElfArcherAppDelegate.o "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/ElfArcherAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv7/MenuController.o "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/main/menu/MenuController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv7/PlayController.o "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/main/play/PlayController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv7/RootViewController.o "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/RootViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv7/RoundView.o "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/main/customs/RoundView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv7/main.o "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/main/menu/MenuController.xib"
+r0
+
+CCompileXIB "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/Classes/main/play/PlayController.xib"
+r0
+
+CCompileXIB "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/MainWindow.xib"
+r0
+
+CCompileXIB "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/RootViewController.xib"
+r0
+
+CCpResource build/Debug-iphoneos/ElfArcher.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/Debug-iphoneos/ElfArcher.app/ElfArcher" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/Debug-iphoneos/ElfArcher.app.dSYM" "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/Debug-iphoneos/ElfArcher.app/ElfArcher"
+r0
+
+CLd "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv6/ElfArcher" normal armv6
+r0
+
+CLd "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/ElfArcher.build/Debug-iphoneos/ElfArcher.build/Objects-normal/armv7/ElfArcher" normal armv7
+r0
+
+CProcessInfoPlistFile "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/Debug-iphoneos/ElfArcher.app/Info.plist" ElfArcher-Info.plist
+r0
+
+CProcessPCH /var/folders/5T/5Tgf3wKgFu4naK6+QGw1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ElfArcher_Prefix-avkttqvvbzpwuhddtwqwrreafcgf/ElfArcher_Prefix.pch.gch ElfArcher_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/5T/5Tgf3wKgFu4naK6+QGw1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ElfArcher_Prefix-fzbyjuphuydbjbdvreearggeacpy/ElfArcher_Prefix.pch.gch ElfArcher_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Volumes/SETUP/Scouce Common/iphone/ElfArcher/build/Debug-iphoneos/ElfArcher.app"
+r0
+

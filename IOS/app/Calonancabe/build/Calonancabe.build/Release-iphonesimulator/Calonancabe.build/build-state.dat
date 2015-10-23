@@ -1,0 +1,1497 @@
+TCalonancabe
+v7
+r0
+t341028704.294562
+cCheck dependencies
+cProcessInfoPlistFile "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Info.plist" Calonancabe-Info.plist
+cCompileXIB "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.xib"
+cCompileXIB "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/delagate/MainWindow.xib"
+cCompileXIB "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.xib"
+cCpResource build/Release-iphonesimulator/Calonancabe.app/menu.png Resoures/images/menu/menu.png
+cCopyPlistFile "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe-Info.plist" Resoures/Calonancabe-Info.plist
+cCpResource build/Release-iphonesimulator/Calonancabe.app/Default.png Resoures/images/default/Default.png
+cCpResource build/Release-iphonesimulator/Calonancabe.app/icon.png Resoures/images/default/icon.png
+cCompileXIB "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.xib"
+cCpResource build/Release-iphonesimulator/Calonancabe.app/background1.mp3 Resoures/musics/background1.mp3
+cCpResource build/Release-iphonesimulator/Calonancabe.app/checkhang.png Resoures/images/play/checkhang.png
+cCpResource build/Release-iphonesimulator/Calonancabe.app/ca1.png Resoures/images/play/ca1.png
+cCpResource build/Release-iphonesimulator/Calonancabe.app/ca2.png Resoures/images/play/ca2.png
+cCpResource build/Release-iphonesimulator/Calonancabe.app/ca3.png Resoures/images/play/ca3.png
+cCpResource build/Release-iphonesimulator/Calonancabe.app/taungam1.png Resoures/images/play/taungam1.png
+cCpResource build/Release-iphonesimulator/Calonancabe.app/taungam2.png Resoures/images/play/taungam2.png
+cCpResource build/Release-iphonesimulator/Calonancabe.app/map1.png Resoures/images/play/map1.png
+cCpResource build/Release-iphonesimulator/Calonancabe.app/bom.png Resoures/images/play/bom.png
+cCpResource build/Release-iphonesimulator/Calonancabe.app/tomahoc.png Resoures/images/play/tomahoc.png
+cCpResource build/Release-iphonesimulator/Calonancabe.app/dan.png Resoures/images/play/dan.png
+cCpResource build/Release-iphonesimulator/Calonancabe.app/cavang.png Resoures/images/play/cavang.png
+cCpResource build/Release-iphonesimulator/Calonancabe.app/menu.mp3 Resoures/musics/menu.mp3
+cCpResource build/Release-iphonesimulator/Calonancabe.app/gunnormal.mp3 Resoures/musics/gunnormal.mp3
+cProcessPCH /var/folders/M2/M2ZXuZZmE9Oao+MhgLFF6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-abwdqssxcbjwdrbtlesmahuiecsy/Calonancabe_Prefix.pch.gch Calonancabe_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/main.o "/Volumes/Data/Scouce Common/iphone/Calonancabe/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/RootViewController.o "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/CalonancabeAppDelegate.o "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/delagate/CalonancabeAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/MenuScreen.o "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/PlayScreen.o "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/CommonMusic.o "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/CommonMusic.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Phoint1.o "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/Phoint1.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Common.o "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/Common.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Charactor.o "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/control/Charactor.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/ActactType.o "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/control/ActactType.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe" normal i386
+cGenerateDSYMFile "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app.dSYM" "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe"
+cTouch "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC1288A00000000000F34A0
+t1287727242
+s996512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC128840000000000000733
+t1287727236
+s1843
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004CC1220900000000000A8450
+t1287725577
+s689232
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/GameKit.framework/GameKit
+c000000004CC65698000000000017E520
+t1288066712
+s1565984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CADisplayLink.h
+c000000004CC1233D0000000000000870
+t1287725885
+s2160
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004CC121F60000000000068970
+t1287725558
+s428400
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/libsqlite3.dylib
+c000000004CC109D90000000000092C20
+t1287719385
+s601120
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Calonancabe_Prefix.pch
+c000000004E8709D80000000000000148
+t1317472728
+s328
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/Common.h
+c000000004E88DA420000000000000103
+t1317591618
+s259
+i<Foundation/Foundation.h>
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/Common.m
+c000000004E88DC24000000000000012B
+t1317592100
+s299
+i"Common.h"
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/CommonMusic.h
+c000000004E893AFC000000000000017F
+t1317616380
+s383
+i<Foundation/Foundation.h>
+i<AVFoundation/AVFoundation.h>
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/CommonMusic.m
+c000000004E893D740000000000000509
+t1317617012
+s1289
+i"CommonMusic.h"
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/Phoint1.h
+c000000004E88D8BC0000000000000140
+t1317591228
+s320
+i<Foundation/Foundation.h>
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/Phoint1.m
+c000000004E88D8220000000000000140
+t1317591074
+s320
+i"Phoint1.h"
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/control/ActactType.h
+c000000004E89B9BE0000000000000113
+t1317648830
+s275
+i<Foundation/Foundation.h>
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/control/ActactType.m
+c000000004E89B9E00000000000000113
+t1317648864
+s275
+i"ActactType.h"
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/control/Charactor.h
+c000000004E89BA220000000000000161
+t1317648930
+s353
+i<Foundation/Foundation.h>
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/control/Charactor.m
+c000000004E89B84C00000000000000C5
+t1317648460
+s197
+i"Charactor.h"
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/delagate/CalonancabeAppDelegate.h
+c000000004E87C15C00000000000001F6
+t1317519708
+s502
+i<UIKit/UIKit.h>
+i"CommonMusic.h"
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/delagate/CalonancabeAppDelegate.m
+c000000004E87C2300000000000000A8B
+t1317519920
+s2699
+i"CalonancabeAppDelegate.h"
+i"RootViewController.h"
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/delagate/MainWindow.xib
+c000000004E8710CC0000000000005F62
+t1317474508
+s24418
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.h
+c000000004E87BD0200000000000002E4
+t1317518594
+s740
+i<UIKit/UIKit.h>
+i"PlayScreen.h"
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.m
+c000000004E87BD400000000000000855
+t1317518656
+s2133
+i"MenuScreen.h"
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.xib
+c000000004E87BCD00000000000007AA0
+t1317518544
+s31392
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.h
+c000000004E890546000000000000044D
+t1317602630
+s1101
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+i<QuartzCore/CADisplayLink.h>
+i"Phoint1.h"
+i<math.h>
+i"Common.h"
+i"CommonMusic.h"
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.m
+c000000004E893D980000000000001DAF
+t1317617048
+s7599
+i"PlayScreen.h"
+i<QuartzCore/CADisplayLink.h>
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.xib
+c000000004E89B78A0000000000006E46
+t1317648266
+s28230
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.h
+c000000004E8709D800000000000000EF
+t1317472728
+s239
+i<UIKit/UIKit.h>
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.m
+c000000004E8709D800000000000010C7
+t1317472728
+s4295
+i"RootViewController.h"
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.xib
+c000000004E8709D80000000000004456
+t1317472728
+s17494
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Resoures/Calonancabe-Info.plist
+c000000004E87116C00000000000003B4
+t1317474668
+s948
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Resoures/images/default/Default.png
+c000000004E8715FA000000000000FF23
+t1317475834
+s65315
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Resoures/images/default/icon.png
+c000000004E8715FA000000000000FF23
+t1317475834
+s65315
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Resoures/images/menu/menu.png
+c000000004E7F6BD400000000000283C4
+t1316973524
+s164804
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Resoures/images/play/bom.png
+c000000004E88E4C2000000000000182A
+t1317594306
+s6186
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Resoures/images/play/ca1.png
+c000000004E88B5C40000000000000EFC
+t1317582276
+s3836
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Resoures/images/play/ca2.png
+c000000004E88B5F20000000000000F1C
+t1317582322
+s3868
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Resoures/images/play/ca3.png
+c000000004E88B6F60000000000000EDD
+t1317582582
+s3805
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Resoures/images/play/cavang.png
+c000000004E890288000000000000114D
+t1317601928
+s4429
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Resoures/images/play/checkhang.png
+c000000004E889F2C0000000000001011
+t1317576492
+s4113
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Resoures/images/play/dan.png
+c000000004E88F4CE0000000000000E2B
+t1317598414
+s3627
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Resoures/images/play/map1.png
+c000000004E88CE120000000000042882
+t1317588498
+s272514
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Resoures/images/play/taungam1.png
+c000000004E88C0A40000000000001C8F
+t1317585060
+s7311
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Resoures/images/play/taungam2.png
+c000000004E88C0C400000000000017B1
+t1317585092
+s6065
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Resoures/images/play/tomahoc.png
+c000000004E88EFC6000000000001A3CB
+t1317597126
+s107467
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Resoures/musics/background1.mp3
+c000000004E533EA2000000000004819A
+t1314078370
+s295322
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Resoures/musics/gunnormal.mp3
+c000000004E893BE600000000000011A5
+t1317616614
+s4517
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/Resoures/musics/menu.mp3
+c000000004E63E49E0000000000004051
+t1315169438
+s16465
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/ActactType.o
+t1319335902
+s6000
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Calonancabe.LinkFileList
+c000000004EA377D900000000000005BB
+t1319335897
+s1467
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/CalonancabeAppDelegate.o
+t1319335900
+s53988
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Charactor.o
+t1319335902
+s5980
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Common.o
+t1319335902
+s5876
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/CommonMusic.o
+t1319335901
+s12356
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/MenuScreen.o
+t1319335900
+s46808
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Phoint1.o
+t1319335901
+s7108
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/PlayScreen.o
+t1319335901
+s67580
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/RootViewController.o
+t1319335900
+s41108
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/main.o
+t1319335900
+s6312
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app
+t1319335904
+s4096
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app.dSYM
+t1319335903
+s0
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe
+t1319335903
+s47068
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe-Info.plist
+t1317579792
+s521
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Default.png
+t1317579792
+s65315
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Info.plist
+t1317579792
+s634
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/MainWindow.nib
+t1317579792
+s1540
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/MenuScreen.nib
+t1317579792
+s2565
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/PkgInfo
+t1317579792
+s8
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/PlayScreen.nib
+t1317648276
+s2317
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/RootViewController.nib
+t1317579792
+s979
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/background1.mp3
+t1317579792
+s295322
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/bom.png
+t1317594688
+s6186
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/ca1.png
+t1317582406
+s3836
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/ca2.png
+t1317582406
+s3868
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/ca3.png
+t1317582618
+s3805
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/cavang.png
+t1317602150
+s4429
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/checkhang.png
+t1317579792
+s4113
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/dan.png
+t1317598928
+s3627
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/gunnormal.mp3
+t1317616654
+s4517
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/icon.png
+t1317579792
+s65315
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/map1.png
+t1317588656
+s272514
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/menu.mp3
+t1317602672
+s16465
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/menu.png
+t1317579792
+s164804
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/taungam1.png
+t1317585242
+s7311
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/taungam2.png
+t1317585242
+s6065
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/tomahoc.png
+t1317597728
+s107467
+
+N/Volumes/Data/Scouce Common/iphone/Calonancabe/main.m
+c000000004E8709D8000000000000016D
+t1317472728
+s365
+i<UIKit/UIKit.h>
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Calonancabe_Prefix.pch
+c000000004E8644F80000000000000148
+t1317422328
+s328
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/Common.h
+c000000004E8815620000000000000103
+t1317541218
+s259
+i<Foundation/Foundation.h>
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/Common.m
+c000000004E881744000000000000012B
+t1317541700
+s299
+i"Common.h"
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/CommonMusic.h
+c000000004E88761C000000000000017F
+t1317565980
+s383
+i<Foundation/Foundation.h>
+i<AVFoundation/AVFoundation.h>
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/CommonMusic.m
+c000000004E8878940000000000000509
+t1317566612
+s1289
+i"CommonMusic.h"
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/Phoint1.h
+c000000004E8813DC0000000000000140
+t1317540828
+s320
+i<Foundation/Foundation.h>
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/Phoint1.m
+c000000004E8813420000000000000140
+t1317540674
+s320
+i"Phoint1.h"
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/control/ActactType.h
+c000000004E88F4DE0000000000000113
+t1317598430
+s275
+i<Foundation/Foundation.h>
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/control/ActactType.m
+c000000004E88F5000000000000000113
+t1317598464
+s275
+i"ActactType.h"
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/control/Charactor.h
+c000000004E88F5420000000000000161
+t1317598530
+s353
+i<Foundation/Foundation.h>
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/control/Charactor.m
+c000000004E88F36C00000000000000C5
+t1317598060
+s197
+i"Charactor.h"
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/delagate/CalonancabeAppDelegate.h
+c000000004E86FC7C00000000000001F6
+t1317469308
+s502
+i<UIKit/UIKit.h>
+i"CommonMusic.h"
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/delagate/CalonancabeAppDelegate.m
+c000000004E86FD500000000000000A8B
+t1317469520
+s2699
+i"CalonancabeAppDelegate.h"
+i"RootViewController.h"
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/delagate/MainWindow.xib
+c000000004E864BEC0000000000005F62
+t1317424108
+s24418
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.h
+c000000004E86F82200000000000002E4
+t1317468194
+s740
+i<UIKit/UIKit.h>
+i"PlayScreen.h"
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.m
+c000000004E86F8600000000000000855
+t1317468256
+s2133
+i"MenuScreen.h"
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.xib
+c000000004E86F7F00000000000007AA0
+t1317468144
+s31392
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.h
+c000000004E884066000000000000044D
+t1317552230
+s1101
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+i<QuartzCore/CADisplayLink.h>
+i"Phoint1.h"
+i<math.h>
+i"Common.h"
+i"CommonMusic.h"
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.m
+c000000004E8878B80000000000001DAF
+t1317566648
+s7599
+i"PlayScreen.h"
+i<QuartzCore/CADisplayLink.h>
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.xib
+c000000004E88F2AA0000000000006E46
+t1317597866
+s28230
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.h
+c000000004E8644F800000000000000EF
+t1317422328
+s239
+i<UIKit/UIKit.h>
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.m
+c000000004E8644F800000000000010C7
+t1317422328
+s4295
+i"RootViewController.h"
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.xib
+c000000004E8644F80000000000004456
+t1317422328
+s17494
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/Calonancabe-Info.plist
+c000000004E864C8C00000000000003B4
+t1317424268
+s948
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/default/Default.png
+c000000004E86511A000000000000FF23
+t1317425434
+s65315
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/default/icon.png
+c000000004E86511A000000000000FF23
+t1317425434
+s65315
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/menu/menu.png
+c000000004E7EA6F400000000000283C4
+t1316923124
+s164804
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/bom.png
+c000000004E881FE2000000000000182A
+t1317543906
+s6186
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/ca1.png
+c000000004E87F0E40000000000000EFC
+t1317531876
+s3836
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/ca2.png
+c000000004E87F1120000000000000F1C
+t1317531922
+s3868
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/ca3.png
+c000000004E87F2160000000000000EDD
+t1317532182
+s3805
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/cavang.png
+c000000004E883DA8000000000000114D
+t1317551528
+s4429
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/checkhang.png
+c000000004E87DA4C0000000000001011
+t1317526092
+s4113
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/dan.png
+c000000004E882FEE0000000000000E2B
+t1317548014
+s3627
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/map1.png
+c000000004E8809320000000000042882
+t1317538098
+s272514
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/taungam1.png
+c000000004E87FBC40000000000001C8F
+t1317534660
+s7311
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/taungam2.png
+c000000004E87FBE400000000000017B1
+t1317534692
+s6065
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/tomahoc.png
+c000000004E882AE6000000000001A3CB
+t1317546726
+s107467
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/musics/background1.mp3
+c000000004E5279C2000000000004819A
+t1314027970
+s295322
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/musics/gunnormal.mp3
+c000000004E88770600000000000011A5
+t1317566214
+s4517
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/musics/menu.mp3
+c000000004E631FBE0000000000004051
+t1315119038
+s16465
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/ActactType.o
+t1317642218
+s5996
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Calonancabe.LinkFileList
+c000000004E899FEA00000000000005C5
+t1317642218
+s1477
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/CalonancabeAppDelegate.o
+t1317566040
+s53984
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Charactor.o
+t1317642218
+s5972
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Common.o
+t1317541790
+s5868
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/CommonMusic.o
+t1317566614
+s12348
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/MenuScreen.o
+t1317566040
+s46804
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Phoint1.o
+t1317540830
+s7100
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/PlayScreen.o
+t1317566652
+s67576
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/RootViewController.o
+t1317529394
+s41100
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/main.o
+t1317529394
+s6308
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app
+t1317642220
+s32768
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app.dSYM
+t1317642220
+s32768
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe
+t1317642220
+s47088
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe-Info.plist
+t1317529392
+s521
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Default.png
+t1317529392
+s65315
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Info.plist
+t1317529392
+s634
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/MainWindow.nib
+t1317529392
+s1540
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/MenuScreen.nib
+t1317529392
+s2565
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/PkgInfo
+t1317529392
+s8
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/PlayScreen.nib
+t1317597876
+s2317
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/RootViewController.nib
+t1317529392
+s979
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/background1.mp3
+t1317529392
+s295322
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/bom.png
+t1317544288
+s6186
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/ca1.png
+t1317532006
+s3836
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/ca2.png
+t1317532006
+s3868
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/ca3.png
+t1317532218
+s3805
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/cavang.png
+t1317551750
+s4429
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/checkhang.png
+t1317529392
+s4113
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/dan.png
+t1317548528
+s3627
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/gunnormal.mp3
+t1317566254
+s4517
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/icon.png
+t1317529392
+s65315
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/map1.png
+t1317538256
+s272514
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/menu.mp3
+t1317552272
+s16465
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/menu.png
+t1317529392
+s164804
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/taungam1.png
+t1317534842
+s7311
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/taungam2.png
+t1317534842
+s6065
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/tomahoc.png
+t1317547328
+s107467
+
+N/Volumes/SETUP/Scouce Common/iphone/Calonancabe/main.m
+c000000004E8644F8000000000000016D
+t1317422328
+s365
+i<UIKit/UIKit.h>
+
+N/var/folders/5T/5Tgf3wKgFu4naK6+QGw1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-bqtxabnmfhsgopfpczlporllrqea/Calonancabe_Prefix.pch.gch
+t1317529394
+s15113424
+
+N/var/folders/M2/M2ZXuZZmE9Oao+MhgLFF6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-abwdqssxcbjwdrbtlesmahuiecsy/Calonancabe_Prefix.pch.gch
+t1319335899
+s15113424
+
+NCalonancabe-Info.plist
+c000000004E87121400000000000003B4
+t1317474836
+s948
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies341028696#341028698#0(0"0(0#1#0"32651522506817640#0"0#
+
+CCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/ActactType.o "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/control/ActactType.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s341028702.091930
+e341028702.222178
+r1
+xCompileC
+xbuild/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/ActactType.o
+x/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/control/ActactType.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/control/ActactType.m341028702#341028702#0(0"0(0#0#75"/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/control/ActactType.m8604053152#2191"    cd "/Volumes/Data/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/M2/M2ZXuZZmE9Oao+MhgLFF6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-abwdqssxcbjwdrbtlesmahuiecsy/Calonancabe_Prefix.pch -c "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/control/ActactType.m" -o "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/ActactType.o"0#
+
+CCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/ActactType.o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/control/ActactType.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s339335018.695704
+e339335019.764976
+r1
+xCompileC
+xbuild/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/ActactType.o
+x/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/control/ActactType.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/control/ActactType.m339335018#339335019#0(0"0(0#0#76"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/control/ActactType.m8603706368#2202"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5T/5Tgf3wKgFu4naK6+QGw1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-bqtxabnmfhsgopfpczlporllrqea/Calonancabe_Prefix.pch -c "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/control/ActactType.m" -o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/ActactType.o"0#
+
+CCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/CalonancabeAppDelegate.o "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/delagate/CalonancabeAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s341028700.180741
+e341028700.888231
+r1
+xCompileC
+xbuild/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/CalonancabeAppDelegate.o
+x/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/delagate/CalonancabeAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/delagate/CalonancabeAppDelegate.m341028700#341028700#0(0"0(0#0#93"/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/delagate/CalonancabeAppDelegate.m8603990368#2221"    cd "/Volumes/Data/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/M2/M2ZXuZZmE9Oao+MhgLFF6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-abwdqssxcbjwdrbtlesmahuiecsy/Calonancabe_Prefix.pch -c "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/delagate/CalonancabeAppDelegate.m" -o "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/CalonancabeAppDelegate.o"0#
+
+CCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/CalonancabeAppDelegate.o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/delagate/CalonancabeAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s339258839.800939
+e339258841.683403
+r1
+xCompileC
+xbuild/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/CalonancabeAppDelegate.o
+x/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/delagate/CalonancabeAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/delagate/CalonancabeAppDelegate.m339258839#339258841#0(0"0(0#0#94"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/delagate/CalonancabeAppDelegate.m8614219328#2232"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5T/5Tgf3wKgFu4naK6+QGw1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-bqtxabnmfhsgopfpczlporllrqea/Calonancabe_Prefix.pch -c "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/delagate/CalonancabeAppDelegate.m" -o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/CalonancabeAppDelegate.o"0#
+
+CCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Charactor.o "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/control/Charactor.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s341028701.741558
+e341028702.105140
+r1
+xCompileC
+xbuild/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Charactor.o
+x/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/control/Charactor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/control/Charactor.m341028701#341028702#0(0"0(0#0#74"/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/control/Charactor.m8603694336#2189"    cd "/Volumes/Data/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/M2/M2ZXuZZmE9Oao+MhgLFF6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-abwdqssxcbjwdrbtlesmahuiecsy/Calonancabe_Prefix.pch -c "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/control/Charactor.m" -o "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Charactor.o"0#
+
+CCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Charactor.o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/control/Charactor.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s339335018.662195
+e339335019.702049
+r1
+xCompileC
+xbuild/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Charactor.o
+x/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/control/Charactor.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/control/Charactor.m339335018#339335019#0(0"0(0#0#75"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/control/Charactor.m8458374063132337152#2200"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5T/5Tgf3wKgFu4naK6+QGw1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-bqtxabnmfhsgopfpczlporllrqea/Calonancabe_Prefix.pch -c "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/control/Charactor.m" -o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Charactor.o"0#
+
+CCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Common.o "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/Common.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s341028701.718770
+e341028702.091782
+r1
+xCompileC
+xbuild/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Common.o
+x/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/Common.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/Common.m341028701#341028702#0(0"0(0#0#70"/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/Common.m8603500608#2182"    cd "/Volumes/Data/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/M2/M2ZXuZZmE9Oao+MhgLFF6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-abwdqssxcbjwdrbtlesmahuiecsy/Calonancabe_Prefix.pch -c "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/Common.m" -o "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Common.o"0#
+
+CCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Common.o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/Common.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s339234591.007313
+e339234591.127025
+r1
+xCompileC
+xbuild/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Common.o
+x/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/Common.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/Common.m339234591#339234591#0(0"0(0#0#71"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/Common.m8620412032#2193"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5T/5Tgf3wKgFu4naK6+QGw1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-bqtxabnmfhsgopfpczlporllrqea/Calonancabe_Prefix.pch -c "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/Common.m" -o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Common.o"0#
+
+CCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/CommonMusic.o "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/CommonMusic.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s341028700.909280
+e341028701.355861
+r1
+xCompileC
+xbuild/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/CommonMusic.o
+x/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/CommonMusic.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/CommonMusic.m341028700#341028701#0(0"0(0#0#75"/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/CommonMusic.m8602858560#2192"    cd "/Volumes/Data/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/M2/M2ZXuZZmE9Oao+MhgLFF6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-abwdqssxcbjwdrbtlesmahuiecsy/Calonancabe_Prefix.pch -c "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/CommonMusic.m" -o "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/CommonMusic.o"0#
+
+CCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/CommonMusic.o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/CommonMusic.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s339259414.845522
+e339259415.120886
+r1
+xCompileC
+xbuild/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/CommonMusic.o
+x/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/CommonMusic.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/CommonMusic.m339259414#339259415#0(0"0(0#0#76"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/CommonMusic.m8590318144#2203"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5T/5Tgf3wKgFu4naK6+QGw1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-bqtxabnmfhsgopfpczlporllrqea/Calonancabe_Prefix.pch -c "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/CommonMusic.m" -o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/CommonMusic.o"0#
+
+CCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/MenuScreen.o "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s341028700.205021
+e341028700.909120
+r1
+xCompileC
+xbuild/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/MenuScreen.o
+x/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.m341028700#341028700#0(0"0(0#0#77"/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.m8603461120#2193"    cd "/Volumes/Data/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/M2/M2ZXuZZmE9Oao+MhgLFF6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-abwdqssxcbjwdrbtlesmahuiecsy/Calonancabe_Prefix.pch -c "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.m" -o "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/MenuScreen.o"0#
+
+CCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/MenuScreen.o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s339258839.806851
+e339258841.956641
+r1
+xCompileC
+xbuild/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/MenuScreen.o
+x/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.m339258839#339258844#0(0"0(0#0#78"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.m8614245920#2204"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5T/5Tgf3wKgFu4naK6+QGw1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-bqtxabnmfhsgopfpczlporllrqea/Calonancabe_Prefix.pch -c "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.m" -o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/MenuScreen.o"0#
+
+CCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Phoint1.o "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/Phoint1.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s341028701.356011
+e341028701.718541
+r1
+xCompileC
+xbuild/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Phoint1.o
+x/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/Phoint1.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/Phoint1.m341028701#341028701#0(0"0(0#0#71"/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/Phoint1.m8604431232#2184"    cd "/Volumes/Data/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/M2/M2ZXuZZmE9Oao+MhgLFF6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-abwdqssxcbjwdrbtlesmahuiecsy/Calonancabe_Prefix.pch -c "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/common/Phoint1.m" -o "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Phoint1.o"0#
+
+CCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Phoint1.o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/Phoint1.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s339233630.244823
+e339233630.331581
+r1
+xCompileC
+xbuild/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Phoint1.o
+x/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/Phoint1.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/Phoint1.m339233630#339233630#0(0"0(0#0#72"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/Phoint1.m8611096480#2195"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5T/5Tgf3wKgFu4naK6+QGw1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-bqtxabnmfhsgopfpczlporllrqea/Calonancabe_Prefix.pch -c "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/common/Phoint1.m" -o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Phoint1.o"0#
+
+CCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/PlayScreen.o "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s341028700.888616
+e341028701.741419
+r1
+xCompileC
+xbuild/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/PlayScreen.o
+x/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.m341028700#341028701#0(0"0(0#0#77"/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.m8603270272#2193"    cd "/Volumes/Data/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/M2/M2ZXuZZmE9Oao+MhgLFF6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-abwdqssxcbjwdrbtlesmahuiecsy/Calonancabe_Prefix.pch -c "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.m" -o "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/PlayScreen.o"0#
+
+CCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/PlayScreen.o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s339259451.801416
+e339259452.484808
+r1
+xCompileC
+xbuild/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/PlayScreen.o
+x/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.m339259451#339259452#0(0"0(0#0#78"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.m8601119744#2204"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5T/5Tgf3wKgFu4naK6+QGw1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-bqtxabnmfhsgopfpczlporllrqea/Calonancabe_Prefix.pch -c "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.m" -o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/PlayScreen.o"0#
+
+CCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/RootViewController.o "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s341028699.672286
+e341028700.204871
+r1
+xCompileC
+xbuild/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/RootViewController.o
+x/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.m341028699#341028700#0(0"0(0#0#85"/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.m8603161632#2209"    cd "/Volumes/Data/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/M2/M2ZXuZZmE9Oao+MhgLFF6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-abwdqssxcbjwdrbtlesmahuiecsy/Calonancabe_Prefix.pch -c "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.m" -o "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/RootViewController.o"0#
+
+CCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/RootViewController.o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s339222195.030785
+e339222195.163335
+r1
+xCompileC
+xbuild/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/RootViewController.o
+x/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.m339222195#339222195#0(0"0(0#0#86"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.m8619488704#2220"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5T/5Tgf3wKgFu4naK6+QGw1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-bqtxabnmfhsgopfpczlporllrqea/Calonancabe_Prefix.pch -c "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.m" -o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/RootViewController.o"0#
+
+CCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/main.o "/Volumes/Data/Scouce Common/iphone/Calonancabe/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s341028699.585026
+e341028700.180490
+r1
+xCompileC
+xbuild/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/main.o
+x/Volumes/Data/Scouce Common/iphone/Calonancabe/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Volumes/Data/Scouce Common/iphone/Calonancabe/main.m341028699#341028700#0(0"0(0#0#53"/Volumes/Data/Scouce Common/iphone/Calonancabe/main.m8601386944#2163"    cd "/Volumes/Data/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/M2/M2ZXuZZmE9Oao+MhgLFF6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-abwdqssxcbjwdrbtlesmahuiecsy/Calonancabe_Prefix.pch -c "/Volumes/Data/Scouce Common/iphone/Calonancabe/main.m" -o "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/main.o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s339222195.029310
+e339222195.109859
+r1
+xCompileC
+xbuild/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/main.o
+x/Volumes/SETUP/Scouce Common/iphone/Calonancabe/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Volumes/SETUP/Scouce Common/iphone/Calonancabe/main.m339222195#339222195#0(0"0(0#0#54"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/main.m8622928512#2174"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/5T/5Tgf3wKgFu4naK6+QGw1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-bqtxabnmfhsgopfpczlporllrqea/Calonancabe_Prefix.pch -c "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/main.m" -o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/delagate/MainWindow.xib"
+r0
+
+CCompileXIB "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.xib"
+r0
+
+CCompileXIB "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.xib"
+r0
+
+CCompileXIB "/Volumes/Data/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.xib"
+r0
+
+CCompileXIB "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/delagate/MainWindow.xib"
+s339222192.312767
+e339222193.062131
+r1
+xCompileXIB
+x/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/delagate/MainWindow.xib
+o2011-10-02 11:23:12.959 Interface Builder Cocoa Touch Tool[2625:1903] CFPreferences: user home directory at file://localhost/Users/tvuong1pc/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@47"CompileXIB Classes/main/delagate/MainWindow.xib339222192#339222193#0(243"2011-10-02 11:23:12.959 Interface Builder Cocoa Touch Tool[2625:1903] CFPreferences: user home directory at file://localhost/Users/tvuong1pc/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#84"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/delagate/MainWindow.xib8620516288#631"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/MainWindow.nib" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/delagate/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.xib"
+s339222193.015118
+e339222193.662059
+r1
+xCompileXIB
+x/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.xib
+o2011-10-02 11:23:13.435 Interface Builder Cocoa Touch Tool[2629:1903] CFPreferences: user home directory at file://localhost/Users/tvuong1pc/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@43"CompileXIB Classes/main/menu/MenuScreen.xib339222193#339222193#0(243"2011-10-02 11:23:13.435 Interface Builder Cocoa Touch Tool[2629:1903] CFPreferences: user home directory at file://localhost/Users/tvuong1pc/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#80"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.xib8610888576#627"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/MenuScreen.nib" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/menu/MenuScreen.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.xib"
+s339290675.265226
+e339290676.263994
+r1
+xCompileXIB
+x/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.xib
+o2011-10-03 06:24:36.015 Interface Builder Cocoa Touch Tool[3276:1903] CFPreferences: user home directory at file://localhost/Users/tvuong1pc/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@43"CompileXIB Classes/main/play/PlayScreen.xib339290675#339290676#0(243"2011-10-03 06:24:36.015 Interface Builder Cocoa Touch Tool[3276:1903] CFPreferences: user home directory at file://localhost/Users/tvuong1pc/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#80"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.xib8606800960#627"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/PlayScreen.nib" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/play/PlayScreen.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.xib"
+s339222192.311118
+e339222193.014991
+r1
+xCompileXIB
+x/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.xib
+o2011-10-02 11:23:12.952 Interface Builder Cocoa Touch Tool[2624:1903] CFPreferences: user home directory at file://localhost/Users/tvuong1pc/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@51"CompileXIB Classes/main/root/RootViewController.xib339222192#339222193#0(243"2011-10-02 11:23:12.952 Interface Builder Cocoa Touch Tool[2624:1903] CFPreferences: user home directory at file://localhost/Users/tvuong1pc/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#88"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.xib8621024992#643"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/RootViewController.nib" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Classes/main/root/RootViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCopyPlistFile "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe-Info.plist" Resoures/Calonancabe-Info.plist
+r0
+
+CCopyPlistFile "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe-Info.plist" Resoures/Calonancabe-Info.plist
+s339222193.063916
+e339222193.463875
+r1
+xCopyPlistFile
+x/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe-Info.plist
+xResoures/Calonancabe-Info.plist
+lSLF07#2@36"Copy Resoures/Calonancabe-Info.plist339222193#339222193#0(0"0(0#0#79"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/Calonancabe-Info.plist8620168544#434"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resoures/Calonancabe-Info.plist --outdir "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"0#
+
+CCpResource build/Release-iphonesimulator/Calonancabe.app/Default.png Resoures/images/default/Default.png
+s339222193.463988
+e339222193.472014
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Calonancabe.app/Default.png
+xResoures/images/default/Default.png
+lSLF07#2@40"Copy Resoures/images/default/Default.png339222193#339222193#0(0"0(0#0#83"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/default/Default.png8619698528#553"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/default/Default.png" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"0#
+
+CCpResource build/Release-iphonesimulator/Calonancabe.app/background1.mp3 Resoures/musics/background1.mp3
+s339222193.662180
+e339222193.701309
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Calonancabe.app/background1.mp3
+xResoures/musics/background1.mp3
+lSLF07#2@36"Copy Resoures/musics/background1.mp3339222193#339222193#0(0"0(0#0#79"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/musics/background1.mp38623440256#549"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/musics/background1.mp3" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"0#
+
+CCpResource build/Release-iphonesimulator/Calonancabe.app/bom.png Resoures/images/play/bom.png
+s339237088.348209
+e339237088.519550
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Calonancabe.app/bom.png
+xResoures/images/play/bom.png
+lSLF07#2@33"Copy Resoures/images/play/bom.png339237088#339237088#0(0"0(0#0#76"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/bom.png8623663552#546"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/bom.png" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"0#
+
+CCpResource build/Release-iphonesimulator/Calonancabe.app/ca1.png Resoures/images/play/ca1.png
+s339224805.948391
+e339224806.033528
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Calonancabe.app/ca1.png
+xResoures/images/play/ca1.png
+lSLF07#2@33"Copy Resoures/images/play/ca1.png339224805#339224806#0(0"0(0#0#76"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/ca1.png8610700896#546"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/ca1.png" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"0#
+
+CCpResource build/Release-iphonesimulator/Calonancabe.app/ca2.png Resoures/images/play/ca2.png
+s339224805.949417
+e339224806.043813
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Calonancabe.app/ca2.png
+xResoures/images/play/ca2.png
+lSLF07#2@33"Copy Resoures/images/play/ca2.png339224805#339224806#0(0"0(0#0#76"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/ca2.png8610456800#546"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/ca2.png" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"0#
+
+CCpResource build/Release-iphonesimulator/Calonancabe.app/ca3.png Resoures/images/play/ca3.png
+s339225019.862402
+e339225019.905214
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Calonancabe.app/ca3.png
+xResoures/images/play/ca3.png
+lSLF07#2@33"Copy Resoures/images/play/ca3.png339225019#339225019#0(0"0(0#0#76"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/ca3.png8615679872#546"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/ca3.png" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"0#
+
+CCpResource build/Release-iphonesimulator/Calonancabe.app/cavang.png Resoures/images/play/cavang.png
+s339244551.020877
+e339244551.101850
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Calonancabe.app/cavang.png
+xResoures/images/play/cavang.png
+lSLF07#2@36"Copy Resoures/images/play/cavang.png339244551#339244551#0(0"0(0#0#79"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/cavang.png8618370560#549"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/cavang.png" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"0#
+
+CCpResource build/Release-iphonesimulator/Calonancabe.app/checkhang.png Resoures/images/play/checkhang.png
+s339222193.663370
+e339222193.676825
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Calonancabe.app/checkhang.png
+xResoures/images/play/checkhang.png
+lSLF07#2@39"Copy Resoures/images/play/checkhang.png339222193#339222193#0(0"0(0#0#82"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/checkhang.png8623233568#552"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/checkhang.png" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"0#
+
+CCpResource build/Release-iphonesimulator/Calonancabe.app/dan.png Resoures/images/play/dan.png
+s339241328.174352
+e339241328.181250
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Calonancabe.app/dan.png
+xResoures/images/play/dan.png
+lSLF07#2@33"Copy Resoures/images/play/dan.png339241328#339241328#0(0"0(0#0#76"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/dan.png8612375040#546"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/dan.png" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"0#
+
+CCpResource build/Release-iphonesimulator/Calonancabe.app/gunnormal.mp3 Resoures/musics/gunnormal.mp3
+s339259054.618830
+e339259054.649168
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Calonancabe.app/gunnormal.mp3
+xResoures/musics/gunnormal.mp3
+lSLF07#2@34"Copy Resoures/musics/gunnormal.mp3339259054#339259054#0(0"0(0#0#77"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/musics/gunnormal.mp38606654592#547"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/musics/gunnormal.mp3" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"0#
+
+CCpResource build/Release-iphonesimulator/Calonancabe.app/icon.png Resoures/images/default/icon.png
+s339222193.464984
+e339222193.481565
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Calonancabe.app/icon.png
+xResoures/images/default/icon.png
+lSLF07#2@37"Copy Resoures/images/default/icon.png339222193#339222193#0(0"0(0#0#80"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/default/icon.png8619625568#550"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/default/icon.png" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"0#
+
+CCpResource build/Release-iphonesimulator/Calonancabe.app/map1.png Resoures/images/play/map1.png
+s339231057.528278
+e339231057.542558
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Calonancabe.app/map1.png
+xResoures/images/play/map1.png
+lSLF07#2@34"Copy Resoures/images/play/map1.png339231057#339231057#0(0"0(0#0#77"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/map1.png8603401472#547"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/map1.png" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"0#
+
+CCpResource build/Release-iphonesimulator/Calonancabe.app/menu.mp3 Resoures/musics/menu.mp3
+s339245073.102923
+e339245073.174102
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Calonancabe.app/menu.mp3
+xResoures/musics/menu.mp3
+lSLF07#2@29"Copy Resoures/musics/menu.mp3339245073#339245073#0(0"0(0#0#72"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/musics/menu.mp38625123424#542"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/musics/menu.mp3" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"0#
+
+CCpResource build/Release-iphonesimulator/Calonancabe.app/menu.png Resoures/images/menu/menu.png
+s339222193.062274
+e339222193.072231
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Calonancabe.app/menu.png
+xResoures/images/menu/menu.png
+lSLF07#2@34"Copy Resoures/images/menu/menu.png339222193#339222193#0(0"0(0#0#77"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/menu/menu.png8620286976#547"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/menu/menu.png" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"0#
+
+CCpResource build/Release-iphonesimulator/Calonancabe.app/taungam1.png Resoures/images/play/taungam1.png
+s339227642.516491
+e339227642.581294
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Calonancabe.app/taungam1.png
+xResoures/images/play/taungam1.png
+lSLF07#2@38"Copy Resoures/images/play/taungam1.png339227642#339227642#0(0"0(0#0#81"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/taungam1.png8612111008#551"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/taungam1.png" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"0#
+
+CCpResource build/Release-iphonesimulator/Calonancabe.app/taungam2.png Resoures/images/play/taungam2.png
+s339227642.537269
+e339227642.609601
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Calonancabe.app/taungam2.png
+xResoures/images/play/taungam2.png
+lSLF07#2@38"Copy Resoures/images/play/taungam2.png339227642#339227642#0(0"0(0#0#81"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/taungam2.png8611390080#551"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/taungam2.png" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"0#
+
+CCpResource build/Release-iphonesimulator/Calonancabe.app/tomahoc.png Resoures/images/play/tomahoc.png
+s339240129.720609
+e339240129.744448
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Calonancabe.app/tomahoc.png
+xResoures/images/play/tomahoc.png
+lSLF07#2@37"Copy Resoures/images/play/tomahoc.png339240129#339240129#0(0"0(0#0#80"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/tomahoc.png8612683296#550"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Resoures/images/play/tomahoc.png" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"0#
+
+CGenerateDSYMFile "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app.dSYM" "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe"
+s341028703.768777
+e341028704.248699
+r1
+xGenerateDSYMFile
+x/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app.dSYM
+x/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe
+lSLF07#2@125"GenerateDSYMFile build/Release-iphonesimulator/Calonancabe.app.dSYM build/Release-iphonesimulator/Calonancabe.app/Calonancabe341028703#341028704#0(0"0(0#0#104"/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe8603380224#429"    cd "/Volumes/Data/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe" -o "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app.dSYM"0#
+
+CGenerateDSYMFile "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app.dSYM" "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe"
+s339335020.463828
+e339335020.623483
+r1
+xGenerateDSYMFile
+x/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app.dSYM
+x/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe
+lSLF07#2@125"GenerateDSYMFile build/Release-iphonesimulator/Calonancabe.app.dSYM build/Release-iphonesimulator/Calonancabe.app/Calonancabe339335020#339335020#0(0"0(0#0#105"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe8603015424#432"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe" -o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app.dSYM"0#
+
+CLd "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe" normal i386
+s341028702.222314
+e341028703.768557
+r1
+xLd
+x/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe
+xnormal
+xi386
+lSLF07#2@109"Link /Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe341028702#341028703#0(0"0(0#0#0"8603001056#1105"    cd "/Volumes/Data/Scouce Common/iphone/Calonancabe"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-F/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" -filelist "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Calonancabe.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreAudio -framework AVFoundation -framework SystemConfiguration -framework GameKit -lsqlite3 -framework QuartzCore -o "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe"0#
+
+CLd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe" normal i386
+s339335019.765105
+e339335020.463640
+r1
+xLd
+x/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe
+xnormal
+xi386
+lSLF07#2@110"Link /Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe339335019#339335020#0(0"0(0#0#0"8600383232#1110"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-F/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" -filelist "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Objects-normal/i386/Calonancabe.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreAudio -framework AVFoundation -framework SystemConfiguration -framework GameKit -lsqlite3 -framework QuartzCore -o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Calonancabe"0#
+
+CProcessInfoPlistFile "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Info.plist" Calonancabe-Info.plist
+r0
+
+CProcessInfoPlistFile "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Info.plist" Calonancabe-Info.plist
+s339222192.304278
+e339222192.310974
+r1
+xProcessInfoPlistFile
+x/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Info.plist
+xCalonancabe-Info.plist
+lSLF07#2@30"Process Calonancabe-Info.plist339222192#339222192#0(0"0(0#0#70"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Calonancabe-Info.plist8623164480#528"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Calonancabe-Info.plist -genpkginfo "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app/Info.plist"0#
+
+CProcessPCH /var/folders/5T/5Tgf3wKgFu4naK6+QGw1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-bqtxabnmfhsgopfpczlporllrqea/Calonancabe_Prefix.pch.gch Calonancabe_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s339222193.969803
+e339222195.029176
+r1
+xProcessPCH
+x/var/folders/5T/5Tgf3wKgFu4naK6+QGw1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-bqtxabnmfhsgopfpczlporllrqea/Calonancabe_Prefix.pch.gch
+xCalonancabe_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Calonancabe_Prefix.pch339222193#339222195#0(0"0(0#0#70"/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Calonancabe_Prefix.pch8623150880#2049"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/Calonancabe_Prefix.pch" -o /var/folders/5T/5Tgf3wKgFu4naK6+QGw1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-bqtxabnmfhsgopfpczlporllrqea/Calonancabe_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/M2/M2ZXuZZmE9Oao+MhgLFF6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-abwdqssxcbjwdrbtlesmahuiecsy/Calonancabe_Prefix.pch.gch Calonancabe_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s341028698.178177
+e341028699.584881
+r1
+xProcessPCH
+x/var/folders/M2/M2ZXuZZmE9Oao+MhgLFF6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-abwdqssxcbjwdrbtlesmahuiecsy/Calonancabe_Prefix.pch.gch
+xCalonancabe_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Calonancabe_Prefix.pch341028698#341028699#0(0"0(0#0#69"/Volumes/Data/Scouce Common/iphone/Calonancabe/Calonancabe_Prefix.pch7089056614190051328#2039"    cd "/Volumes/Data/Scouce Common/iphone/Calonancabe"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-generated-files.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-own-target-headers.hmap" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-all-target-headers.hmap" -iquote "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/Calonancabe-project-headers.hmap" "-F/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/include" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources/i386" "-I/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Calonancabe.build/Release-iphonesimulator/Calonancabe.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Volumes/Data/Scouce Common/iphone/Calonancabe/Calonancabe_Prefix.pch" -o /var/folders/M2/M2ZXuZZmE9Oao+MhgLFF6U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calonancabe_Prefix-abwdqssxcbjwdrbtlesmahuiecsy/Calonancabe_Prefix.pch.gch0#
+
+CTouch "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"
+s341028704.248834
+e341028704.294290
+r1
+xTouch
+x/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app
+lSLF07#2@98"Touch /Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app341028704#341028704#0(0"0(0#0#0"8601420032#304"    cd "/Volumes/Data/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Volumes/Data/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"0#
+
+CTouch "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"
+s339335020.623609
+e339335020.626924
+r1
+xTouch
+x/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app
+lSLF07#2@99"Touch /Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app339335020#339335020#0(0"0(0#0#0"8603287488#306"    cd "/Volumes/SETUP/Scouce Common/iphone/Calonancabe"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Volumes/SETUP/Scouce Common/iphone/Calonancabe/build/Release-iphonesimulator/Calonancabe.app"0#
+

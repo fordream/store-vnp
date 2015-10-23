@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:background="@drawable/background">
+    <LinearLayout android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:id="@+id/bottomLinear" android:layout_width="wrap_content" android:layout_marginLeft="26.67dp" android:layout_marginRight="26.67dp">
+        <Button android:background="@drawable/longgame" android:id="@+id/longGame" android:layout_height="56.67dp" android:layout_width="56.67dp" android:layout_marginBottom="20dp"></Button>
+        <Button android:background="@drawable/breakergame" android:id="@+id/breakerGame" android:layout_marginBottom="2dip" android:layout_height="56.67dp" android:layout_width="56.67dp" android:layout_marginLeft="46.67dp"></Button>
+        <Button android:background="@drawable/smashgame" android:id="@+id/smashGame" android:layout_height="56.57dp" android:layout_width="56.57dp" android:layout_marginLeft="46.67dp"></Button>
+    </LinearLayout>
+    <LinearLayout android:layout_above="@+id/bottomLinear" android:layout_alignParentLeft="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.00dp" android:id="@+id/linearLayout1">
+        <Button android:background="@drawable/blackoutgame" android:id="@+id/blackoutGame" android:layout_width="56.67dp" android:layout_height="56.67dp"></Button>
+        <Button android:background="@drawable/stickygame" android:id="@+id/stickyGame" android:layout_marginLeft="46.67dp" android:layout_height="56.67dp" android:layout_width="56.67dp"></Button>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/scoreRelative" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:layout_marginLeft="61.33dp" android:layout_marginRight="40.00dp" android:layout_marginTop="93.33dp">
+        <TextView android:textColor="#303a47" android:id="@+id/rightUsername" android:text="Jessica" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:textSize="16.67dp"></TextView>
+        <TextView android:textColor="#303a47" android:layout_below="@+id/leftUsername" android:id="@+id/leftUsername" android:text="Sally" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:textSize="16.67dp"></TextView>
+        <TextView android:textColor="#303a47" android:gravity="center" android:id="@+id/leftScore" android:text="5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/leftUsername" android:layout_alignLeft="@+id/leftUsername" android:layout_alignRight="@+id/leftUsername" android:textSize="33.33dp"></TextView>
+        <TextView android:textColor="#303a47" android:gravity="center" android:id="@+id/rightScore" android:text="3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@+id/leftScore" android:layout_alignBottom="@+id/leftScore" android:layout_alignLeft="@+id/rightUsername" android:layout_alignRight="@+id/rightUsername" android:textSize="33.33dp"></TextView>
+    </RelativeLayout>
+    <ImageView android:layout_width="30dip" android:id="@+id/rightPaddle" android:src="@drawable/normalpaddle_image" android:layout_above="@+id/linearLayout1" android:layout_alignParentRight="true" android:layout_height="80dp" android:layout_marginRight="-5dp" android:layout_marginBottom="40dp"></ImageView>
+    <ImageView android:src="@drawable/ball" android:id="@+id/ballGame" android:layout_above="@+id/rightPaddle" android:layout_alignRight="@+id/linearLayout1" android:layout_marginRight="56dp" android:layout_marginBottom="28dp" android:layout_height="15dp" android:layout_width="15dp"></ImageView>
+    <ImageView android:layout_height="80dp" android:src="@drawable/normalpaddle_image" android:layout_width="30dip" android:id="@+id/leftPaddle" android:layout_alignTop="@+id/scoreRelative" android:layout_alignParentLeft="true"></ImageView>
+    
+    
+    
+    
+</RelativeLayout>

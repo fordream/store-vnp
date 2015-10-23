@@ -1,0 +1,23 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@android:id/background">
+        <inset
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:drawable="@android:color/transparent" />
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <inset
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:drawable="@drawable/bg_seekbar_eslased" />
+        </clip>
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <inset
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:drawable="@drawable/bg_seekbar_loading" />
+        </clip>
+    </item>
+
+</layer-list>

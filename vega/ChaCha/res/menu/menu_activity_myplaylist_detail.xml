@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/my_playlist_detail_menu_share"
+		android:title="@string/my_playlist_detail_menu_share_txt" android:icon="@drawable/ic_menu_share" />
+	<item android:id="@+id/my_playlist_detail_menu_edit_playlist" android:icon="@drawable/ic_menu_edit"
+		android:title="@string/my_playlist_detail_menu_edit_playlist_txt"></item>
+	<item android:id="@+id/my_playlist_detail_menu_delete_playlist" android:title="@string/my_playlist_detail_menu_delete_playlist_txt"
+		android:icon="@drawable/ic_menu_delete" />
+</menu>

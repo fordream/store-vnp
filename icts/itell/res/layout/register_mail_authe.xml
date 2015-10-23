@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="25dip"
+            android:orientation="vertical"
+            android:paddingLeft="7dip"
+            android:paddingRight="7dip" >
+
+            <TextView
+                android:id="@+id/register_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dip"
+                android:text="メールに記載された確認コードを入力してください"
+                android:textColor="@android:color/black"
+                android:textSize="13dip"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/register_iput_mail_editText1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:focusable="true"
+                android:gravity="center_horizontal"
+                android:hint="12345678"
+                android:lines="1"
+                android:phoneNumber="true"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/register_tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dip"
+                android:text="電話番号を入力してください"
+                android:textColor="@android:color/black"
+                android:textSize="13dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/register_tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="25dip"
+                android:layout_marginTop="3dip"
+                android:text="電話番号は登録のために必要ですが、公開はされません"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="10dip"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/register_iput_mail_editText2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:focusable="true"
+                android:gravity="center_horizontal"
+                android:inputType="number"
+                android:lines="1"
+                android:selectAllOnFocus="true"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/regis_iput_authe_btnOk"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dip"
+                android:background="@drawable/button_net"
+                android:text="送信" />
+
+            <TextView
+                android:id="@+id/register_tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dip"
+                android:text="メール送信画面に戻る"
+                android:textColor="#0000FF"
+                android:textSize="13dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

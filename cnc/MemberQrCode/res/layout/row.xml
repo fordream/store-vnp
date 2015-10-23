@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<RadioButton android:id="@+id/radioButton1" android:text="RadioButton"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:textColor="#000000" android:focusable="false"
+		android:clickable="false"></RadioButton>
+
+</LinearLayout>

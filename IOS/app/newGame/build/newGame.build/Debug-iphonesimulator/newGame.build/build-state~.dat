@@ -1,0 +1,256 @@
+TnewGame
+v7
+r0
+t335809550.715421
+cCheck dependencies
+cProcessInfoPlistFile /Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/Info.plist newGame-Info.plist
+cCompileXIB /Users/mac/Desktop/newGame/MainWindow.xib
+cCompileXIB /Users/mac/Desktop/newGame/newGameViewController.xib
+cProcessPCH /var/folders/aD/aD7-u4IKEEuvw6h11f2hQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/newGame_Prefix-dchmnovczkwwvdekssiuofivoucg/newGame_Prefix.pch.gch newGame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/newGame.build/Debug-iphonesimulator/newGame.build/Objects-normal/i386/main.o /Users/mac/Desktop/newGame/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/newGame.build/Debug-iphonesimulator/newGame.build/Objects-normal/i386/newGameAppDelegate.o /Users/mac/Desktop/newGame/Classes/newGameAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/newGame.build/Debug-iphonesimulator/newGame.build/Objects-normal/i386/newGameViewController.o /Users/mac/Desktop/newGame/Classes/newGameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/newGame normal i386
+cGenerateDSYMFile /Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app.dSYM /Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/newGame
+cTouch /Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/mac/Desktop/newGame/Classes/newGameAppDelegate.h
+c000000004E53D47E00000000000001D6
+t1314116734
+s470
+i<UIKit/UIKit.h>
+
+N/Users/mac/Desktop/newGame/Classes/newGameAppDelegate.m
+c000000004E53D47E0000000000000A8C
+t1314116734
+s2700
+i"newGameAppDelegate.h"
+i"newGameViewController.h"
+
+N/Users/mac/Desktop/newGame/Classes/newGameViewController.h
+c000000004E53D47E00000000000000E5
+t1314116734
+s229
+i<UIKit/UIKit.h>
+
+N/Users/mac/Desktop/newGame/Classes/newGameViewController.m
+c000000004E53D47E00000000000005B8
+t1314116734
+s1464
+i"newGameViewController.h"
+
+N/Users/mac/Desktop/newGame/MainWindow.xib
+c000000004E53D47E0000000000004E29
+t1314116734
+s20009
+
+N/Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app
+t1314116750
+s238
+
+N/Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app.dSYM
+t1314116750
+s102
+
+N/Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/Info.plist
+t1314116741
+s591
+
+N/Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/MainWindow.nib
+t1314116747
+s1123
+
+N/Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/PkgInfo
+t1314116741
+s8
+
+N/Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/newGame
+t1314116750
+s16996
+
+N/Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/newGameViewController.nib
+t1314116747
+s795
+
+N/Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/Objects-normal/i386/main.o
+t1314116750
+s6280
+
+N/Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/Objects-normal/i386/newGame.LinkFileList
+c000000004E53D4840000000000000169
+t1314116740
+s361
+
+N/Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/Objects-normal/i386/newGameAppDelegate.o
+t1314116750
+s50872
+
+N/Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/Objects-normal/i386/newGameViewController.o
+t1314116750
+s37476
+
+N/Users/mac/Desktop/newGame/main.m
+c000000004E53D47E0000000000000160
+t1314116734
+s352
+i<UIKit/UIKit.h>
+
+N/Users/mac/Desktop/newGame/newGameViewController.xib
+c000000004E53D47E0000000000001A45
+t1314116734
+s6725
+
+N/Users/mac/Desktop/newGame/newGame_Prefix.pch
+c000000004E53D47E00000000000000B7
+t1314116734
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/var/folders/aD/aD7-u4IKEEuvw6h11f2hQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/newGame_Prefix-dchmnovczkwwvdekssiuofivoucg/newGame_Prefix.pch.gch
+t1314116749
+s10360536
+
+NnewGame-Info.plist
+c000000004E53D47E000000000000038D
+t1314116734
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies335809540#335809540#0(0"0(0#1#0"4255560#0"0#
+
+CCompileC build/newGame.build/Debug-iphonesimulator/newGame.build/Objects-normal/i386/main.o /Users/mac/Desktop/newGame/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335809549.913076
+e335809550.194962
+r1
+xCompileC
+xbuild/newGame.build/Debug-iphonesimulator/newGame.build/Objects-normal/i386/main.o
+x/Users/mac/Desktop/newGame/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /Users/mac/Desktop/newGame/main.m335809549#335809550#0(0"0(0#0#33"/Users/mac/Desktop/newGame/main.m2511057552#1782"    cd /Users/mac/Desktop/newGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/newGame-generated-files.hmap -I/Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/newGame-own-target-headers.hmap -I/Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/newGame-all-target-headers.hmap -iquote /Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/newGame-project-headers.hmap -F/Users/mac/Desktop/newGame/build/Debug-iphonesimulator -I/Users/mac/Desktop/newGame/build/Debug-iphonesimulator/include -I/Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/DerivedSources/i386 -I/Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/DerivedSources -include /var/folders/aD/aD7-u4IKEEuvw6h11f2hQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/newGame_Prefix-dchmnovczkwwvdekssiuofivoucg/newGame_Prefix.pch -c /Users/mac/Desktop/newGame/main.m -o /Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/Objects-normal/i386/main.o0#
+
+CCompileC build/newGame.build/Debug-iphonesimulator/newGame.build/Objects-normal/i386/newGameAppDelegate.o /Users/mac/Desktop/newGame/Classes/newGameAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335809549.916228
+e335809550.236385
+r1
+xCompileC
+xbuild/newGame.build/Debug-iphonesimulator/newGame.build/Objects-normal/i386/newGameAppDelegate.o
+x/Users/mac/Desktop/newGame/Classes/newGameAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/mac/Desktop/newGame/Classes/newGameAppDelegate.m335809549#335809550#0(0"0(0#0#55"/Users/mac/Desktop/newGame/Classes/newGameAppDelegate.m2511057552#1818"    cd /Users/mac/Desktop/newGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/newGame-generated-files.hmap -I/Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/newGame-own-target-headers.hmap -I/Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/newGame-all-target-headers.hmap -iquote /Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/newGame-project-headers.hmap -F/Users/mac/Desktop/newGame/build/Debug-iphonesimulator -I/Users/mac/Desktop/newGame/build/Debug-iphonesimulator/include -I/Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/DerivedSources/i386 -I/Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/DerivedSources -include /var/folders/aD/aD7-u4IKEEuvw6h11f2hQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/newGame_Prefix-dchmnovczkwwvdekssiuofivoucg/newGame_Prefix.pch -c /Users/mac/Desktop/newGame/Classes/newGameAppDelegate.m -o /Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/Objects-normal/i386/newGameAppDelegate.o0#
+
+CCompileC build/newGame.build/Debug-iphonesimulator/newGame.build/Objects-normal/i386/newGameViewController.o /Users/mac/Desktop/newGame/Classes/newGameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335809549.919172
+e335809550.204706
+r1
+xCompileC
+xbuild/newGame.build/Debug-iphonesimulator/newGame.build/Objects-normal/i386/newGameViewController.o
+x/Users/mac/Desktop/newGame/Classes/newGameViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/mac/Desktop/newGame/Classes/newGameViewController.m335809549#335809550#0(0"0(0#0#58"/Users/mac/Desktop/newGame/Classes/newGameViewController.m2511057552#1824"    cd /Users/mac/Desktop/newGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/newGame-generated-files.hmap -I/Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/newGame-own-target-headers.hmap -I/Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/newGame-all-target-headers.hmap -iquote /Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/newGame-project-headers.hmap -F/Users/mac/Desktop/newGame/build/Debug-iphonesimulator -I/Users/mac/Desktop/newGame/build/Debug-iphonesimulator/include -I/Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/DerivedSources/i386 -I/Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/DerivedSources -include /var/folders/aD/aD7-u4IKEEuvw6h11f2hQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/newGame_Prefix-dchmnovczkwwvdekssiuofivoucg/newGame_Prefix.pch -c /Users/mac/Desktop/newGame/Classes/newGameViewController.m -o /Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/Objects-normal/i386/newGameViewController.o0#
+
+CCompileXIB /Users/mac/Desktop/newGame/MainWindow.xib
+s335809541.028426
+e335809548.145676
+r1
+xCompileXIB
+x/Users/mac/Desktop/newGame/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib335809541#335809548#0(0"0(0#0#41"/Users/mac/Desktop/newGame/MainWindow.xib4255560#534"    cd /Users/mac/Desktop/newGame    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/MainWindow.nib /Users/mac/Desktop/newGame/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/mac/Desktop/newGame/newGameViewController.xib
+s335809541.155845
+e335809548.002874
+r1
+xCompileXIB
+x/Users/mac/Desktop/newGame/newGameViewController.xib
+lSLF07#2@36"CompileXIB newGameViewController.xib335809541#335809548#0(0"0(0#0#52"/Users/mac/Desktop/newGame/newGameViewController.xib2511057552#556"    cd /Users/mac/Desktop/newGame    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/newGameViewController.nib /Users/mac/Desktop/newGame/newGameViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app.dSYM /Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/newGame
+s335809550.591144
+e335809550.680817
+r1
+xGenerateDSYMFile
+x/Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app.dSYM
+x/Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/newGame
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/newGame.app.dSYM build/Debug-iphonesimulator/newGame.app/newGame335809550#335809550#0(0"0(0#0#74"/Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/newGame2511057552#347"    cd /Users/mac/Desktop/newGame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/newGame -o /Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app.dSYM0#
+
+CLd /Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/newGame normal i386
+s335809550.236491
+e335809550.591006
+r1
+xLd
+x/Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/newGame
+xnormal
+xi386
+lSLF07#2@79"Link /Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/newGame335809550#335809550#0(0"0(0#0#0"2511057552#840"    cd /Users/mac/Desktop/newGame    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/mac/Desktop/newGame/build/Debug-iphonesimulator -F/Users/mac/Desktop/newGame/build/Debug-iphonesimulator -filelist /Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/Objects-normal/i386/newGame.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/newGame0#
+
+CProcessInfoPlistFile /Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/Info.plist newGame-Info.plist
+s335809540.839810
+e335809541.026907
+r1
+xProcessInfoPlistFile
+x/Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/Info.plist
+xnewGame-Info.plist
+lSLF07#2@26"Process newGame-Info.plist335809541#335809541#0(0"0(0#0#45"/Users/mac/Desktop/newGame/newGame-Info.plist4255560#443"    cd /Users/mac/Desktop/newGame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility newGame-Info.plist -genpkginfo /Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app/Info.plist0#
+
+CProcessPCH /var/folders/aD/aD7-u4IKEEuvw6h11f2hQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/newGame_Prefix-dchmnovczkwwvdekssiuofivoucg/newGame_Prefix.pch.gch newGame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s335809548.145977
+e335809549.912520
+r1
+xProcessPCH
+x/var/folders/aD/aD7-u4IKEEuvw6h11f2hQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/newGame_Prefix-dchmnovczkwwvdekssiuofivoucg/newGame_Prefix.pch.gch
+xnewGame_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile newGame_Prefix.pch335809548#335809549#0(0"0(0#0#45"/Users/mac/Desktop/newGame/newGame_Prefix.pch2511057552#1686"    cd /Users/mac/Desktop/newGame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/newGame-generated-files.hmap -I/Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/newGame-own-target-headers.hmap -I/Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/newGame-all-target-headers.hmap -iquote /Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/newGame-project-headers.hmap -F/Users/mac/Desktop/newGame/build/Debug-iphonesimulator -I/Users/mac/Desktop/newGame/build/Debug-iphonesimulator/include -I/Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/DerivedSources/i386 -I/Users/mac/Desktop/newGame/build/newGame.build/Debug-iphonesimulator/newGame.build/DerivedSources -c /Users/mac/Desktop/newGame/newGame_Prefix.pch -o /var/folders/aD/aD7-u4IKEEuvw6h11f2hQE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/newGame_Prefix-dchmnovczkwwvdekssiuofivoucg/newGame_Prefix.pch.gch0#
+
+CTouch /Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app
+s335809550.680932
+e335809550.715339
+r1
+xTouch
+x/Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app
+lSLF07#2@72"Touch /Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app335809550#335809550#0(0"0(0#0#0"2511057552#254"    cd /Users/mac/Desktop/newGame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mac/Desktop/newGame/build/Debug-iphonesimulator/newGame.app0#
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginBottom="5dp">
+		<ImageView android:id="@+id/firstSymbol" android:scaleType="centerCrop"
+			android:src="@drawable/avata1" android:layout_height="25dip" android:layout_width="25dip"></ImageView>
+		<Button android:id="@+id/challengeButton" android:background="@drawable/challenge"
+			android:layout_alignParentTop="true" android:layout_alignParentRight="true"
+			android:layout_width="100dip" android:layout_height="30dip"></Button>
+		<ImageView android:id="@+id/secondSymbol" android:src="@drawable/busy_notion"
+			android:layout_centerVertical="true" android:layout_toRightOf="@+id/firstSymbol"
+			android:layout_height="12dp" android:layout_width="12dp"
+			android:layout_marginLeft="2dip"></ImageView>
+		<TextView android:id="@+id/namePlayer"
+			android:layout_width="wrap_content" android:text="Bob"
+			android:layout_height="wrap_content" android:layout_centerVertical="true"
+			android:layout_toRightOf="@+id/secondSymbol"
+			android:layout_marginLeft="3dp" android:textSize="10dp"></TextView>
+
+	</RelativeLayout>
+</LinearLayout>

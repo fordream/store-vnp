@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <org.com.vnp.line98.views.ItemView
+        android:id="@+id/itemView1"
+        android:layout_width="10dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+    </org.com.vnp.line98.views.ItemView>
+
+    <org.com.vnp.line98.views.ItemView
+        android:id="@+id/itemView2"
+        android:layout_width="10dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+    </org.com.vnp.line98.views.ItemView>
+
+    <org.com.vnp.line98.views.ItemView
+        android:id="@+id/itemView3"
+        android:layout_width="10dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+    </org.com.vnp.line98.views.ItemView>
+
+    <org.com.vnp.line98.views.ItemView
+        android:id="@+id/itemView4"
+        android:layout_width="10dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+    </org.com.vnp.line98.views.ItemView>
+
+    <org.com.vnp.line98.views.ItemView
+        android:id="@+id/itemView5"
+        android:layout_width="10dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+    </org.com.vnp.line98.views.ItemView>
+
+    <org.com.vnp.line98.views.ItemView
+        android:id="@+id/itemView6"
+        android:layout_width="10dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+    </org.com.vnp.line98.views.ItemView>
+
+    <org.com.vnp.line98.views.ItemView
+        android:id="@+id/itemView7"
+        android:layout_width="10dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+    </org.com.vnp.line98.views.ItemView>
+
+    <org.com.vnp.line98.views.ItemView
+        android:id="@+id/itemView8"
+        android:layout_width="10dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+    </org.com.vnp.line98.views.ItemView>
+
+    <org.com.vnp.line98.views.ItemView
+        android:id="@+id/itemView9"
+        android:layout_width="10dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+    </org.com.vnp.line98.views.ItemView>
+
+</LinearLayout>

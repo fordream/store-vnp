@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="@drawable/profile_bg">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:padding="20dip">
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout16" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView32" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="Name :" android:layout_width="120dip"></TextView>
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView33" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="Krared"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout15" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView30" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="@string/sd" android:layout_width="120dip"></TextView>
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView31" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="Very Flexibility"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout14" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView28" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="@string/sport" android:layout_width="120dip"></TextView>
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView29" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="Golf"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout13" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView26" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="Date : " android:layout_width="120dip"></TextView>
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView27" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="..."></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout12" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView24" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="Time :" android:layout_width="120dip"></TextView>
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView25" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="Touch to view"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout11" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView22" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="Location :" android:layout_width="120dip"></TextView>
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView23" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="..."></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout10" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView20" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="Address :" android:layout_width="120dip"></TextView>
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView21" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="..."></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout09" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView18" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="@string/spec" android:layout_width="270dip"></TextView>
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView19" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="..."></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout08" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView16" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="@string/agegroup" android:layout_width="120dip"></TextView>
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView17" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="18-23"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout07" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView14" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="Gender :" android:layout_width="120dip"></TextView>
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView15" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="Male"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout06" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView12" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="@string/started" android:layout_width="120dip"></TextView>
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView13" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="Not Rated"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout05" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView10" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="@string/skill" android:layout_width="120dip"></TextView>
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView11" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="Not Rated"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout04" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView08" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="@string/rating" android:layout_width="205dip"></TextView>
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView09" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="Not Rated"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout03" android:layout_height="wrap_content">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView06" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="@string/sssss" android:layout_width="120dip"></TextView>
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView07" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:layout_width="180dip" android:textColor="@color/sss" android:layout_weight="1" android:text="Not Rated"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:orientation="vertical">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView04" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="Message :" android:layout_width="fill_parent"></TextView>
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView05" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/sss" android:layout_weight="1" android:layout_width="fill_parent" android:text="@string/text" android:paddingLeft="10dip" android:paddingTop="5dip"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_marginBottom="10dip" android:layout_width="fill_parent" android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:orientation="vertical">
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView02" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/color_back" android:layout_weight="1" android:text="@string/accepted" android:layout_width="fill_parent"></TextView>
+            <TextView android:typeface="serif" android:textSize="14dip" android:id="@+id/TextView03" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_height="wrap_content" android:textColor="@color/sss" android:layout_weight="1" android:layout_width="fill_parent" android:text="@string/text" android:paddingLeft="10dip" android:paddingTop="5dip"></TextView>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:id="@+id/RelativeLayout1" android:layout_height="wrap_content" android:layout_marginTop="10dip" android:layout_marginBottom="20dip">
+            <Button android:background="@drawable/btnreschedult" android:id="@+id/button1" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_height="wrap_content" android:layout_width="wrap_content"></Button>
+            <Button android:layout_alignParentRight="true" android:id="@+id/button2" android:layout_alignBaseline="@+id/button1" android:layout_alignParentTop="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/btnseandmessage2"></Button>
+        </RelativeLayout>
+    </LinearLayout>
+    
+</ScrollView>

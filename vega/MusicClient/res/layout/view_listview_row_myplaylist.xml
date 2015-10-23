@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#e2e2e2" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<RelativeLayout android:id="@+id/my_playlist_row_region_first"
+		android:layout_marginLeft="10dp" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerVertical="true"
+		android:paddingLeft="10dp" android:paddingTop="15dp"
+		android:paddingRight="10dp" android:paddingBottom="15dp">
+
+		<ImageView android:id="@+id/my_playlist_row_thumbnail_img"
+			android:layout_centerVertical="true" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+			android:background="@drawable/ic_listview_playlist"/>
+
+
+		<CheckBox android:button="@drawable/selector_checkbox_download"
+			android:layout_marginLeft="5dp" android:visibility="gone"
+			android:id="@+id/my_playlist_row_checkbox"
+			android:layout_width="25dp" android:layout_height="wrap_content"></CheckBox>
+
+	</RelativeLayout>
+
+
+	<ImageView android:id="@+id/my_playlist_row_arrow_img"
+		android:layout_marginRight="20dp"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="@drawable/ic_listview_arrow" android:visibility="visible"
+		android:layout_centerVertical="true" android:layout_alignParentRight="true" />
+
+	<ImageView android:id="@+id/my_playlist_row_grabber"
+		android:layout_marginRight="20dp"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="@drawable/ic_grabber"
+		android:layout_centerVertical="true" android:layout_alignParentRight="true"
+		android:visibility="gone" />
+
+	<LinearLayout android:layout_width="230dp"
+		android:layout_centerVertical="true" android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/my_playlist_row_region_first"
+		android:gravity="center_vertical" android:orientation="vertical">
+
+		<TextView android:id="@+id/my_playlist_row_first_txt"
+			android:layout_width="215dp" android:layout_height="wrap_content"
+			android:ellipsize="end" android:singleLine="true" android:text="Song&apos;s title"
+			android:textColor="#333333" android:textSize="17sp" />
+
+		<RelativeLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_centerVertical="true">
+
+			<ImageView android:id="@+id/my_playlist_row_status_img"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginRight="5dp"
+				android:background="@drawable/ic_listview_downloaded_music_ex"
+				android:scaleType="fitXY" android:visibility="gone">
+			</ImageView>
+
+			<ProgressBar android:id="@+id/my_playlist_row_download_bar"
+				style="?android:attr/progressBarStyleHorizontal"
+				android:layout_width="100dp" android:layout_height="7dp"
+				android:layout_centerVertical="true" android:layout_marginRight="6dp"
+				android:layout_toRightOf="@id/my_playlist_row_status_img"
+				android:progressDrawable="@drawable/drawable_seekbar_blue"
+				android:visibility="gone" />
+
+			<TextView android:id="@+id/my_playlist_row_second_txt"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginTop="3dp" android:layout_marginRight="5dp"
+				android:layout_centerVertical="true" android:layout_toRightOf="@id/my_playlist_row_download_bar"
+				android:ellipsize="end" android:singleLine="true" android:text="None"
+				android:textColor="#666666" android:textSize="@dimen/textsize_small"
+				android:visibility="visible" />
+
+			<TextView android:id="@+id/my_playlist_row_third_txt"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_marginTop="3dp" android:layout_marginRight="5dp"
+				android:layout_centerVertical="true" android:layout_toRightOf="@id/my_playlist_row_second_txt"
+				android:ellipsize="end" android:singleLine="true" android:text="None"
+				android:textColor="#666666" android:textSize="@dimen/textsize_small"
+				android:visibility="gone" />
+
+		</RelativeLayout>
+	</LinearLayout>
+
+</RelativeLayout>

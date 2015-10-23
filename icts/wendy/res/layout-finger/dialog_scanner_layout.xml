@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_scanner_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.ict.library.view.CustomImageView
+        android:id="@+id/dialog_scanner_img_cupon"
+        android:layout_width="@dimen/dimens300"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dialog_coupon"
+        android:visibility="gone" />
+
+    <com.ict.library.view.CustomImageView
+        android:visibility="gone"
+        android:id="@+id/dialog_scanner_img_present"
+        android:layout_width="@dimen/dimens300"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dialog_present" />
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/dialog_scanner_yes_no"
+        android:layout_width="@dimen/dimens300"
+        android:layout_height="@dimen/dimens150"
+        android:background="@drawable/dialog_yes_no" >
+
+        <Button
+            android:id="@+id/dialog_scanner_btn_yes"
+            android:layout_width="@dimen/dimens100"
+            android:layout_height="@dimen/dimens40"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/dimens20"
+            android:layout_marginLeft="@dimen/dimens30"
+            android:background="@drawable/tvuong_button_setting_selected"
+            android:text="@string/yes"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp15"
+            android:textStyle="bold" />
+        
+        <Button
+            android:id="@+id/dialog_scanner_btn_no"
+            android:layout_width="@dimen/dimens100"
+            android:layout_height="@dimen/dimens40"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/dimens20"
+            android:layout_marginRight="@dimen/dimens30"
+            android:background="@drawable/tvuong_button_setting_selected"
+            android:text="@string/no"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp15"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

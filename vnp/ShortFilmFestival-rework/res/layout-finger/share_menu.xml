@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/share_bound_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ListView
+                android:id="@+id/listView1"
+                android:layout_width="@dimen/dimen_100dp"
+                android:layout_height="@dimen/dimen_200dp"
+                android:layout_marginBottom="@dimen/dimen_40dp"
+                
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true" >
+            </ListView>
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/share"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="@dimen/dimen_50dp"
+            android:layout_height="@dimen/dimen_50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            android:padding="@dimen/dimen_10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/share" />
+    </RelativeLayout>
+
+</LinearLayout>

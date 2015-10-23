@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/bg"
+	android:id="@+id/llContent" android:gravity="center_vertical"
+	android:paddingLeft="80dip">
+	<RadioGroup android:id="@+id/radioGroup1"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<RadioButton android:layout_height="wrap_content"
+			android:id="@+id/radio0" android:layout_width="wrap_content"
+			android:checked="true" android:text="English" android:textColor="#ffffff"
+			android:textSize="15dip" android:textStyle="bold" android:typeface="serif"></RadioButton>
+		<RadioButton android:layout_height="wrap_content"
+			android:id="@+id/radio1" android:layout_width="wrap_content"
+			android:textColor="#ffffff" android:textSize="15dip" android:text="Japan"
+			android:textStyle="bold" android:typeface="serif"></RadioButton>
+		<RadioButton android:layout_height="wrap_content"
+			android:id="@+id/radio2" android:layout_width="wrap_content"
+			android:textColor="#ffffff" android:text="Korea" android:textSize="15dip"
+			android:textStyle="bold" android:typeface="serif"></RadioButton>
+		<RadioButton android:checked="true" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/radio3"
+			android:typeface="serif" android:textSize="15dip" android:textStyle="bold"
+			android:textColor="#ffffff" android:text="China"></RadioButton>
+	</RadioGroup>
+
+</LinearLayout>

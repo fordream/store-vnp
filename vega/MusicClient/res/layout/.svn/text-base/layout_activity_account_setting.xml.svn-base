@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_root"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/connecting_region_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_header"
+        android:padding="2dp" >
+
+        <Button
+            android:id="@+id/acc_setting_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/selector_button_back"
+            android:paddingBottom="1dp"
+            android:text="@string/back"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/connecting_title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/acc_setting_back_btn"
+            android:ellipsize="end"
+            android:text="@string/account_setting"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/connecting_notification_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="7dp"
+            android:background="@drawable/bg_button_notification_normal"
+            android:text="9"
+            android:textColor="#bd2020"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/user_info_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_listview_setting_first" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="@dimen/padding_default"
+            android:text="@string/user_info"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#333333" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_listview_arrow"
+            android:paddingRight="@dimen/padding_default" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/notification_setting_layout"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/list_item_height"
+        android:background="@drawable/selector_listview_setting_middle" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="@dimen/padding_default"
+            android:text="@string/notification_setting"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/listview_first_text" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_listview_arrow"
+            android:paddingRight="@dimen/padding_default" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/unsubcribe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:background="@drawable/selector_listview_setting_middle"
+        android:visibility="visible" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="@dimen/padding_default"
+            android:text="Hủy đăng ký dịch vụ"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/listview_first_text"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_listview_arrow"
+            android:paddingRight="@dimen/padding_default" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/change_pass_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:background="@drawable/selector_listview_setting_middle"
+        android:visibility="visible" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="@dimen/padding_default"
+            android:text="@string/change_password"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/listview_first_text" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_listview_arrow"
+            android:paddingRight="@dimen/padding_default" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/connecting_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:background="@drawable/selector_listview_setting_middle" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="@dimen/padding_default"
+            android:text="@string/connecting_acc"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/listview_first_text" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_listview_arrow"
+            android:paddingRight="@dimen/padding_default" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/account_info_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:background="@drawable/selector_listview_setting_last" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="@dimen/padding_default"
+            android:text="@string/account_info"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/listview_first_text" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_listview_arrow"
+            android:paddingRight="@dimen/padding_default" />
+    </RelativeLayout>
+
+</LinearLayout>

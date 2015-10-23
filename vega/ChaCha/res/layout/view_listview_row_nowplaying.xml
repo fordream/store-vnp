@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_listview_row_middle"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/list_song_item_thumbnail"
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" >
+
+        <ImageView
+            android:id="@+id/list_song_item_cached_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_listview_not_downloaded" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/list_song_item_is_playing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_player_playing"
+            android:visibility="gone" >
+        </ImageView>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/list_song_item_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_delete"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/list_song_item_grabber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:layout_toLeftOf="@id/list_song_item_delete"
+        android:src="@drawable/ic_grabber"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/list_song_item_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:layout_toLeftOf="@id/list_song_item_grabber"
+        android:src="@drawable/ic_listview_detail" />
+
+    <RelativeLayout
+        android:id="@+id/list_song_item_center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_default"
+        android:layout_toLeftOf="@id/list_song_item_detail"
+        android:layout_toRightOf="@id/list_song_item_thumbnail" >
+
+        <TextView
+            android:id="@+id/list_song_item_song_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="@dimen/margin_top_default"
+            android:singleLine="true"
+            android:text="Song&apos;s title"
+            android:textColor="#434343"
+            android:textSize="@dimen/textsize_big" />
+
+        <ProgressBar
+            android:id="@+id/list_song_item_download_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="120dp"
+            android:layout_height="8dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/list_song_item_song_title"
+            android:layout_marginLeft="@dimen/margin_default"
+            android:layout_marginTop="@dimen/margin_top_default"
+            android:progressDrawable="@drawable/drawable_seekbar_blue"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/list_song_item_song_artist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/list_song_item_song_title"
+            android:layout_marginTop="@dimen/margin_top_small"
+            android:layout_toRightOf="@id/list_song_item_download_bar"
+            android:singleLine="true"
+            android:text="Album - Artist"
+            android:textColor="#434343"
+            android:textSize="@dimen/textsize_small" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bar_book"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@xml/btn_home" />
+
+        <TextView
+            android:id="@+id/tvCategory"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <ToggleButton
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@xml/btn_edit"
+            android:textOff=""
+            android:textOn="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <vn.vvn.bibook.item.NewScrollView
+            android:id="@+id/svBookshelf"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fadingEdge="none" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <vn.vvn.bibook.item.MyGridView
+                        android:id="@+id/gvBehoctoan"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:fadingEdge="none"
+                        android:numColumns="4"
+                        >
+                        
+                    </vn.vvn.bibook.item.MyGridView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/llTitleThiennhien"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bar_book"
+                        android:gravity="center_vertical" >
+
+                        <Button
+                            android:id="@+id/btnHomeThiennhien"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@xml/btn_home"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:id="@+id/tvCategoryThiennhien"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@xml/btn_edit"
+                            android:visibility="invisible" />
+                    </LinearLayout>
+
+                    <vn.vvn.bibook.item.MyGridView
+                        android:id="@+id/gvThiennhien"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fadingEdge="none"
+                        android:numColumns="4" >
+                    </vn.vvn.bibook.item.MyGridView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/llTitleAnhvan"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bar_book"
+                        android:gravity="center_vertical" >
+
+                        <Button
+                            android:id="@+id/btnHomeAnhVan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@xml/btn_home"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:id="@+id/tvCategoryAnhVan"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@xml/btn_edit"
+                            android:visibility="invisible" />
+                    </LinearLayout>
+
+                    <vn.vvn.bibook.item.MyGridView
+                        android:id="@+id/gvAnhVan"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fadingEdge="none"
+                        android:numColumns="4" >
+                    </vn.vvn.bibook.item.MyGridView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/llTitleKechuyen"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bar_book"
+                        android:gravity="center_vertical" >
+
+                        <Button
+                            android:id="@+id/btnHomeKechuyen"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@xml/btn_home"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:id="@+id/tvCategoryKechuyen"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@xml/btn_edit"
+                            android:visibility="invisible" />
+                    </LinearLayout>
+
+                    <vn.vvn.bibook.item.MyGridView
+                        android:id="@+id/gvKechuyen"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fadingEdge="none"
+                        android:numColumns="4" >
+                    </vn.vvn.bibook.item.MyGridView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/llTitleDongvat"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bar_book"
+                        android:gravity="center_vertical" >
+
+                        <Button
+                            android:id="@+id/btnHomeDongvat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@xml/btn_home"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:id="@+id/tvCategoryDongvat"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@xml/btn_edit"
+                            android:visibility="invisible" />
+                    </LinearLayout>
+
+                    <vn.vvn.bibook.item.MyGridView
+                        android:id="@+id/gvDongvat"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fadingEdge="none"
+                        android:numColumns="4" >
+                    </vn.vvn.bibook.item.MyGridView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/llTitleSachkhac"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bar_book"
+                        android:gravity="center_vertical" >
+
+                        <Button
+                            android:id="@+id/btnHomeSachkhac"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@xml/btn_home"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:id="@+id/tvCategorySachkhac"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@xml/btn_edit"
+                            android:visibility="invisible" />
+                    </LinearLayout>
+
+                    <vn.vvn.bibook.item.MyGridView
+                        android:id="@+id/gvSachkhac"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fadingEdge="none"
+                        android:numColumns="4" >
+                    </vn.vvn.bibook.item.MyGridView>
+                </LinearLayout>
+            </LinearLayout>
+        </vn.vvn.bibook.item.NewScrollView>
+    </LinearLayout>
+
+</LinearLayout>

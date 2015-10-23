@@ -1,0 +1,61 @@
+8
+
+dir
+7488
+svn://222.255.28.110/svn/vega/client/MusicClient/trunk/android/MusicClient/src/vn/com/vega/music
+svn://222.255.28.110/svn/vega
+
+
+
+2012-03-30T10:40:49.100258Z
+7483
+phucbn
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8fba6426-021e-4735-92e4-bd083e00f8f0
+
+device
+dir
+
+utils
+dir
+
+downloadmanager
+dir
+
+database
+dir
+
+c2dm
+dir
+
+clientserver
+dir
+
+syncmanager
+dir
+
+network
+dir
+
+objects
+dir
+
+view
+dir
+
+player
+dir
+

@@ -1,0 +1,52 @@
+8
+
+dir
+7488
+svn://222.255.28.110/svn/vega/client/MusicClient/trunk/android/MusicClient/src/vn/com/vega/music/syncmanager
+svn://222.255.28.110/svn/vega
+
+
+
+2012-02-28T03:02:03.106042Z
+5718
+tuanhd
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8fba6426-021e-4735-92e4-bd083e00f8f0
+
+SyncStatusListener.java
+file
+
+
+
+
+2012-04-03T06:57:45.062500Z
+967b90b69eb0335116c78fa67f0baf27
+2011-12-05T07:37:58.699589Z
+3604
+tuanhd
+
+SynchronizeManager.java
+file
+
+
+
+
+2012-04-03T06:57:45.062500Z
+bd7999f741763ff97e7efd45fd22f607
+2012-02-28T03:02:03.106042Z
+5718
+tuanhd
+

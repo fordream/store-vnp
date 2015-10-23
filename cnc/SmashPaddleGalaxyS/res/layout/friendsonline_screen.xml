@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:background="@drawable/background">
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="100dp"
+	    android:layout_weight="100"
+	    android:orientation="horizontal" >
+
+	    <ImageView
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_marginTop="5dp"
+	        android:src="@drawable/big_coins" android:layout_weight="40">
+	    </ImageView>
+
+	    <LinearLayout
+	        android:id="@+id/linearLayout17"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:orientation="horizontal" android:layout_marginLeft="-27dp" android:layout_marginTop="20dp" android:layout_weight="120">
+
+	        <ImageView
+	            android:id="@+id/position1Friends"
+	            android:layout_width="17dp"
+	            android:layout_height="40dp"
+	            android:src="@drawable/small_blank" />
+
+	        <ImageView
+	            android:id="@+id/position2Friends"
+	            android:layout_width="17dp"
+	            android:layout_height="40dp"
+	            android:src="@drawable/small_blank" />
+
+	        <ImageView
+	            android:id="@+id/position3Friends"
+	            android:layout_width="17dp"
+	            android:layout_height="40dp"
+	            android:src="@drawable/small_blank" />
+
+	        <ImageView
+	            android:id="@+id/position4Friends"
+	            android:layout_width="17dp"
+	            android:layout_height="40dp"
+	            android:src="@drawable/small_blank" />
+
+	        <ImageView
+	            android:id="@+id/position5Friends"
+	            android:layout_width="17dp"
+	            android:layout_height="40dp"
+	            android:src="@drawable/small_blank" />
+
+	        <ImageView
+	            android:id="@+id/position6Friends"
+	            android:layout_width="17dp"
+	            android:layout_height="40dp"
+	            android:src="@drawable/small_blank" />
+	    </LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+	    android:id="@+id/linearLayout1"
+	    android:layout_width="match_parent"
+	    android:layout_height="47dp"
+	    android:layout_weight="47"
+	    android:orientation="horizontal" >
+
+		<ImageView
+		    android:layout_width="180dp"
+		    android:layout_height="fill_parent"
+		    android:src="@drawable/friends_label" android:layout_weight="180"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+	    android:id="@+id/linearLayout2"
+	    android:layout_width="match_parent"
+	    android:layout_height="40dp"
+	    android:layout_weight="40"
+	    android:orientation="horizontal" >
+
+		<ImageView
+		    android:layout_width="150dp"
+		    android:src="@drawable/online_label" android:layout_height="fill_parent" android:layout_weight="150"/>
+
+		<LinearLayout
+		    android:id="@+id/linearLayout3"
+		    android:layout_width="300dp"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical" android:layout_weight="300">
+		</LinearLayout>
+
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal" android:layout_height="220dp" android:layout_width="fill_parent" android:layout_weight="220" android:layout_marginBottom="10dp" android:layout_marginTop="5dp">
+	<ListView android:scrollbarSize="20dp" android:background="#00000000"
+		android:cacheColorHint="#00000000" android:divider="@null"
+		android:dividerHeight="0dp" android:id="@+id/onlineListView"
+		android:scrollbars="none" android:layout_width="400dp" android:layout_marginLeft="10dp" android:layout_height="fill_parent" android:layout_weight="400"></ListView>
+
+	<LinearLayout
+	    android:layout_width="80dp"
+	    android:layout_height="match_parent"
+	    android:layout_weight="80"
+	    android:background="@drawable/verticalbar_background"
+	    android:fadeScrollbars="true"
+	    android:orientation="horizontal" >
+
+		<LinearLayout
+		    android:id="@+id/linearLayout9"
+		    android:layout_width="40dp"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical" android:layout_weight="40">
+		</LinearLayout>
+
+		<LinearLayout
+		    android:id="@+id/linearLayout10"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical" >
+
+			<org.cnc.smashpaddles.adapter.VerticalSeekBar
+			    android:id="@+id/verticalSeekBarOnline"
+			    android:layout_width="20dp"
+			    android:layout_height="fill_parent"
+			    android:progressDrawable="@android:color/transparent"
+			    android:thumb="@drawable/normal_ball"
+			    android:thumbOffset="0dp" android:layout_weight="20"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+		    android:id="@+id/linearLayout8"
+		    android:layout_width="30dp"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical" android:layout_weight="30">
+		</LinearLayout>
+
+	</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+	    android:id="@+id/linearLayout4"
+	    android:layout_width="match_parent"
+	    android:layout_height="40dp"
+	    android:layout_weight="40"
+	    android:orientation="horizontal" >
+
+		<ImageView
+		    android:layout_width="150dp"
+		    android:layout_weight="150"
+		    android:src="@drawable/offline_label" android:layout_height="fill_parent"/>
+
+		<LinearLayout
+		    android:id="@+id/linearLayout5"
+		    android:layout_width="300dp"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="300"
+		    android:orientation="vertical" >
+		</LinearLayout>
+
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_height="220dp" android:layout_width="match_parent" android:layout_weight="220" android:layout_marginBottom="10dp" android:layout_marginTop="5dp">
+		<ListView android:scrollbarSize="20dp" android:background="#00000000"
+			android:cacheColorHint="#00000000" android:scrollbars="none"
+			android:divider="@null" android:dividerHeight="0dp" android:id="@+id/offlineListView"
+			android:layout_marginLeft="10dp"
+			android:layout_width="400dp" android:layout_height="fill_parent" android:layout_weight="400"></ListView>
+
+		<LinearLayout
+		    android:layout_width="80dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="80"
+		    android:background="@drawable/verticalbar_background"
+		    android:orientation="horizontal" >
+
+			<LinearLayout
+			    android:id="@+id/linearLayout11"
+			    android:layout_width="35dp"
+			    android:layout_height="fill_parent"
+			    android:orientation="vertical" android:layout_weight="35">
+			</LinearLayout>
+
+			<LinearLayout
+			    android:id="@+id/linearLayout12"
+			    android:layout_width="wrap_content"
+			    android:layout_height="fill_parent"
+			    android:orientation="vertical">
+
+				<org.cnc.smashpaddles.adapter.VerticalSeekBar
+				    android:id="@+id/verticalSeekBarOffline"
+				    android:layout_width="fill_parent"
+				    android:layout_height="10dp"
+				    android:progressDrawable="@android:color/transparent"
+				    android:thumb="@drawable/normal_ball"
+				    android:thumbOffset="0dp" android:layout_weight="20" android:layout_marginLeft="5dp"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+			    android:id="@+id/linearLayout13"
+			    android:layout_width="30dp"
+			    android:layout_height="fill_parent"
+			    android:orientation="vertical" android:layout_weight="30">
+			</LinearLayout>
+
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="130dp"
+	    android:orientation="vertical" android:layout_weight="120" android:layout_marginBottom="10dp" android:layout_marginTop="10dp">
+
+		<LinearLayout
+		    android:id="@+id/linearLayout14"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:orientation="horizontal" android:layout_weight="10">
+
+			<LinearLayout
+			    android:id="@+id/linearLayout6"
+			    android:layout_width="0dp"
+			    android:layout_height="match_parent"
+			    android:layout_weight="55"
+			    android:orientation="vertical" android:layout_marginTop="5dp" android:layout_marginLeft="10dp">
+
+			    <Button
+			        android:id="@+id/backFriends"
+			        android:layout_width="45dp"
+			        android:layout_height="45dp"
+			        android:background="@drawable/back"/>
+
+			    <LinearLayout
+			        android:id="@+id/LinearLayout04"
+			        android:layout_width="40dp"
+			        android:layout_height="15dp"
+			        android:background="@drawable/img_text_back" >
+			    </LinearLayout>
+
+			</LinearLayout>
+
+		    <LinearLayout
+		        android:id="@+id/LinearLayout01"
+		        android:layout_width="0dp"
+		        android:layout_height="match_parent"
+		        android:layout_weight="170"
+		        android:orientation="vertical" >
+
+		        <Button
+		            android:id="@+id/bigInviteButton"
+		            android:layout_width="143dp"
+		            android:layout_height="40dp"
+		            android:background="@drawable/invitefriends" android:layout_marginTop="10dp" android:layout_marginLeft="2dp"/>
+		    </LinearLayout>
+
+		    <LinearLayout
+		        android:id="@+id/LinearLayout02"
+		        android:layout_width="0dp"
+		        android:layout_height="match_parent"
+		        android:layout_weight="70"
+		        android:orientation="vertical" >
+
+		        <Button
+		            android:id="@+id/facebookFriends"
+		            android:layout_width="65dp"
+		            android:layout_height="75dp"
+		            android:background="@drawable/facebook" android:layout_marginLeft="-5dp"/>
+		    </LinearLayout>
+
+		    <LinearLayout
+		        android:id="@+id/LinearLayout03"
+		        android:layout_width="0dp"
+		        android:layout_height="match_parent"
+		        android:layout_weight="70"
+		        android:orientation="vertical" >
+
+		        <Button
+		            android:id="@+id/twitterFriends"
+		            android:layout_width="65dp"
+		            android:layout_height="75dp"
+		            android:background="@drawable/twitter" android:layout_marginLeft="-5dp"/>
+
+		    </LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

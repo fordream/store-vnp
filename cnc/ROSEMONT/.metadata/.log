@@ -1,0 +1,9 @@
+!SESSION 2012-04-09 14:40:44.833 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2012-04-09 14:41:31.059
+!MESSAGE DDMS files not found: /home/trungpham/platform-tools/adb /home/trungpham/tools/hprof-conv /home/trungpham/tools/traceview 

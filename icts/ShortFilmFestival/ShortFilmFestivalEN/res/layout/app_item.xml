@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="90dp"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    >
+<ImageView 
+    android:id="@+id/corner_left_id"
+    android:layout_width="wrap_content"
+    android:layout_height="105dp"
+    android:background="@drawable/border_left"
+    
+    />
+ <LinearLayout
+        android:layout_width="290dp"
+         android:layout_height="105dp"
+    	android:orientation="horizontal"
+    	android:background="@drawable/box_bg"
+        >
+
+   <com.loopj.android.image.SmartImageView
+       android:layout_width="103dp"
+       android:layout_height="100dp"
+       android:id="@+id/app_image_id"
+       
+       android:layout_marginLeft="0dp"
+       android:layout_gravity="center_vertical"
+       />
+	<LinearLayout
+	    android:id="@+id/layout_des"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_marginLeft = "5dp"
+	    android:layout_gravity="center"
+	    >
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        >
+		    <TextView
+		        android:id="@+id/app_name_id"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="@color/news_title"
+		        android:textStyle="bold"
+		        android:textSize="11sp"
+		        android:maxLines="1"
+		        />
+		    <TextView
+		        android:id="@+id/app_price_id"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textColor="@color/app_price"
+		        android:textStyle="bold"
+		        android:textSize="10sp"
+		        />
+	    </LinearLayout>
+	    <TextView
+	        android:id="@+id/app_desc_id"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="2dp"
+	        android:textSize="11sp"
+	        android:maxLines="6"
+	        />
+	</LinearLayout>
+</LinearLayout>
+<ImageView 
+    android:id="@+id/corner_right_id"
+    android:layout_width="wrap_content"
+    android:layout_height="105dp"
+    android:background="@drawable/border_right"
+    />
+</LinearLayout>

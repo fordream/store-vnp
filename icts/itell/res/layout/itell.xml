@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.icts.drag.DragLayer xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher"
+    android:id="@+id/drag_layer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="50dip"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/top_bar_bg" >
+
+            <TextView
+                android:id="@+id/tvSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Itell"
+                android:textColor="#000000"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/itell_llAll"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:clickable ="true"
+                
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/itell_imgVSlideAll"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/slide_friend_yellow"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/itell_btnAll"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/all_user_bg"
+                    android:text="All User"
+                    android:textColor="@android:color/white"
+                    android:textSize="22sp" >
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cancel_bg"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                     <TextView
+                        android:id="@+id/itell_tvTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="7dip"
+                        android:text="00:00:00"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp" />
+                   <!--  <TextView
+                        android:id="@+id/itell_tvHours"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="7dip"
+                        android:text="00"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="7dip"
+                        android:text=":"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/itell_tvMinutes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="7dip"
+                        android:text="00"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="7dip"
+                        android:text=":"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/itell_tvSecond"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="7dip"
+                        android:text="00"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp" /> -->
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/itell_btnCancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:text="Cancel"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp" >
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/itell_llFriend"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/itell_imgVSlideFriend"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/slide_friend"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/itell_btnFriends"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/friend_bg"
+                    android:text="Friends"
+                    android:textColor="@android:color/white"
+                    android:textSize="22sp" >
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/itell_llOther"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/itell_imgVSlideOther"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/slide_friend_blue"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/itell_btnOther"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/other_bg"
+                    android:text="Other"
+                    android:textColor="@android:color/white"
+                    android:textSize="22sp" >
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</com.icts.drag.DragLayer>

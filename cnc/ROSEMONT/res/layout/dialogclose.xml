@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="180dip"
+        android:layout_weight="180"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="140dip"
+        android:layout_weight="140"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout04"
+            android:layout_width="25dip"
+            android:layout_height="match_parent"
+            android:layout_weight="25" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout03"
+            android:layout_width="300dip"
+            android:layout_height="match_parent"
+            android:layout_weight="300"
+            android:background="@drawable/dcloseapp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout06"
+                android:layout_width="match_parent"
+                android:layout_height="90dip"
+                android:layout_weight="90"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout05"
+                android:layout_width="match_parent"
+                android:layout_height="46dip"
+                android:layout_weight="46"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout10"
+                    android:layout_width="12dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="12" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llOk"
+                    android:layout_width="135dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="135" android:background="@drawable/btn_one">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout08"
+                    android:layout_width="10dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llCancel"
+                    android:layout_width="135dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="135" android:background="@drawable/btn_one">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="10dip"
+                    android:layout_height="match_parent" android:layout_weight="10">
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="11dip"
+                android:orientation="vertical" android:layout_weight="11">
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="25dip"
+            android:layout_height="match_parent" android:layout_weight="25">
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="180dip"
+        android:orientation="vertical" android:layout_weight="180">
+    </LinearLayout>
+
+</LinearLayout>

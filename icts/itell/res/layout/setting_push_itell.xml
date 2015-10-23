@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/push_rl_iTell"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/push_rl_friend"
+    android:layout_centerInParent="true"
+    android:background="@drawable/setting_list_bg" >
+    <RelativeLayout 
+        android:tag="push_back"
+   	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:background="@drawable/setting_list_bg1">
+        <TextView
+             android:id="@+id/push_itell_text_right"
+             android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+             android:layout_centerVertical="true"
+             android:gravity="right"
+             android:layout_marginRight="10dip"
+             android:text="ON"
+             android:textSize="22dip"
+              />
+	    </RelativeLayout>
+	    <RelativeLayout 
+	         android:tag="item_toggle"
+	         android:duplicateParentState="true"
+	         android:layout_width="fill_parent"
+	         android:layout_height="wrap_content"
+	         android:background="@drawable/setting_list_bg">
+	        <ImageView
+	            android:id="@+id/img5"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_centerVertical="true"
+	            android:paddingLeft="15dip"
+	            android:src="@drawable/alert_icon" />
+
+	        <ImageView
+	            android:id="@+id/img6"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+	            android:layout_toRightOf="@+id/img5"
+	            android:paddingLeft="15dip"
+	            android:src="@drawable/text_22" />
+	
+	        <ImageView
+	            android:id="@+id/imgItell"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginRight="20dip"
+	            android:background="@drawable/on_button" />
+	        </RelativeLayout>
+    </RelativeLayout>

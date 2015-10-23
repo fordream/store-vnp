@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="35dip"
+            android:orientation="vertical"
+            android:paddingLeft="7dip"
+            android:paddingRight="7dip" >
+
+            <TextView
+                android:id="@+id/register_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="ダウンロードありがとうございます！"
+                android:textColor="@android:color/black"
+                android:textSize="13dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/register_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dip"
+                android:text="iTellのご利用には、初回登録が必要です"
+                android:textColor="@android:color/black"
+                android:textSize="13dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/register_tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="メール送信画面になりますので、"
+                android:textColor="@android:color/black"
+                android:textSize="13dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/register_tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="3dip"
+                android:text="そのまま送信してください"
+                android:textColor="@android:color/black"
+                android:textSize="13dip"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/regis_iput_mail_getCode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/button_net"
+                android:text="メール送信" />
+
+            <TextView
+                android:id="@+id/register_tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dip"
+                android:text="ドメイン指定受信を設定している方は「@xxx.jp」からの"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="13dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/register_tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="25dip"
+                android:layout_marginTop="3dip"
+                android:text="メールを受信できるように設定してください"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="13dip"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/regis_iput_mail_btnOk"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dip"
+                android:background="@drawable/button_net"
+                android:text="確認コード入力" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

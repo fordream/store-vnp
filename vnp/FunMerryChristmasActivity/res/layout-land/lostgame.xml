@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:gravity="center">
+    <RelativeLayout android:id="@+id/RelativeLayout1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/gameover" android:paddingLeft="30dip" android:paddingRight="30dip" android:paddingBottom="10dip" android:paddingTop="30dip">
+        <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:orientation="vertical" android:layout_centerVertical="true" android:layout_centerHorizontal="true">
+            <TextView android:gravity="center" android:layout_width="fill_parent" android:text="TextView" android:textColor="#ffffff" android:typeface="serif" android:textSize="14dip" android:background="@drawable/etscore" android:id="@+id/TextView02" android:layout_height="wrap_content" android:layout_marginBottom="5dip"></TextView>
+            <TextView android:gravity="center" android:layout_width="fill_parent" android:text="TextView" android:textColor="#ffffff" android:typeface="serif" android:textSize="14dip" android:background="@drawable/etscore" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+            <EditText android:layout_height="wrap_content" android:id="@+id/EditText1" android:textSize="14dip" android:textColor="#ffffff" android:typeface="serif" android:layout_width="fill_parent" android:background="@drawable/etname" android:layout_marginBottom="5dip" android:layout_marginTop="5dip" android:singleLine="true" android:hint="What your name ?" android:paddingLeft="10dip" android:paddingRight="10dip"></EditText>
+            <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center">
+                <Button android:layout_width="wrap_content" android:id="@+id/Button01" android:layout_height="wrap_content" android:background="@drawable/btnstore"></Button>
+                <Button android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/btnclose" android:layout_marginLeft="10dip"></Button>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    
+</LinearLayout>

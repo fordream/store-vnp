@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="vertical" 
+        android:paddingBottom="2dip">
+        <RelativeLayout
+            android:layout_marginTop="5dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerInParent="true"
+	            android:text="User name"
+	            android:textStyle="bold"
+	            android:id="@+id/chat_screen_tv_user_name"
+	            android:textColor="@android:color/darker_gray"
+	            android:textSize="20dip" />
+              <Button
+                android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+	            android:layout_marginLeft="2dip"
+	            android:id="@+id/chat_screen_btn_chat"
+	            android:layout_alignParentLeft="true"
+	            android:text="@string/chat_btn_chat" />
+              <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="2dip"
+                android:id="@+id/chat_screen_btn_store"
+                android:layout_alignParentRight="true"
+                android:text="@string/chat_btn_store" />
+        </RelativeLayout>
+         <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/line" />
+    </LinearLayout>
+    
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="10dip"
+            android:gravity="left"
+            android:layout_marginTop="5dip"
+            android:text="@string/chat_available_time"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/chat_text_size_title" />
+         <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/line" />
+    </LinearLayout>
+
+    <!-- Remain time -->
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5dip"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dip"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal" 
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/chat_remain"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/chat_text_size_remain_time"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dip"
+            android:gravity="left"
+            android:text="3"
+            android:textColor="@android:color/darker_gray"
+            android:id="@+id/chat_time_hour"
+            android:textSize="@dimen/chat_text_size_remain_time" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dip"
+            android:gravity="left"
+            android:text="@string/chat_time"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/chat_text_size_remain_time" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dip"
+            android:gravity="left"
+            android:text="00"
+            android:textColor="@android:color/darker_gray"
+            android:id="@+id/chat_time_minute"
+            android:textSize="@dimen/chat_text_size_remain_time" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:paddingLeft="2dip"
+            android:gravity="left"
+            android:text="@string/chat_time_minute"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/chat_text_size_remain_time" />
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dip"
+            android:gravity="left"
+            android:text="00"
+            android:textColor="@android:color/darker_gray"
+            android:id="@+id/chat_time_second"
+            android:textSize="@dimen/chat_text_size_remain_time" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dip"
+            android:gravity="left"
+            android:text="@string/chat_time_second"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/chat_text_size_remain_time" />
+    </LinearLayout>
+    
+     <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/chat_screen_img_time_reset"
+            android:layout_marginRight="15dip"
+            android:layout_centerVertical="true"
+            android:background="@drawable/reset" />
+    </RelativeLayout>
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/line" />
+    <LinearLayout
+        android:layout_marginTop="10dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@android:color/white"
+	        android:orientation="vertical" >
+    
+	          <ImageView
+                    android:id="@+id/chatsc_image1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/icon"/>
+
+                <TextView
+                    android:id="@+id/cs_user_name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:text="trung"
+                    android:textSize="@dimen/chat_text_size_user_name"
+                    android:textColor="@android:color/black" />
+        </LinearLayout>
+         <TextView
+                    android:id="@+id/cs_message1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:text="hehe"
+                    android:layout_margin="5dip"
+                    android:textSize="8dip"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/status" />
+    </LinearLayout>
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+      
+           <LinearLayout
+                android:id="@+id/cs_ll_user2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:orientation="vertical" >
+	    
+	              <ImageView
+	                    android:id="@+id/chatsc_image2"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center_vertical"
+	                    android:src="@drawable/icon"/>
+	
+	                <TextView
+	                    android:id="@+id/cs_user_name2"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center_horizontal"
+	                    android:gravity="center_horizontal"
+	                    android:text="luong"
+	                    android:textSize="@dimen/chat_text_size_user_name"
+	                    android:textColor="@android:color/black" />
+            </LinearLayout>
+             <TextView
+                    android:id="@+id/cs_message2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:text="hehe"
+                    android:layout_margin="5dip"
+                    android:textSize="8dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_toLeftOf="@+id/cs_ll_user2"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/status2" />
+    </RelativeLayout>
+     <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/line" />
+	 <RelativeLayout
+	        android:layout_marginTop="10dip"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content">
+	        <TextView 
+	            android:layout_alignParentLeft="true"
+                android:layout_width="40dip"
+                android:id="@+id/chat_change_stamp"
+                android:layout_height="40dip"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/chat_change_stamp"/>
+	        <Button 
+	            android:layout_alignParentRight="true"
+                android:layout_width="40dip"
+                android:id="@+id/chat_message_send"
+                android:layout_height="40dip"
+                android:layout_marginRight="5dip"
+                android:text="Send"
+                android:textSize="@dimen/chat_text_size_title"
+                android:background="@drawable/chat_bg_send"/>
+	          <TextView 
+	            android:id="@+id/chat_enter_message"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:padding="10dip"
+                android:layout_height="40dip"
+                android:layout_toRightOf="@+id/chat_change_stamp"
+                android:layout_toLeftOf="@+id/chat_message_send"
+                android:textSize="8dip"
+                android:text="123"
+                android:background="@drawable/chat_bg_message"/>
+	 </RelativeLayout>
+	  <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/line" />
+	  <RelativeLayout
+            android:id="@+id/chat_rl_keyboard"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="visible">
+	          
+	       <TextView 
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="26dip"
+                android:text="@string/chat_keyboard"/>
+	  </RelativeLayout>
+	  <LinearLayout
+	        android:padding="10dip"
+            android:id="@+id/chat_ll_img"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone"
+            android:orientation="vertical">
+            <LinearLayout 
+                android:layout_marginTop="10dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">  
+	           <ImageView 
+	               android:layout_width="40dip"
+	               android:layout_height="40dip"
+	               android:layout_marginLeft = "5dip"
+	               android:layout_marginRight="5dip"
+	               android:layout_gravity="center_vertical"
+	               android:gravity="center"
+	               android:background="@drawable/chat_img_stamp"/>
+	           <ImageView 
+                   android:layout_width="40dip"
+                   android:layout_height="40dip"
+                   android:layout_marginLeft = "5dip"
+                   android:layout_marginRight="5dip"
+                   android:layout_gravity="center_vertical"
+                   android:gravity="center"
+                   android:background="@drawable/chat_img_stamp"/>
+	           <ImageView 
+                   android:layout_width="40dip"
+                   android:layout_height="40dip"
+                   android:layout_marginLeft = "5dip"
+                   android:layout_marginRight="5dip"
+                   android:layout_gravity="center_vertical"
+                   android:gravity="center"
+                   android:background="@drawable/chat_img_stamp"/>
+	           <ImageView 
+                   android:layout_width="40dip"
+                   android:layout_height="40dip"
+                   android:layout_marginLeft = "5dip"
+                   android:layout_marginRight="5dip"
+                   android:layout_gravity="center_vertical"
+                   android:gravity="center"
+                   android:background="@drawable/chat_img_stamp"/>
+           </LinearLayout>
+           <LinearLayout 
+                android:layout_marginTop="10dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">  
+               <ImageView 
+                   android:layout_width="40dip"
+                   android:layout_height="40dip"
+                   android:layout_marginLeft = "5dip"
+                   android:layout_marginRight="5dip"
+                   android:layout_gravity="center_vertical"
+                   android:gravity="center"
+                   android:background="@drawable/chat_img_stamp"/>
+               <ImageView 
+                   android:layout_width="40dip"
+                   android:layout_height="40dip"
+                   android:layout_marginLeft = "5dip"
+                   android:layout_marginRight="5dip"
+                   android:layout_gravity="center_vertical"
+                   android:gravity="center"
+                   android:background="@drawable/chat_img_stamp"/>
+               <ImageView 
+                   android:layout_width="40dip"
+                   android:layout_height="40dip"
+                   android:layout_marginLeft = "5dip"
+                   android:layout_marginRight="5dip"
+                   android:layout_gravity="center_vertical"
+                   android:gravity="center"
+                   android:background="@drawable/chat_img_stamp"/>
+               <ImageView 
+                   android:layout_width="40dip"
+                   android:layout_height="40dip"
+                   android:layout_marginLeft = "5dip"
+                   android:layout_marginRight="5dip"
+                   android:layout_gravity="center_vertical"
+                   android:gravity="center"
+                   android:background="@drawable/chat_img_stamp"/>
+           </LinearLayout>
+      </LinearLayout>
+</LinearLayout>

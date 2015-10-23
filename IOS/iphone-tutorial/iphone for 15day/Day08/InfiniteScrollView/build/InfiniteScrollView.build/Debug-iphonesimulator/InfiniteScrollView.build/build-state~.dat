@@ -1,0 +1,468 @@
+TInfiniteScrollView
+v7
+r0
+t310271453.190797
+cCheck dependencies
+cProcessInfoPlistFile /Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/Info.plist InfiniteScrollView-Info.plist
+cCompileXIB /Users/haskinsj87/Work/InfiniteScrollView/MainWindow.xib
+cCompileXIB /Users/haskinsj87/Work/InfiniteScrollView/RootViewController.xib
+cCpResource build/Debug-iphonesimulator/InfiniteScrollView.app/image1.jpg image1.jpg
+cCpResource build/Debug-iphonesimulator/InfiniteScrollView.app/image2.jpg image2.jpg
+cCpResource build/Debug-iphonesimulator/InfiniteScrollView.app/image3.jpg image3.jpg
+cCpResource build/Debug-iphonesimulator/InfiniteScrollView.app/image4.jpg image4.jpg
+cCompileXIB /Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForDuplicateEndCaps.xib
+cCompileXIB /Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForThreePagesOnly.xib
+cProcessPCH /var/folders/4B/4BwkEmVyHhqu0e9svtpD4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InfiniteScrollView_Prefix-czdgrfvhccwrobbgpzhjepuzxrsi/InfiniteScrollView_Prefix.pch.gch InfiniteScrollView_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/main.o /Users/haskinsj87/Work/InfiniteScrollView/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/InfiniteScrollViewAppDelegate.o /Users/haskinsj87/Work/InfiniteScrollView/Classes/InfiniteScrollViewAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/RootViewController.o /Users/haskinsj87/Work/InfiniteScrollView/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/ViewControllerForDuplicateEndCaps.o /Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForDuplicateEndCaps.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/ViewControllerForThreePagesOnly.o /Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForThreePagesOnly.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C7997C20000000000000132
+t1283037122
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h
+c000000004BF4CBF90000000000001A3B
+t1274334201
+s6715
+
+N/Users/haskinsj87/Work/InfiniteScrollView/1315919_82128950.jpg
+c000000004CC978AB0000000000016F34
+t1288272043
+s94004
+
+N/Users/haskinsj87/Work/InfiniteScrollView/1315977_39966422.jpg
+c000000004CC9788D0000000000020083
+t1288272013
+s131203
+
+N/Users/haskinsj87/Work/InfiniteScrollView/1315990_78477391.jpg
+c000000004CC978520000000000038936
+t1288271954
+s231734
+
+N/Users/haskinsj87/Work/InfiniteScrollView/1316388_47849809.jpg
+c000000004CC97832000000000005A271
+t1288271922
+s369265
+
+N/Users/haskinsj87/Work/InfiniteScrollView/Classes/InfiniteScrollViewAppDelegate.h
+c000000004CCE1CD300000000000001EC
+t1288576211
+s492
+i<UIKit/UIKit.h>
+
+N/Users/haskinsj87/Work/InfiniteScrollView/Classes/InfiniteScrollViewAppDelegate.m
+c000000004CCE1CCF0000000000000AC1
+t1288576207
+s2753
+i"InfiniteScrollViewAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/haskinsj87/Work/InfiniteScrollView/Classes/RootViewController.h
+c000000004CCE1F7B0000000000000300
+t1288576891
+s768
+i<UIKit/UIKit.h>
+
+N/Users/haskinsj87/Work/InfiniteScrollView/Classes/RootViewController.m
+c000000004CCE1FD300000000000009E1
+t1288576979
+s2529
+i"RootViewController.h"
+i"ViewControllerForDuplicateEndCaps.h"
+i"ViewControllerForThreePagesOnly.h"
+i"InfiniteScrollViewAppDelegate.h"
+
+N/Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForDuplicateEndCaps.h
+c000000004CCE206A0000000000000186
+t1288577130
+s390
+i<UIKit/UIKit.h>
+
+N/Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForDuplicateEndCaps.m
+c000000004CCE2650000000000000074D
+t1288578640
+s1869
+i"ViewControllerForDuplicateEndCaps.h"
+
+N/Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForDuplicateEndCaps.xib
+c000000004CCE24A700000000000043F2
+t1288578215
+s17394
+
+N/Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForThreePagesOnly.h
+c000000004CCE1F51000000000000010F
+t1288576849
+s271
+i<UIKit/UIKit.h>
+
+N/Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForThreePagesOnly.m
+c000000004CCE1F5100000000000005D6
+t1288576849
+s1494
+i"ViewControllerForThreePagesOnly.h"
+
+N/Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForThreePagesOnly.xib
+c000000004CCE1F510000000000001898
+t1288576849
+s6296
+
+N/Users/haskinsj87/Work/InfiniteScrollView/InfiniteScrollView_Prefix.pch
+c000000004CC894A30000000000000156
+t1288213667
+s342
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/haskinsj87/Work/InfiniteScrollView/MainWindow.xib
+c000000004CC894A30000000000006020
+t1288213667
+s24608
+
+N/Users/haskinsj87/Work/InfiniteScrollView/RootViewController.xib
+c000000004CCE1D9D0000000000004938
+t1288576413
+s18744
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app
+t2
+s0
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app.dSYM
+t2
+s0
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/1315919_82128950.jpg
+t2
+s0
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/1315977_39966422.jpg
+t2
+s0
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/1315990_78477391.jpg
+t2
+s0
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/1316388_47849809.jpg
+t2
+s0
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/InfiniteScrollView
+t2
+s0
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/Info.plist
+t1288578643
+s641
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/MainWindow.nib
+t1288578646
+s1520
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/PkgInfo
+t1288578643
+s8
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/RootViewController.nib
+t1288578646
+s1501
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/ViewControllerForDuplicateEndCaps.nib
+t1288578647
+s1033
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/ViewControllerForThreePagesOnly.nib
+t1288578647
+s764
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/image1.jpg
+t1288578646
+s94004
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/image2.jpg
+t1288578646
+s131203
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/image3.jpg
+t1288578646
+s231734
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/image4.jpg
+t1288578646
+s369265
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/InfiniteScrollView.LinkFileList
+c000000004CCE2653000000000000033E
+t1288578643
+s830
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/InfiniteScrollViewAppDelegate.o
+t1288578652
+s49984
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/RootViewController.o
+t2
+s0
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/ViewControllerForDuplicateEndCaps.o
+t1288578653
+s43272
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/ViewControllerForThreePagesOnly.o
+t1288578653
+s34812
+
+N/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/main.o
+t1288578652
+s6308
+
+N/Users/haskinsj87/Work/InfiniteScrollView/image1.jpg
+c000000004CC978AB0000000000016F34
+t1288272043
+s94004
+
+N/Users/haskinsj87/Work/InfiniteScrollView/image2.jpg
+c000000004CC9788D0000000000020083
+t1288272013
+s131203
+
+N/Users/haskinsj87/Work/InfiniteScrollView/image3.jpg
+c000000004CC978520000000000038936
+t1288271954
+s231734
+
+N/Users/haskinsj87/Work/InfiniteScrollView/image4.jpg
+c000000004CC97832000000000005A271
+t1288271922
+s369265
+
+N/Users/haskinsj87/Work/InfiniteScrollView/main.m
+c000000004CC894A30000000000000176
+t1288213667
+s374
+i<UIKit/UIKit.h>
+
+N/var/folders/4B/4BwkEmVyHhqu0e9svtpD4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InfiniteScrollView_Prefix-czdgrfvhccwrobbgpzhjepuzxrsi/InfiniteScrollView_Prefix.pch.gch
+t1288578651
+s15232016
+
+NInfiniteScrollView-Info.plist
+c000000004CC894A3000000000000038D
+t1288213667
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies310271443#310271443#0(0"0(0#1#0"8648103264#0"0#
+
+CCompileC build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/InfiniteScrollViewAppDelegate.o /Users/haskinsj87/Work/InfiniteScrollView/Classes/InfiniteScrollViewAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310271452.665192
+e310271452.790923
+r1
+xCompileC
+xbuild/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/InfiniteScrollViewAppDelegate.o
+x/Users/haskinsj87/Work/InfiniteScrollView/Classes/InfiniteScrollViewAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/haskinsj87/Work/InfiniteScrollView/Classes/InfiniteScrollViewAppDelegate.m310271452#310271452#0(0"0(0#0#81"/Users/haskinsj87/Work/InfiniteScrollView/Classes/InfiniteScrollViewAppDelegate.m8642330944#2212"    cd /Users/haskinsj87/Work/InfiniteScrollView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-generated-files.hmap -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-own-target-headers.hmap -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-all-target-headers.hmap -iquote /Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-project-headers.hmap -F/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator -I/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/include -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/DerivedSources/i386 -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/DerivedSources -include /var/folders/4B/4BwkEmVyHhqu0e9svtpD4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InfiniteScrollView_Prefix-czdgrfvhccwrobbgpzhjepuzxrsi/InfiniteScrollView_Prefix.pch -c /Users/haskinsj87/Work/InfiniteScrollView/Classes/InfiniteScrollViewAppDelegate.m -o /Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/InfiniteScrollViewAppDelegate.o0#
+
+CCompileC build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/RootViewController.o /Users/haskinsj87/Work/InfiniteScrollView/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310271452.791071
+e310271452.969829
+r0
+xCompileC
+xbuild/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/RootViewController.o
+x/Users/haskinsj87/Work/InfiniteScrollView/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/haskinsj87/Work/InfiniteScrollView/Classes/RootViewController.m: In function '-[RootViewController loadScrollViewWithDuplicateEndCaps:]':
+o/Users/haskinsj87/Work/InfiniteScrollView/Classes/RootViewController.m:31: error: request for member 'navController' in something not a structure or union
+o/Users/haskinsj87/Work/InfiniteScrollView/Classes/RootViewController.m: In function '-[RootViewController loadScrollViewWithThreePagesOnly:]':
+o/Users/haskinsj87/Work/InfiniteScrollView/Classes/RootViewController.m:47: error: request for member 'navController' in something not a structure or union
+lSLF07#2@78"Compile /Users/haskinsj87/Work/InfiniteScrollView/Classes/RootViewController.m310271452#310271452#0(598"/Users/haskinsj87/Work/InfiniteScrollView/Classes/RootViewController.m: In function '-[RootViewController loadScrollViewWithDuplicateEndCaps:]':/Users/haskinsj87/Work/InfiniteScrollView/Classes/RootViewController.m:31: error: request for member 'navController' in something not a structure or union/Users/haskinsj87/Work/InfiniteScrollView/Classes/RootViewController.m: In function '-[RootViewController loadScrollViewWithThreePagesOnly:]':/Users/haskinsj87/Work/InfiniteScrollView/Classes/RootViewController.m:47: error: request for member 'navController' in something not a structure or union2(4@72"Request for member 'navController' in something not a structure or union310271452#145#155#0(6@70"/Users/haskinsj87/Work/InfiniteScrollView/Classes/RootViewController.m310269779#31#0#31#0#0"0(4@72"Request for member 'navController' in something not a structure or union310271452#443#155#0(6@70"/Users/haskinsj87/Work/InfiniteScrollView/Classes/RootViewController.m310269779#47#0#47#0#0"0(0#0#70"/Users/haskinsj87/Work/InfiniteScrollView/Classes/RootViewController.m8645960992#2190"    cd /Users/haskinsj87/Work/InfiniteScrollView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-generated-files.hmap -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-own-target-headers.hmap -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-all-target-headers.hmap -iquote /Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-project-headers.hmap -F/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator -I/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/include -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/DerivedSources/i386 -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/DerivedSources -include /var/folders/4B/4BwkEmVyHhqu0e9svtpD4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InfiniteScrollView_Prefix-czdgrfvhccwrobbgpzhjepuzxrsi/InfiniteScrollView_Prefix.pch -c /Users/haskinsj87/Work/InfiniteScrollView/Classes/RootViewController.m -o /Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/RootViewController.o1#
+
+CCompileC build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/ViewControllerForDuplicateEndCaps.o /Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForDuplicateEndCaps.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310271452.969946
+e310271453.102313
+r1
+xCompileC
+xbuild/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/ViewControllerForDuplicateEndCaps.o
+x/Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForDuplicateEndCaps.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForDuplicateEndCaps.m310271452#310271453#0(0"0(0#0#85"/Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForDuplicateEndCaps.m8634407488#2220"    cd /Users/haskinsj87/Work/InfiniteScrollView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-generated-files.hmap -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-own-target-headers.hmap -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-all-target-headers.hmap -iquote /Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-project-headers.hmap -F/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator -I/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/include -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/DerivedSources/i386 -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/DerivedSources -include /var/folders/4B/4BwkEmVyHhqu0e9svtpD4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InfiniteScrollView_Prefix-czdgrfvhccwrobbgpzhjepuzxrsi/InfiniteScrollView_Prefix.pch -c /Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForDuplicateEndCaps.m -o /Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/ViewControllerForDuplicateEndCaps.o0#
+
+CCompileC build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/ViewControllerForThreePagesOnly.o /Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForThreePagesOnly.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310271453.102449
+e310271453.190693
+r1
+xCompileC
+xbuild/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/ViewControllerForThreePagesOnly.o
+x/Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForThreePagesOnly.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForThreePagesOnly.m310271453#310271453#0(0"0(0#0#83"/Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForThreePagesOnly.m8637843648#2216"    cd /Users/haskinsj87/Work/InfiniteScrollView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-generated-files.hmap -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-own-target-headers.hmap -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-all-target-headers.hmap -iquote /Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-project-headers.hmap -F/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator -I/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/include -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/DerivedSources/i386 -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/DerivedSources -include /var/folders/4B/4BwkEmVyHhqu0e9svtpD4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InfiniteScrollView_Prefix-czdgrfvhccwrobbgpzhjepuzxrsi/InfiniteScrollView_Prefix.pch -c /Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForThreePagesOnly.m -o /Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/ViewControllerForThreePagesOnly.o0#
+
+CCompileC build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/main.o /Users/haskinsj87/Work/InfiniteScrollView/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310271452.584740
+e310271452.665045
+r1
+xCompileC
+xbuild/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/main.o
+x/Users/haskinsj87/Work/InfiniteScrollView/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/haskinsj87/Work/InfiniteScrollView/main.m310271452#310271452#0(0"0(0#0#48"/Users/haskinsj87/Work/InfiniteScrollView/main.m8644188160#2154"    cd /Users/haskinsj87/Work/InfiniteScrollView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-generated-files.hmap -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-own-target-headers.hmap -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-all-target-headers.hmap -iquote /Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-project-headers.hmap -F/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator -I/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/include -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/DerivedSources/i386 -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/DerivedSources -include /var/folders/4B/4BwkEmVyHhqu0e9svtpD4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InfiniteScrollView_Prefix-czdgrfvhccwrobbgpzhjepuzxrsi/InfiniteScrollView_Prefix.pch -c /Users/haskinsj87/Work/InfiniteScrollView/main.m -o /Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForDuplicateEndCaps.xib
+s310271446.802429
+e310271447.473649
+r1
+xCompileXIB
+x/Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForDuplicateEndCaps.xib
+lSLF07#2@56"CompileXIB Classes/ViewControllerForDuplicateEndCaps.xib310271446#310271447#0(0"0(0#0#87"/Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForDuplicateEndCaps.xib8638107424#644"    cd /Users/haskinsj87/Work/InfiniteScrollView    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/ViewControllerForDuplicateEndCaps.nib /Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForDuplicateEndCaps.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForThreePagesOnly.xib
+s310271446.987601
+e310271447.532601
+r1
+xCompileXIB
+x/Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForThreePagesOnly.xib
+lSLF07#2@54"CompileXIB Classes/ViewControllerForThreePagesOnly.xib310271446#310271447#0(0"0(0#0#85"/Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForThreePagesOnly.xib8647771968#640"    cd /Users/haskinsj87/Work/InfiniteScrollView    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/ViewControllerForThreePagesOnly.nib /Users/haskinsj87/Work/InfiniteScrollView/Classes/ViewControllerForThreePagesOnly.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/haskinsj87/Work/InfiniteScrollView/MainWindow.xib
+s310271443.943816
+e310271446.766592
+r1
+xCompileXIB
+x/Users/haskinsj87/Work/InfiniteScrollView/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib310271443#310271446#0(0"0(0#0#56"/Users/haskinsj87/Work/InfiniteScrollView/MainWindow.xib8642040768#590"    cd /Users/haskinsj87/Work/InfiniteScrollView    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/MainWindow.nib /Users/haskinsj87/Work/InfiniteScrollView/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/haskinsj87/Work/InfiniteScrollView/RootViewController.xib
+s310271443.975730
+e310271446.803609
+r1
+xCompileXIB
+x/Users/haskinsj87/Work/InfiniteScrollView/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib310271443#310271446#0(0"0(0#0#64"/Users/haskinsj87/Work/InfiniteScrollView/RootViewController.xib8641608992#606"    cd /Users/haskinsj87/Work/InfiniteScrollView    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/RootViewController.nib /Users/haskinsj87/Work/InfiniteScrollView/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource build/Debug-iphonesimulator/InfiniteScrollView.app/1315919_82128950.jpg 1315919_82128950.jpg
+r0
+
+CCpResource build/Debug-iphonesimulator/InfiniteScrollView.app/1315977_39966422.jpg 1315977_39966422.jpg
+r0
+
+CCpResource build/Debug-iphonesimulator/InfiniteScrollView.app/1315990_78477391.jpg 1315990_78477391.jpg
+r0
+
+CCpResource build/Debug-iphonesimulator/InfiniteScrollView.app/1316388_47849809.jpg 1316388_47849809.jpg
+r0
+
+CCpResource build/Debug-iphonesimulator/InfiniteScrollView.app/image1.jpg image1.jpg
+s310271446.766802
+e310271446.960735
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/InfiniteScrollView.app/image1.jpg
+ximage1.jpg
+lSLF07#2@15"Copy image1.jpg310271446#310271446#0(0"0(0#0#52"/Users/haskinsj87/Work/InfiniteScrollView/image1.jpg8647712352#474"    cd /Users/haskinsj87/Work/InfiniteScrollView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/haskinsj87/Work/InfiniteScrollView/image1.jpg /Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app0#
+
+CCpResource build/Debug-iphonesimulator/InfiniteScrollView.app/image2.jpg image2.jpg
+s310271446.799510
+e310271446.963818
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/InfiniteScrollView.app/image2.jpg
+ximage2.jpg
+lSLF07#2@15"Copy image2.jpg310271446#310271446#0(0"0(0#0#52"/Users/haskinsj87/Work/InfiniteScrollView/image2.jpg8647914112#474"    cd /Users/haskinsj87/Work/InfiniteScrollView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/haskinsj87/Work/InfiniteScrollView/image2.jpg /Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app0#
+
+CCpResource build/Debug-iphonesimulator/InfiniteScrollView.app/image3.jpg image3.jpg
+s310271446.800545
+e310271446.982981
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/InfiniteScrollView.app/image3.jpg
+ximage3.jpg
+lSLF07#2@15"Copy image3.jpg310271446#310271446#0(0"0(0#0#52"/Users/haskinsj87/Work/InfiniteScrollView/image3.jpg8645601728#474"    cd /Users/haskinsj87/Work/InfiniteScrollView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/haskinsj87/Work/InfiniteScrollView/image3.jpg /Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app0#
+
+CCpResource build/Debug-iphonesimulator/InfiniteScrollView.app/image4.jpg image4.jpg
+s310271446.801492
+e310271446.987480
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/InfiniteScrollView.app/image4.jpg
+ximage4.jpg
+lSLF07#2@15"Copy image4.jpg310271446#310271446#0(0"0(0#0#52"/Users/haskinsj87/Work/InfiniteScrollView/image4.jpg8644928128#474"    cd /Users/haskinsj87/Work/InfiniteScrollView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/haskinsj87/Work/InfiniteScrollView/image4.jpg /Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app0#
+
+CGenerateDSYMFile /Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app.dSYM /Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/InfiniteScrollView
+r0
+
+CLd /Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/InfiniteScrollView normal i386
+r0
+
+CProcessInfoPlistFile /Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/Info.plist InfiniteScrollView-Info.plist
+s310271443.909879
+e310271443.943699
+r1
+xProcessInfoPlistFile
+x/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/Info.plist
+xInfiniteScrollView-Info.plist
+lSLF07#2@37"Process InfiniteScrollView-Info.plist310271443#310271443#0(0"0(0#0#71"/Users/haskinsj87/Work/InfiniteScrollView/InfiniteScrollView-Info.plist8641676544#521"    cd /Users/haskinsj87/Work/InfiniteScrollView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility InfiniteScrollView-Info.plist -genpkginfo /Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app/Info.plist0#
+
+CProcessPCH /var/folders/4B/4BwkEmVyHhqu0e9svtpD4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InfiniteScrollView_Prefix-czdgrfvhccwrobbgpzhjepuzxrsi/InfiniteScrollView_Prefix.pch.gch InfiniteScrollView_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s310271447.541849
+e310271452.584554
+r1
+xProcessPCH
+x/var/folders/4B/4BwkEmVyHhqu0e9svtpD4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InfiniteScrollView_Prefix-czdgrfvhccwrobbgpzhjepuzxrsi/InfiniteScrollView_Prefix.pch.gch
+xInfiniteScrollView_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Precompile InfiniteScrollView_Prefix.pch310271447#310271452#0(0"0(0#0#71"/Users/haskinsj87/Work/InfiniteScrollView/InfiniteScrollView_Prefix.pch8646427776#2032"    cd /Users/haskinsj87/Work/InfiniteScrollView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-generated-files.hmap -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-own-target-headers.hmap -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-all-target-headers.hmap -iquote /Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/InfiniteScrollView-project-headers.hmap -F/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator -I/Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/include -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/DerivedSources/i386 -I/Users/haskinsj87/Work/InfiniteScrollView/build/InfiniteScrollView.build/Debug-iphonesimulator/InfiniteScrollView.build/DerivedSources -c /Users/haskinsj87/Work/InfiniteScrollView/InfiniteScrollView_Prefix.pch -o /var/folders/4B/4BwkEmVyHhqu0e9svtpD4E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InfiniteScrollView_Prefix-czdgrfvhccwrobbgpzhjepuzxrsi/InfiniteScrollView_Prefix.pch.gch0#
+
+CTouch /Users/haskinsj87/Work/InfiniteScrollView/build/Debug-iphonesimulator/InfiniteScrollView.app
+r0
+

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/menu_home"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens50"
+        android:background="@drawable/top_bar" >
+
+        <ImageView
+            android:id="@+id/home_img_topbar_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/_button_click"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo_button" />
+
+        <LinearLayout
+            android:id="@+id/abc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/_button_click"
+            android:gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo_button" >
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="false"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dimens10"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/topbar_button_right"
+                android:layout_width="@dimen/dimens70"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:adjustViewBounds="true"
+                android:background="@drawable/tvuong_button_setting_done"
+                android:scaleType="fitXY"
+                android:src="@drawable/tvuong_button_setting_done"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/abc"
+            android:layout_toRightOf="@+id/home_img_topbar_icon"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dimens5"
+            android:paddingRight="@dimen/dimens5"
+            android:text="@string/menu_list"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp22"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/topBar_rip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/rip_paper_bg"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="8pz-tx-zV3">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="KSy-8B-xFw">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yLv-6K-pvO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="8pz-tx-zV3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="vbP-WL-CC2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="WXv-3z-nvM" kind="relationship" relationship="rootViewController" id="Dzs-3O-Ux3"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-533" y="84"/>
+        </scene>
+        <!--Friend Table View Controller - Friend List-->
+        <scene sceneID="a2V-yK-1xa">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l4g-3t-eM5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="WXv-3z-nvM" customClass="FriendTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="80" sectionHeaderHeight="22" sectionFooterHeight="22" id="0i7-eu-UxJ">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="OddCell" rowHeight="80" id="DSV-ba-0jX" customClass="CustomViewCell">
+                                <rect key="frame" x="0.0" y="22" width="320" height="80"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="79"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" id="wMy-8A-u7U">
+                                            <rect key="frame" x="0.0" y="0.0" width="71" height="79"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="dZu-sP-gtd">
+                                            <rect key="frame" x="79" y="29" width="221" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <outlet property="photo" destination="wMy-8A-u7U" id="YcG-f6-FeI"/>
+                                    <outlet property="title" destination="dZu-sP-gtd" id="TZs-7K-hYI"/>
+                                    <segue destination="wrf-Ec-zzF" kind="push" identifier="Odd" id="S8c-KW-eZx"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell clearsContextBeforeDrawing="NO" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="EvenCell" id="YjR-D6-qX8" customClass="CustomViewCell">
+                                <rect key="frame" x="0.0" y="102" width="320" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="79"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" id="qor-sc-itM">
+                                            <rect key="frame" x="246" y="0.0" width="74" height="79"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="eYd-h3-ne2">
+                                            <rect key="frame" x="10" y="29" width="231" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="photo" destination="qor-sc-itM" id="S59-R5-Kbf"/>
+                                    <outlet property="title" destination="eYd-h3-ne2" id="fY5-Xh-WRr"/>
+                                    <segue destination="TRS-ZM-05G" kind="push" identifier="Even" id="JLn-8W-bxJ"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="WXv-3z-nvM" id="r7M-iR-oRL"/>
+                            <outlet property="delegate" destination="WXv-3z-nvM" id="RZd-Od-6QM"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Friend List" id="scw-lQ-SRx"/>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="-159" y="84"/>
+        </scene>
+        <!--Friend View Controller - Friend-->
+        <scene sceneID="rK3-JT-GcJ">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fkM-BU-4ex" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="wrf-Ec-zzF" customClass="FriendViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aSP-h1-qsH">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="DSJ-k0-8dM">
+                                <rect key="frame" x="120" y="12" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Friend" id="nIG-L7-RRF"/>
+                    <connections>
+                        <outlet property="photo" destination="DSJ-k0-8dM" id="sbE-TJ-Ahb"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="360" y="-207"/>
+        </scene>
+        <!--View Controller - Foe-->
+        <scene sceneID="WtB-j9-0uD">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YoJ-6k-wX1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="TRS-ZM-05G" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tIF-HP-xrV">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Foe" id="U4D-ez-T7L"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="349" y="353"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="CustomViewCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CustomViewCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="photo" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="title" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="FriendTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FriendTableViewController.h"/>
+        </class>
+        <class className="FriendViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FriendViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="photo" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

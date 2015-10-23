@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_root"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_header" >
+
+        <Button
+            android:id="@+id/btn_Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/selector_button_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:clickable="false"
+            android:text="@string/back"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_button_on_title_bar" />
+
+        <TextView
+            android:id="@+id/feature_title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/setting_friend_friend"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_Addfriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/selector_setting_friend_add_friend" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/find_user_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <EditText
+            android:id="@+id/txt_find_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/bg_search_field_find_user"
+            android:hint="@string/setting_friend_search_field_hint"
+            android:paddingLeft="35dp"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/txt_find_user"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:contentDescription="@string/setting_friend_img_description"
+            android:src="@drawable/ic_search_setting_friend" />
+
+        <Button
+            android:id="@+id/btn_Clear_find_user"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignRight="@id/txt_find_user"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_clear_setting_friend" />
+
+        <Button
+            android:id="@+id/btn_find_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_button_setting_friend_search"
+            android:text="@string/my_playlist_detail_search_btn_txt" />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/tab_interested_friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_tab_setting_friend"
+        android:checkedButton="@+id/btn_Interested"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@id/btn_Interested"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_tab_setting_friend_interested"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/setting_friend_interested"
+            android:textSize="@dimen/textsize_small" />
+
+        <RadioButton
+            android:id="@+id/btn_Fan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_tab_setting_friend_fan"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/setting_friend_fan"
+            android:textSize="@dimen/textsize_small" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:id="@+id/loading_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/feature_list_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/feature_list_progress"
+            android:layout_centerHorizontal="true"
+            android:text="@string/loading" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/search_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/txt_find_friend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_search_field_setting_friend"
+            android:hint="@string/setting_friend_search_field_hint"
+            android:paddingLeft="35dp"
+            android:singleLine="true"
+            android:textColor="#333333"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/txt_find_friend"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:contentDescription="@string/setting_friend_img_description"
+            android:src="@drawable/ic_search_setting_friend" />
+
+        <Button
+            android:id="@+id/btn_Clear"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_alignRight="@id/txt_find_friend"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_clear_setting_friend" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_header_divider"
+        android:contentDescription="@string/setting_friend_img_description" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/empty_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/empty_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/search_ico_margintop"
+                android:contentDescription="@string/setting_friend_img_description" />
+
+            <TextView
+                android:id="@+id/empty_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/empty_icon"
+                android:layout_marginLeft="@dimen/margin_default"
+                android:layout_marginRight="@dimen/margin_default"
+                android:gravity="center_horizontal"
+                android:text="@string/setting_friend_have_no_friend"
+                android:textSize="@dimen/textsize_big" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lst_friend"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="0dp"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"
+            android:fadingEdge="none"
+            android:padding="8dp" >
+        </ListView>
+    </RelativeLayout>
+
+</LinearLayout>

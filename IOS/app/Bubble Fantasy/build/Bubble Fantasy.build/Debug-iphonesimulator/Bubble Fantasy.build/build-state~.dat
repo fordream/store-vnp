@@ -1,0 +1,262 @@
+TBubble Fantasy
+v7
+r0
+t335534287.544437
+cCheck dependencies
+cProcessInfoPlistFile "/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/Info.plist" Bubble_Fantasy-Info.plist
+cCompileXIB "/Project/Iphone/Bubble Fantasy/MainWindow.xib"
+cCompileXIB "/Project/Iphone/Bubble Fantasy/RootViewController.xib"
+cProcessPCH /var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bubble_Fantasy_Prefix-ctjyvndmcfzdmxglssqmrpbckhkx/Bubble_Fantasy_Prefix.pch.gch Bubble_Fantasy_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Objects-normal/i386/main.o" "/Project/Iphone/Bubble Fantasy/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Objects-normal/i386/Bubble_FantasyAppDelegate.o" "/Project/Iphone/Bubble Fantasy/Classes/Bubble_FantasyAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Objects-normal/i386/RootViewController.o" "/Project/Iphone/Bubble Fantasy/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/Bubble Fantasy" normal i386
+cGenerateDSYMFile "/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app.dSYM" "/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/Bubble Fantasy"
+cTouch "/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Project/Iphone/Bubble Fantasy/Bubble_Fantasy_Prefix.pch
+c000000004E4FA145000000000000014E
+t1313841477
+s334
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Project/Iphone/Bubble Fantasy/Classes/Bubble_FantasyAppDelegate.h
+c000000004E4FA14500000000000001E3
+t1313841477
+s483
+i<UIKit/UIKit.h>
+
+N/Project/Iphone/Bubble Fantasy/Classes/Bubble_FantasyAppDelegate.m
+c000000004E4FA1450000000000000ABE
+t1313841477
+s2750
+i"Bubble_FantasyAppDelegate.h"
+i"RootViewController.h"
+
+N/Project/Iphone/Bubble Fantasy/Classes/RootViewController.h
+c000000004E4FA14500000000000000ED
+t1313841477
+s237
+i<UIKit/UIKit.h>
+
+N/Project/Iphone/Bubble Fantasy/Classes/RootViewController.m
+c000000004E4FA14500000000000010C5
+t1313841477
+s4293
+i"RootViewController.h"
+
+N/Project/Iphone/Bubble Fantasy/MainWindow.xib
+c000000004E4FA1450000000000006010
+t1313841477
+s24592
+
+N/Project/Iphone/Bubble Fantasy/RootViewController.xib
+c000000004E4FA1450000000000004459
+t1313841477
+s17497
+
+N/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Objects-normal/i386/Bubble Fantasy.LinkFileList
+c000000004E4FA14C00000000000001A3
+t1313841484
+s419
+
+N/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Objects-normal/i386/Bubble_FantasyAppDelegate.o
+t1313841487
+s52960
+
+N/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Objects-normal/i386/RootViewController.o
+t1313841487
+s41144
+
+N/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Objects-normal/i386/main.o
+t1313841487
+s6288
+
+N/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app
+t1313841487
+s238
+
+N/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app.dSYM
+t1313841487
+s102
+
+N/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/Bubble Fantasy
+t1313841487
+s18220
+
+N/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/Info.plist
+t1313841484
+s619
+
+N/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/MainWindow.nib
+t1313841485
+s1516
+
+N/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/PkgInfo
+t1313841484
+s8
+
+N/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/RootViewController.nib
+t1313841485
+s979
+
+N/Project/Iphone/Bubble Fantasy/main.m
+c000000004E4FA145000000000000016B
+t1313841477
+s363
+i<UIKit/UIKit.h>
+
+N/var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bubble_Fantasy_Prefix-ctjyvndmcfzdmxglssqmrpbckhkx/Bubble_Fantasy_Prefix.pch.gch
+t1313841487
+s10360536
+
+NBubble_Fantasy-Info.plist
+c000000004E4FA145000000000000038D
+t1313841477
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies335534284#335534284#0(0"0(0#1#0"4255560#0"0#
+
+CCompileC "build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Objects-normal/i386/Bubble_FantasyAppDelegate.o" "/Project/Iphone/Bubble Fantasy/Classes/Bubble_FantasyAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335534287.166021
+e335534287.376807
+r1
+xCompileC
+xbuild/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Objects-normal/i386/Bubble_FantasyAppDelegate.o
+x/Project/Iphone/Bubble Fantasy/Classes/Bubble_FantasyAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Project/Iphone/Bubble Fantasy/Classes/Bubble_FantasyAppDelegate.m335534287#335534287#0(0"0(0#0#66"/Project/Iphone/Bubble Fantasy/Classes/Bubble_FantasyAppDelegate.m2525687744#2038"    cd "/Project/Iphone/Bubble Fantasy"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Bubble Fantasy-generated-files.hmap" "-I/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Bubble Fantasy-own-target-headers.hmap" "-I/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Bubble Fantasy-all-target-headers.hmap" -iquote "/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Bubble Fantasy-project-headers.hmap" "-F/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator" "-I/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/include" "-I/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/DerivedSources/i386" "-I/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/DerivedSources" -include /var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bubble_Fantasy_Prefix-ctjyvndmcfzdmxglssqmrpbckhkx/Bubble_Fantasy_Prefix.pch -c "/Project/Iphone/Bubble Fantasy/Classes/Bubble_FantasyAppDelegate.m" -o "/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Objects-normal/i386/Bubble_FantasyAppDelegate.o"0#
+
+CCompileC "build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Objects-normal/i386/RootViewController.o" "/Project/Iphone/Bubble Fantasy/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335534287.284155
+e335534287.442131
+r1
+xCompileC
+xbuild/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Objects-normal/i386/RootViewController.o
+x/Project/Iphone/Bubble Fantasy/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Project/Iphone/Bubble Fantasy/Classes/RootViewController.m335534287#335534287#0(0"0(0#0#59"/Project/Iphone/Bubble Fantasy/Classes/RootViewController.m2525687744#2024"    cd "/Project/Iphone/Bubble Fantasy"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Bubble Fantasy-generated-files.hmap" "-I/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Bubble Fantasy-own-target-headers.hmap" "-I/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Bubble Fantasy-all-target-headers.hmap" -iquote "/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Bubble Fantasy-project-headers.hmap" "-F/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator" "-I/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/include" "-I/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/DerivedSources/i386" "-I/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/DerivedSources" -include /var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bubble_Fantasy_Prefix-ctjyvndmcfzdmxglssqmrpbckhkx/Bubble_Fantasy_Prefix.pch -c "/Project/Iphone/Bubble Fantasy/Classes/RootViewController.m" -o "/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Objects-normal/i386/RootViewController.o"0#
+
+CCompileC "build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Objects-normal/i386/main.o" "/Project/Iphone/Bubble Fantasy/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335534287.163871
+e335534287.283921
+r1
+xCompileC
+xbuild/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Objects-normal/i386/main.o
+x/Project/Iphone/Bubble Fantasy/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Project/Iphone/Bubble Fantasy/main.m335534287#335534287#0(0"0(0#0#37"/Project/Iphone/Bubble Fantasy/main.m2525687744#1988"    cd "/Project/Iphone/Bubble Fantasy"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Bubble Fantasy-generated-files.hmap" "-I/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Bubble Fantasy-own-target-headers.hmap" "-I/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Bubble Fantasy-all-target-headers.hmap" -iquote "/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Bubble Fantasy-project-headers.hmap" "-F/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator" "-I/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/include" "-I/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/DerivedSources/i386" "-I/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/DerivedSources" -include /var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bubble_Fantasy_Prefix-ctjyvndmcfzdmxglssqmrpbckhkx/Bubble_Fantasy_Prefix.pch -c "/Project/Iphone/Bubble Fantasy/main.m" -o "/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Project/Iphone/Bubble Fantasy/MainWindow.xib"
+s335534284.957533
+e335534285.985791
+r1
+xCompileXIB
+x/Project/Iphone/Bubble Fantasy/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib335534284#335534285#0(0"0(0#0#45"/Project/Iphone/Bubble Fantasy/MainWindow.xib2525687744#559"    cd "/Project/Iphone/Bubble Fantasy"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/MainWindow.nib" "/Project/Iphone/Bubble Fantasy/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Project/Iphone/Bubble Fantasy/RootViewController.xib"
+s335534284.959043
+e335534285.940228
+r1
+xCompileXIB
+x/Project/Iphone/Bubble Fantasy/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib335534284#335534285#0(0"0(0#0#53"/Project/Iphone/Bubble Fantasy/RootViewController.xib2525687744#575"    cd "/Project/Iphone/Bubble Fantasy"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/RootViewController.nib" "/Project/Iphone/Bubble Fantasy/RootViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile "/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app.dSYM" "/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/Bubble Fantasy"
+s335534287.504517
+e335534287.538047
+r1
+xGenerateDSYMFile
+x/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app.dSYM
+x/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/Bubble Fantasy
+lSLF07#2@134"GenerateDSYMFile "build/Debug-iphonesimulator/Bubble Fantasy.app.dSYM" "build/Debug-iphonesimulator/Bubble Fantasy.app/Bubble Fantasy"335534287#335534287#0(0"0(0#0#92"/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/Bubble Fantasy2525687744#386"    cd "/Project/Iphone/Bubble Fantasy"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/Bubble Fantasy" -o "/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app.dSYM"0#
+
+CLd "/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/Bubble Fantasy" normal i386
+s335534287.442307
+e335534287.504300
+r1
+xLd
+x/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/Bubble Fantasy
+xnormal
+xi386
+lSLF07#2@97"Link /Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/Bubble Fantasy335534287#335534287#0(0"0(0#0#0"2525687744#905"    cd "/Project/Iphone/Bubble Fantasy"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator" "-F/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator" -filelist "/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Objects-normal/i386/Bubble Fantasy.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/Bubble Fantasy"0#
+
+CProcessInfoPlistFile "/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/Info.plist" Bubble_Fantasy-Info.plist
+s335534284.952058
+e335534284.957340
+r1
+xProcessInfoPlistFile
+x/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/Info.plist
+xBubble_Fantasy-Info.plist
+lSLF07#2@33"Process Bubble_Fantasy-Info.plist335534284#335534284#0(0"0(0#0#56"/Project/Iphone/Bubble Fantasy/Bubble_Fantasy-Info.plist2525687744#482"    cd "/Project/Iphone/Bubble Fantasy"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Bubble_Fantasy-Info.plist -genpkginfo "/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app/Info.plist"0#
+
+CProcessPCH /var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bubble_Fantasy_Prefix-ctjyvndmcfzdmxglssqmrpbckhkx/Bubble_Fantasy_Prefix.pch.gch Bubble_Fantasy_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s335534285.986029
+e335534287.163587
+r1
+xProcessPCH
+x/var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bubble_Fantasy_Prefix-ctjyvndmcfzdmxglssqmrpbckhkx/Bubble_Fantasy_Prefix.pch.gch
+xBubble_Fantasy_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile Bubble_Fantasy_Prefix.pch335534285#335534287#0(0"0(0#0#56"/Project/Iphone/Bubble Fantasy/Bubble_Fantasy_Prefix.pch4255560#1879"    cd "/Project/Iphone/Bubble Fantasy"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Bubble Fantasy-generated-files.hmap" "-I/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Bubble Fantasy-own-target-headers.hmap" "-I/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Bubble Fantasy-all-target-headers.hmap" -iquote "/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/Bubble Fantasy-project-headers.hmap" "-F/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator" "-I/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/include" "-I/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/DerivedSources/i386" "-I/Project/Iphone/Bubble Fantasy/build/Bubble Fantasy.build/Debug-iphonesimulator/Bubble Fantasy.build/DerivedSources" -c "/Project/Iphone/Bubble Fantasy/Bubble_Fantasy_Prefix.pch" -o /var/folders/SV/SVloV0rVFwuNFeZvostIR++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bubble_Fantasy_Prefix-ctjyvndmcfzdmxglssqmrpbckhkx/Bubble_Fantasy_Prefix.pch.gch0#
+
+CTouch "/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app"
+s335534287.538211
+e335534287.544355
+r1
+xTouch
+x/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app
+lSLF07#2@83"Touch /Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app335534287#335534287#0(0"0(0#0#0"2525687744#273"    cd "/Project/Iphone/Bubble Fantasy"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Project/Iphone/Bubble Fantasy/build/Debug-iphonesimulator/Bubble Fantasy.app"0#
+

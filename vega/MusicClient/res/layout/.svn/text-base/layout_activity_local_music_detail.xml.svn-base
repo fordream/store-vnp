@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_root"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_header" >
+
+        <Button
+            android:id="@+id/local_music_detail_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/selector_button_back"
+            android:paddingBottom="1dp"
+            android:paddingLeft="1dp"
+            android:text="@string/previous"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/local_music_detail_main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Artist/Genre"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize_title_bar" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/region_header"
+        android:visibility="visible"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null" >
+
+            <RelativeLayout
+                android:id="@+id/thumbnail_region"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="2dp" >
+
+                <!--
+			<ImageView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:background="@drawable/bg_thumbnail"
+				android:layout_centerInParent="true" />
+
+			<ImageView android:id="@+id/local_music_detail_icon"
+				android:layout_width="@dimen/album_cover_width"
+				android:layout_height="@dimen/album_cover_height"
+				android:background="@drawable/ic_song_default"
+				android:layout_centerInParent="true" />
+                -->
+
+                <ImageView
+                    android:id="@+id/local_music_detail_icon"
+                    android:layout_width="@dimen/album_cover_width"
+                    android:layout_height="@dimen/album_cover_height"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/bg_thumbnail"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_artist_default" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/local_music_detail_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_default"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/thumbnail_region"
+                android:singleLine="true"
+                android:text="Artist name (Genre title)"
+                android:textColor="#cccccc"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/local_music_detail_info"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/local_music_detail_title"
+                android:layout_marginLeft="@dimen/margin_left_default"
+                android:layout_marginTop="@dimen/margin_top_default"
+                android:layout_toRightOf="@id/thumbnail_region"
+                android:singleLine="true"
+                android:text="20 tracks"
+                android:textColor="#919191"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_header_divider" />
+
+        <RelativeLayout
+            android:id="@+id/local_music_detail_search_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp" >
+
+            <!--
+             <Button android:layout_width="60dp" android:layout_height="38dp" android:layout_alignParentRight="true" 
+			android:layout_centerVertical="true" android:text="@string/search" android:layout_marginRight="3dp" 
+			android:id="@+id/search_btn" />
+            -->
+
+            <RelativeLayout
+                android:id="@+id/search_region"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg_search_bg" >
+
+                <EditText
+                    android:id="@+id/local_music_detail_search_edt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#00000000"
+                    android:hint="@string/search_hint"
+                    android:singleLine="true"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/local_music_detail_search_clear_btn"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_alignRight="@id/local_music_detail_search_edt"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/ic_search_cancel" >
+                </Button>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/search_region"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bg_header_divider" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/empty_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="invisible" >
+
+            <ImageView
+                android:id="@+id/empty_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/search_ico_margintop"
+                android:src="@drawable/ic_search_large" />
+
+            <TextView
+                android:id="@+id/empty_label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/empty_icon"
+                android:layout_marginLeft="@dimen/margin_default"
+                android:layout_marginRight="@dimen/margin_default"
+                android:gravity="center_horizontal"
+                android:text="Chưa có bài hát nào"
+                android:textSize="@dimen/textsize_big" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/local_music_detail_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent" >
+        </ListView>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llAlbumItem1"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/profile_image_size"
+    android:layout_marginTop="1dip"
+    android:visibility="visible" >
+
+    <RelativeLayout
+        android:id="@+id/profile_rl_item_text_right1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:visibility="visible" >
+        <ImageView 
+            android:src="@drawable/delete_left_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:visibility="gone"
+            android:layout_centerVertical="true"/>
+        <TextView
+              android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              android:layout_centerVertical="true"
+              android:gravity="right"
+              android:layout_marginRight="10dip"
+              android:textColor="@android:color/darker_gray"
+              android:text="@string/profile_album_text"
+              android:textSize="22dip"
+               />
+    </RelativeLayout>
+    <RelativeLayout 
+         android:tag="item_move"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent">
+	    <ImageView
+	        android:id="@+id/imgAlbumItem1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:scaleType="fitXY" />
+	    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/inner_tab_border"/>
+	</RelativeLayout>
+
+</RelativeLayout>

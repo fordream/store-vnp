@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:background="@drawable/background">
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="100dp" android:layout_weight="100">
+		<ImageView android:src="@drawable/big_coins"
+			android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="40" android:layout_marginTop="5dp"></ImageView>
+
+		<LinearLayout
+		    android:id="@+id/linearLayout3"
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:orientation="horizontal" android:layout_marginTop="25dp" android:layout_marginLeft="-33dp" android:layout_weight="100">
+
+		    <ImageView
+		        android:id="@+id/position1Options"
+		        android:layout_width="17dp"
+		        android:layout_height="40dp"
+		        android:src="@drawable/small_blank" />
+
+		    <ImageView
+		        android:id="@+id/position2Options"
+		        android:layout_width="17dp"
+		        android:layout_height="40dp"
+		        android:src="@drawable/small_blank" />
+
+		    <ImageView
+		        android:id="@+id/position3Options"
+		        android:layout_width="17dp"
+		        android:layout_height="40dp"
+		        android:src="@drawable/small_blank" />
+
+		    <ImageView
+		        android:id="@+id/position4Options"
+		        android:layout_width="17dp"
+		        android:layout_height="40dp"
+		        android:src="@drawable/small_blank" />
+
+		    <ImageView
+		        android:id="@+id/position5Options"
+		        android:layout_width="17dp"
+		        android:layout_height="40dp"
+		        android:src="@drawable/small_blank" />
+
+		    <ImageView
+		        android:id="@+id/position6Options"
+		        android:layout_width="17dp"
+		        android:layout_height="40dp"
+		        android:src="@drawable/small_blank" />
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<ImageView
+	    android:layout_width="fill_parent"
+	    android:layout_height="80dp"
+	    android:layout_weight="80"
+	    android:src="@drawable/options_label" android:layout_marginTop="20dp"/>
+
+	<LinearLayout
+	    android:id="@+id/linearLayout1"
+	    android:layout_width="match_parent"
+	    android:layout_height="70dp"
+	    android:layout_weight="70"
+	    android:orientation="vertical" >
+
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="60dp" android:layout_weight="60" android:layout_marginBottom="20dp">
+
+		<LinearLayout
+		    android:id="@+id/linearLayout4"
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="100"
+		    android:orientation="vertical" >
+		</LinearLayout>
+
+		<ImageView android:src="@drawable/music_label"
+			android:layout_width="0dp" android:layout_height="fill_parent"
+			android:layout_weight="100"></ImageView>
+		<ToggleButton android:textOff="@null" android:textOn="@null"
+			android:background="@drawable/custom_toggle" android:button="@null"
+			android:id="@+id/musicToggle" android:layout_width="0dip"
+			android:layout_height="fill_parent" android:layout_weight="120" android:layout_marginLeft="10dp"></ToggleButton>
+
+		<LinearLayout
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical" android:layout_weight="160">
+		</LinearLayout>
+
+	</LinearLayout>
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="60dp" android:layout_weight="60" android:layout_marginBottom="20dp">
+
+		<LinearLayout
+		    android:id="@+id/linearLayout5"
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="35"
+		    android:orientation="vertical" >
+		</LinearLayout>
+
+		<ImageView android:src="@drawable/sound_label"
+			android:layout_width="0dp" android:layout_height="fill_parent"
+			android:layout_weight="170"></ImageView>
+		<ToggleButton android:background="@drawable/custom_toggle"
+			android:id="@+id/soundToggle" android:layout_height="fill_parent"
+			android:layout_width="0dip" android:layout_weight="120" android:layout_marginLeft="10dp" android:textOff="@null" android:textOn="@null"></ToggleButton>
+
+		<LinearLayout
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="160"
+		    android:orientation="vertical" >
+		</LinearLayout>
+
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="60dp" android:layout_weight="60" android:layout_marginBottom="20dp">
+
+		<LinearLayout
+		    android:id="@+id/linearLayout6"
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="20"
+		    android:orientation="vertical" >
+		</LinearLayout>
+
+		<ImageView android:src="@drawable/localpush_label"
+			android:layout_width="0dp" android:layout_height="fill_parent"
+			android:layout_weight="190"></ImageView>
+
+		<ToggleButton
+		    android:id="@+id/localpushToggle"
+		    android:layout_width="0dip"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="120"
+		    android:background="@drawable/custom_toggle"
+		    android:button="@null"
+		    android:textOff="@null"
+		    android:textOn="@null" android:layout_marginLeft="10dp"/>
+
+		<LinearLayout
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="160"
+		    android:orientation="vertical" >
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+	    android:id="@+id/linearLayout2"
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    android:layout_gravity="center"
+	    android:layout_weight="45"
+	    android:orientation="horizontal" android:layout_marginBottom="10dp" android:layout_marginTop="10dp">
+
+		<LinearLayout
+		    android:layout_width="0dp"
+		    android:layout_height="fill_parent"
+		    android:orientation="vertical" android:layout_weight="220">
+		</LinearLayout>
+
+		<Button
+		    android:id="@+id/faqOptions"
+		    android:layout_width="0dp"
+		    android:layout_height="fill_parent"
+		    android:background="@drawable/faq" android:layout_gravity="center" android:layout_weight="120"/>
+
+		<LinearLayout
+		    android:layout_width="0dp"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="160"
+		    android:orientation="vertical" >
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="60dp"
+	    android:layout_weight="60"
+	    android:orientation="vertical" >
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="120dp"
+	    android:layout_weight="120"
+	    android:orientation="horizontal"
+	    android:layout_marginBottom="10dp">
+
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="100"
+	        android:orientation="vertical" android:layout_marginLeft="10dp">
+
+	        <Button
+	            android:id="@+id/backOptions"
+	            android:layout_width="45dp"
+	            android:layout_height="45dp"
+	            android:background="@drawable/back" />
+
+	        <LinearLayout
+	            android:layout_width="50dp"
+	            android:layout_height="17dp"
+	            android:orientation="vertical" android:background="@drawable/img_text_back">
+	        </LinearLayout>
+
+	    </LinearLayout>
+
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="300"
+	        android:orientation="vertical" android:layout_marginRight="10dp">
+
+	        <Button
+	            android:id="@+id/okOptions"
+	            android:layout_width="90dp"
+	            android:layout_height="45dp"
+	            android:background="@drawable/ok" android:layout_gravity="right"/>
+	    </LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

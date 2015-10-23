@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:id="@+id/map_ll_title"
+    android:background="@drawable/map_title_bg" >
+    <TextView 
+        android:id="@+id/map_tv_title"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dip"
+        android:textColor="@android:color/black"
+        android:text="@string/map_button_map_title"
+        android:layout_centerInParent="true"
+        />
+    <LinearLayout 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dip">
+        <ImageView
+            android:id="@+id/map_btn_map"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:background="@drawable/map_map_button_selector"
+            />
+         <ImageView
+            android:id="@+id/map_btn_list"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:background="@drawable/map_list_button_selector"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

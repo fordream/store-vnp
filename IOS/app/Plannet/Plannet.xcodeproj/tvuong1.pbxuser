@@ -1,0 +1,92 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* Plannet */ = {
+		activeExec = 0;
+		executables = (
+			FC20243713FFD55E00A8D353 /* Plannet */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FC20243713FFD55E00A8D353 /* Plannet */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Plannet */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Plannet */,
+		);
+		codeSenseManager = FC20245013FFD57300A8D353 /* Code sense */;
+		executables = (
+			FC20243713FFD55E00A8D353 /* Plannet */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					399,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 335533406;
+			PBXWorkspaceStateSaveDate = 335533406;
+		};
+		sourceControlManager = FC20244F13FFD57300A8D353 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	FC20243713FFD55E00A8D353 /* Plannet */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Plannet;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FC20244F13FFD57300A8D353 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FC20245013FFD57300A8D353 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

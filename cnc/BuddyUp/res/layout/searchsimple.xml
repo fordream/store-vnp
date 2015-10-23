@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:paddingTop="30dip" android:paddingBottom="10dip" android:paddingLeft="10dip" android:paddingRight="10dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout android:id="@+id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center_vertical">
+        <TextView android:id="@+id/TextView02" android:layout_weight="1" android:textSize="14dip" android:text="Sport/Activity : " android:layout_width="100dp" android:typeface="serif" android:textColor="@color/bg_back" android:layout_height="wrap_content"></TextView>
+        <TextView android:layout_width="180dip" android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/search_simple_spSportActivity" android:background="@drawable/creategroupetsp" android:gravity="center_vertical" android:textColor="@color/color_back" android:textSize="14dip" android:typeface="serif" android:paddingLeft="5dip" android:paddingRight="5dip" android:text="Golf"></TextView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:layout_marginBottom="5dip" android:layout_marginTop="5dip">
+        <TextView android:id="@+id/TextView01" android:layout_weight="1" android:textSize="14dip" android:layout_width="100dp" android:typeface="serif" android:textColor="@color/bg_back" android:layout_height="wrap_content" android:text="Day : "></TextView>
+        <TextView android:layout_width="180dip" android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/search_simple_spDay" android:background="@drawable/creategroupetsp" android:gravity="center_vertical" android:textColor="@color/color_back" android:textSize="14dip" android:typeface="serif" android:paddingRight="5dip" android:paddingLeft="5dip" android:text="Sun"></TextView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center_vertical">
+        <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:typeface="serif" android:textSize="14dip" android:textColor="@color/bg_back" android:layout_weight="1" android:layout_width="100dp" android:text="Time : "></TextView>
+        <TextView android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="180dip" android:id="@+id/search_simple_spTime" android:background="@drawable/creategroupetsp" android:gravity="center_vertical" android:textColor="@color/color_back" android:textSize="14dip" android:typeface="serif" android:paddingLeft="5dip" android:paddingRight="5dip" android:text="Morning"></TextView>
+    </LinearLayout>
+    <RadioGroup android:layout_height="wrap_content" android:id="@+id/radioGroup1" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_marginBottom="20dip" android:layout_marginTop="20dip">
+        <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:checked="true" android:textSize="14dip" android:typeface="serif" android:textColor="@color/bg_back" android:id="@+id/search_simple_cBIndividuals" android:button="@drawable/radio" android:layout_marginLeft="10dip" android:layout_marginRight="30dip" android:text="Individuals"></RadioButton>
+        <RadioButton android:id="@+id/radio1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Groups" android:textColor="@color/bg_back" android:textSize="14dip" android:typeface="serif" android:button="@drawable/radio"></RadioButton>
+    </RadioGroup>
+    <RelativeLayout android:id="@+id/RelativeLayout1" android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_width="fill_parent">
+        <Button android:layout_alignParentTop="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/search_simple_btnsearch" android:background="@drawable/btnsearch" android:layout_alignParentLeft="true"></Button>
+        <Button android:layout_alignParentTop="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/search_simple_btnadvancedsearch" android:background="@drawable/btnadvansearch" android:layout_alignParentRight="true"></Button>
+    </RelativeLayout>
+    
+</LinearLayout>

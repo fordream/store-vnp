@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="25dip"
+        android:orientation="vertical"
+        android:paddingLeft="7dip"
+        android:paddingRight="7dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="ダウンロードありがとうございます！"
+            android:textColor="@android:color/black"
+            android:textSize="13dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="iTellのご利用には、初回登録が必要です"
+            android:textColor="@android:color/black"
+            android:textSize="13dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dip"
+            android:layout_marginTop="30dip"
+            android:text="キャリアを選択してください"
+            android:textColor="@android:color/black"
+            android:textSize="13dip"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/register_chosenet_rdioAu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dip"
+            android:background="@drawable/button_net"
+            android:text="au" >
+        </Button>
+
+        <Button
+            android:id="@+id/register_chosenet_rdioDoco"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dip"
+            android:background="@drawable/button_net"
+            android:text="docomo" >
+        </Button>
+
+        <Button
+            android:id="@+id/register_chosenet_rdioSoftbank"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dip"
+            android:background="@drawable/button_net"
+            android:text="Softbank" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

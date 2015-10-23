@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnlContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8" >
+
+    <org.com.cnc.rosemont.views.HeaderView
+        android:id="@+id/headerView1"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:layout_weight="1" >
+    </org.com.cnc.rosemont.views.HeaderView>
+
+    <ScrollView
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="700dip"
+        android:layout_weight="7"
+        android:background="@drawable/bg_calculator" >
+
+        <LinearLayout
+            android:id="@+id/llContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_instructionss"
+            android:orientation="vertical"
+            android:paddingLeft="8dip"
+            android:paddingRight="10dip"
+            android:paddingTop="6dip" >
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

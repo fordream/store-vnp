@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" >
+	<!--     
+ 	<ImageView
+	        android:id="@+id/shadow"
+	        android:layout_width="fill_parent"
+	        android:background="@drawable/shadow"
+	        android:layout_height="4dp"
+	        />
+	         -->
+	    <TabWidget
+	        android:id="@android:id/tabs"
+	        android:layout_width="fill_parent"
+	        android:layout_height="42dip"
+	         />
+	   
+	 	<ImageView
+	        android:id="@+id/bottom_line"
+	        android:layout_width="fill_parent"
+	        android:layout_height="3dp"
+	        />
+	    <FrameLayout
+	        
+				android:id="@android:id/tabcontent"
+				android:background="#EFEFEF"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+
+	        <FrameLayout
+	            android:id="@+id/tab_youtube"
+	            android:layout_width="wrap_content"
+	            android:layout_height="fill_parent" />
+	        <FrameLayout
+	            android:id="@+id/tab_ustream"
+	            android:layout_width="wrap_content"
+	            android:layout_height="fill_parent" />
+	       
+	    </FrameLayout>
+	</LinearLayout>
+
+</TabHost>

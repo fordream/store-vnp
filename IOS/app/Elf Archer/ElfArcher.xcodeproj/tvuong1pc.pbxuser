@@ -1,0 +1,119 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* ElfArcher */ = {
+		activeExec = 0;
+		executables = (
+			86D2148F14DFC7D000FCBEA9 /* ElfArcher */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 86D2148F14DFC7D000FCBEA9 /* ElfArcher */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ElfArcher */;
+		codeSenseManager = 86D214A114DFC7E000FCBEA9 /* Code sense */;
+		executables = (
+			86D2148F14DFC7D000FCBEA9 /* ElfArcher */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					339,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 350210001;
+			PBXWorkspaceStateSaveDate = 350210001;
+		};
+		perUserProjectItems = {
+			86D214AB14DFC81B00FCBEA9 /* XCBuildMessageTextBookmark */ = 86D214AB14DFC81B00FCBEA9 /* XCBuildMessageTextBookmark */;
+			86D214DF14DFCA3600FCBEA9 /* PBXTextBookmark */ = 86D214DF14DFCA3600FCBEA9 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 86D214A014DFC7E000FCBEA9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	86D2148F14DFC7D000FCBEA9 /* ElfArcher */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ElfArcher;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	86D214A014DFC7E000FCBEA9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	86D214A114DFC7E000FCBEA9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	86D214AB14DFC81B00FCBEA9 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'PlayerController' may not respond to '-autoRun'";
+		fRef = FC2C18291409EE8000B36073 /* PlayerController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 44;
+		rType = 1;
+	};
+	86D214DF14DFCA3600FCBEA9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FC2C18291409EE8000B36073 /* PlayerController.m */;
+		name = "PlayerController.m: 12";
+		rLen = 12;
+		rLoc = 240;
+		rType = 0;
+		vrLen = 503;
+		vrLoc = 802;
+	};
+	FC2C18291409EE8000B36073 /* PlayerController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 9425}}";
+			sepNavSelRange = "{1176, 0}";
+			sepNavVisRange = "{1019, 194}";
+		};
+	};
+}

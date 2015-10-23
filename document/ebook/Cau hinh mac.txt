@@ -1,0 +1,24 @@
+1. Bootloader -> AsereBLN v 1.1.9
+
+2. Bootloader Options -> Graphics Enabler
+, -pcil, 
+Ethernet [buat ngedetect koneksi saat OS pertama kali dimulai], 
+USB [ceklis semua biar USB 2.0 nya aktif], 
+Quite Boot [biar booting Chameleon ga ditampilin], 
+Legacy Logo [buat ngedukung Quite Boot nampilin lambang asli Apple]
+
+3. Patches -> /Extra directory, Fakesmc, Disabler, RTC, 
+Modified Kernels: qoopz 10.2.0 (klo terjadi kernel panic coba ulangi install iAtkos dan pilih qoopz 10.3.0)
+, EVO reboot
+, Sleep Enabler
+, USB
+
+4. Drivers ->
+--Main Hardware -> SATA/IDE: AHCI SATA (bios default 4736z udah support buat mengganti sistem harddisknya. coba cek di bios kalian sebelum install iAtkos. klo masih IDE, ganti dulu jadi AHCI)
+, Sound: ceklis semua
+, PS/2: ceklis semua
+, Laptop Hardware: Battery
+, Card Reader
+-- VGA -> Intel (atau pilih hardware yg sesuai, Nvidia atau ATI) -> EFI String
+, X3100 [sampe saat ini masih native 1024x768. blum nemu cara aktifin QE/CI nya]
+--Network (pilih yang sesuai dengan network hardware kalian) -> Wireless: Atheros, Wired: Atheros -> Attansic L1E 

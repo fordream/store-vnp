@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:background="@null"
+	android:gravity="center_vertical" android:layout_height="wrap_content">
+	<Button android:layout_height="40dp"
+		android:layout_width="80dp" android:id="@+id/my_playlist_detail_cancel_search_btn"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="5dp" android:text="Cancel" />
+	<EditText android:id="@+id/my_playlist_detail_search_edt"
+		android:hint="Enter keyword" android:layout_marginRight="5dp"
+		android:layout_width="wrap_content" android:layout_height="40dp"
+		android:layout_marginLeft="5dp" android:layout_alignParentLeft="true"
+		android:layout_toLeftOf="@id/my_playlist_detail_cancel_search_btn"/>
+</RelativeLayout>
